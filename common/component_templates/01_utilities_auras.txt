@@ -1,0 +1,464 @@
+# ###############
+# Titan Auras
+# ###############
+
+utility_component_template = {
+	key = "SHIP_AURA_MATTER_DECOMPOSER"
+	size = medium
+	icon = "GFX_ship_part_aura_matter_decomposer"
+	icon_frame = 1
+	power = 0
+
+	size_restriction = { titan }
+	component_set = "ship_aura_components"
+
+	friendly_aura = {
+		name = "aura_matter_decomposer"
+		radius = @shipAuraRange
+		apply_on = ships
+
+		stack_info = {
+			id = friendly_matter_decomposer
+			priority = 1
+		}
+
+		modifier = {
+			ship_hull_mult = -0.10
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+			ship_effect = {
+				entity = "ship_aura_negative_entity"
+				dynamic_scale = no
+			}
+		}
+	}
+
+	hostile_aura = {
+		name = "aura_matter_decomposer"
+		radius = @shipAuraRange
+		apply_on = ships
+
+		stack_info = {
+			id = hostile_matter_decomposer
+			priority = 1
+		}
+
+		modifier = {
+			ship_hull_mult = -0.40
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+			ship_effect = {
+				entity = "ship_aura_negative_entity"
+				dynamic_scale = no
+			}
+		}
+	}
+}
+
+utility_component_template = {
+	key = "SHIP_AURA_NO_RETREAT"
+	size = medium
+	icon = "GFX_ship_part_aura_no_retreat"
+	icon_frame = 1
+	power = 0
+
+	size_restriction = { titan }
+	component_set = "ship_aura_components"
+
+	friendly_aura = {
+		name = "aura_no_retreat"
+		radius = @shipAuraRange
+		apply_on = fleets
+
+		stack_info = {
+			id = friendly_no_retreat
+			priority = 1
+		}
+
+		modifier = {
+			ship_emergency_ftl_min_days_mult = 1
+			ship_disengage_chance_mult = -0.2
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+			ship_effect = {
+				entity = "ship_aura_negative_entity"
+				dynamic_scale = no
+			}
+		}
+	}
+
+	hostile_aura = {
+		name = "aura_no_retreat"
+		radius = @shipAuraRange
+		apply_on = fleets
+
+		stack_info = {
+			id = hostile_no_retreat
+			priority = 1
+		}
+
+		modifier = {
+			ship_emergency_ftl_min_days_mult = 10
+			ship_disengage_chance_mult = -2
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+			ship_effect = {
+				entity = "ship_aura_negative_entity"
+				dynamic_scale = no
+			}
+		}
+	}
+}
+
+utility_component_template = {
+	key = "SHIP_AURA_TIME_REVERSER"
+	size = medium
+	icon = "GFX_ship_part_aura_time_reverser"
+	icon_frame = 1
+	power = 0
+
+	size_restriction = { titan }
+	component_set = "ship_aura_components"
+
+	friendly_aura = {
+		name = "aura_time_reverser"
+		radius = @shipAuraRange
+		apply_on = ships
+
+		stack_info = {
+			id = friendly_time_reverser
+			priority = 1
+		}
+
+		modifier = {
+			ship_hull_regen_add_perc = 0.75
+			ship_armor_regen_add_perc = 2.25
+			ship_shield_regen_add_perc = 2.25
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+			ship_effect = {
+				entity = "ship_aura_positive_entity"
+				dynamic_scale = no
+			}
+		}
+	}
+
+	hostile_aura = {
+		name = "aura_time_reverser"
+		radius = @shipAuraRange
+		apply_on = ships
+
+		stack_info = {
+			id = hostile_time_reverser
+			priority = 1
+		}
+
+		modifier = {
+			ship_hull_regen_add_perc = 0.25
+			ship_armor_regen_add_perc = 0.75
+			ship_shield_regen_add_perc = 0.75
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+			ship_effect = {
+				entity = "ship_aura_positive_entity"
+				dynamic_scale = no
+			}
+		}
+	}
+}
+
+utility_component_template = {
+	key = "SHIP_AURA_TRAJECTORY_NETWORK"
+	size = medium
+	icon = "GFX_ship_part_aura_trajectory_network"
+	icon_frame = 1
+	power = 0
+
+	size_restriction = { titan }
+	component_set = "ship_aura_components"
+
+	friendly_aura = {
+		name = "aura_trajectory_network"
+		radius = @shipAuraRange
+		apply_on = ships
+
+		stack_info = {
+			id = friendly_trajectory_network
+			priority = 1
+		}
+
+		modifier = {
+			ship_weapon_range_mult = 0.2
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+			ship_effect = {
+				entity = "ship_aura_positive_entity"
+				dynamic_scale = no
+			}
+		}
+	}
+}
+
+utility_component_template = {
+	key = "SHIP_AURA_DIMENSIONAL_STABILIZER"
+	size = medium
+	icon = "GFX_ship_part_aura_dimensional_stabilizer"
+	icon_frame = 1
+	power = 0
+
+	size_restriction = { titan }
+	component_set = "ship_aura_components"
+
+	friendly_aura = {
+		name = "aura_dimensional_stabilizer"
+		radius = @shipAuraRange
+		apply_on = ships
+
+		stack_info = {
+			id = friendly_dimensional_stabilizer
+			priority = 1
+		}
+
+		modifier = {
+			ship_windup_mult = -0.2
+			ship_winddown_mult = -0.2
+			ship_jumpdrive_cooldown_mult = -0.2
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+			ship_effect = {
+				entity = "ship_aura_positive_entity"
+				dynamic_scale = no
+			}
+		}
+	}
+}
+
+utility_component_template = {
+	key = "SHIP_AURA_STRATEGY_DATABASE"
+	size = medium
+	icon = "GFX_ship_part_aura_strategy_database"
+	icon_frame = 1
+	power = 0
+
+	size_restriction = { titan }
+	component_set = "ship_aura_components"
+
+	friendly_aura = {
+		name = "aura_strategy_database"
+		radius = @shipAuraRange
+		apply_on = fleets
+
+		stack_info = {
+			id = friendly_strategy_database
+			priority = 1
+		}
+
+		modifier = {
+			ship_emergency_ftl_min_days_mult = -0.5
+			ship_disengage_chance_mult = 0.33
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+			ship_effect = {
+				entity = "ship_aura_positive_entity"
+				dynamic_scale = no
+			}
+		}
+	}
+}
+
+# ####################
+# Juggernaut Auras
+# ####################
+
+utility_component_template = {
+	key = "SHIP_AURA_REPAIR_BOT"
+	size = medium
+	icon = "GFX_ship_part_aura_repair_bot"
+	icon_frame = 1
+	power = 0
+
+	size_restriction = { juggernaut }
+	component_set = "ship_aura_components"
+
+	friendly_aura = {
+		name = "aura_repair_bot"
+		system_wide = yes
+
+		stack_info = {
+			id = friendly_repair_bot
+			priority = 1
+		}
+
+		modifier = {
+			ship_hull_regen_add_perc = 0.75
+			ship_armor_regen_add_perc = 2.25
+			ship_shield_regen_add_perc = 2.25
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+			ship_effect = {
+				entity = "ship_aura_positive_entity"
+				dynamic_scale = no
+			}
+		}
+	}
+}
+
+utility_component_template = {
+	key = "SHIP_AURA_SHIELD_EMP"
+	size = medium
+	icon = "GFX_ship_part_aura_shield_emp"
+	icon_frame = 1
+	power = 0
+
+	size_restriction = { juggernaut }
+	component_set = "ship_aura_components"
+
+	hostile_aura = {
+		name = "aura_shield_emp"
+		system_wide = yes
+
+		stack_info = {
+			id = hostile_shield_emp
+			priority = 1
+		}
+
+		modifier = {
+			ship_shield_mult = -10
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+			ship_effect = {
+				entity = "ship_aura_negative_entity"
+				dynamic_scale = no
+			}
+		}
+	}
+}
+
+utility_component_template = {
+	key = "SHIP_AURA_SUBSPACE_SINGULARITY"
+	size = medium
+	icon = "GFX_ship_part_aura_subspace_singularity"
+	icon_frame = 1
+	power = 0
+
+	size_restriction = { juggernaut }
+	component_set = "ship_aura_components"
+
+	hostile_aura = {
+		name = "aura_subspace_singularity"
+		system_wide = yes
+
+		stack_info = {
+			id = hostile_subspace_singularity
+			priority = 1
+		}
+
+		modifier = {
+			ship_hull_mult = -0.40
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+			ship_effect = {
+				entity = "ship_aura_negative_entity"
+				dynamic_scale = no
+			}
+		}
+	}
+}
+
+utility_component_template = {
+	key = "SHIP_AURA_ASSIMILATION_ALGORITHM"
+	size = medium
+	icon = "GFX_ship_part_aura_assimilation_algorithm"
+	icon_frame = 1
+	power = 0
+
+	size_restriction = { juggernaut }
+	component_set = "ship_aura_components"
+
+	friendly_aura = {
+		name = "aura_assimilation_algorithm"
+		system_wide = yes
+
+		stack_info = {
+			id = friendly_assimilation_algorithm
+			priority = 1
+		}
+
+		modifier = {
+			ship_hull_mult = 1.00
+			ship_armor_mult = -0.40
+			ship_shield_mult = -0.40
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+			ship_effect = {
+				entity = "ship_aura_positive_entity"
+				dynamic_scale = no
+			}
+		}
+	}
+}

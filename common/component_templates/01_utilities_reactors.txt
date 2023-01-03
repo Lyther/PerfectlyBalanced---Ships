@@ -1,0 +1,1360 @@
+#############
+#	POWER	#
+#############
+
+@large_corvette_power_1 = 85
+@large_corvette_power_2 = 120
+@large_corvette_power_3 = 160
+@large_corvette_power_4 = 210
+@large_corvette_power_5 = 270
+@large_corvette_power_6 = 540
+
+@large_destroyer_power_1 = 160
+@large_destroyer_power_2 = 220
+@large_destroyer_power_3 = 300
+@large_destroyer_power_4 = 400
+@large_destroyer_power_5 = 530
+@large_destroyer_power_6 = 1060
+
+@large_cruiser_power_1 = 320
+@large_cruiser_power_2 = 440
+@large_cruiser_power_3 = 600
+@large_cruiser_power_4 = 780
+@large_cruiser_power_5 = 1000
+@large_cruiser_power_6 = 2000
+
+@large_battleship_power_1 = 630
+@large_battleship_power_2 = 880
+@large_battleship_power_3 = 1190
+@large_battleship_power_4 = 1570
+@large_battleship_power_5 = 1950
+@large_battleship_power_6 = 3900
+
+@large_titan_power_1 = 1260
+@large_titan_power_2 = 1770
+@large_titan_power_3 = 2380
+@large_titan_power_4 = 3100
+@large_titan_power_5 = 3920
+@large_titan_power_6 = 7840
+
+@large_juggernaut_power_1 = 2520
+@large_juggernaut_power_2 = 3540
+@large_juggernaut_power_3 = 4760
+@large_juggernaut_power_4 = 6200
+@large_juggernaut_power_5 = 7840
+@large_juggernaut_power_6 = 15680
+
+@large_colossus_power_5 = 13200
+@large_colossus_power_6 = 26400
+
+@large_platform_power_1 = 215
+@large_platform_power_2 = 290
+@large_platform_power_3 = 385
+@large_platform_power_4 = 500
+@large_platform_power_5 = 650
+@large_platform_power_6 = 1300
+
+#############
+#	COST	#
+#############
+
+@large_corvette_cost_1 = 11
+@large_corvette_cost_2 = 15
+@large_corvette_cost_3 = 20
+@large_corvette_cost_4 = 26
+@large_corvette_cost_5 = 33
+@large_corvette_cost_6 = 43
+
+@large_destroyer_cost_1 = 22
+@large_destroyer_cost_2 = 30
+@large_destroyer_cost_3 = 40
+@large_destroyer_cost_4 = 52
+@large_destroyer_cost_5 = 66
+@large_destroyer_cost_6 = 86
+
+@large_cruiser_cost_1 = 44
+@large_cruiser_cost_2 = 60
+@large_cruiser_cost_3 = 80
+@large_cruiser_cost_4 = 104
+@large_cruiser_cost_5 = 132
+@large_cruiser_cost_6 = 172
+
+@large_battleship_cost_1 = 88
+@large_battleship_cost_2 = 120
+@large_battleship_cost_3 = 160
+@large_battleship_cost_4 = 208
+@large_battleship_cost_5 = 264
+@large_battleship_cost_6 = 344
+
+@large_titan_cost_1 = 176
+@large_titan_cost_2 = 240
+@large_titan_cost_3 = 320
+@large_titan_cost_4 = 416
+@large_titan_cost_5 = 528
+@large_titan_cost_6 = 688
+
+@large_juggernaut_power_1 = 352
+@large_juggernaut_power_2 = 480
+@large_juggernaut_power_3 = 640
+@large_juggernaut_power_4 = 832
+@large_juggernaut_power_5 = 1056
+@large_juggernaut_power_6 = 1376
+
+@large_colossus_cost_5 = 1620
+@large_colossus_cost_6 = 2150
+
+@large_platform_cost_1 = 22
+@large_platform_cost_2 = 30
+@large_platform_cost_3 = 40
+@large_platform_cost_4 = 52
+@large_platform_cost_5 = 66
+@large_platform_cost_6 = 86
+
+#############
+# REACTORS #
+#############
+
+########################
+# Fission Reactors
+########################
+
+utility_component_template = {
+	key = "LARGE_CORVETTE_FISSION_REACTOR"
+	size = small
+	icon = "GFX_ship_part_large_reactor_1"
+	icon_frame = 1
+	power = @large_corvette_power_1
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @large_corvette_cost_1
+		}
+		upkeep = {
+			energy = 0.11
+			alloys = 0.01
+		}
+	}
+	ship_modifier = {
+		ship_hull_mult = -0.05
+	}
+
+	prerequisites = { "tech_fission_power" }
+	component_set = "power_core"
+	size_restriction = { corvette colonizer lithoid_colonizer lithoid_colonizer sponsored_colonizer constructor science transport crisis_corvette offspring_corvette }
+	upgrades_to = "LARGE_CORVETTE_FUSION_REACTOR"
+}
+
+utility_component_template = {
+	key = "LARGE_DESTROYER_FISSION_REACTOR"
+	size = small
+	icon = "GFX_ship_part_large_reactor_1"
+	icon_frame = 1
+	power = @large_destroyer_power_1
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @large_destroyer_cost_1
+		}
+		upkeep = {
+			energy = 0.22
+			alloys = 0.02
+		}
+	}
+	ship_modifier = {
+		ship_hull_mult = -0.05
+	}
+
+	prerequisites = { "tech_fission_power" }
+	component_set = "power_core"
+	size_restriction = { destroyer crisis_destroyer offspring_destroyer }
+	upgrades_to = "LARGE_DESTROYER_FUSION_REACTOR"
+}
+
+utility_component_template = {
+	key = "LARGE_CRUISER_FISSION_REACTOR"
+	size = small
+	icon = "GFX_ship_part_large_reactor_1"
+	icon_frame = 1
+	power = @large_cruiser_power_1
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @large_cruiser_cost_1
+		}
+		upkeep = {
+			energy = 0.44
+			alloys = 0.04
+		}
+	}
+	ship_modifier = {
+		ship_hull_mult = -0.05
+	}
+
+	prerequisites = { "tech_fission_power" }
+	component_set = "power_core"
+	size_restriction = { cruiser crisis_cruiser offspring_cruiser }
+	upgrades_to = "LARGE_CRUISER_FUSION_REACTOR"
+}
+
+utility_component_template = {
+	key = "LARGE_BATTLESHIP_FISSION_REACTOR"
+	size = small
+	icon = "GFX_ship_part_large_reactor_1"
+	icon_frame = 1
+	power = @large_battleship_power_1
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @large_battleship_cost_1
+		}
+		upkeep = {
+			energy = 0.88
+			alloys = 0.09
+		}
+	}
+	ship_modifier = {
+		ship_hull_mult = -0.05
+	}
+
+	prerequisites = { "tech_fission_power" }
+	component_set = "power_core"
+	size_restriction = { battleship offspring_battleship }
+	upgrades_to = "LARGE_BATTLESHIP_FUSION_REACTOR"
+}
+
+utility_component_template = {
+	key = "LARGE_TITAN_FISSION_REACTOR"
+	size = small
+	icon = "GFX_ship_part_large_reactor_1"
+	icon_frame = 1
+	power = @large_titan_power_1
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @large_titan_cost_1
+		}
+		upkeep = {
+			energy = 1.76
+			alloys = 0.18
+		}
+	}
+	ship_modifier = {
+		ship_hull_mult = -0.05
+	}
+
+	prerequisites = { "tech_fission_power" }
+	component_set = "power_core"
+	size_restriction = { titan }
+	upgrades_to = "LARGE_TITAN_FUSION_REACTOR"
+}
+
+utility_component_template = {
+	key = "LARGE_juggernaut_FISSION_REACTOR"
+	size = small
+	icon = "GFX_ship_part_large_reactor_1"
+	icon_frame = 1
+	power = @large_juggernaut_power_1
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @large_juggernaut_cost_1
+		}
+		upkeep = {
+			energy = 3.52
+			alloys = 0.36
+		}
+	}
+	ship_modifier = {
+		ship_hull_mult = -0.05
+	}
+
+	prerequisites = { "tech_fission_power" }
+	component_set = "power_core"
+	size_restriction = { juggernaut }
+	upgrades_to = "LARGE_JUGGERNAUT_FUSION_REACTOR"
+}
+
+utility_component_template = {
+	key = "LARGE_PLATFORM_FISSION_REACTOR"
+	size = large
+	icon = "GFX_ship_part_large_reactor_1"
+	icon_frame = 1
+	power = @large_platform_power_1
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @large_platform_cost_1
+		}
+		upkeep = {
+			energy = 0.22
+			alloys = 0.02
+		}
+	}
+	ship_modifier = {
+		ship_hull_mult = -0.05
+	}
+
+	prerequisites = { "tech_fission_power" }
+	class_restriction = { shipclass_military_station }
+	size_restriction = {
+		military_station_small
+		military_station_medium
+		military_station_large
+	}
+	component_set = "power_core"
+	upgrades_to = "LARGE_PLATFORM_FUSION_REACTOR"
+}
+
+########################
+# Fusion Reactors
+########################
+
+utility_component_template = {
+	key = "LARGE_CORVETTE_FUSION_REACTOR"
+	size = small
+	icon = "GFX_ship_part_large_reactor_2"
+	icon_frame = 1
+	power = @large_corvette_power_2
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @large_corvette_cost_2
+		}
+		upkeep = {
+			energy = 0.16
+			alloys = 0.02
+		}
+	}
+	ship_modifier = {
+		ship_hull_mult = -0.10
+	}
+
+	prerequisites = { "tech_fusion_power" }
+	component_set = "power_core"
+	size_restriction = { corvette colonizer lithoid_colonizer sponsored_colonizer constructor science transport crisis_corvette offspring_corvette }
+	upgrades_to = "LARGE_CORVETTE_COLD_FUSION_REACTOR"
+}
+
+utility_component_template = {
+	key = "LARGE_DESTROYER_FUSION_REACTOR"
+	size = small
+	icon = "GFX_ship_part_large_reactor_2"
+	icon_frame = 1
+	power = @large_destroyer_power_2
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @large_destroyer_cost_2
+		}
+		upkeep = {
+			energy = 0.31
+			alloys = 0.03
+		}
+	}
+	ship_modifier = {
+		ship_hull_mult = -0.10
+	}
+
+	prerequisites = { "tech_fusion_power" }
+	component_set = "power_core"
+	size_restriction = { destroyer crisis_destroyer offspring_destroyer }
+	upgrades_to = "LARGE_DESTROYER_COLD_FUSION_REACTOR"
+}
+
+utility_component_template = {
+	key = "LARGE_CRUISER_FUSION_REACTOR"
+	size = small
+	icon = "GFX_ship_part_large_reactor_2"
+	icon_frame = 1
+	power = @large_cruiser_power_2
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @large_cruiser_cost_2
+		}
+		upkeep = {
+			energy = 0.62
+			alloys = 0.06
+		}
+	}
+	ship_modifier = {
+		ship_hull_mult = -0.10
+	}
+
+	prerequisites = { "tech_fusion_power" }
+	component_set = "power_core"
+	size_restriction = { cruiser crisis_cruiser offspring_cruiser }
+	upgrades_to = "LARGE_CRUISER_COLD_FUSION_REACTOR"
+}
+
+utility_component_template = {
+	key = "LARGE_BATTLESHIP_FUSION_REACTOR"
+	size = small
+	icon = "GFX_ship_part_large_reactor_2"
+	icon_frame = 1
+	power = @large_battleship_power_2
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @large_battleship_cost_2
+		}
+		upkeep = {
+			energy = 1.25
+			alloys = 0.13
+		}
+	}
+	ship_modifier = {
+		ship_hull_mult = -0.10
+	}
+
+	prerequisites = { "tech_fusion_power" }
+	component_set = "power_core"
+	size_restriction = { battleship offspring_battleship }
+	upgrades_to = "LARGE_BATTLESHIP_COLD_FUSION_REACTOR"
+}
+
+utility_component_template = {
+	key = "LARGE_TITAN_FUSION_REACTOR"
+	size = small
+	icon = "GFX_ship_part_large_reactor_2"
+	icon_frame = 1
+	power = @large_titan_power_2
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @large_titan_cost_2
+		}
+		upkeep = {
+			energy = 2.50
+			alloys = 0.25
+		}
+	}
+	ship_modifier = {
+		ship_hull_mult = -0.10
+	}
+
+	prerequisites = { "tech_fusion_power" }
+	component_set = "power_core"
+	size_restriction = { titan }
+	upgrades_to = "LARGE_TITAN_COLD_FUSION_REACTOR"
+}
+
+utility_component_template = {
+	key = "LARGE_JUGGERNAUT_FUSION_REACTOR"
+	size = small
+	icon = "GFX_ship_part_large_reactor_2"
+	icon_frame = 1
+	power = @large_juggernaut_power_2
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @large_juggernaut_cost_2
+		}
+		upkeep = {
+			energy = 5.00
+			alloys = 0.50
+		}
+	}
+	ship_modifier = {
+		ship_hull_mult = -0.10
+	}
+
+	prerequisites = { "tech_fusion_power" }
+	component_set = "power_core"
+	size_restriction = { juggernaut }
+	upgrades_to = "LARGE_JUGGERNAUT_COLD_FUSION_REACTOR"
+}
+
+utility_component_template = {
+	key = "LARGE_PLATFORM_FUSION_REACTOR"
+	size = large
+	icon = "GFX_ship_part_large_reactor_2"
+	icon_frame = 1
+	power = @large_platform_power_2
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @large_platform_cost_2
+		}
+		upkeep = {
+			energy = 0.31
+			alloys = 0.03
+		}
+	}
+	ship_modifier = {
+		ship_hull_mult = -0.10
+	}
+
+	prerequisites = { "tech_fusion_power" }
+	class_restriction = { shipclass_military_station }
+	size_restriction = {
+		military_station_small
+		military_station_medium
+		military_station_large
+	}
+	component_set = "power_core"
+	upgrades_to = "LARGE_PLATFORM_COLD_FUSION_REACTOR"
+}
+
+########################
+# Cold Fusion Reactors
+########################
+
+utility_component_template = {
+	key = "LARGE_CORVETTE_COLD_FUSION_REACTOR"
+	size = small
+	icon = "GFX_ship_part_large_reactor_3"
+	icon_frame = 1
+	power = @large_corvette_power_3
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @large_corvette_cost_3
+		}
+		upkeep = {
+			energy = 0.22
+			alloys = 0.02
+		}
+	}
+	ship_modifier = {
+		ship_hull_mult = -0.15
+	}
+
+	prerequisites = { "tech_cold_fusion_power" }
+	component_set = "power_core"
+	size_restriction = { corvette colonizer lithoid_colonizer sponsored_colonizer constructor science transport crisis_corvette offspring_corvette }
+	upgrades_to = "LARGE_CORVETTE_ANTIMATTER_REACTOR"
+}
+
+utility_component_template = {
+	key = "LARGE_DESTROYER_COLD_FUSION_REACTOR"
+	size = small
+	icon = "GFX_ship_part_large_reactor_3"
+	icon_frame = 1
+	power = @large_destroyer_power_3
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @large_destroyer_cost_3
+		}
+		upkeep = {
+			energy = 0.44
+			alloys = 0.04
+		}
+	}
+	ship_modifier = {
+		ship_hull_mult = -0.15
+	}
+
+	prerequisites = { "tech_cold_fusion_power" }
+	component_set = "power_core"
+	size_restriction = { destroyer crisis_destroyer offspring_destroyer }
+	upgrades_to = "LARGE_DESTROYER_ANTIMATTER_REACTOR"
+}
+
+utility_component_template = {
+	key = "LARGE_CRUISER_COLD_FUSION_REACTOR"
+	size = small
+	icon = "GFX_ship_part_large_reactor_3"
+	icon_frame = 1
+	power = @large_cruiser_power_3
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @large_cruiser_cost_3
+		}
+		upkeep = {
+			energy = 0.88
+			alloys = 0.09
+		}
+	}
+	ship_modifier = {
+		ship_hull_mult = -0.15
+	}
+
+	prerequisites = { "tech_cold_fusion_power" }
+	component_set = "power_core"
+	size_restriction = { cruiser crisis_cruiser offspring_cruiser }
+	upgrades_to = "LARGE_CRUISER_ANTIMATTER_REACTOR"
+}
+
+utility_component_template = {
+	key = "LARGE_BATTLESHIP_COLD_FUSION_REACTOR"
+	size = small
+	icon = "GFX_ship_part_large_reactor_3"
+	icon_frame = 1
+	power = @large_battleship_power_3
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @large_battleship_cost_3
+		}
+		upkeep = {
+			energy = 1.76
+			alloys = 0.18
+		}
+	}
+	ship_modifier = {
+		ship_hull_mult = -0.15
+	}
+
+	prerequisites = { "tech_cold_fusion_power" }
+	component_set = "power_core"
+	size_restriction = { battleship offspring_battleship }
+	upgrades_to = "LARGE_BATTLESHIP_ANTIMATTER_REACTOR"
+}
+
+utility_component_template = {
+	key = "LARGE_TITAN_COLD_FUSION_REACTOR"
+	size = small
+	icon = "GFX_ship_part_large_reactor_3"
+	icon_frame = 1
+	power = @large_titan_power_3
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @large_titan_cost_3
+		}
+		upkeep = {
+			energy = 3.51
+			alloys = 0.35
+		}
+	}
+	ship_modifier = {
+		ship_hull_mult = -0.15
+	}
+
+	prerequisites = { "tech_cold_fusion_power" }
+	component_set = "power_core"
+	size_restriction = { titan }
+	upgrades_to = "LARGE_TITAN_ANTIMATTER_REACTOR"
+}
+
+utility_component_template = {
+	key = "LARGE_JUGGERNAUT_COLD_FUSION_REACTOR"
+	size = small
+	icon = "GFX_ship_part_large_reactor_3"
+	icon_frame = 1
+	power = @large_juggernaut_power_3
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @large_juggernaut_cost_3
+		}
+		upkeep = {
+			energy = 7.02
+			alloys = 0.70
+		}
+	}
+	ship_modifier = {
+		ship_hull_mult = -0.15
+	}
+
+	prerequisites = { "tech_cold_fusion_power" }
+	component_set = "power_core"
+	size_restriction = { juggernaut }
+	upgrades_to = "LARGE_JUGGERNAUT_ANTIMATTER_REACTOR"
+}
+
+utility_component_template = {
+	key = "LARGE_PLATFORM_COLD_FUSION_REACTOR"
+	size = large
+	icon = "GFX_ship_part_large_reactor_3"
+	icon_frame = 1
+	power = @large_platform_power_3
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @large_platform_cost_3
+		}
+		upkeep = {
+			energy = 0.34
+			alloys = 0.03
+		}
+	}
+	ship_modifier = {
+		ship_hull_mult = -0.15
+	}
+
+	prerequisites = { "tech_cold_fusion_power" }
+	component_set = "power_core"
+	class_restriction = { shipclass_military_station }
+	size_restriction = {
+		military_station_small
+		military_station_medium
+		military_station_large
+	}
+	upgrades_to = "LARGE_PLATFORM_ANTIMATTER_REACTOR"
+}
+
+########################
+# Antimatter Reactors
+########################
+
+utility_component_template = {
+	key = "LARGE_CORVETTE_ANTIMATTER_REACTOR"
+	size = small
+	icon = "GFX_ship_part_large_reactor_4"
+	icon_frame = 1
+	power = @large_corvette_power_4
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @large_corvette_cost_4
+		}
+		upkeep = {
+			energy = 0.31
+			alloys = 0.03
+		}
+	}
+	ship_modifier = {
+		ship_hull_mult = -0.20
+	}
+
+	prerequisites = { "tech_antimatter_power" }
+	component_set = "power_core"
+	size_restriction = { corvette colonizer lithoid_colonizer sponsored_colonizer constructor science transport crisis_corvette offspring_corvette }
+	upgrades_to = "LARGE_CORVETTE_ZERO_POINT_REACTOR"
+}
+
+utility_component_template = {
+	key = "LARGE_DESTROYER_ANTIMATTER_REACTOR"
+	size = small
+	icon = "GFX_ship_part_large_reactor_4"
+	icon_frame = 1
+	power = @large_destroyer_power_4
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @large_destroyer_cost_4
+		}
+		upkeep = {
+			energy = 0.62
+			alloys = 0.06
+		}
+	}
+	ship_modifier = {
+		ship_hull_mult = -0.20
+	}
+
+	prerequisites = { "tech_antimatter_power" }
+	component_set = "power_core"
+	size_restriction = { destroyer crisis_destroyer offspring_destroyer }
+	upgrades_to = "LARGE_DESTROYER_ZERO_POINT_REACTOR"
+}
+
+utility_component_template = {
+	key = "LARGE_CRUISER_ANTIMATTER_REACTOR"
+	size = small
+	icon = "GFX_ship_part_large_reactor_4"
+	icon_frame = 1
+	power = @large_cruiser_power_4
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @large_cruiser_cost_4
+		}
+		upkeep = {
+			energy = 1.25
+			alloys = 0.13
+		}
+	}
+	ship_modifier = {
+		ship_hull_mult = -0.20
+	}
+
+	prerequisites = { "tech_antimatter_power" }
+	component_set = "power_core"
+	size_restriction = { cruiser crisis_cruiser offspring_cruiser }
+	upgrades_to = "LARGE_CRUISER_ZERO_POINT_REACTOR"
+}
+
+utility_component_template = {
+	key = "LARGE_BATTLESHIP_ANTIMATTER_REACTOR"
+	size = small
+	icon = "GFX_ship_part_large_reactor_4"
+	icon_frame = 1
+	power = @large_battleship_power_4
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @large_battleship_cost_4
+		}
+		upkeep = {
+			energy = 2.46
+			alloys = 0.25
+		}
+	}
+	ship_modifier = {
+		ship_hull_mult = -0.20
+	}
+
+	prerequisites = { "tech_antimatter_power" }
+	component_set = "power_core"
+	size_restriction = { battleship offspring_battleship }
+	upgrades_to = "LARGE_BATTLESHIP_ZERO_POINT_REACTOR"
+}
+
+utility_component_template = {
+	key = "LARGE_TITAN_ANTIMATTER_REACTOR"
+	size = small
+	icon = "GFX_ship_part_large_reactor_4"
+	icon_frame = 1
+	power = @large_titan_power_4
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @large_titan_cost_4
+		}
+		upkeep = {
+			energy = 4.91
+			alloys = 0.49
+		}
+	}
+	ship_modifier = {
+		ship_hull_mult = -0.20
+	}
+
+	prerequisites = { "tech_antimatter_power" }
+	component_set = "power_core"
+	size_restriction = { titan }
+	upgrades_to = "LARGE_TITAN_ZERO_POINT_REACTOR"
+}
+
+utility_component_template = {
+	key = "LARGE_JUGGERNAUT_ANTIMATTER_REACTOR"
+	size = small
+	icon = "GFX_ship_part_large_reactor_4"
+	icon_frame = 1
+	power = @large_juggernaut_power_4
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @large_juggernaut_cost_4
+		}
+		upkeep = {
+			energy = 9.82
+			alloys = 0.98
+		}
+	}
+	ship_modifier = {
+		ship_hull_mult = -0.20
+	}
+
+	prerequisites = { "tech_antimatter_power" }
+	component_set = "power_core"
+	size_restriction = { juggernaut }
+	upgrades_to = "LARGE_JUGGERNAUT_ZERO_POINT_REACTOR"
+}
+
+utility_component_template = {
+	key = "LARGE_PLATFORM_ANTIMATTER_REACTOR"
+	size = large
+	icon = "GFX_ship_part_large_reactor_4"
+	icon_frame = 1
+	power = @large_platform_power_4
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @large_platform_cost_4
+		}
+		upkeep = {
+			energy = 0.62
+			alloys = 0.06
+		}
+	}
+
+	prerequisites = { "tech_antimatter_power" }
+	component_set = "power_core"
+	class_restriction = { shipclass_military_station }
+	size_restriction = {
+		military_station_small
+		military_station_medium
+		military_station_large
+	}
+	upgrades_to = "LARGE_PLATFORM_ZERO_POINT_REACTOR"
+}
+
+########################
+# Zero-Point Reactors
+########################
+
+utility_component_template = {
+	key = "LARGE_CORVETTE_ZERO_POINT_REACTOR"
+	size = small
+	icon = "GFX_ship_part_large_reactor_5"
+	icon_frame = 1
+	power = @large_corvette_power_5
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @large_corvette_cost_5
+		}
+		upkeep = {
+			energy = 0.42
+			alloys = 0.04
+		}
+	}
+	ship_modifier = {
+		ship_hull_mult = -0.25
+	}
+
+	prerequisites = { "tech_zero_point_power" }
+	component_set = "power_core"
+	size_restriction = { corvette colonizer lithoid_colonizer sponsored_colonizer constructor science transport crisis_corvette offspring_corvette }
+	upgrades_to = "LARGE_CORVETTE_DARK_MATTER_REACTOR"
+}
+
+utility_component_template = {
+	key = "LARGE_DESTROYER_ZERO_POINT_REACTOR"
+	size = small
+	icon = "GFX_ship_part_large_reactor_5"
+	icon_frame = 1
+	power = @large_destroyer_power_5
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @large_destroyer_cost_5
+		}
+		upkeep = {
+			energy = 0.86
+			alloys = 0.09
+		}
+	}
+	ship_modifier = {
+		ship_hull_mult = -0.25
+	}
+
+	prerequisites = { "tech_zero_point_power" }
+	component_set = "power_core"
+	size_restriction = { destroyer crisis_destroyer offspring_destroyer }
+	upgrades_to = "LARGE_DESTROYER_DARK_MATTER_REACTOR"
+}
+
+utility_component_template = {
+	key = "LARGE_CRUISER_ZERO_POINT_REACTOR"
+	size = small
+	icon = "GFX_ship_part_large_reactor_5"
+	icon_frame = 1
+	power = @large_cruiser_power_5
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @large_cruiser_cost_5
+		}
+		upkeep = {
+			energy = 1.71
+			alloys = 0.17
+		}
+	}
+	ship_modifier = {
+		ship_hull_mult = -0.25
+	}
+
+	prerequisites = { "tech_zero_point_power" }
+	component_set = "power_core"
+	size_restriction = { cruiser crisis_cruiser offspring_cruiser }
+	upgrades_to = "LARGE_CRUISER_DARK_MATTER_REACTOR"
+}
+
+utility_component_template = {
+	key = "LARGE_BATTLESHIP_ZERO_POINT_REACTOR"
+	size = small
+	icon = "GFX_ship_part_large_reactor_5"
+	icon_frame = 1
+	power = @large_battleship_power_5
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @large_battleship_cost_5
+		}
+		upkeep = {
+			energy = 3.44
+			alloys = 0.34
+		}
+	}
+	ship_modifier = {
+		ship_hull_mult = -0.25
+	}
+
+	prerequisites = { "tech_zero_point_power" }
+	component_set = "power_core"
+	size_restriction = { battleship offspring_battleship }
+	upgrades_to = "LARGE_BATTLESHIP_DARK_MATTER_REACTOR"
+}
+
+utility_component_template = {
+	key = "LARGE_TITAN_ZERO_POINT_REACTOR"
+	size = small
+	icon = "GFX_ship_part_large_reactor_5"
+	icon_frame = 1
+	power = @large_titan_power_5
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @large_titan_cost_5
+		}
+		upkeep = {
+			energy = 6.84
+			alloys = 0.68
+		}
+	}
+	ship_modifier = {
+		ship_hull_mult = -0.25
+	}
+
+	prerequisites = { "tech_zero_point_power" }
+	component_set = "power_core"
+	size_restriction = { titan }
+	upgrades_to = "LARGE_TITAN_DARK_MATTER_REACTOR"
+}
+
+utility_component_template = {
+	key = "LARGE_JUGGERNAUT_ZERO_POINT_REACTOR"
+	size = small
+	icon = "GFX_ship_part_large_reactor_5"
+	icon_frame = 1
+	power = @large_juggernaut_power_5
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @large_juggernaut_cost_5
+		}
+		upkeep = {
+			energy = 13.68
+			alloys = 1.37
+		}
+	}
+	ship_modifier = {
+		ship_hull_mult = -0.25
+	}
+
+	prerequisites = { "tech_zero_point_power" }
+	component_set = "power_core"
+	size_restriction = { juggernaut }
+	upgrades_to = "LARGE_JUGGERNAUT_DARK_MATTER_REACTOR"
+}
+
+utility_component_template = {
+	key = "LARGE_COLOSSUS_ZERO_POINT_REACTOR"
+	size = small
+	icon = "GFX_ship_part_large_reactor_5"
+	icon_frame = 1
+	power = @large_colossus_power_5
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @large_colossus_cost_5
+		}
+		upkeep = {
+			energy = 13.70
+			alloys = 1.37
+		}
+	}
+	ship_modifier = {
+		ship_hull_mult = -0.25
+	}
+
+	component_set = "power_core"
+	size_restriction = { colossus star_eater }
+	upgrades_to = "LARGE_COLOSSUS_DARK_MATTER_REACTOR"
+}
+
+utility_component_template = {
+	key = "LARGE_PLATFORM_ZERO_POINT_REACTOR"
+	size = large
+	icon = "GFX_ship_part_large_reactor_5"
+	icon_frame = 1
+	power = @large_platform_power_5
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @large_platform_cost_5
+		}
+		upkeep = {
+			energy = 0.86
+			alloys = 0.09
+		}
+	}
+	ship_modifier = {
+		ship_hull_mult = -0.25
+	}
+
+	prerequisites = { "tech_zero_point_power" }
+	component_set = "power_core"
+	class_restriction = { shipclass_military_station }
+	size_restriction = {
+		military_station_small
+		military_station_medium
+		military_station_large
+	}
+	upgrades_to = "LARGE_PLATFORM_DARK_MATTER_REACTOR"
+}
+
+utility_component_template = {
+	key = "LARGE_ION_CANNON_ZERO_POINT_REACTOR"
+	size = small
+	icon = "GFX_ship_part_large_reactor_5"
+	icon_frame = 1
+	power = @large_battleship_power_5
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @large_battleship_cost_5
+		}
+		upkeep = {
+			energy = 3.44
+			alloys = 0.34
+		}
+	}
+	ship_modifier = {
+		ship_hull_mult = -0.25
+	}
+
+	component_set = "power_core"
+	size_restriction = { ion_cannon }
+	upgrades_to = "LARGE_ION_CANNON_DARK_MATTER_REACTOR"
+}
+
+####################
+# Engimatic Reactors
+####################
+
+utility_component_template = {
+	key = "LARGE_CORVETTE_DARK_MATTER_REACTOR"
+	size = small
+	icon = "GFX_ship_part_large_dark_matter_power_core"
+	icon_frame = 1
+	power = @large_corvette_power_6
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @large_corvette_cost_6
+			sr_dark_matter = 1.6
+		}
+		upkeep = {
+			energy = 0.59
+			alloys = 0.06
+		}
+	}
+	ship_modifier = {
+		ship_hull_mult = -0.30
+	}
+
+	prerequisites = { "tech_dark_matter_power_core" }
+	component_set = "power_core"
+	size_restriction = { corvette colonizer lithoid_colonizer sponsored_colonizer constructor science transport crisis_corvette offspring_corvette }
+}
+
+utility_component_template = {
+	key = "LARGE_DESTROYER_DARK_MATTER_REACTOR"
+	size = small
+	icon = "GFX_ship_part_large_dark_matter_power_core"
+	icon_frame = 1
+	power = @large_destroyer_power_6
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @large_destroyer_cost_6
+			sr_dark_matter = 3.2
+		}
+		upkeep = {
+			energy = 1.18
+			alloys = 0.12
+		}
+	}
+	ship_modifier = {
+		ship_hull_mult = -0.30
+	}
+
+	prerequisites = { "tech_dark_matter_power_core" }
+	component_set = "power_core"
+	size_restriction = { destroyer crisis_destroyer offspring_destroyer }
+}
+
+utility_component_template = {
+	key = "LARGE_CRUISER_DARK_MATTER_REACTOR"
+	size = small
+	icon = "GFX_ship_part_large_dark_matter_power_core"
+	icon_frame = 1
+	power = @large_cruiser_power_6
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @large_cruiser_cost_6
+			sr_dark_matter = 6.4
+		}
+		upkeep = {
+			energy = 2.37
+			alloys = 0.24
+		}
+	}
+	ship_modifier = {
+		ship_hull_mult = -0.30
+	}
+
+	prerequisites = { "tech_dark_matter_power_core" }
+	component_set = "power_core"
+	size_restriction = { cruiser crisis_cruiser offspring_cruiser }
+}
+
+utility_component_template = {
+	key = "LARGE_BATTLESHIP_DARK_MATTER_REACTOR"
+	size = small
+	icon = "GFX_ship_part_large_dark_matter_power_core"
+	icon_frame = 1
+	power = @large_battleship_power_6
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @large_battleship_cost_6
+			sr_dark_matter = 12.8
+		}
+		upkeep = {
+			energy = 4.77
+			alloys = 0.48
+		}
+	}
+	ship_modifier = {
+		ship_hull_mult = -0.30
+	}
+
+	prerequisites = { "tech_dark_matter_power_core" }
+	component_set = "power_core"
+	size_restriction = { battleship offspring_battleship }
+}
+
+utility_component_template = {
+	key = "LARGE_TITAN_DARK_MATTER_REACTOR"
+	size = small
+	icon = "GFX_ship_part_large_dark_matter_power_core"
+	icon_frame = 1
+	power = @large_titan_power_6
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @large_titan_cost_6
+			sr_dark_matter = 25.6
+		}
+		upkeep = {
+			energy = 9.49
+			alloys = 0.95
+		}
+	}
+	ship_modifier = {
+		ship_hull_mult = -0.30
+	}
+
+	prerequisites = { "tech_dark_matter_power_core" }
+	component_set = "power_core"
+	size_restriction = { titan }
+}
+
+utility_component_template = {
+	key = "LARGE_JUGGERNAUT_DARK_MATTER_REACTOR"
+	size = small
+	icon = "GFX_ship_part_large_dark_matter_power_core"
+	icon_frame = 1
+	power = @large_juggernaut_power_6
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @large_juggernaut_cost_6
+			sr_dark_matter = 51.2
+		}
+		upkeep = {
+			energy = 18.98
+			alloys = 1.90
+		}
+	}
+	ship_modifier = {
+		ship_hull_mult = -0.30
+	}
+
+	prerequisites = { "tech_dark_matter_power_core" }
+	component_set = "power_core"
+	size_restriction = { juggernaut }
+}
+
+utility_component_template = {
+	key = "LARGE_COLOSSUS_DARK_MATTER_REACTOR"
+	size = small
+	icon = "GFX_ship_part_large_dark_matter_power_core"
+	icon_frame = 1
+	power = @large_colossus_power_6
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @large_colossus_cost_6
+			sr_dark_matter = 51.2
+		}
+		upkeep = {
+			energy = 18.50
+			alloys = 1.85
+		}
+	}
+	ship_modifier = {
+		ship_hull_mult = -0.30
+	}
+
+	prerequisites = { "tech_dark_matter_power_core" }
+	component_set = "power_core"
+	size_restriction = { colossus star_eater }
+}
+
+utility_component_template = {
+	key = "LARGE_PLATFORM_DARK_MATTER_REACTOR"
+	size = large
+	icon = "GFX_ship_part_large_dark_matter_power_core"
+	icon_frame = 1
+	power = @large_platform_power_6
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @large_platform_cost_6
+			sr_dark_matter = 6.4
+		}
+		upkeep = {
+			energy = 1.18
+			alloys = 0.12
+		}
+	}
+	ship_modifier = {
+		ship_hull_mult = -0.30
+	}
+
+	prerequisites = { "tech_dark_matter_power_core" }
+	component_set = "power_core"
+	class_restriction = { shipclass_military_station }
+	size_restriction = {
+		military_station_small
+		military_station_medium
+		military_station_large
+	}
+}
+
+utility_component_template = {
+	key = "LARGE_ION_CANNON_DARK_MATTER_REACTOR"
+	size = small
+	icon = "GFX_ship_part_large_dark_matter_power_core"
+	icon_frame = 1
+	power = @large_battleship_power_6
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @large_battleship_cost_6
+			sr_dark_matter = 12.8
+		}
+		upkeep = {
+			energy = 4.77
+			alloys = 0.48
+		}
+	}
+	ship_modifier = {
+		ship_hull_mult = -0.30
+	}
+
+	prerequisites = { "tech_dark_matter_power_core" }
+	component_set = "power_core"
+	size_restriction = { ion_cannon }
+}

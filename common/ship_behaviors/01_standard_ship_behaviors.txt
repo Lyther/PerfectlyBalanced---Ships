@@ -1,0 +1,63 @@
+ship_behavior = {
+	name = "snipe"
+	preferred_attack_range = max
+	formation_distance = max
+	return_to_formation_distance = max
+	combat_target_anchor = root
+
+	collision_awareness = 0.5
+	collision_strafe = 2.5
+	collision_radius = 1.0
+	attack_move_pattern = stay_at_range
+	passive_move_pattern = charge
+
+	desc = "SNIPE_BEHAVIOR_DESC"
+}
+
+ship_behavior = {
+	name = "heavy_artillery"
+	preferred_attack_range = 150
+	formation_distance = 150
+	return_to_formation_distance = 160
+	combat_target_anchor = root
+
+	collision_awareness = 0.5
+	collision_strafe = 2.5
+	collision_radius = 1.0
+	attack_move_pattern = stay_at_range
+	passive_move_pattern = charge
+
+	desc = "HEAVY_ARTILLERY_BEHAVIOR_DESC"
+}
+
+ship_behavior = {
+	name = "migration"
+	preferred_attack_range = max
+	formation_distance = min
+	return_to_formation_distance = max
+	combat_target_anchor = root
+
+	collision_awareness = 0.5
+	collision_strafe = 2.5
+	collision_radius = 1.0
+	attack_move_pattern = flee
+	passive_move_pattern = charge
+
+	desc = "MIGRATION_BEHAVIOR_DESC"
+}
+
+ship_behavior = {
+	name = "free_fire"
+	preferred_attack_range = min
+	formation_distance = min
+	return_to_formation_distance = max
+	combat_target_anchor = root
+
+	collision_awareness = 0.5
+	collision_strafe = 2.5
+	collision_radius = 1.0
+	attack_move_pattern = orbit
+	passive_move_pattern = charge
+
+	desc = "FREE_FIRE_BEHAVIOR_DESC"
+}

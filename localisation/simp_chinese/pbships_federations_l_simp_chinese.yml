@@ -1,0 +1,10 @@
+﻿l_simp_chinese:
+ SHIP_AURA_REPAIR_BOT:0 "维修自动机"
+ SHIP_AURA_SHIELD_EMP:0 "护盾电磁脉冲"
+ SHIP_AURA_SUBSPACE_SINGULARITY:0 "亚空间奇点"
+ SHIP_AURA_ASSIMILATION_ALGORITHM:0 "吸收算法"
+
+ aura_repair_bot:0 "$aura_category_defensive$"
+ aura_shield_emp:0 "$aura_category_offensive$"
+ aura_subspace_singularity:0 "$aura_category_offensive$"
+ aura_assimilation_algorithm:0 "$aura_category_defensive$"

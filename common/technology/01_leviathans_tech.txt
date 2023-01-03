@@ -1,0 +1,51 @@
+tech_stellarite_beam = {
+	area = physics
+	cost = @tier5cost3
+	is_rare = yes
+	tier = 5
+	category = { particles }
+	weight = 0
+
+	ai_weight = {
+		factor = 0
+	}
+}
+
+tech_stellarite_missile = {
+	area = physics
+	cost = @tier4cost3
+	is_rare = yes
+	tier = 4
+	category = { particles }
+	weight = 0
+
+	ai_weight = {
+		factor = 0
+	}
+}
+
+tech_stellarite_plasma = {
+	area = physics
+	cost = @tier4cost3
+	is_rare = yes
+	tier = 4
+	category = { field_manipulation }
+	weight = 0
+
+	ai_weight = {
+		factor = 0
+	}
+}
+
+tech_stellarite_laser = {
+	area = physics
+	cost = @tier3cost3
+	is_rare = yes
+	tier = 3
+	category = { field_manipulation }
+	weight = 0
+
+	ai_weight = {
+		factor = 0
+	}
+}

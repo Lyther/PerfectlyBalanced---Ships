@@ -1,0 +1,130 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ship_part_large_reactor_1"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_large_reactor_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_large_reactor_2"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_large_reactor_2.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_large_reactor_3"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_large_reactor_3.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_large_reactor_4"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_large_reactor_4.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_large_reactor_5"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_large_reactor_5.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_large_dark_matter_power_core"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_large_dark_matter_power_core.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_large_reactor_booster_1"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_large_reactor_booster_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_large_reactor_booster_2"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_large_reactor_booster_2.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_large_reactor_booster_3"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_large_reactor_booster_3.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_computer_snipe_sapient"
+		texturefile = "gfx/interface/icons/ship_parts/computers/ship_part_computer_role_snipe_sapient.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_computer_snipe_precog"
+		texturefile = "gfx/interface/icons/ship_parts/computers/ship_part_computer_role_snipe_precog.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_computer_heavy_artillery_sapient"
+		texturefile = "gfx/interface/icons/ship_parts/computers/ship_part_computer_role_heavy_artillery_sapient.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_computer_heavy_artillery_precog"
+		texturefile = "gfx/interface/icons/ship_parts/computers/ship_part_computer_role_heavy_artillery_precog.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_computer_migration_basic"
+		texturefile = "gfx/interface/icons/ship_parts/computers/ship_part_computer_role_migration_basic.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_computer_migration_advanced"
+		texturefile = "gfx/interface/icons/ship_parts/computers/ship_part_computer_role_migration_advanced.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_computer_migration_sapient"
+		texturefile = "gfx/interface/icons/ship_parts/computers/ship_part_computer_role_migration_sapient.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_computer_migration_precog"
+		texturefile = "gfx/interface/icons/ship_parts/computers/ship_part_computer_role_migration_precog.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_computer_free_fire_sapient"
+		texturefile = "gfx/interface/icons/ship_parts/computers/ship_part_computer_role_free_fire_sapient.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_computer_agile_basic"
+		texturefile = "gfx/interface/icons/ship_parts/computers/ship_part_computer_role_agile_basic.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_computer_agile_advanced"
+		texturefile = "gfx/interface/icons/ship_parts/computers/ship_part_computer_role_agile_advanced.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_computer_agile_sapient"
+		texturefile = "gfx/interface/icons/ship_parts/computers/ship_part_computer_role_agile_sapient.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_computer_agile_precog"
+		texturefile = "gfx/interface/icons/ship_parts/computers/ship_part_computer_role_agile_precog.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_aura_matter_decomposer"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_aura_matter_decomposer.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_aura_no_retreat"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_aura_no_retreat.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_aura_time_reverser"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_aura_time_reverser.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_aura_trajectory_network"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_aura_trajectory_network.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_aura_dimensional_stabilizer"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_aura_dimensional_stabilizer.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_aura_strategy_database"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_aura_strategy_database.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_aura_repair_bot"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_aura_repair_bot.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_aura_shield_emp"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_aura_shield_emp.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_aura_subspace_singularity"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_aura_subspace_singularity.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_aura_assimilation_algorithm"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_aura_assimilation_algorithm.dds"
+	}
+}

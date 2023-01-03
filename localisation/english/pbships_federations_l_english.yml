@@ -1,0 +1,10 @@
+﻿l_english:
+ SHIP_AURA_REPAIR_BOT:0 "Repair Bot"
+ SHIP_AURA_SHIELD_EMP:0 "Shield EMP"
+ SHIP_AURA_SUBSPACE_SINGULARITY:0 "Subspace Singularity"
+ SHIP_AURA_ASSIMILATION_ALGORITHM:0 "Assimilation Algorithm"
+
+ aura_repair_bot:0 "$aura_category_defensive$"
+ aura_shield_emp:0 "$aura_category_offensive$"
+ aura_subspace_singularity:0 "$aura_category_offensive$"
+ aura_assimilation_algorithm:0 "$aura_category_defensive$"

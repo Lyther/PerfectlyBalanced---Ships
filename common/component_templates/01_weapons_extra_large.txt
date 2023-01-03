@@ -1,0 +1,437 @@
+# ####################
+# Energy Lance
+# ####################
+
+# ## Energy Lance 1
+weapon_component_template = {
+	key = "ENERGY_LANCE_1_OTHER"
+	size = extra_large
+	type = instant
+
+	icon = "GFX_ship_part_energy_lance_1"
+	icon_frame = 1
+
+	use_ship_kill_target = no
+
+	prerequisites = { "tech_energy_lance_1" }
+	component_set = "ENERGY_LANCE_1"
+	projectile_gfx = "particle_lance"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_artillery artillery}
+	ai_tag_weight = 0
+	upgrades_to = "ENERGY_LANCE_2"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @xl_t5_cost
+			rare_crystals = @xl_t5_rare
+		}
+		upkeep = {
+			energy = @xl_t5_upkeep_energy
+			alloys = @xl_t5_upkeep_alloys
+		}
+	}
+
+	target_weights = {
+		titan = 3
+		battleship = 2
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = rare_crystals }
+		}
+	}
+
+	power = -200
+	damage = {
+		min = 600
+		max = 1500
+	}
+	hull_damage = 1.50
+	shield_damage = 0.50
+	armor_damage = 2.00
+	windup = {
+		min = 12
+		max = 47
+	}
+	total_fire_time = 70
+	range = 150
+	accuracy = 0.85
+}
+
+# ## Energy Lance 2
+weapon_component_template = {
+	key = "ENERGY_LANCE_2_OTHER"
+	size = extra_large
+	type = instant
+
+	icon = "GFX_ship_part_energy_lance_2"
+	icon_frame = 1
+
+	use_ship_kill_target = no
+
+	prerequisites = { "tech_energy_lance_2" }
+	component_set = "ENERGY_LANCE_2"
+	projectile_gfx = "tachyon_lance"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_artillery artillery }
+	ai_tag_weight = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @xl_t6_cost
+			rare_crystals = @xl_t6_rare
+		}
+		upkeep = {
+			energy = @xl_t6_upkeep_energy
+			alloys = @xl_t6_upkeep_alloys
+		}
+	}
+
+	target_weights = {
+		titan = 3
+		battleship = 2
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = rare_crystals }
+		}
+	}
+
+	power = -260
+	damage = {
+		min = 780
+		max = 1950
+	}
+	hull_damage = 1.50
+	shield_damage = 0.50
+	armor_damage = 2.00
+	windup = {
+		min = 12
+		max = 47
+	}
+	total_fire_time = 70
+	range = 150
+	accuracy = 0.85
+}
+
+# ####################
+# Arc Emitter
+# ####################
+
+# ## Arc Emitter 1
+weapon_component_template = {
+	key = "ARC_EMITTER_1_OTHER"
+	size = extra_large
+	type = instant
+
+	icon = "GFX_ship_part_arc_emitter_1"
+	icon_frame = 1
+
+	use_ship_kill_target = no
+
+	prerequisites = { "tech_arc_emitter_1" }
+	component_set = "ARC_EMITTER_1"
+	projectile_gfx = "arc_emitter"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_artillery artillery }
+	ai_tag_weight = 0
+	upgrades_to = "ARC_EMITTER_2"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @xl_t5_cost
+			rare_crystals = @xl_t5_rare
+		}
+		upkeep = {
+			energy = @xl_t5_upkeep_energy
+			alloys = @xl_t5_upkeep_alloys
+		}
+	}
+
+	target_weights = {
+		titan = 3
+		battleship = 2
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = rare_crystals }
+		}
+	}
+
+	power = -200
+	damage = {
+		min = 1
+		max = 1300
+	}
+	hull_damage = 1.00
+	shield_damage = 1.00
+	shield_penetration = 1.00
+	armor_damage = 1.00
+	armor_penetration = 1.00
+	windup = {
+		min = 12
+		max = 48
+	}
+	total_fire_time = 71
+	range = 150
+	accuracy = 1.00
+}
+
+# ## Arc Emitter 2
+weapon_component_template = {
+	key = "ARC_EMITTER_2_OTHER"
+	size = extra_large
+	type = instant
+
+	icon = "GFX_ship_part_arc_emitter_2"
+	icon_frame = 1
+
+	use_ship_kill_target = no
+
+	prerequisites = { "tech_arc_emitter_2" }
+	component_set = "ARC_EMITTER_2"
+	projectile_gfx = "focused_arc_emitter"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_artillery artillery }
+	ai_tag_weight = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @xl_t6_cost
+			rare_crystals = @xl_t6_rare
+		}
+		upkeep = {
+			energy = @xl_t6_upkeep_energy
+			alloys = @xl_t6_upkeep_alloys
+		}
+	}
+
+	target_weights = {
+		titan = 3
+		battleship = 2
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = rare_crystals }
+		}
+	}
+
+	power = -260
+	damage = {
+		min = 2
+		max = 1690
+	}
+	hull_damage = 1.00
+	shield_damage = 1.00
+	shield_penetration = 1.00
+	armor_damage = 1.00
+	armor_penetration = 1.00
+	windup = {
+		min = 12
+		max = 48
+	}
+	total_fire_time = 71
+	range = 150
+	accuracy = 1.00
+}
+
+# ####################
+# Mass Accelerator
+# ####################
+
+# ## Mass Accelerator 1
+weapon_component_template = {
+	type = instant
+
+	key = "MASS_ACCELERATOR_1_OTHER"
+	size = extra_large
+
+	icon = "GFX_ship_part_mass_accelerator_1"
+	icon_frame = 1
+
+	use_ship_kill_target = no
+
+	prerequisites = { "tech_mass_accelerator_1" }
+	component_set = "MASS_ACCELERATOR_1"
+	projectile_gfx = "kinetic_artillery"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_artillery artillery }
+	ai_tag_weight = 0
+	upgrades_to = "MASS_ACCELERATOR_2"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @xl_t5_cost
+			volatile_motes = @xl_t5_rare
+		}
+		upkeep = {
+			energy = @xl_t5_upkeep_energy
+			alloys = @xl_t5_upkeep_alloys
+		}
+	}
+
+	target_weights = {
+		titan = 3
+		battleship = 2
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = volatile_motes }
+		}
+	}
+
+	power = -200
+	damage = {
+		min = 700
+		max = 2000
+	}
+	hull_damage = 1.00
+	shield_damage = 1.50
+	armor_damage = 0.75
+	windup = {
+		min = 14
+		max = 54
+	}
+	total_fire_time = 80
+	range = 150
+	accuracy = 0.75
+}
+
+# ## Mass Accelerator 2
+weapon_component_template = {
+	type = instant
+
+	key = "MASS_ACCELERATOR_2_OTHER"
+	size = extra_large
+
+	icon = "GFX_ship_part_mass_accelerator_2"
+	icon_frame = 1
+
+	use_ship_kill_target = no
+
+	prerequisites = { "tech_mass_accelerator_2" }
+	component_set = "MASS_ACCELERATOR_2"
+	projectile_gfx = "adv_kinetic_artillery"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_artillery artillery }
+	ai_tag_weight = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @xl_t6_cost
+			volatile_motes = @xl_t6_rare
+		}
+		upkeep = {
+			energy = @xl_t6_upkeep_energy
+			alloys = @xl_t6_upkeep_alloys
+		}
+	}
+
+	target_weights = {
+		titan = 3
+		battleship = 2
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = volatile_motes }
+		}
+	}
+
+	power = -260
+	damage = {
+		min = 910
+		max = 2600
+	}
+	hull_damage = 1.00
+	shield_damage = 1.50
+	armor_damage = 0.75
+	windup = {
+		min = 14
+		max = 54
+	}
+	total_fire_time = 80
+	range = 150
+	accuracy = 0.75
+}
+
+# ####################
+# Titan Laser
+# ####################
+
+# ## Perdition Beam
+weapon_component_template = {
+	key = "PERDITION_BEAM_OTHER"
+	size = titanic
+	type = instant
+	prio_projectile = yes
+
+	icon = "GFX_ship_part_perdition_beam"
+	icon_frame = 1
+
+	use_ship_kill_target = no
+
+	tags = { weapon_type_energy }
+
+	prerequisites = { "tech_titans" }
+	component_set = "PERDITION_BEAM"
+	projectile_gfx = "perdition_beam"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @titanic_t6_cost
+			rare_crystals = @titanic_t6_rare
+		}
+		upkeep = {
+			energy = @titanic_t6_upkeep_energy
+			alloys = @titanic_t6_upkeep_alloys
+		}
+	}
+
+	target_weights = {
+		titan = 3
+		battleship = 2
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = rare_crystals }
+		}
+	}
+
+	power = -500
+	damage = {
+		min = 5000
+		max = 10000
+	}
+	hull_damage = 1.25
+	shield_damage = 0.75
+	armor_damage = 1.50
+	windup = {
+		min = 30
+		max = 120
+	}
+	total_fire_time = 180
+	range = 250
+	accuracy = 0.85
+}

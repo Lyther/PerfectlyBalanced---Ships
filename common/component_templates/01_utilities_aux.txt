@@ -1,0 +1,67 @@
+####################
+# Reactor Booster #
+####################
+utility_component_template = {
+	key = "LARGE_REACTOR_BOOSTER_1"
+	size = aux
+	icon = "GFX_ship_part_large_reactor_booster_1"
+	icon_frame = 1
+	power = 40
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 10
+		}
+	}
+
+	prerequisites = { "tech_reactor_boosters_1" }
+	component_set = "LARGE_REACTOR_BOOSTER_1"
+	upgrades_to = "LARGE_REACTOR_BOOSTER_2"
+
+	modifier = {
+		ship_shield_mult = -0.10
+	}
+}
+
+utility_component_template = {
+	key = "LARGE_REACTOR_BOOSTER_2"
+	size = aux
+	icon = "GFX_ship_part_large_reactor_booster_2"
+	icon_frame = 1
+	power = 100
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 20
+		}
+	}
+
+	prerequisites = { "tech_reactor_boosters_2" }
+	component_set = "LARGE_REACTOR_BOOSTER_2"
+	upgrades_to = "LARGE_REACTOR_BOOSTER_3"
+
+	modifier = {
+		ship_shield_mult = -0.20
+	}
+}
+
+utility_component_template = {
+	key = "LARGE_REACTOR_BOOSTER_3"
+	size = aux
+	icon = "GFX_ship_part_large_reactor_booster_3"
+	icon_frame = 1
+	power = 200
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 30
+		}
+	}
+
+	prerequisites = { "tech_reactor_boosters_3" }
+	component_set = "LARGE_REACTOR_BOOSTER_3"
+
+	modifier = {
+		ship_shield_mult = -0.30
+	}
+}
