@@ -176,6 +176,39 @@ ship_section_template = {
     }
 }
 
+# not localized
+ship_section_template = {
+    key = "BATTLESHIP_BOW_T1HB1"
+    ship_size = battleship
+    fits_on_slot = bow
+    should_draw_components = yes
+    entity = "battleship_bow_L2_entity"
+    icon = "GFX_ship_part_core_bow"
+
+    prerequisites = { tech_battleship_hull_2 }
+
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "large_gun_02"
+	}
+
+    large_utility_slots = 0
+
+    resources = {
+        category = ship_sections
+        cost = {
+            alloys = @section_cost
+        }
+    }
+}
+
 ship_section_template = {
     key = "BATTLESHIP_BOW_X2L1"
     ship_size = battleship
@@ -522,6 +555,45 @@ ship_section_template = {
     }
 }
 
+# not localized
+ship_section_template = {
+    key = "BATTLESHIP_MID_T1HB2"
+    ship_size = battleship
+    fits_on_slot = mid
+    should_draw_components = yes
+    entity = "battleship_mid_L3_entity"
+    icon = "GFX_ship_part_core_mid"
+
+    prerequisites = { tech_battleship_hull_2 }
+
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "large_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "large_gun_03"
+	}
+
+    large_utility_slots = 0
+
+    resources = {
+        category = ship_sections
+        cost = {
+            alloys = @section_cost_light
+        }
+    }
+}
+
 ship_section_template = {
     key = "BATTLESHIP_MID_X2L2"
     ship_size = battleship
@@ -788,6 +860,33 @@ ship_section_template = {
 		category = ship_sections
 		cost = {
 			alloys = @section_cost_heavy
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "BATTLESHIP_STERN_T1"
+	ship_size = battleship
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "battleship_stern_L1_entity"
+	icon = "GFX_ship_part_core_stern"
+
+    prerequisites = { tech_battleship_hull_1 }
+
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "large_gun_01"
+	}
+
+	aux_utility_slots = 0
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
 		}
 	}
 }

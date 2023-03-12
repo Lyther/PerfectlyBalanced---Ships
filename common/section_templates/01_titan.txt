@@ -697,6 +697,44 @@ ship_section_template = {
 	}
 }
 
+# not localized
+ship_section_template = {
+	key = "TITAN_STERN_X2HB1"
+	ship_size = titan
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "titan_stern_entity"
+	icon = "GFX_ship_part_core_stern"
+
+    prerequisites = { tech_titan_hull_2 }
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "extra_large_turret"
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = "extra_large_turret"
+		locatorname = "large_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "large_gun_02"
+	}
+
+	aux_utility_slots = 0
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost_heavy
+		}
+	}
+}
+
 ship_section_template = {
 	key = "TITAN_STERN_T1L1"
 	ship_size = titan
@@ -724,6 +762,39 @@ ship_section_template = {
 		category = ship_sections
 		cost = {
 			alloys = @section_cost
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "TITAN_STERN_T1HB1"
+	ship_size = titan
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "titan_stern_entity"
+	icon = "GFX_ship_part_core_stern"
+
+    prerequisites = { tech_titan_hull_2 }
+
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "large_gun_02"
+	}
+
+	aux_utility_slots = 0
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost_heavy
 		}
 	}
 }
