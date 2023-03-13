@@ -295,7 +295,7 @@ utility_component_template = {
 	}
 
 	prerequisites = { "tech_fission_power" }
-	class_restriction = { shipclass_military_station fe_small_station }
+	class_restriction = { shipclass_military_station }
 	size_restriction = {
 		military_station_small
 		military_station_medium
@@ -486,7 +486,7 @@ utility_component_template = {
 	}
 
 	prerequisites = { "tech_fusion_power" }
-	class_restriction = { shipclass_military_station fe_small_station }
+	class_restriction = { shipclass_military_station }
 	size_restriction = {
 		military_station_small
 		military_station_medium
@@ -678,7 +678,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_cold_fusion_power" }
 	component_set = "power_core"
-	class_restriction = { shipclass_military_station fe_small_station }
+	class_restriction = { shipclass_military_station }
 	size_restriction = {
 		military_station_small
 		military_station_medium
@@ -866,7 +866,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_antimatter_power" }
 	component_set = "power_core"
-	class_restriction = { shipclass_military_station fe_small_station }
+	class_restriction = { shipclass_military_station }
 	size_restriction = {
 		military_station_small
 		military_station_medium
@@ -1056,7 +1056,7 @@ utility_component_template = {
 	}
 
 	component_set = "power_core"
-	size_restriction = { colossus star_eater fe_goliath }
+	size_restriction = { colossus star_eater fe_goliath fe_large_station fe_garrison_station }
 	upgrades_to = "LARGE_COLOSSUS_DARK_MATTER_REACTOR"
 }
 
@@ -1082,7 +1082,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_zero_point_power" }
 	component_set = "power_core"
-	class_restriction = { shipclass_military_station fe_small_station }
+	class_restriction = { shipclass_military_station }
 	size_restriction = {
 		military_station_small
 		military_station_medium
@@ -1112,7 +1112,7 @@ utility_component_template = {
 	}
 
 	component_set = "power_core"
-	size_restriction = { ion_cannon fe_large_station fe_garrison_station }
+	size_restriction = { ion_cannon fe_small_station }
 	upgrades_to = "LARGE_ION_CANNON_DARK_MATTER_REACTOR"
 }
 
@@ -1299,7 +1299,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_dark_matter_power_core" }
 	component_set = "power_core"
-	size_restriction = { colossus star_eater fe_goliath }
+	size_restriction = { colossus star_eater fe_goliath fe_large_station fe_garrison_station }
 }
 
 utility_component_template = {
@@ -1325,7 +1325,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_dark_matter_power_core" }
 	component_set = "power_core"
-	class_restriction = { shipclass_military_station fe_small_station }
+	class_restriction = { shipclass_military_station }
 	size_restriction = {
 		military_station_small
 		military_station_medium
@@ -1356,5 +1356,5 @@ utility_component_template = {
 
 	prerequisites = { "tech_dark_matter_power_core" }
 	component_set = "power_core"
-	size_restriction = { ion_cannon fe_large_station fe_garrison_station }
+	size_restriction = { ion_cannon fe_small_station }
 }
