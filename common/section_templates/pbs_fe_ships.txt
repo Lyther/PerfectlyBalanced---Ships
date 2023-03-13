@@ -44,11 +44,11 @@ ship_section_template = {
 
 	prerequisites = { tech_fe_escort_hull_1 }
 
-    component_slot = {
-        name = "EXTRA_LARGE_01"
-        template = "invisible_extra_large_fixed"
-        locatorname = "large_gun_01"
-    }
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "large_gun_01"
+	}
 	
 	aux_utility_slots = 0
 	
@@ -71,11 +71,11 @@ ship_section_template = {
 
 	prerequisites = { tech_fe_escort_hull_2 }
 
-    component_slot = {
-        name = "EXTRA_LARGE_01"
-        template = "invisible_extra_large_fixed"
-        locatorname = "large_gun_01"
-    }
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "large_gun_01"
+	}
 	component_slot = {
 		name = "STRIKE_CRAFT_01"
 		template = "large_strike_craft"
@@ -132,11 +132,11 @@ ship_section_template = {
 
 	prerequisites = { tech_fe_escort_build_speed }
 
-    component_slot = {
-        name = "LARGE_GUN_01"
-        template = "invisible_large_turret"
-        locatorname = "medium_gun_01"
-    }
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "invisible_large_turret"
+		locatorname = "medium_gun_01"
+	}
 
 	medium_utility_slots = 3
 	
@@ -193,11 +193,11 @@ ship_section_template = {
 
 	prerequisites = { tech_fe_escort_hull_1 }
 
-    component_slot = {
-        name = "EXTRA_LARGE_01"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_01"
-    }
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
 
 	medium_utility_slots = 1
 	
@@ -220,11 +220,11 @@ ship_section_template = {
 
 	prerequisites = { tech_fe_escort_hull_2 }
 
-    component_slot = {
-        name = "EXTRA_LARGE_01"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_01"
-    }
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
 	component_slot = {
 		name = "STRIKE_CRAFT_01"
 		template = "large_strike_craft"
@@ -281,11 +281,11 @@ ship_section_template = {
 
 	prerequisites = { tech_fe_escort_build_speed }
 
-    component_slot = {
-        name = "LARGE_GUN_01"
-        template = "invisible_large_turret"
-        locatorname = "medium_gun_01"
-    }
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "invisible_large_turret"
+		locatorname = "medium_gun_01"
+	}
 
 	medium_utility_slots = 3
 	
@@ -342,11 +342,11 @@ ship_section_template = {
 
 	prerequisites = { tech_fe_escort_hull_1 }
 
-    component_slot = {
-        name = "EXTRA_LARGE_01"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_01"
-    }
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
 
 	medium_utility_slots = 1
 	
@@ -369,11 +369,11 @@ ship_section_template = {
 
 	prerequisites = { tech_fe_escort_hull_2 }
 
-    component_slot = {
-        name = "EXTRA_LARGE_01"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_01"
-    }
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
 	component_slot = {
 		name = "STRIKE_CRAFT_01"
 		template = "large_strike_craft"
@@ -804,7 +804,7 @@ ship_section_template = {
 		template = "point_defence_turret"
 		locatorname = "medium_gun_02"
 	}
-    component_slot = {
+	component_slot = {
 		name = "SMALL_GUN_02"
 		template = "point_defence_turret"
 		locatorname = "medium_gun_03"
@@ -832,15 +832,15 @@ ship_section_template = {
 	prerequisites = { tech_fe_battlecruiser_hull_1 }
 	
 	component_slot = {
-        name = "EXTRA_LARGE_01"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_01"
-    }
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_02"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_02"
-    }
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
 	
 	large_utility_slots = 1
 	
@@ -864,15 +864,15 @@ ship_section_template = {
 	prerequisites = { tech_fe_battlecruiser_hull_1 }
 	
 	component_slot = {
-        name = "EXTRA_LARGE_01"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_01"
-    }
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_02"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_02"
-    }
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
 	component_slot = {
 		name = "STRIKE_CRAFT_01"
 		template = "large_strike_craft"
@@ -962,20 +962,20 @@ ship_section_template = {
 	prerequisites = { tech_fe_battlecruiser_hull_2 }
 	
 	component_slot = {
-        name = "EXTRA_LARGE_01"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_01"
-    }
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_02"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_02"
-    }
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_03"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_03"
-    }
+		name = "EXTRA_LARGE_03"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_03"
+	}
 	
 	large_utility_slots = 0
 	
@@ -1004,10 +1004,10 @@ ship_section_template = {
 		locatorname = "medium_gun_01"
 	}
 	component_slot = {
-        name = "EXTRA_LARGE_01"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_02"
-    }
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
 	
 	large_utility_slots = 0
 	
@@ -1070,10 +1070,10 @@ ship_section_template = {
 	prerequisites = { tech_fe_battlecruiser_build_speed }
 	
 	component_slot = {
-        name = "EXTRA_LARGE_01"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_04"
-    }
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_04"
+	}
 	component_slot = {
 		name = "MEDIUM_GUN_01"
 		template = "invisible_medium_turret"
@@ -1102,15 +1102,15 @@ ship_section_template = {
 	prerequisites = { tech_fe_battlecruiser_hull_1 }
 	
 	component_slot = {
-        name = "EXTRA_LARGE_01"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_04"
-    }
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_04"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_02"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_01"
-    }
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
 
 	large_utility_slots = 1
 	
@@ -1134,15 +1134,15 @@ ship_section_template = {
 	prerequisites = { tech_fe_battlecruiser_hull_1 }
 	
 	component_slot = {
-        name = "EXTRA_LARGE_01"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_04"
-    }
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_04"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_02"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_01"
-    }
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
 	component_slot = {
 		name = "STRIKE_CRAFT_01"
 		template = "large_strike_craft"
@@ -1232,20 +1232,20 @@ ship_section_template = {
 	prerequisites = { tech_fe_battlecruiser_hull_2 }
 	
 	component_slot = {
-        name = "EXTRA_LARGE_01"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_04"
-    }
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_04"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_02"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_01"
-    }
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_03"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_02"
-    }
+		name = "EXTRA_LARGE_03"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
 
 	large_utility_slots = 0
 	
@@ -1274,10 +1274,10 @@ ship_section_template = {
 		locatorname = "medium_gun_04"
 	}
 	component_slot = {
-        name = "EXTRA_LARGE_01"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_01"
-    }
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
 
 	large_utility_slots = 0
 	
@@ -1342,15 +1342,15 @@ ship_section_template = {
 	prerequisites = { tech_fe_titan_hull_1 }
 	
 	component_slot = {
-        name = "EXTRA_LARGE_01"
-        template = "invisible_extra_large_fixed"
-        locatorname = "titan_gun_01"
-    }
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "titan_gun_01"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_02"
-        template = "invisible_extra_large_fixed"
-        locatorname = "titan_gun_01"
-    }
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "titan_gun_01"
+	}
 
 	large_utility_slots = 5
 	aux_utility_slots = 1
@@ -1408,25 +1408,25 @@ ship_section_template = {
 	prerequisites = { tech_fe_titan_hull_1 }
 	
 	component_slot = {
-        name = "EXTRA_LARGE_01"
-        template = "invisible_extra_large_fixed"
-        locatorname = "titan_gun_01"
-    }
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "titan_gun_01"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_02"
-        template = "invisible_extra_large_fixed"
-        locatorname = "titan_gun_01"
-    }
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "titan_gun_01"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_03"
-        template = "invisible_extra_large_fixed"
-        locatorname = "titan_gun_01"
-    }
+		name = "EXTRA_LARGE_03"
+		template = "invisible_extra_large_fixed"
+		locatorname = "titan_gun_01"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_04"
-        template = "invisible_extra_large_fixed"
-        locatorname = "titan_gun_01"
-    }
+		name = "EXTRA_LARGE_04"
+		template = "invisible_extra_large_fixed"
+		locatorname = "titan_gun_01"
+	}
 
 	large_utility_slots = 1
 	aux_utility_slots = 1
@@ -1490,25 +1490,25 @@ ship_section_template = {
 	prerequisites = { tech_fe_titan_hull_1 }
 	
 	component_slot = {
-        name = "EXTRA_LARGE_01"
-        template = "invisible_extra_large_fixed"
-        locatorname = "titan_gun_01"
-    }
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "titan_gun_01"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_02"
-        template = "invisible_extra_large_fixed"
-        locatorname = "titan_gun_01"
-    }
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "titan_gun_01"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_03"
-        template = "invisible_extra_large_fixed"
-        locatorname = "titan_gun_01"
-    }
+		name = "EXTRA_LARGE_03"
+		template = "invisible_extra_large_fixed"
+		locatorname = "titan_gun_01"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_04"
-        template = "invisible_extra_large_fixed"
-        locatorname = "titan_gun_01"
-    }
+		name = "EXTRA_LARGE_04"
+		template = "invisible_extra_large_fixed"
+		locatorname = "titan_gun_01"
+	}
 	component_slot = {
 		name = "STRIKE_CRAFT_01"
 		template = "large_strike_craft"
@@ -1577,35 +1577,35 @@ ship_section_template = {
 	prerequisites = { tech_fe_titan_hull_2 }
 	
 	component_slot = {
-        name = "EXTRA_LARGE_01"
-        template = "invisible_extra_large_fixed"
-        locatorname = "titan_gun_01"
-    }
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "titan_gun_01"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_02"
-        template = "invisible_extra_large_fixed"
-        locatorname = "titan_gun_01"
-    }
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "titan_gun_01"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_03"
-        template = "invisible_extra_large_fixed"
-        locatorname = "titan_gun_01"
-    }
+		name = "EXTRA_LARGE_03"
+		template = "invisible_extra_large_fixed"
+		locatorname = "titan_gun_01"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_04"
-        template = "invisible_extra_large_fixed"
-        locatorname = "titan_gun_01"
-    }
+		name = "EXTRA_LARGE_04"
+		template = "invisible_extra_large_fixed"
+		locatorname = "titan_gun_01"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_05"
-        template = "invisible_extra_large_fixed"
-        locatorname = "titan_gun_01"
-    }
+		name = "EXTRA_LARGE_05"
+		template = "invisible_extra_large_fixed"
+		locatorname = "titan_gun_01"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_06"
-        template = "invisible_extra_large_fixed"
-        locatorname = "titan_gun_01"
-    }
+		name = "EXTRA_LARGE_06"
+		template = "invisible_extra_large_fixed"
+		locatorname = "titan_gun_01"
+	}
 
 	large_utility_slots = 0
 	aux_utility_slots = 0
@@ -1673,10 +1673,10 @@ ship_section_template = {
 		locatorname = "large_gun_02"
 	}
 	component_slot = {
-        name = "EXTRA_LARGE_01"
-        template = "invisible_extra_large_fixed"
-        locatorname = "large_gun_01"
-    }
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "large_gun_01"
+	}
 
 	large_utility_slots = 1
 	aux_utility_slots = 1
@@ -1711,10 +1711,10 @@ ship_section_template = {
 		locatorname = "large_gun_02"
 	}
 	component_slot = {
-        name = "EXTRA_LARGE_01"
-        template = "invisible_extra_large_fixed"
-        locatorname = "large_gun_01"
-    }
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "large_gun_01"
+	}
 	component_slot = {
 		name = "STRIKE_CRAFT_01"
 		template = "large_strike_craft"
@@ -1745,30 +1745,30 @@ ship_section_template = {
 	prerequisites = { tech_fe_titan_hull_1 }
 	
 	component_slot = {
-        name = "EXTRA_LARGE_01"
-        template = "invisible_extra_large_fixed"
-        locatorname = "large_gun_01"
-    }
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "large_gun_01"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_02"
-        template = "invisible_extra_large_fixed"
-        locatorname = "large_gun_02"
-    }
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "large_gun_02"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_03"
-        template = "invisible_extra_large_fixed"
-        locatorname = "large_gun_01"
-    }
+		name = "EXTRA_LARGE_03"
+		template = "invisible_extra_large_fixed"
+		locatorname = "large_gun_01"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_04"
-        template = "invisible_extra_large_fixed"
-        locatorname = "large_gun_02"
-    }
+		name = "EXTRA_LARGE_04"
+		template = "invisible_extra_large_fixed"
+		locatorname = "large_gun_02"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_05"
-        template = "invisible_extra_large_fixed"
-        locatorname = "large_gun_01"
-    }
+		name = "EXTRA_LARGE_05"
+		template = "invisible_extra_large_fixed"
+		locatorname = "large_gun_01"
+	}
 
 	large_utility_slots = 1
 	aux_utility_slots = 1
@@ -1793,30 +1793,30 @@ ship_section_template = {
 	prerequisites = { tech_fe_titan_hull_1 }
 	
 	component_slot = {
-        name = "EXTRA_LARGE_01"
-        template = "invisible_extra_large_fixed"
-        locatorname = "large_gun_01"
-    }
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "large_gun_01"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_02"
-        template = "invisible_extra_large_fixed"
-        locatorname = "large_gun_02"
-    }
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "large_gun_02"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_03"
-        template = "invisible_extra_large_fixed"
-        locatorname = "large_gun_01"
-    }
+		name = "EXTRA_LARGE_03"
+		template = "invisible_extra_large_fixed"
+		locatorname = "large_gun_01"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_04"
-        template = "invisible_extra_large_fixed"
-        locatorname = "large_gun_02"
-    }
+		name = "EXTRA_LARGE_04"
+		template = "invisible_extra_large_fixed"
+		locatorname = "large_gun_02"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_05"
-        template = "invisible_extra_large_fixed"
-        locatorname = "large_gun_01"
-    }
+		name = "EXTRA_LARGE_05"
+		template = "invisible_extra_large_fixed"
+		locatorname = "large_gun_01"
+	}
 	component_slot = {
 		name = "STRIKE_CRAFT_01"
 		template = "large_strike_craft"
@@ -1885,35 +1885,35 @@ ship_section_template = {
 	prerequisites = { tech_fe_titan_hull_2 }
 	
 	component_slot = {
-        name = "EXTRA_LARGE_01"
-        template = "invisible_extra_large_fixed"
-        locatorname = "large_gun_01"
-    }
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "large_gun_01"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_02"
-        template = "invisible_extra_large_fixed"
-        locatorname = "large_gun_02"
-    }
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "large_gun_02"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_03"
-        template = "invisible_extra_large_fixed"
-        locatorname = "large_gun_01"
-    }
+		name = "EXTRA_LARGE_03"
+		template = "invisible_extra_large_fixed"
+		locatorname = "large_gun_01"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_04"
-        template = "invisible_extra_large_fixed"
-        locatorname = "large_gun_02"
-    }
+		name = "EXTRA_LARGE_04"
+		template = "invisible_extra_large_fixed"
+		locatorname = "large_gun_02"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_05"
-        template = "invisible_extra_large_fixed"
-        locatorname = "large_gun_01"
-    }
+		name = "EXTRA_LARGE_05"
+		template = "invisible_extra_large_fixed"
+		locatorname = "large_gun_01"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_06"
-        template = "invisible_extra_large_fixed"
-        locatorname = "large_gun_02"
-    }
+		name = "EXTRA_LARGE_06"
+		template = "invisible_extra_large_fixed"
+		locatorname = "large_gun_02"
+	}
 
 	large_utility_slots = 0
 	aux_utility_slots = 0
@@ -2010,25 +2010,25 @@ ship_section_template = {
 	prerequisites = { tech_fe_titan_hull_1 }
 	
 	component_slot = {
-        name = "EXTRA_LARGE_01"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_01"
-    }
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_02"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_02"
-    }
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_03"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_01"
-    }
+		name = "EXTRA_LARGE_03"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_04"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_02"
-    }
+		name = "EXTRA_LARGE_04"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
 
 	large_utility_slots = 1
 	aux_utility_slots = 1
@@ -2053,25 +2053,25 @@ ship_section_template = {
 	prerequisites = { tech_fe_titan_hull_1 }
 	
 	component_slot = {
-        name = "EXTRA_LARGE_01"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_01"
-    }
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_02"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_02"
-    }
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_03"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_01"
-    }
+		name = "EXTRA_LARGE_03"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_04"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_02"
-    }
+		name = "EXTRA_LARGE_04"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
 	component_slot = {
 		name = "STRIKE_CRAFT_01"
 		template = "large_strike_craft"
@@ -2112,10 +2112,10 @@ ship_section_template = {
 		locatorname = "medium_gun_02"
 	}
 	component_slot = {
-        name = "EXTRA_LARGE_01"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_01"
-    }
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
 
 	large_utility_slots = 0
 	aux_utility_slots = 0
@@ -2140,30 +2140,30 @@ ship_section_template = {
 	prerequisites = { tech_fe_titan_hull_2 }
 	
 	component_slot = {
-        name = "EXTRA_LARGE_01"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_01"
-    }
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_02"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_02"
-    }
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_03"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_01"
-    }
+		name = "EXTRA_LARGE_03"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_04"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_02"
-    }
+		name = "EXTRA_LARGE_04"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_05"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_01"
-    }
+		name = "EXTRA_LARGE_05"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
 
 	large_utility_slots = 0
 	aux_utility_slots = 0
@@ -2258,25 +2258,25 @@ ship_section_template = {
 	prerequisites = { tech_fe_titan_hull_1 }
 	
 	component_slot = {
-        name = "EXTRA_LARGE_01"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_01"
-    }
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_02"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_02"
-    }
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_03"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_01"
-    }
+		name = "EXTRA_LARGE_03"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_04"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_02"
-    }
+		name = "EXTRA_LARGE_04"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
 
 	large_utility_slots = 1
 	
@@ -2300,25 +2300,25 @@ ship_section_template = {
 	prerequisites = { tech_fe_titan_hull_1 }
 	
 	component_slot = {
-        name = "EXTRA_LARGE_01"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_01"
-    }
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_02"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_02"
-    }
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_03"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_01"
-    }
+		name = "EXTRA_LARGE_03"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_04"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_02"
-    }
+		name = "EXTRA_LARGE_04"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
 	component_slot = {
 		name = "STRIKE_CRAFT_01"
 		template = "large_strike_craft"
@@ -2358,10 +2358,10 @@ ship_section_template = {
 		locatorname = "medium_gun_02"
 	}
 	component_slot = {
-        name = "EXTRA_LARGE_01"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_01"
-    }
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
 
 	large_utility_slots = 0
 	
@@ -2385,30 +2385,30 @@ ship_section_template = {
 	prerequisites = { tech_fe_titan_hull_2 }
 	
 	component_slot = {
-        name = "EXTRA_LARGE_01"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_01"
-    }
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_02"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_02"
-    }
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_03"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_01"
-    }
+		name = "EXTRA_LARGE_03"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_04"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_02"
-    }
+		name = "EXTRA_LARGE_04"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_05"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_01"
-    }
+		name = "EXTRA_LARGE_05"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
 
 	large_utility_slots = 0
 	
@@ -2432,10 +2432,10 @@ ship_section_template = {
 	icon = "GFX_ship_part_core_mid"
 	
 	component_slot = {
-        name = "EXTRA_LARGE_01"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_01"
-    }
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
 	component_slot = {
 		name = "STRIKE_CRAFT_01"
 		template = "large_strike_craft"
@@ -2464,15 +2464,15 @@ ship_section_template = {
 	icon = "GFX_ship_part_core_mid"
 	
 	component_slot = {
-        name = "EXTRA_LARGE_01"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_01"
-    }
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_02"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_02"
-    }
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
 
 	large_utility_slots = 2
 	aux_utility_slots = 1
@@ -2521,20 +2521,20 @@ ship_section_template = {
 	icon = "GFX_ship_part_core_mid"
 	
 	component_slot = {
-        name = "EXTRA_LARGE_01"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_01"
-    }
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_02"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_02"
-    }
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_03"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_01"
-    }
+		name = "EXTRA_LARGE_03"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
 
 	large_utility_slots = 0
 	aux_utility_slots = 1
@@ -2562,10 +2562,10 @@ ship_section_template = {
 		locatorname = "medium_gun_01"
 	}
 	component_slot = {
-        name = "EXTRA_LARGE_01"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_02"
-    }
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
 
 	large_utility_slots = 0
 	aux_utility_slots = 1
@@ -2588,20 +2588,20 @@ ship_section_template = {
 	icon = "GFX_ship_part_core_mid"
 	
 	component_slot = {
-        name = "EXTRA_LARGE_01"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_01"
-    }
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_02"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_02"
-    }
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_03"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_01"
-    }
+		name = "EXTRA_LARGE_03"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
 	component_slot = {
 		name = "STRIKE_CRAFT_01"
 		template = "large_strike_craft"
@@ -2635,10 +2635,10 @@ ship_section_template = {
 		locatorname = "medium_gun_01"
 	}
 	component_slot = {
-        name = "EXTRA_LARGE_01"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_02"
-    }
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
 	component_slot = {
 		name = "STRIKE_CRAFT_01"
 		template = "large_strike_craft"
@@ -2667,10 +2667,10 @@ ship_section_template = {
 	icon = "GFX_ship_part_core_stern"
 	
 	component_slot = {
-        name = "EXTRA_LARGE_01"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_03"
-    }
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_03"
+	}
 
 	large_utility_slots = 3
 	aux_utility_slots = 1
@@ -2726,15 +2726,15 @@ ship_section_template = {
 	icon = "GFX_ship_part_core_stern"
 	
 	component_slot = {
-        name = "EXTRA_LARGE_01"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_03"
-    }
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_03"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_02"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_04"
-    }
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_04"
+	}
 
 	large_utility_slots = 1
 	aux_utility_slots = 1
@@ -2783,15 +2783,15 @@ ship_section_template = {
 	icon = "GFX_ship_part_core_stern"
 	
 	component_slot = {
-        name = "EXTRA_LARGE_01"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_03"
-    }
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_03"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_02"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_04"
-    }
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_04"
+	}
 	component_slot = {
 		name = "STRIKE_CRAFT_01"
 		template = "large_strike_craft"
@@ -2852,20 +2852,20 @@ ship_section_template = {
 	icon = "GFX_ship_part_core_stern"
 	
 	component_slot = {
-        name = "EXTRA_LARGE_01"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_03"
-    }
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_03"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_02"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_04"
-    }
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_04"
+	}
 	component_slot = {
-        name = "EXTRA_LARGE_03"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_01"
-    }
+		name = "EXTRA_LARGE_03"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
 
 	large_utility_slots = 0
 	aux_utility_slots = 0
@@ -2893,10 +2893,10 @@ ship_section_template = {
 		locatorname = "medium_gun_03"
 	}
 	component_slot = {
-        name = "EXTRA_LARGE_01"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_04"
-    }
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_04"
+	}
 
 	large_utility_slots = 0
 	aux_utility_slots = 0

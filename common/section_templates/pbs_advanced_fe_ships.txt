@@ -1,0 +1,3968 @@
+############################
+#####Advanced FE Ships
+############################
+
+# Escorts
+
+# not localized
+ship_section_template = {
+	key = "FE_ESCORT_O_HB2_KEY"
+	ship_size = fe_escort
+	fits_on_slot = bow
+	should_draw_components = yes
+	entity = "fe_escort_bow_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+	
+	aux_utility_slots = 3
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 60
+			sr_living_metal = 6
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_ESCORT_O_X1_KEY"
+	ship_size = fe_escort
+	fits_on_slot = bow
+	should_draw_components = yes
+	entity = "fe_escort_bow_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "large_gun_01"
+	}
+	
+	aux_utility_slots = 3
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 60
+			sr_living_metal = 6
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_ESCORT_O_HB3_KEY"
+	ship_size = fe_escort
+	fits_on_slot = bow
+	should_draw_components = yes
+	entity = "fe_escort_bow_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_02"
+	}
+	
+	aux_utility_slots = 1
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 60
+			sr_living_metal = 6
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_ESCORT_O_X1HB1_KEY"
+	ship_size = fe_escort
+	fits_on_slot = bow
+	should_draw_components = yes
+	entity = "fe_escort_bow_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+	
+	aux_utility_slots = 1
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 60
+			sr_living_metal = 6
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_ESCORT_O_HB3PD2_KEY"
+	ship_size = fe_escort
+	fits_on_slot = bow
+	should_draw_components = yes
+	entity = "fe_escort_bow_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_02"
+	}
+	
+	aux_utility_slots = 0
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 60
+			sr_living_metal = 6
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_ESCORT_O_HB3M1_KEY"
+	ship_size = fe_escort
+	fits_on_slot = bow
+	should_draw_components = yes
+	entity = "fe_escort_bow_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "invisible_medium_turret"
+		locatorname = "medium_gun_01"
+	}
+	
+	aux_utility_slots = 0
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 60
+			sr_living_metal = 6
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_ESCORT_O_X1HB1PD2_KEY"
+	ship_size = fe_escort
+	fits_on_slot = bow
+	should_draw_components = yes
+	entity = "fe_escort_bow_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_02"
+	}
+	
+	aux_utility_slots = 0
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 60
+			sr_living_metal = 6
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_ESCORT_O_X1HB1M1_KEY"
+	ship_size = fe_escort
+	fits_on_slot = bow
+	should_draw_components = yes
+	entity = "fe_escort_bow_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "invisible_medium_turret"
+		locatorname = "medium_gun_02"
+	}
+	
+	aux_utility_slots = 0
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 60
+			sr_living_metal = 6
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_ESCORT_MID_O_M3_KEY"
+	ship_size = fe_escort
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "fe_escort_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "invisible_medium_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "invisible_medium_turret"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = "invisible_medium_turret"
+		locatorname = "medium_gun_01"
+	}
+
+	medium_utility_slots = 6
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 50
+			sr_living_metal = 5
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_ESCORT_MID_O_HB1M1_KEY"
+	ship_size = fe_escort
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "fe_escort_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "invisible_medium_turret"
+		locatorname = "medium_gun_02"
+	}
+
+	medium_utility_slots = 6
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 50
+			sr_living_metal = 5
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_ESCORT_MID_O_X1_KEY"
+	ship_size = fe_escort
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "fe_escort_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+
+	medium_utility_slots = 5
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 50
+			sr_living_metal = 5
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_ESCORT_MID_O_X2_KEY"
+	ship_size = fe_escort
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "fe_escort_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
+
+	medium_utility_slots = 1
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 50
+			sr_living_metal = 5
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_ESCORT_MID_O_T1_KEY"
+	ship_size = fe_escort
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "fe_escort_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_01"
+	}
+
+	medium_utility_slots = 1
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 50
+			sr_living_metal = 5
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_ESCORT_MID_O_X2M1_KEY"
+	ship_size = fe_escort
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "fe_escort_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "invisible_medium_turret"
+		locatorname = "medium_gun_01"
+	}
+
+	medium_utility_slots = 0
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 50
+			sr_living_metal = 5
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_ESCORT_MID_O_T1M1_KEY"
+	ship_size = fe_escort
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "fe_escort_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "invisible_medium_turret"
+		locatorname = "medium_gun_02"
+	}
+
+	medium_utility_slots = 0
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 50
+			sr_living_metal = 5
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_ESCORT_STERN_O_M3_KEY"
+	ship_size = fe_escort
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "fe_escort_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "invisible_medium_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "invisible_medium_turret"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = "invisible_medium_turret"
+		locatorname = "medium_gun_01"
+	}
+
+	medium_utility_slots = 6
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 50
+			sr_living_metal = 5
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_ESCORT_STERN_O_HB1PD2_KEY"
+	ship_size = fe_escort
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "fe_escort_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_01"
+	}
+
+	medium_utility_slots = 6
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 50
+			sr_living_metal = 5
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_ESCORT_STERN_O_X1_KEY"
+	ship_size = fe_escort
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "fe_escort_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+
+	medium_utility_slots = 5
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 50
+			sr_living_metal = 5
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_ESCORT_STERN_O_X1PD2_KEY"
+	ship_size = fe_escort
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "fe_escort_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_01"
+	}
+
+	medium_utility_slots = 4
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 50
+			sr_living_metal = 5
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_ESCORT_STERN_O_X2_KEY"
+	ship_size = fe_escort
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "fe_escort_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
+
+	medium_utility_slots = 3
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 50
+			sr_living_metal = 5
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_ESCORT_STERN_O_T1_KEY"
+	ship_size = fe_escort
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "fe_escort_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_01"
+	}
+
+	medium_utility_slots = 3
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 50
+			sr_living_metal = 5
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_ESCORT_STERN_O_X3_KEY"
+	ship_size = fe_escort
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "fe_escort_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_03"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+
+	medium_utility_slots = 1
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 50
+			sr_living_metal = 5
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_ESCORT_STERN_O_T1X1_KEY"
+	ship_size = fe_escort
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "fe_escort_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
+
+	medium_utility_slots = 1
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 50
+			sr_living_metal = 5
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_ESCORT_STERN_O_X3PD2_KEY"
+	ship_size = fe_escort
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "fe_escort_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_03"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_01"
+	}
+
+	medium_utility_slots = 0
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 50
+			sr_living_metal = 5
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_ESCORT_STERN_O_T1X1PD2_KEY"
+	ship_size = fe_escort
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "fe_escort_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_02"
+	}
+
+	medium_utility_slots = 0
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 50
+			sr_living_metal = 5
+		}
+	}
+}
+
+# Battlecruisers
+
+# not localized
+ship_section_template = {
+	key = "FE_BATTLECRUISER_BOW_O_X3_KEY"
+	ship_size = fe_battlecruiser
+	fits_on_slot = bow
+	should_draw_components = yes
+	entity = "fe_battlecruiser_bow_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_03"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
+
+	large_utility_slots = 4
+	aux_utility_slots = 3
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 120
+			sr_living_metal = 120
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_BATTLECRUISER_BOW_O_T1X1_KEY"
+	ship_size = fe_battlecruiser
+	fits_on_slot = bow
+	should_draw_components = yes
+	entity = "fe_battlecruiser_bow_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+
+	large_utility_slots = 4
+	aux_utility_slots = 3
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 120
+			sr_living_metal = 120
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_BATTLECRUISER_BOW_O_X4_KEY"
+	ship_size = fe_battlecruiser
+	fits_on_slot = bow
+	should_draw_components = yes
+	entity = "fe_battlecruiser_bow_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_03"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_04"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+
+	large_utility_slots = 2
+	aux_utility_slots = 3
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 120
+			sr_living_metal = 120
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_BATTLECRUISER_BOW_O_T2_KEY"
+	ship_size = fe_battlecruiser
+	fits_on_slot = bow
+	should_draw_components = yes
+	entity = "fe_battlecruiser_bow_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_01"
+	}
+
+	large_utility_slots = 2
+	aux_utility_slots = 3
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 120
+			sr_living_metal = 120
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_BATTLECRUISER_BOW_O_X6_KEY"
+	ship_size = fe_battlecruiser
+	fits_on_slot = bow
+	should_draw_components = yes
+	entity = "fe_battlecruiser_bow_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_03"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_04"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_05"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_06"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+
+	large_utility_slots = 0
+	aux_utility_slots = 1
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 120
+			sr_living_metal = 120
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_BATTLECRUISER_BOW_O_T3_KEY"
+	ship_size = fe_battlecruiser
+	fits_on_slot = bow
+	should_draw_components = yes
+	entity = "fe_battlecruiser_bow_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_02"
+	}
+
+	large_utility_slots = 0
+	aux_utility_slots = 1
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 120
+			sr_living_metal = 120
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_BATTLECRUISER_BOW_O_X6HB1_KEY"
+	ship_size = fe_battlecruiser
+	fits_on_slot = bow
+	should_draw_components = yes
+	entity = "fe_battlecruiser_bow_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_03"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_04"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_05"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_06"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_02"
+	}
+
+	large_utility_slots = 0
+	aux_utility_slots = 0
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 120
+			sr_living_metal = 120
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_BATTLECRUISER_BOW_O_T3HB1_KEY"
+	ship_size = fe_battlecruiser
+	fits_on_slot = bow
+	should_draw_components = yes
+	entity = "fe_battlecruiser_bow_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+
+	large_utility_slots = 0
+	aux_utility_slots = 0
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 120
+			sr_living_metal = 120
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_BATTLECRUISER_O_HB3_KEY"
+	ship_size = fe_battlecruiser
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "fe_battlecruiser_mid_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_03"
+	}
+
+	large_utility_slots = 6
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 160
+			sr_living_metal = 160
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_BATTLECRUISER_O_X1HB1_KEY"
+	ship_size = fe_battlecruiser
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "fe_battlecruiser_mid_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_02"
+	}
+
+	large_utility_slots = 6
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 160
+			sr_living_metal = 160
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_BATTLECRUISER_O_X1M2_KEY"
+	ship_size = fe_battlecruiser
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "fe_battlecruiser_mid_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "invisible_medium_turret"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "invisible_medium_turret"
+		locatorname = "medium_gun_03"
+	}
+
+	large_utility_slots = 6
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 160
+			sr_living_metal = 160
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_BATTLECRUISER_O_X2_KEY"
+	ship_size = fe_battlecruiser
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "fe_battlecruiser_mid_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
+
+	large_utility_slots = 5
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 160
+			sr_living_metal = 160
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_BATTLECRUISER_O_T1_KEY"
+	ship_size = fe_battlecruiser
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "fe_battlecruiser_mid_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_01"
+	}
+
+	large_utility_slots = 5
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 160
+			sr_living_metal = 160
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_BATTLECRUISER_O_X3_KEY"
+	ship_size = fe_battlecruiser
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "fe_battlecruiser_mid_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_03"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_03"
+	}
+
+	large_utility_slots = 3
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 160
+			sr_living_metal = 160
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_BATTLECRUISER_O_T1X1_KEY"
+	ship_size = fe_battlecruiser
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "fe_battlecruiser_mid_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
+
+	large_utility_slots = 3
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 160
+			sr_living_metal = 160
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_BATTLECRUISER_O_X4_KEY"
+	ship_size = fe_battlecruiser
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "fe_battlecruiser_mid_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_03"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_04"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+
+	large_utility_slots = 1
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 160
+			sr_living_metal = 160
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_BATTLECRUISER_O_T2_KEY"
+	ship_size = fe_battlecruiser
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "fe_battlecruiser_mid_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_02"
+	}
+
+	large_utility_slots = 1
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 160
+			sr_living_metal = 160
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_BATTLECRUISER_O_X4M2_KEY"
+	ship_size = fe_battlecruiser
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "fe_battlecruiser_mid_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_03"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_04"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "invisible_medium_turret"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "invisible_medium_turret"
+		locatorname = "medium_gun_03"
+	}
+
+	large_utility_slots = 0
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 160
+			sr_living_metal = 160
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_BATTLECRUISER_O_T2M2_KEY"
+	ship_size = fe_battlecruiser
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "fe_battlecruiser_mid_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "invisible_medium_turret"
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "invisible_medium_turret"
+		locatorname = "medium_gun_01"
+	}
+
+	large_utility_slots = 0
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 160
+			sr_living_metal = 160
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_BATTLECRUISER_O_X4HB1_KEY"
+	ship_size = fe_battlecruiser
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "fe_battlecruiser_mid_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_03"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_04"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_02"
+	}
+
+	large_utility_slots = 0
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 160
+			sr_living_metal = 160
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_BATTLECRUISER_O_T2HB1_KEY"
+	ship_size = fe_battlecruiser
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "fe_battlecruiser_mid_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_03"
+	}
+
+	large_utility_slots = 0
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 160
+			sr_living_metal = 160
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_BATTLECRUISER_STERN_O_HB4_KEY"
+	ship_size = fe_battlecruiser
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "fe_battlecruiser_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_04"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_02"
+	}
+
+	large_utility_slots = 6
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 160
+			sr_living_metal = 16
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_BATTLECRUISER_STERN_O_X2_KEY"
+	ship_size = fe_battlecruiser
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "fe_battlecruiser_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
+
+	large_utility_slots = 6
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 160
+			sr_living_metal = 16
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_BATTLECRUISER_STERN_O_T1_KEY"
+	ship_size = fe_battlecruiser
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "fe_battlecruiser_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_01"
+	}
+
+	large_utility_slots = 6
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 160
+			sr_living_metal = 16
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_BATTLECRUISER_STERN_O_HB6_KEY"
+	ship_size = fe_battlecruiser
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "fe_battlecruiser_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_04"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_05"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_06"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_02"
+	}
+
+	large_utility_slots = 4
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 160
+			sr_living_metal = 16
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_BATTLECRUISER_STERN_O_X3_KEY"
+	ship_size = fe_battlecruiser
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "fe_battlecruiser_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_03"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+
+	large_utility_slots = 4
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 160
+			sr_living_metal = 16
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_BATTLECRUISER_STERN_O_T1X1_KEY"
+	ship_size = fe_battlecruiser
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "fe_battlecruiser_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
+
+	large_utility_slots = 4
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 160
+			sr_living_metal = 16
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_BATTLECRUISER_STERN_O_T1HB2_KEY"
+	ship_size = fe_battlecruiser
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "fe_battlecruiser_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+
+	large_utility_slots = 4
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 160
+			sr_living_metal = 16
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_BATTLECRUISER_STERN_O_HB8_KEY"
+	ship_size = fe_battlecruiser
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "fe_battlecruiser_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_04"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_05"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_06"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_07"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_08"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_02"
+	}
+
+	large_utility_slots = 2
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 160
+			sr_living_metal = 16
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_BATTLECRUISER_STERN_O_X4_KEY"
+	ship_size = fe_battlecruiser
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "fe_battlecruiser_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_03"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_04"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
+
+	large_utility_slots = 2
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 160
+			sr_living_metal = 16
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_BATTLECRUISER_STERN_O_T2_KEY"
+	ship_size = fe_battlecruiser
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "fe_battlecruiser_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "TITANIC_02"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_02"
+	}
+
+	large_utility_slots = 2
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 160
+			sr_living_metal = 16
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_BATTLECRUISER_STERN_O_HB10_KEY"
+	ship_size = fe_battlecruiser
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "fe_battlecruiser_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_04"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_05"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_06"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_07"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_08"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_09"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_10"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_02"
+	}
+
+	large_utility_slots = 0
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 160
+			sr_living_metal = 16
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_BATTLECRUISER_STERN_O_X5_KEY"
+	ship_size = fe_battlecruiser
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "fe_battlecruiser_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_03"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_04"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_05"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+
+	large_utility_slots = 0
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 160
+			sr_living_metal = 16
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_BATTLECRUISER_STERN_O_T2X1_KEY"
+	ship_size = fe_battlecruiser
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "fe_battlecruiser_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "TITANIC_02"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+
+	large_utility_slots = 0
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 160
+			sr_living_metal = 16
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_BATTLECRUISER_STERN_O_T2HB2_KEY"
+	ship_size = fe_battlecruiser
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "fe_battlecruiser_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "TITANIC_02"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_02"
+	}
+
+	large_utility_slots = 4
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 160
+			sr_living_metal = 16
+		}
+	}
+}
+
+# Titan
+
+# not localized
+ship_section_template = {
+	key = "FE_TITAN_BOW_O_T1HB5_KEY"
+	ship_size = fe_titan
+	fits_on_slot = bow
+	should_draw_components = yes
+	entity = "fe_titan_bow_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+	
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "titan_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "large_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_04"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "large_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_05"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "large_gun_01"
+	}
+	
+	large_utility_slots = 7
+	aux_utility_slots = 1
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 320
+			sr_living_metal = 32
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_TITAN_BOW_O_T2HB1_KEY"
+	ship_size = fe_titan
+	fits_on_slot = bow
+	should_draw_components = yes
+	entity = "fe_titan_bow_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+	
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "titan_gun_01"
+	}
+	component_slot = {
+		name = "TITANIC_02"
+		template = "invisible_titanic_fixed"
+		locatorname = "titan_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "large_gun_01"
+	}
+	
+	large_utility_slots = 7
+	aux_utility_slots = 1
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 320
+			sr_living_metal = 32
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_TITAN_BOW_O_T3HB1_KEY"
+	ship_size = fe_titan
+	fits_on_slot = bow
+	should_draw_components = yes
+	entity = "fe_titan_bow_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+	
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "titan_gun_01"
+	}
+	component_slot = {
+		name = "TITANIC_02"
+		template = "invisible_titanic_fixed"
+		locatorname = "titan_gun_01"
+	}
+	component_slot = {
+		name = "TITANIC_03"
+		template = "invisible_titanic_fixed"
+		locatorname = "titan_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "large_gun_01"
+	}
+	
+	large_utility_slots = 3
+	aux_utility_slots = 1
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 320
+			sr_living_metal = 32
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_TITAN_BOW_O_T4_KEY"
+	ship_size = fe_titan
+	fits_on_slot = bow
+	should_draw_components = yes
+	entity = "fe_titan_bow_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+	
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "titan_gun_01"
+	}
+	component_slot = {
+		name = "TITANIC_02"
+		template = "invisible_titanic_fixed"
+		locatorname = "titan_gun_01"
+	}
+	component_slot = {
+		name = "TITANIC_03"
+		template = "invisible_titanic_fixed"
+		locatorname = "titan_gun_01"
+	}
+	component_slot = {
+		name = "TITANIC_04"
+		template = "invisible_titanic_fixed"
+		locatorname = "titan_gun_01"
+	}
+	
+	large_utility_slots = 0
+	aux_utility_slots = 1
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 320
+			sr_living_metal = 32
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_TITAN_BOW_O_T4HB1_KEY"
+	ship_size = fe_titan
+	fits_on_slot = bow
+	should_draw_components = yes
+	entity = "fe_titan_bow_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+	
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "titan_gun_01"
+	}
+	component_slot = {
+		name = "TITANIC_02"
+		template = "invisible_titanic_fixed"
+		locatorname = "titan_gun_01"
+	}
+	component_slot = {
+		name = "TITANIC_03"
+		template = "invisible_titanic_fixed"
+		locatorname = "titan_gun_01"
+	}
+	component_slot = {
+		name = "TITANIC_04"
+		template = "invisible_titanic_fixed"
+		locatorname = "titan_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "large_gun_01"
+	}
+	
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 320
+			sr_living_metal = 32
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_TITAN_O_X4_KEY"
+	ship_size = fe_titan
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "fe_titan_mid_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+	
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "large_gun_02"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_03"
+		template = "invisible_extra_large_fixed"
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_04"
+		template = "invisible_extra_large_fixed"
+		locatorname = "large_gun_02"
+	}
+			
+	large_utility_slots = 7
+	aux_utility_slots = 1
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 220
+			sr_living_metal = 22
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_TITAN_O_X6_KEY"
+	ship_size = fe_titan
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "fe_titan_mid_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+	
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "large_gun_02"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_03"
+		template = "invisible_extra_large_fixed"
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_04"
+		template = "invisible_extra_large_fixed"
+		locatorname = "large_gun_02"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_05"
+		template = "invisible_extra_large_fixed"
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_06"
+		template = "invisible_extra_large_fixed"
+		locatorname = "large_gun_02"
+	}
+			
+	large_utility_slots = 3
+	aux_utility_slots = 1
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 220
+			sr_living_metal = 22
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_TITAN_O_X8_KEY"
+	ship_size = fe_titan
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "fe_titan_mid_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+	
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "large_gun_02"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_03"
+		template = "invisible_extra_large_fixed"
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_04"
+		template = "invisible_extra_large_fixed"
+		locatorname = "large_gun_02"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_05"
+		template = "invisible_extra_large_fixed"
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_06"
+		template = "invisible_extra_large_fixed"
+		locatorname = "large_gun_02"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_07"
+		template = "invisible_extra_large_fixed"
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_08"
+		template = "invisible_extra_large_fixed"
+		locatorname = "large_gun_02"
+	}
+			
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 220
+			sr_living_metal = 22
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_TITAN_O_T2_KEY"
+	ship_size = fe_titan
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "fe_titan_mid_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+	
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "TITANIC_02"
+		template = "invisible_titanic_fixed"
+		locatorname = "large_gun_02"
+	}
+			
+	large_utility_slots = 7
+	aux_utility_slots = 1
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 220
+			sr_living_metal = 22
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_TITAN_O_T3_KEY"
+	ship_size = fe_titan
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "fe_titan_mid_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+	
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "TITANIC_02"
+		template = "invisible_titanic_fixed"
+		locatorname = "large_gun_02"
+	}
+	component_slot = {
+		name = "TITANIC_03"
+		template = "invisible_titanic_fixed"
+		locatorname = "large_gun_01"
+	}
+			
+	large_utility_slots = 3
+	aux_utility_slots = 1
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 220
+			sr_living_metal = 22
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_TITAN_O_T4_KEY"
+	ship_size = fe_titan
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "fe_titan_mid_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_lost_technologies_3 }
+	
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "TITANIC_02"
+		template = "invisible_titanic_fixed"
+		locatorname = "large_gun_02"
+	}
+	component_slot = {
+		name = "TITANIC_03"
+		template = "invisible_titanic_fixed"
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "TITANIC_04"
+		template = "invisible_titanic_fixed"
+		locatorname = "large_gun_02"
+	}
+			
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 220
+			sr_living_metal = 22
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_TITAN_HANGAR_O_X3"
+	ship_size = fe_titan
+	fits_on_slot = hangar
+	should_draw_components = yes
+	entity = "fe_titan_hangar_entity"
+	icon = "GFX_ship_part_core_stern"
+	
+	prerequisites = { tech_lost_technologies_3 }
+	
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_03"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	
+	large_utility_slots = 7
+	aux_utility_slots = 1
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 240
+			sr_living_metal = 24
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_TITAN_HANGAR_O_T1HB2"
+	ship_size = fe_titan
+	fits_on_slot = hangar
+	should_draw_components = yes
+	entity = "fe_titan_hangar_entity"
+	icon = "GFX_ship_part_core_stern"
+	
+	prerequisites = { tech_lost_technologies_3 }
+	
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+	
+	large_utility_slots = 7
+	aux_utility_slots = 1
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 240
+			sr_living_metal = 24
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_TITAN_HANGAR_O_X4"
+	ship_size = fe_titan
+	fits_on_slot = hangar
+	should_draw_components = yes
+	entity = "fe_titan_hangar_entity"
+	icon = "GFX_ship_part_core_stern"
+	
+	prerequisites = { tech_lost_technologies_3 }
+	
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_03"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_04"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
+	
+	large_utility_slots = 5
+	aux_utility_slots = 1
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 240
+			sr_living_metal = 24
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_TITAN_HANGAR_O_T2"
+	ship_size = fe_titan
+	fits_on_slot = hangar
+	should_draw_components = yes
+	entity = "fe_titan_hangar_entity"
+	icon = "GFX_ship_part_core_stern"
+	
+	prerequisites = { tech_lost_technologies_3 }
+	
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "TITANIC_02"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_02"
+	}
+	
+	large_utility_slots = 5
+	aux_utility_slots = 1
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 240
+			sr_living_metal = 24
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_TITAN_HANGAR_O_X6"
+	ship_size = fe_titan
+	fits_on_slot = hangar
+	should_draw_components = yes
+	entity = "fe_titan_hangar_entity"
+	icon = "GFX_ship_part_core_stern"
+	
+	prerequisites = { tech_lost_technologies_3 }
+	
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_03"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_04"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_05"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_06"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
+	
+	large_utility_slots = 1
+	aux_utility_slots = 1
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 240
+			sr_living_metal = 24
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_TITAN_HANGAR_O_T3"
+	ship_size = fe_titan
+	fits_on_slot = hangar
+	should_draw_components = yes
+	entity = "fe_titan_hangar_entity"
+	icon = "GFX_ship_part_core_stern"
+	
+	prerequisites = { tech_lost_technologies_3 }
+	
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "TITANIC_02"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "TITANIC_03"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_01"
+	}
+	
+	large_utility_slots = 1
+	aux_utility_slots = 1
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 240
+			sr_living_metal = 24
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_TITAN_HANGAR_O_T3X1"
+	ship_size = fe_titan
+	fits_on_slot = hangar
+	should_draw_components = yes
+	entity = "fe_titan_hangar_entity"
+	icon = "GFX_ship_part_core_stern"
+	
+	prerequisites = { tech_lost_technologies_3 }
+	
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "TITANIC_02"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "TITANIC_03"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
+	
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 240
+			sr_living_metal = 24
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_TITAN_HANGAR_O_T3HB2"
+	ship_size = fe_titan
+	fits_on_slot = hangar
+	should_draw_components = yes
+	entity = "fe_titan_hangar_entity"
+	icon = "GFX_ship_part_core_stern"
+	
+	prerequisites = { tech_lost_technologies_3 }
+	
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "TITANIC_02"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "TITANIC_03"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+	
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 240
+			sr_living_metal = 24
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_TITAN_STERN_O_HB4"
+	ship_size = fe_titan
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "fe_titan_stern_entity"
+	icon = "GFX_ship_part_core_stern"
+	
+	prerequisites = { tech_lost_technologies_3 }
+	
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_04"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_02"
+	}
+
+	large_utility_slots = 7
+	aux_utility_slots = 1
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 200
+			sr_living_metal = 20
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_TITAN_STERN_O_X2"
+	ship_size = fe_titan
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "fe_titan_stern_entity"
+	icon = "GFX_ship_part_core_stern"
+	
+	prerequisites = { tech_lost_technologies_3 }
+	
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
+
+	large_utility_slots = 7
+	aux_utility_slots = 1
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 200
+			sr_living_metal = 20
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_TITAN_STERN_O_T1"
+	ship_size = fe_titan
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "fe_titan_stern_entity"
+	icon = "GFX_ship_part_core_stern"
+	
+	prerequisites = { tech_lost_technologies_3 }
+	
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_01"
+	}
+
+	large_utility_slots = 7
+	aux_utility_slots = 1
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 200
+			sr_living_metal = 20
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_TITAN_STERN_O_HB8"
+	ship_size = fe_titan
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "fe_titan_stern_entity"
+	icon = "GFX_ship_part_core_stern"
+	
+	prerequisites = { tech_lost_technologies_3 }
+	
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_04"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_05"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_06"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_07"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_08"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_02"
+	}
+
+	large_utility_slots = 3
+	aux_utility_slots = 1
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 200
+			sr_living_metal = 20
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_TITAN_STERN_O_X4"
+	ship_size = fe_titan
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "fe_titan_stern_entity"
+	icon = "GFX_ship_part_core_stern"
+	
+	prerequisites = { tech_lost_technologies_3 }
+	
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_03"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_04"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
+
+	large_utility_slots = 3
+	aux_utility_slots = 1
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 200
+			sr_living_metal = 20
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_TITAN_STERN_O_T2"
+	ship_size = fe_titan
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "fe_titan_stern_entity"
+	icon = "GFX_ship_part_core_stern"
+	
+	prerequisites = { tech_lost_technologies_3 }
+	
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "TITANIC_02"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_02"
+	}
+
+	large_utility_slots = 3
+	aux_utility_slots = 1
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 200
+			sr_living_metal = 20
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_TITAN_STERN_O_X2HB4"
+	ship_size = fe_titan
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "fe_titan_stern_entity"
+	icon = "GFX_ship_part_core_stern"
+	
+	prerequisites = { tech_lost_technologies_3 }
+	
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_04"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_02"
+	}
+
+	large_utility_slots = 3
+	aux_utility_slots = 1
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 200
+			sr_living_metal = 20
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_TITAN_STERN_O_T1HB4"
+	ship_size = fe_titan
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "fe_titan_stern_entity"
+	icon = "GFX_ship_part_core_stern"
+	
+	prerequisites = { tech_lost_technologies_3 }
+	
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_04"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_02"
+	}
+
+	large_utility_slots = 3
+	aux_utility_slots = 1
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 200
+			sr_living_metal = 20
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_TITAN_STERN_O_HB12"
+	ship_size = fe_titan
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "fe_titan_stern_entity"
+	icon = "GFX_ship_part_core_stern"
+	
+	prerequisites = { tech_lost_technologies_3 }
+	
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_04"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_05"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_06"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_07"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_08"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_09"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_10"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_11"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_12"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_02"
+	}
+
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 200
+			sr_living_metal = 20
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_TITAN_STERN_O_X6"
+	ship_size = fe_titan
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "fe_titan_stern_entity"
+	icon = "GFX_ship_part_core_stern"
+	
+	prerequisites = { tech_lost_technologies_3 }
+	
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_03"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_04"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_05"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_06"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
+
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 200
+			sr_living_metal = 20
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_TITAN_STERN_O_T3"
+	ship_size = fe_titan
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "fe_titan_stern_entity"
+	icon = "GFX_ship_part_core_stern"
+	
+	prerequisites = { tech_lost_technologies_3 }
+	
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "TITANIC_02"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "TITANIC_03"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_01"
+	}
+
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 200
+			sr_living_metal = 20
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_TITAN_STERN_O_X4HB4"
+	ship_size = fe_titan
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "fe_titan_stern_entity"
+	icon = "GFX_ship_part_core_stern"
+	
+	prerequisites = { tech_lost_technologies_3 }
+	
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_03"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_04"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_04"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_02"
+	}
+
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 200
+			sr_living_metal = 20
+		}
+	}
+}
+
+# not localized
+ship_section_template = {
+	key = "FE_TITAN_STERN_O_T2HB4"
+	ship_size = fe_titan
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "fe_titan_stern_entity"
+	icon = "GFX_ship_part_core_stern"
+	
+	prerequisites = { tech_lost_technologies_3 }
+	
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "TITANIC_02"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_04"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_02"
+	}
+
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 200
+			sr_living_metal = 20
+		}
+	}
+}
