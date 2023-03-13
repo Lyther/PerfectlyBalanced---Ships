@@ -912,12 +912,12 @@ ship_section_template = {
 		locatorname = "medium_gun_02"
 	}
 	component_slot = {
-		name = "TITANIC_01"
+		name = "TITANIC_03"
 		template = "invisible_titanic_fixed"
 		locatorname = "medium_gun_03"
 	}
 	component_slot = {
-		name = "TITANIC_02"
+		name = "TITANIC_04"
 		template = "invisible_titanic_fixed"
 		locatorname = "medium_gun_04"
 	}
@@ -1413,12 +1413,12 @@ ship_section_template = {
 		locatorname = "medium_gun_02"
 	}
 	component_slot = {
-		name = "TITANIC_01"
+		name = "TITANIC_03"
 		template = "invisible_titanic_fixed"
 		locatorname = "medium_gun_03"
 	}
 	component_slot = {
-		name = "TITANIC_02"
+		name = "TITANIC_04"
 		template = "invisible_titanic_fixed"
 		locatorname = "medium_gun_04"
 	}
@@ -1429,7 +1429,7 @@ ship_section_template = {
 		locatorname = "medium_gun_01"
 	}
 	component_slot = {
-		name = "STRIKE_CRAFT_01"
+		name = "STRIKE_CRAFT_02"
 		template = "large_strike_craft"
 		rotation = 90
 		locatorname = "medium_gun_02"
@@ -1467,12 +1467,12 @@ ship_section_template = {
 		locatorname = "medium_gun_02"
 	}
 	component_slot = {
-		name = "TITANIC_01"
+		name = "TITANIC_03"
 		template = "invisible_titanic_fixed"
 		locatorname = "medium_gun_03"
 	}
 	component_slot = {
-		name = "TITANIC_02"
+		name = "TITANIC_04"
 		template = "invisible_titanic_fixed"
 		locatorname = "medium_gun_04"
 	}
@@ -2062,12 +2062,12 @@ ship_section_template = {
 		locatorname = "medium_gun_02"
 	}
 	component_slot = {
-		name = "TITANIC_01"
+		name = "TITANIC_03"
 		template = "invisible_titanic_fixed"
 		locatorname = "medium_gun_03"
 	}
 	component_slot = {
-		name = "TITANIC_02"
+		name = "TITANIC_04"
 		template = "invisible_titanic_fixed"
 		locatorname = "medium_gun_04"
 	}
@@ -2563,12 +2563,12 @@ ship_section_template = {
 		locatorname = "medium_gun_02"
 	}
 	component_slot = {
-		name = "TITANIC_01"
+		name = "TITANIC_03"
 		template = "invisible_titanic_fixed"
 		locatorname = "medium_gun_03"
 	}
 	component_slot = {
-		name = "TITANIC_02"
+		name = "TITANIC_04"
 		template = "invisible_titanic_fixed"
 		locatorname = "medium_gun_04"
 	}
@@ -2617,12 +2617,12 @@ ship_section_template = {
 		locatorname = "medium_gun_02"
 	}
 	component_slot = {
-		name = "TITANIC_01"
+		name = "TITANIC_03"
 		template = "invisible_titanic_fixed"
 		locatorname = "medium_gun_03"
 	}
 	component_slot = {
-		name = "TITANIC_02"
+		name = "TITANIC_04"
 		template = "invisible_titanic_fixed"
 		locatorname = "medium_gun_04"
 	}
@@ -3212,12 +3212,12 @@ ship_section_template = {
 		locatorname = "medium_gun_02"
 	}
 	component_slot = {
-		name = "TITANIC_01"
+		name = "TITANIC_03"
 		template = "invisible_titanic_fixed"
 		locatorname = "medium_gun_03"
 	}
 	component_slot = {
-		name = "TITANIC_02"
+		name = "TITANIC_04"
 		template = "invisible_titanic_fixed"
 		locatorname = "medium_gun_04"
 	}
@@ -3713,12 +3713,12 @@ ship_section_template = {
 		locatorname = "medium_gun_02"
 	}
 	component_slot = {
-		name = "TITANIC_01"
+		name = "TITANIC_03"
 		template = "invisible_titanic_fixed"
 		locatorname = "medium_gun_03"
 	}
 	component_slot = {
-		name = "TITANIC_02"
+		name = "TITANIC_04"
 		template = "invisible_titanic_fixed"
 		locatorname = "medium_gun_04"
 	}
@@ -3767,12 +3767,12 @@ ship_section_template = {
 		locatorname = "medium_gun_02"
 	}
 	component_slot = {
-		name = "TITANIC_01"
+		name = "TITANIC_03"
 		template = "invisible_titanic_fixed"
 		locatorname = "medium_gun_03"
 	}
 	component_slot = {
-		name = "TITANIC_02"
+		name = "TITANIC_04"
 		template = "invisible_titanic_fixed"
 		locatorname = "medium_gun_04"
 	}

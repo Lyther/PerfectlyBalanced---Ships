@@ -166,7 +166,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_fission_power" }
 	component_set = "power_core"
-	size_restriction = { destroyer crisis_destroyer offspring_destroyer fe_escort }
+	size_restriction = { destroyer crisis_destroyer offspring_destroyer }
 	upgrades_to = "LARGE_DESTROYER_FUSION_REACTOR"
 }
 
@@ -192,7 +192,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_fission_power" }
 	component_set = "power_core"
-	size_restriction = { cruiser crisis_cruiser offspring_cruiser }
+	size_restriction = { cruiser crisis_cruiser offspring_cruiser fe_escort }
 	upgrades_to = "LARGE_CRUISER_FUSION_REACTOR"
 }
 
@@ -218,7 +218,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_fission_power" }
 	component_set = "power_core"
-	size_restriction = { battleship offspring_battleship fe_battlecruiser }
+	size_restriction = { battleship offspring_battleship }
 	upgrades_to = "LARGE_BATTLESHIP_FUSION_REACTOR"
 }
 
@@ -244,7 +244,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_fission_power" }
 	component_set = "power_core"
-	size_restriction = { titan }
+	size_restriction = { titan fe_battlecruiser }
 	upgrades_to = "LARGE_TITAN_FUSION_REACTOR"
 }
 
@@ -357,7 +357,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_fusion_power" }
 	component_set = "power_core"
-	size_restriction = { destroyer crisis_destroyer offspring_destroyer fe_escort }
+	size_restriction = { destroyer crisis_destroyer offspring_destroyer }
 	upgrades_to = "LARGE_DESTROYER_COLD_FUSION_REACTOR"
 }
 
@@ -383,7 +383,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_fusion_power" }
 	component_set = "power_core"
-	size_restriction = { cruiser crisis_cruiser offspring_cruiser }
+	size_restriction = { cruiser crisis_cruiser offspring_cruiser fe_escort }
 	upgrades_to = "LARGE_CRUISER_COLD_FUSION_REACTOR"
 }
 
@@ -409,7 +409,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_fusion_power" }
 	component_set = "power_core"
-	size_restriction = { battleship offspring_battleship fe_battlecruiser }
+	size_restriction = { battleship offspring_battleship }
 	upgrades_to = "LARGE_BATTLESHIP_COLD_FUSION_REACTOR"
 }
 
@@ -435,7 +435,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_fusion_power" }
 	component_set = "power_core"
-	size_restriction = { titan }
+	size_restriction = { titan fe_battlecruiser }
 	upgrades_to = "LARGE_TITAN_COLD_FUSION_REACTOR"
 }
 
@@ -548,7 +548,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_cold_fusion_power" }
 	component_set = "power_core"
-	size_restriction = { destroyer crisis_destroyer offspring_destroyer fe_escort }
+	size_restriction = { destroyer crisis_destroyer offspring_destroyer }
 	upgrades_to = "LARGE_DESTROYER_ANTIMATTER_REACTOR"
 }
 
@@ -574,7 +574,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_cold_fusion_power" }
 	component_set = "power_core"
-	size_restriction = { cruiser crisis_cruiser offspring_cruiser }
+	size_restriction = { cruiser crisis_cruiser offspring_cruiser fe_escort }
 	upgrades_to = "LARGE_CRUISER_ANTIMATTER_REACTOR"
 }
 
@@ -600,7 +600,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_cold_fusion_power" }
 	component_set = "power_core"
-	size_restriction = { battleship offspring_battleship fe_battlecruiser }
+	size_restriction = { battleship offspring_battleship }
 	upgrades_to = "LARGE_BATTLESHIP_ANTIMATTER_REACTOR"
 }
 
@@ -626,7 +626,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_cold_fusion_power" }
 	component_set = "power_core"
-	size_restriction = { titan }
+	size_restriction = { titan fe_battlecruiser }
 	upgrades_to = "LARGE_TITAN_ANTIMATTER_REACTOR"
 }
 
@@ -739,7 +739,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_antimatter_power" }
 	component_set = "power_core"
-	size_restriction = { destroyer crisis_destroyer offspring_destroyer fe_escort }
+	size_restriction = { destroyer crisis_destroyer offspring_destroyer }
 	upgrades_to = "LARGE_DESTROYER_ZERO_POINT_REACTOR"
 }
 
@@ -765,7 +765,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_antimatter_power" }
 	component_set = "power_core"
-	size_restriction = { cruiser crisis_cruiser offspring_cruiser }
+	size_restriction = { cruiser crisis_cruiser offspring_cruiser fe_escort }
 	upgrades_to = "LARGE_CRUISER_ZERO_POINT_REACTOR"
 }
 
@@ -791,7 +791,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_antimatter_power" }
 	component_set = "power_core"
-	size_restriction = { battleship offspring_battleship fe_battlecruiser }
+	size_restriction = { battleship offspring_battleship }
 	upgrades_to = "LARGE_BATTLESHIP_ZERO_POINT_REACTOR"
 }
 
@@ -817,7 +817,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_antimatter_power" }
 	component_set = "power_core"
-	size_restriction = { titan }
+	size_restriction = { titan fe_battlecruiser }
 	upgrades_to = "LARGE_TITAN_ZERO_POINT_REACTOR"
 }
 
@@ -927,7 +927,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_zero_point_power" }
 	component_set = "power_core"
-	size_restriction = { destroyer crisis_destroyer offspring_destroyer fe_escort }
+	size_restriction = { destroyer crisis_destroyer offspring_destroyer }
 	upgrades_to = "LARGE_DESTROYER_DARK_MATTER_REACTOR"
 }
 
@@ -953,7 +953,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_zero_point_power" }
 	component_set = "power_core"
-	size_restriction = { cruiser crisis_cruiser offspring_cruiser }
+	size_restriction = { cruiser crisis_cruiser offspring_cruiser fe_escort }
 	upgrades_to = "LARGE_CRUISER_DARK_MATTER_REACTOR"
 }
 
@@ -979,7 +979,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_zero_point_power" }
 	component_set = "power_core"
-	size_restriction = { battleship offspring_battleship fe_battlecruiser }
+	size_restriction = { battleship offspring_battleship }
 	upgrades_to = "LARGE_BATTLESHIP_DARK_MATTER_REACTOR"
 }
 
@@ -1005,7 +1005,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_zero_point_power" }
 	component_set = "power_core"
-	size_restriction = { titan }
+	size_restriction = { titan fe_battlecruiser }
 	upgrades_to = "LARGE_TITAN_DARK_MATTER_REACTOR"
 }
 
@@ -1169,7 +1169,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_dark_matter_power_core" }
 	component_set = "power_core"
-	size_restriction = { destroyer crisis_destroyer offspring_destroyer fe_escort }
+	size_restriction = { destroyer crisis_destroyer offspring_destroyer }
 }
 
 utility_component_template = {
@@ -1195,7 +1195,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_dark_matter_power_core" }
 	component_set = "power_core"
-	size_restriction = { cruiser crisis_cruiser offspring_cruiser }
+	size_restriction = { cruiser crisis_cruiser offspring_cruiser fe_escort }
 }
 
 utility_component_template = {
@@ -1221,7 +1221,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_dark_matter_power_core" }
 	component_set = "power_core"
-	size_restriction = { battleship offspring_battleship fe_battlecruiser }
+	size_restriction = { battleship offspring_battleship }
 }
 
 utility_component_template = {
@@ -1247,7 +1247,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_dark_matter_power_core" }
 	component_set = "power_core"
-	size_restriction = { titan }
+	size_restriction = { titan fe_battlecruiser }
 }
 
 utility_component_template = {

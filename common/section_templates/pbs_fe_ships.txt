@@ -416,7 +416,7 @@ ship_section_template = {
 		locatorname = "small_gun_01"
 	}
 	component_slot = {
-		name = "STRIKE_CRAFT_01"
+		name = "STRIKE_CRAFT_02"
 		template = "large_strike_craft"
 		rotation = 90
 		locatorname = "small_gun_02"
@@ -450,7 +450,7 @@ ship_section_template = {
 		locatorname = "large_gun_01"
 	}
 	component_slot = {
-		name = "EXTRA_LARGE_01"
+		name = "EXTRA_LARGE_02"
 		template = "invisible_extra_large_fixed"
 		locatorname = "small_gun_01"
 	}
@@ -511,7 +511,7 @@ ship_section_template = {
 		locatorname = "large_gun_01"
 	}
 	component_slot = {
-		name = "EXTRA_LARGE_01"
+		name = "EXTRA_LARGE_02"
 		template = "invisible_extra_large_fixed"
 		locatorname = "small_gun_01"
 	}
@@ -544,7 +544,7 @@ ship_section_template = {
 		locatorname = "large_gun_01"
 	}
 	component_slot = {
-		name = "EXTRA_LARGE_01"
+		name = "EXTRA_LARGE_02"
 		template = "invisible_extra_large_fixed"
 		locatorname = "small_gun_01"
 	}
@@ -645,12 +645,12 @@ ship_section_template = {
 		locatorname = "large_gun_01"
 	}
 	component_slot = {
-		name = "EXTRA_LARGE_01"
+		name = "EXTRA_LARGE_02"
 		template = "invisible_extra_large_fixed"
 		locatorname = "small_gun_01"
 	}
 	component_slot = {
-		name = "EXTRA_LARGE_01"
+		name = "EXTRA_LARGE_03"
 		template = "invisible_extra_large_fixed"
 		locatorname = "small_gun_02"
 	}
@@ -683,12 +683,12 @@ ship_section_template = {
 		locatorname = "large_gun_01"
 	}
 	component_slot = {
-		name = "EXTRA_LARGE_01"
+		name = "EXTRA_LARGE_02"
 		template = "invisible_extra_large_fixed"
 		locatorname = "small_gun_01"
 	}
 	component_slot = {
-		name = "EXTRA_LARGE_01"
+		name = "EXTRA_LARGE_03"
 		template = "invisible_extra_large_fixed"
 		locatorname = "small_gun_02"
 	}
@@ -3054,7 +3054,7 @@ ship_section_template = {
 		locatorname = "large_gun_02"
 	}
 	component_slot = {
-		name = "TITANIC_02"
+		name = "TITANIC_03"
 		template = "invisible_titanic_fixed"
 		locatorname = "large_gun_01"
 	}
@@ -3146,7 +3146,7 @@ ship_section_template = {
 		locatorname = "large_gun_02"
 	}
 	component_slot = {
-		name = "TITANIC_02"
+		name = "TITANIC_03"
 		template = "invisible_titanic_fixed"
 		locatorname = "large_gun_01"
 	}
