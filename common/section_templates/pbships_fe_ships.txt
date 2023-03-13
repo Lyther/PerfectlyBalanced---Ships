@@ -3655,7 +3655,7 @@ ship_section_template = {
 
 # not localized
 ship_section_template = {
-	key = "FE_LARGE_STATION_MEDIUM_T2"
+	key = "FE_LARGE_STATION_MEDIUM_T2HB1"
 	ship_size = fe_large_station
 	fits_on_slot = medium
 	should_draw_components = yes
