@@ -29,6 +29,8 @@ If a new version is released/needs to be compatible with an older version, pleas
 Compatible Mods:
 
 * ZoFE: The Zenith of Fallen Empires - 75%
+  * Not localized (Anyway there's no guy who cares about the ship section names).
+
 
 For other mods that are compatible, such as new weapon slot types/ship types, please leave a message through the Creative Workshop and I will also start compatibility updates for the following mods.
 
@@ -65,6 +67,8 @@ For other mods that are compatible, such as new weapon slot types/ship types, pl
 已经兼容的MOD列表：
 
 * ZoFE: The Zenith of Fallen Empires - 75%
+  * 尚未完成本地化（区段名字反正也不会有人看所以不完工也无所谓吧）。
+
 
 对于其他MOD的内容兼容，例如新的武器槽位种类/舰船种类，同样可以通过创意工坊留言，我也会对以下列表中的MOD开始兼容更新：
 
