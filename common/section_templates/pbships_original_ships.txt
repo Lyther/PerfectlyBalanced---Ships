@@ -2579,7 +2579,7 @@ ship_section_template = {
 		locatorname = "medium_gun_01"
 	}
 	component_slot = {
-		name = "STRIKE_CRAFT_01"
+		name = "STRIKE_CRAFT_02"
 		template = "large_strike_craft"
 		rotation = 90
 		locatorname = "medium_gun_02"
@@ -3729,7 +3729,7 @@ ship_section_template = {
 		locatorname = "medium_gun_01"
 	}
 	component_slot = {
-		name = "STRIKE_CRAFT_01"
+		name = "STRIKE_CRAFT_02"
 		template = "large_strike_craft"
 		rotation = 90
 		locatorname = "medium_gun_02"
