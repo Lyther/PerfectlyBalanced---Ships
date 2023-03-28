@@ -158,7 +158,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "SHIP_COLOSSUS_T1X1"
 	ship_size = colossus

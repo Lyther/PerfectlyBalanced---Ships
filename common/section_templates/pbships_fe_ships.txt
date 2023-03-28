@@ -496,39 +496,6 @@ ship_section_template = {
 
 # not localized
 ship_section_template = {
-	key = "FE_BATTLECRUISER_BOW_X2_KEY"
-	ship_size = fe_battlecruiser
-	fits_on_slot = bow
-	should_draw_components = yes
-	entity = "fe_battlecruiser_bow_entity"
-	icon = "GFX_ship_part_core_mid"
-
-	prerequisites = { tech_fe_battlecruiser_hull_1 }
-	
-	component_slot = {
-		name = "EXTRA_LARGE_01"
-		template = "invisible_extra_large_fixed"
-		locatorname = "large_gun_01"
-	}
-	component_slot = {
-		name = "EXTRA_LARGE_02"
-		template = "invisible_extra_large_fixed"
-		locatorname = "small_gun_01"
-	}
-
-	large_utility_slots = 1
-	aux_utility_slots = 2
-	
-	resources = {
-		category = ship_sections
-		cost = {
-			alloys = 80
-		}
-	}
-}
-
-# not localized
-ship_section_template = {
 	key = "FE_BATTLECRUISER_BOW_X2HB1_KEY"
 	ship_size = fe_battlecruiser
 	fits_on_slot = bow
@@ -556,34 +523,6 @@ ship_section_template = {
 	}
 
 	large_utility_slots = 0
-	aux_utility_slots = 2
-	
-	resources = {
-		category = ship_sections
-		cost = {
-			alloys = 80
-		}
-	}
-}
-
-# not localized
-ship_section_template = {
-	key = "FE_BATTLECRUISER_BOW_T1_KEY"
-	ship_size = fe_battlecruiser
-	fits_on_slot = bow
-	should_draw_components = yes
-	entity = "fe_battlecruiser_bow_entity"
-	icon = "GFX_ship_part_core_mid"
-
-	prerequisites = { tech_fe_battlecruiser_hull_1 }
-	
-	component_slot = {
-		name = "TITANIC_01"
-		template = "invisible_titanic_fixed"
-		locatorname = "large_gun_01"
-	}
-
-	large_utility_slots = 1
 	aux_utility_slots = 2
 	
 	resources = {

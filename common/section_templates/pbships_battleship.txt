@@ -176,7 +176,6 @@ ship_section_template = {
     }
 }
 
-# not localized
 ship_section_template = {
     key = "BATTLESHIP_BOW_T1HB1"
     ship_size = battleship
@@ -555,7 +554,6 @@ ship_section_template = {
     }
 }
 
-# not localized
 ship_section_template = {
     key = "BATTLESHIP_MID_T1HB2"
     ship_size = battleship
@@ -864,7 +862,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "BATTLESHIP_STERN_T1"
 	ship_size = battleship

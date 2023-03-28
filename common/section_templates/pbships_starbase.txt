@@ -162,7 +162,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "ION_CANNON_T2HB2"
 	fits_on_slot = "ship"
@@ -201,7 +200,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "ION_CANNON_HB10"
 	fits_on_slot = "ship"

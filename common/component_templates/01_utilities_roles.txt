@@ -167,29 +167,29 @@ utility_component_template = {
 #	}
 #}
 
-#utility_component_template = {
-#	key = "COMBAT_COMPUTER_HEAVY_ARTILLERY_ADVANCED"
-#	size = small
-#	icon = "GFX_ship_part_computer_artillery_advanced"
-#	icon_frame = 1
-#	power = @power3
-#	resources = {
-#		category = ship_components
-#		cost = {
-#			alloys = @cost3
-#		}
-#	}
-#	class_restriction = { shipclass_military shipclass_starbase shipclass_military_special }
-#	component_set = "combat_computers"
-#	ship_behavior = "heavy_artillery"
-#	prerequisites = { "tech_combat_computers_2" }
-#	upgrades_to = "COMBAT_COMPUTER_HEAVY_ARTILLERY_SAPIENT"
-#
-#	ship_modifier = {
-#        ship_fire_rate_mult = 0.20
-#        ship_weapon_range_mult = 0.30
-#	}
-#}
+utility_component_template = {
+	key = "COMBAT_COMPUTER_HEAVY_ARTILLERY_ADVANCED"
+	size = small
+	icon = "GFX_ship_part_computer_artillery_advanced"
+	icon_frame = 1
+	power = @power3
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost3
+		}
+	}
+	class_restriction = { shipclass_military shipclass_starbase shipclass_military_special }
+	component_set = "combat_computers"
+	ship_behavior = "heavy_artillery"
+	prerequisites = { "tech_combat_computers_2" }
+	upgrades_to = "COMBAT_COMPUTER_HEAVY_ARTILLERY_SAPIENT"
+
+	ship_modifier = {
+       ship_fire_rate_mult = 0.20
+       ship_weapon_range_mult = 0.30
+	}
+}
 
 utility_component_template = {
 	key = "COMBAT_COMPUTER_HEAVY_ARTILLERY_SAPIENT"
@@ -237,30 +237,30 @@ utility_component_template = {
 	}
 }
 
-#utility_component_template = {
-#	key = "COMBAT_COMPUTER_HEAVY_ARTILLERY_PRECOG"
-#	size = small
-#	icon = "GFX_ship_part_computer_heavy_artillery_precog"
-#	icon_frame = 1
-#	power = @power5
-#	resources = {
-#		category = ship_components
-#		cost = {
-#			alloys = @cost5
-#		}
-#	}
-#	class_restriction = { shipclass_military shipclass_starbase shipclass_military_special }
-#	component_set = "combat_computers"
-#	ship_behavior = "heavy_artillery"
-#	prerequisites = { "tech_precognition_interface" }
-#
-#	ship_modifier = {
-#        ship_fire_rate_mult = 0.30
-#        ship_weapon_range_mult = 0.50
-#        ship_tracking_add = 10
-#        ship_accuracy_add = 10
-#	}
-#}
+utility_component_template = {
+	key = "COMBAT_COMPUTER_HEAVY_ARTILLERY_PRECOG"
+	size = small
+	icon = "GFX_ship_part_computer_heavy_artillery_precog"
+	icon_frame = 1
+	power = @power5
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost5
+		}
+	}
+	class_restriction = { shipclass_military shipclass_starbase shipclass_military_special }
+	component_set = "combat_computers"
+	ship_behavior = "heavy_artillery"
+	prerequisites = { "tech_precognition_interface" }
+
+	ship_modifier = {
+       ship_fire_rate_mult = 0.30
+       ship_weapon_range_mult = 0.50
+       ship_tracking_add = 10
+       ship_accuracy_add = 10
+	}
+}
 
 #########################
 # 'MIGRATION' COMPUTERS #
@@ -399,55 +399,55 @@ utility_component_template = {
 # 'FREE_FIRE' COMPUTERS #
 #########################
 
-#utility_component_template = {
-#	key = "COMBAT_COMPUTER_FREE_FIRE_BASIC"
-#	size = small
-#	icon = "GFX_ship_part_computer_picket_basic"
-#	icon_frame = 1
-#	power = @power3
-#	resources = {
-#		category = ship_components
-#		cost = {
-#			alloys = @cost3
-#		}
-#	}
-#	class_restriction = { shipclass_military shipclass_starbase shipclass_military_special }
-#	component_set = "combat_computers"
-#	ship_behavior = "free_fire"
-#	prerequisites = { "tech_combat_computers_1" }
-#	upgrades_to = "COMBAT_COMPUTER_FREE_FIRE_ADVANCED"
-#
-#	ship_modifier = {
-#        ship_fire_rate_mult = 0.15
-#        ship_accuracy_add = 5
-#        ship_tracking_add = 5
-#	}
-#}
+utility_component_template = {
+	key = "COMBAT_COMPUTER_FREE_FIRE_BASIC"
+	size = small
+	icon = "GFX_ship_part_computer_picket_basic"
+	icon_frame = 1
+	power = @power3
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost3
+		}
+	}
+	class_restriction = { shipclass_military shipclass_starbase shipclass_military_special }
+	component_set = "combat_computers"
+	ship_behavior = "free_fire"
+	prerequisites = { "tech_combat_computers_1" }
+	upgrades_to = "COMBAT_COMPUTER_FREE_FIRE_ADVANCED"
 
-#utility_component_template = {
-#	key = "COMBAT_COMPUTER_FREE_FIRE_ADVANCED"
-#	size = small
-#	icon = "GFX_ship_part_computer_picket_advanced"
-#	icon_frame = 1
-#	power = @power4
-#	resources = {
-#		category = ship_components
-#		cost = {
-#			alloys = @cost4
-#		}
-#	}
-#	class_restriction = { shipclass_military shipclass_starbase shipclass_military_special }
-#	component_set = "combat_computers"
-#	ship_behavior = "free_fire"
-#	prerequisites = { "tech_combat_computers_2" }
-#	upgrades_to = "COMBAT_COMPUTER_FREE_FIRE_SAPIENT"
-#
-#	ship_modifier = {
-#        ship_hull_damage_mult = 0.30
-#        ship_armor_penetration_mult = 0.10
-#        ship_shield_penetration_mult = 0.10
-#	}
-#}
+	ship_modifier = {
+       ship_fire_rate_mult = 0.15
+       ship_accuracy_add = 5
+       ship_tracking_add = 5
+	}
+}
+
+utility_component_template = {
+	key = "COMBAT_COMPUTER_FREE_FIRE_ADVANCED"
+	size = small
+	icon = "GFX_ship_part_computer_picket_advanced"
+	icon_frame = 1
+	power = @power4
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost4
+		}
+	}
+	class_restriction = { shipclass_military shipclass_starbase shipclass_military_special }
+	component_set = "combat_computers"
+	ship_behavior = "free_fire"
+	prerequisites = { "tech_combat_computers_2" }
+	upgrades_to = "COMBAT_COMPUTER_FREE_FIRE_SAPIENT"
+
+	ship_modifier = {
+       ship_hull_damage_mult = 0.30
+       ship_armor_penetration_mult = 0.10
+       ship_shield_penetration_mult = 0.10
+	}
+}
 
 utility_component_template = {
 	key = "COMBAT_COMPUTER_FREE_FIRE_SAPIENT"
@@ -497,33 +497,33 @@ utility_component_template = {
 	}
 }
 
-#utility_component_template = {
-#	key = "COMBAT_COMPUTER_FREE_FIRE_PRECOG"
-#	size = small
-#	icon = "GFX_ship_part_computer_picket_precog"
-#	icon_frame = 1
-#	power = @power5
-#	resources = {
-#		category = ship_components
-#		cost = {
-#			alloys = @cost5
-#		}
-#	}
-#	class_restriction = { shipclass_military shipclass_starbase shipclass_military_special }
-#	component_set = "combat_computers"
-#	ship_behavior = "free_fire"
-#	prerequisites = { "tech_precognition_interface" }
-#
-#    modifier = {
-#        ship_armor_damage_mult = 0.25
-#        ship_shield_damage_mult = 0.25
-#    }
-#	ship_modifier = {
-#        ship_fire_rate_mult = 0.33
-#        ship_accuracy_add = 25
-#        ship_tracking_add = 25
-#	}
-#}
+utility_component_template = {
+	key = "COMBAT_COMPUTER_FREE_FIRE_PRECOG"
+	size = small
+	icon = "GFX_ship_part_computer_picket_precog"
+	icon_frame = 1
+	power = @power5
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost5
+		}
+	}
+	class_restriction = { shipclass_military shipclass_starbase shipclass_military_special }
+	component_set = "combat_computers"
+	ship_behavior = "free_fire"
+	prerequisites = { "tech_precognition_interface" }
+
+   modifier = {
+       ship_armor_damage_mult = 0.25
+       ship_shield_damage_mult = 0.25
+   }
+	ship_modifier = {
+       ship_fire_rate_mult = 0.33
+       ship_accuracy_add = 25
+       ship_tracking_add = 25
+	}
+}
 
 #####################
 # 'AGILE' COMPUTERS #

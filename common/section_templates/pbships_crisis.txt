@@ -565,7 +565,6 @@ ship_section_template = {
 	aux_utility_slots = 2
 }
 
-# not localized
 ship_section_template = {
 	key = "CRISIS_CRUISER_T1X1HB1"
 	ship_size = crisis_cruiser
@@ -595,7 +594,6 @@ ship_section_template = {
 	aux_utility_slots = 1
 }
 
-# not localized
 ship_section_template = {
 	key = "CRISIS_CRUISER_T1X1HB1PD2"
 	ship_size = crisis_cruiser
@@ -1505,7 +1503,6 @@ ship_section_template = {
 	aux_utility_slots = 0
 }
 
-# not localized
 ship_section_template = {
 	key = "SHIP_CRISIS_STAR_EATER_T9HB6"
 	ship_size = star_eater
@@ -1720,7 +1717,6 @@ ship_section_template = {
 	aux_utility_slots = 0
 }
 
-# not localized
 ship_section_template = {
 	key = "SHIP_CRISIS_STAR_EATER_T10X1"
 	ship_size = star_eater
@@ -1793,7 +1789,6 @@ ship_section_template = {
 	aux_utility_slots = 0
 }
 
-# not localized
 ship_section_template = {
 	key = "SHIP_CRISIS_STAR_EATER_T10HB2"
 	ship_size = star_eater

@@ -539,7 +539,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "CRUISER_MID_X1HB1M1"
 	ship_size = cruiser

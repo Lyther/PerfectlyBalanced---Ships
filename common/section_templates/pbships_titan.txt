@@ -697,7 +697,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "TITAN_STERN_X2HB1"
 	ship_size = titan
@@ -766,7 +765,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "TITAN_STERN_T1HB1"
 	ship_size = titan
