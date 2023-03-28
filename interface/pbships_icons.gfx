@@ -36,12 +36,24 @@ spriteTypes = {
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_large_reactor_booster_3.dds"
 	}
 	spriteType = {
+		name = "GFX_ship_part_computer_snipe_basic"
+		texturefile = "gfx/interface/icons/ship_parts/computers/ship_part_computer_role_snipe_basic.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_computer_snipe_advanced"
+		texturefile = "gfx/interface/icons/ship_parts/computers/ship_part_computer_role_snipe_advanced.dds"
+	}
+	spriteType = {
 		name = "GFX_ship_part_computer_snipe_sapient"
 		texturefile = "gfx/interface/icons/ship_parts/computers/ship_part_computer_role_snipe_sapient.dds"
 	}
 	spriteType = {
 		name = "GFX_ship_part_computer_snipe_precog"
 		texturefile = "gfx/interface/icons/ship_parts/computers/ship_part_computer_role_snipe_precog.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_computer_heavy_artillery_advanced"
+		texturefile = "gfx/interface/icons/ship_parts/computers/ship_part_computer_role_heavy_artillery_advanced.dds"
 	}
 	spriteType = {
 		name = "GFX_ship_part_computer_heavy_artillery_sapient"
@@ -66,10 +78,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ship_part_computer_migration_precog"
 		texturefile = "gfx/interface/icons/ship_parts/computers/ship_part_computer_role_migration_precog.dds"
-	}
-	spriteType = {
-		name = "GFX_ship_part_computer_free_fire_sapient"
-		texturefile = "gfx/interface/icons/ship_parts/computers/ship_part_computer_role_free_fire_sapient.dds"
 	}
 	spriteType = {
 		name = "GFX_ship_part_computer_agile_basic"

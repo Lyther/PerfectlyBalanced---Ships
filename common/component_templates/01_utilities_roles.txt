@@ -19,7 +19,7 @@
 utility_component_template = {
 	key = "COMBAT_COMPUTER_SNIPE_BASIC"
 	size = small
-	icon = "GFX_ship_part_computer_line_basic"
+	icon = "GFX_ship_part_computer_snipe_basic"
 	icon_frame = 1
 	power = @power1
 	resources = {
@@ -44,7 +44,7 @@ utility_component_template = {
 utility_component_template = {
 	key = "COMBAT_COMPUTER_SNIPE_ADVANCED"
 	size = small
-	icon = "GFX_ship_part_computer_line_advanced"
+	icon = "GFX_ship_part_computer_snipe_advanced"
 	icon_frame = 1
 	power = @power2
 	resources = {
@@ -170,7 +170,7 @@ utility_component_template = {
 utility_component_template = {
 	key = "COMBAT_COMPUTER_HEAVY_ARTILLERY_ADVANCED"
 	size = small
-	icon = "GFX_ship_part_computer_artillery_advanced"
+	icon = "GFX_ship_part_computer_heavy_artillery_advanced"
 	icon_frame = 1
 	power = @power3
 	resources = {
@@ -399,6 +399,9 @@ utility_component_template = {
 # 'FREE_FIRE' COMPUTERS #
 #########################
 
+# All the free fire computers are using vanilla icons.
+# TODO: add custom free fire computer icons.
+
 utility_component_template = {
 	key = "COMBAT_COMPUTER_FREE_FIRE_BASIC"
 	size = small
@@ -452,7 +455,7 @@ utility_component_template = {
 utility_component_template = {
 	key = "COMBAT_COMPUTER_FREE_FIRE_SAPIENT"
 	size = small
-	icon = "GFX_ship_part_computer_free_fire_sapient"
+	icon = "GFX_ship_part_computer_picket_sapient"
 	icon_frame = 1
 	power = @power5
 	resources = {
@@ -476,7 +479,7 @@ utility_component_template = {
 utility_component_template = {
 	key = "COMBAT_COMPUTER_FREE_FIRE_AUTONOMOUS"
 	size = small
-	icon = "GFX_ship_part_computer_free_fire_sapient"
+	icon = "GFX_ship_part_computer_picket_sapient"
 	icon_frame = 1
 	power = @power5
 	resources = {
