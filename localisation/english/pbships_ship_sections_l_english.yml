@@ -55,11 +55,11 @@
  CRUISER_MID_X1S2HB1:0 "Intruder Cannon Core"
  CRUISER_MID_X1HB1M1:0 "Invader Mega Cannon Core"
  CRUISER_STERN_AUX:0 "Auxiliary Stern"
- CRUISER_STERN_L1:0 "Heavy Stern"
- CRUISER_STERN_L1M1:0 "No-retreat Stern"
- CRUISER_STERN_M3:0 "Volley Stern"
+ CRUISER_STERN_L1M1:0 "Heavy Stern"
+ CRUISER_STERN_L2:0 "No-retreat Stern"
+ CRUISER_STERN_M4:0 "Volley Stern"
  CRUISER_STERN_HB1:0 "Carrier Stern"
- CRUISER_STERN_M1HB1:0 "Aggressive Carrier Stern"
+ CRUISER_STERN_L1HB1:0 "Aggressive Carrier Stern"
  CRUISER_STERN_S2HB1:0 "Defense Carrier Stern"
 
  ####################################

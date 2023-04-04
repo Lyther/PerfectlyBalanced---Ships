@@ -1,0 +1,25 @@
+# Create pbships country
+on_press_begin = {
+	events = {
+		pbships_gui.0
+	}
+}
+
+on_game_start = {
+	events = {
+		pbships_gui.3
+	}
+}
+
+on_single_player_save_game_load = {
+	events = {
+		pbships_gui.3
+	}
+}
+
+# Open pbship draw UI
+on_custom_diplomacy = {
+	events = {
+		pbships_gui.1
+	}
+}

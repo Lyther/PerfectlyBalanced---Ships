@@ -135,4 +135,16 @@ spriteTypes = {
 		name = "GFX_ship_part_aura_assimilation_algorithm"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_aura_assimilation_algorithm.dds"
 	}
+	spriteType = {
+		name = "GFX_physics_draw_icon"
+		texturefile = "gfx/interface/icons/physics.dds"
+	}
+	spriteType = {
+		name = "GFX_social_draw_icon"
+		texturefile = "gfx/interface/icons/social.dds"
+	}
+	spriteType = {
+		name = "GFX_engineer_draw_icon"
+		texturefile = "gfx/interface/icons/engineer.dds"
+	}
 }

@@ -1,0 +1,84 @@
+namespace = pbships_gui
+
+# Create pbships country
+country_event = {
+	id = pbships_gui.0
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		create_country = {
+			type = pbships_draw_gui_type
+			name = "pbships_draw_gui_country"
+			effect = {
+				set_country_flag = pbships_draw_gui_type@root
+				change_country_flag = {
+					colors = {
+						"blue"
+						"white"
+					}
+					icon = {
+						category = "human"
+						file = "flag_human_14.dds"
+					}
+					background = {
+						category = "backgrounds"
+						file = "vertical.dds"
+					}
+				}
+			}
+		}
+	}
+}
+
+# Communicate with pbship country event
+country_event = {
+	id = pbships_gui.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		FROM = { is_country_type = pbships_draw_gui_type }
+		NOT = { has_country_flag = pbships_draw_gui_country_enable }
+	}
+
+	immediate = {
+		country_event = { id = pbships_gui.2 }
+		set_country_flag = pbships_draw_gui_country_enable
+	}
+}
+
+# Open pbships draw UI
+country_event = {
+	id = pbships_gui.2
+	title = pbships_gui.2.title
+	desc = pbships_gui.2.desc
+	is_triggered_only = yes
+	
+	diplomatic = yes
+	custom_gui = "pbships_gui_main"
+
+	after = { remove_country_flag = pbships_draw_gui_country_enable }
+	option = { name = OK }
+}
+
+# Establish communication with pbships draw country
+country_event = {
+	id = pbships_gui.3
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		random_country = {
+			limit = { is_country_type = pbships_draw_gui_type }
+			save_event_target_as = pbships_draw_gui_country_target
+		}
+		if = {
+			limit = {
+				NOT = { has_communications = event_target:pbships_draw_gui_country_target }
+			}
+			establish_communications_no_message = event_target:pbships_draw_gui_country_target
+			country_event = { id = pbships_gui.2 }
+		}
+	}
+}

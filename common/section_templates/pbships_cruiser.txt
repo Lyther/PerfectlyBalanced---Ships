@@ -1,6 +1,6 @@
 @section_cost = 40
-@section_cost_heavy = 48
-@section_cost_light = 32
+@section_cost_heavy = 60
+@section_cost_light = 20
 
 #BOW
 
@@ -588,7 +588,7 @@ ship_section_template = {
 
     prerequisites = { tech_cruiser_build_speed }
 
-	aux_utility_slots = 3
+	aux_utility_slots = 4
 
 	resources = {
 		category = ship_sections
@@ -599,7 +599,7 @@ ship_section_template = {
 }
 
 ship_section_template = {
-	key = "CRUISER_STERN_L1"
+	key = "CRUISER_STERN_L1M1"
 	ship_size = cruiser
 	fits_on_slot = stern
 	should_draw_components = yes
@@ -611,6 +611,11 @@ ship_section_template = {
 	component_slot = {
 		name = "LARGE_GUN_01"
 		template = "large_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
 		locatorname = "medium_gun_01"
 	}
 
@@ -625,7 +630,7 @@ ship_section_template = {
 }
 
 ship_section_template = {
-	key = "CRUISER_STERN_L1M1"
+	key = "CRUISER_STERN_L2"
 	ship_size = cruiser
 	fits_on_slot = stern
 	should_draw_components = yes
@@ -640,8 +645,8 @@ ship_section_template = {
 		locatorname = "small_gun_01"
 	}
 	component_slot = {
-		name = "MEDIUM_GUN_01"
-		template = "medium_turret"
+		name = "LARGE_GUN_02"
+		template = "large_turret"
 		locatorname = "small_gun_02"
 	}
 
@@ -656,7 +661,7 @@ ship_section_template = {
 }
 
 ship_section_template = {
-	key = "CRUISER_STERN_M3"
+	key = "CRUISER_STERN_M4"
 	ship_size = cruiser
 	fits_on_slot = stern
 	should_draw_components = yes
@@ -677,6 +682,11 @@ ship_section_template = {
 	}
 	component_slot = {
 		name = "MEDIUM_GUN_03"
+		template = "medium_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
 		template = "medium_turret"
 		locatorname = "small_gun_02"
 	}
@@ -708,7 +718,7 @@ ship_section_template = {
 		locatorname = "medium_gun_01"
 	}
 
-	aux_utility_slots = 1
+	aux_utility_slots = 2
 
 	resources = {
 		category = ship_sections
@@ -719,7 +729,7 @@ ship_section_template = {
 }
 
 ship_section_template = {
-	key = "CRUISER_STERN_M1HB1"
+	key = "CRUISER_STERN_L1HB1"
 	ship_size = cruiser
 	fits_on_slot = stern
 	should_draw_components = yes
@@ -729,8 +739,8 @@ ship_section_template = {
     prerequisites = { tech_destroyer_hull_2 }
 
 	component_slot = {
-		name = "MEDIUM_GUN_01"
-		template = "medium_turret"
+		name = "LARGE_GUN_01"
+		template = "large_turret"
 		locatorname = "medium_gun_01"
 	}
 	component_slot = {
@@ -758,7 +768,7 @@ ship_section_template = {
 	entity = "cruiser_stern_S2_entity"
 	icon = "GFX_ship_part_core_stern"
 
-    prerequisites = { tech_destroyer_hull_2 }
+    prerequisites = { tech_destroyer_hull_1 }
 
 	component_slot = {
 		name = "PD_01"
@@ -777,7 +787,7 @@ ship_section_template = {
 		locatorname = "small_gun_02"
 	}
 
-	aux_utility_slots = 0
+	aux_utility_slots = 1
 
 	resources = {
 		category = ship_sections

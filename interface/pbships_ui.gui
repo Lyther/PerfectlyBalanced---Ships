@@ -1,0 +1,330 @@
+guiTypes = {
+	containerWindowType = {
+		name = "pbships_gui_main"
+		orientation = center
+		origo = center
+		moveable = yes
+		size = { width = 800 height = 450 }
+
+		background = {
+			name = "background"
+			spriteType = "GFX_tile_outliner_bg"
+		}
+
+		iconType = {
+			name = "hex_bg"
+			spriteType = "GFX_hex_bg"
+			position = { x = -12 y = -12 }
+			alwaysTransparent = yes
+		}
+
+		iconType = {
+			name = "header_line"
+			spriteType = "GFX_line_long"
+			position = { x = 5 y = 25 }
+			alwaysTransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "pbships_gui_title"
+			font = "malgun_goth_24"
+			text = "pbships_gui_main_title"
+			position = { x = 13 y = 5 }
+			borderSize = { x = 0 y = 0 }
+			maxWidth = 369
+			maxHeight = 24
+			fixedSize = yes
+			alwaysTransparent = yes
+		}
+
+		buttonType = {
+			name = "close"
+			position = { x = -45 y = 16 }
+			spriteType = "GFX_close"
+			orientation = "UPPER_RIGHT"
+			shortcut = "ESCAPE"
+		}
+
+		containerWindowType = {
+			name = "pbships_draw_window_physics"
+			position = { x = 6 y = 55 }
+			size = { width = 259 height = 389 }
+			moveable = no
+
+			background = {
+				name = "background"
+				spriteType = "GFX_tiles_frame_light"
+			}
+
+			buttonType = {
+				name = "previous_page"
+				quadTextureSprite = "GFX_button_left"
+				position = { x = 4 y = 4 }
+				shortcut = "CTRL+TAB"
+				clicksound = "click"
+				pdx_tooltip = "PREV"
+			}
+
+			instantTextBoxType = {
+				name = "physics_title"
+				font = "cg_16b"
+				text = "physics_title_default"
+				position = { x = 46 y = 15 }
+				maxWidth = 167
+				maxHeight = 20
+				fixedSize = yes
+				format = center
+				orientation = upper_left
+				alwaysTransparent = yes
+			}
+
+			buttonType = {
+				name = "next_page"
+				quadTextureSprite = "GFX_button_right"
+				position = { x = 217 y = 4 }
+				shortcut = "TAB"
+				clicksound = "click"
+				pdx_tooltip = "NEXT"
+			}
+
+			instantTextBoxType = {
+				name = "physics_draw_points"
+				font = "cg_16b"
+				text = "physics_points_per_day"
+				position = { x = 4 y = 46 }
+				maxWidth = 251
+				maxHeight = 20
+				fixedSize = yes
+				format = center
+				orientation = upper_left
+				text_color_code = "B"
+			}
+
+			iconType = {
+				name = "physics_progressbar"
+				spriteType = "GFX_queue_progressbar"
+				position = { x = 25 y = 66 }
+				alwaysTransparent = yes
+			}
+
+			iconType = {
+				name = "physics_draw_icon"
+				position = { x = 15 y = 120 }
+				spriteType = "GFX_physics_draw_icon"
+				alwaysTransparent = yes
+			}
+
+			effectButtonType = {
+				name = "physics_draw_button"
+				position = { x = 60 y = 300 }
+				spriteType = "GFX_standard_button_116_34"
+				buttonFont = "cg_16b"
+				text = "physics_draw"
+				font = "cg_16b"
+				oversound = mouse_over
+				navLeft = "change"
+				pdx_tooltip = "physics_draw_tooltip"
+			}
+		}
+
+		containerWindowType = {
+			name = "pbships_draw_window_social"
+			position = { x = 271 y = 55 }
+			size = { width = 258 height = 389 }
+			moveable = no
+
+			background = {
+				name = "background"
+				spriteType = "GFX_tiles_frame_light"
+			}
+
+			buttonType = {
+				name = "previous_page"
+				quadTextureSprite = "GFX_button_left"
+				position = { x = 4 y = 4 }
+				shortcut = "CTRL+TAB"
+				clicksound = "click"
+				pdx_tooltip = "PREV"
+			}
+
+			instantTextBoxType = {
+				name = "social_title"
+				font = "cg_16b"
+				text = "social_title_default"
+				position = { x = 46 y = 15 }
+				maxWidth = 166
+				maxHeight = 20
+				fixedSize = yes
+				format = center
+				orientation = upper_left
+				alwaysTransparent = yes
+			}
+
+			buttonType = {
+				name = "next_page"
+				quadTextureSprite = "GFX_button_right"
+				position = { x = 216 y = 4 }
+				shortcut = "TAB"
+				clicksound = "click"
+				pdx_tooltip = "NEXT"
+			}
+
+			instantTextBoxType = {
+				name = "social_draw_points"
+				font = "cg_16b"
+				text = "social_points_per_day"
+				position = { x = 4 y = 46 }
+				maxWidth = 250
+				maxHeight = 20
+				fixedSize = yes
+				format = center
+				orientation = upper_left
+				text_color_code = "G"
+			}
+
+			iconType = {
+				name = "social_progressbar"
+				spriteType = "GFX_queue_progressbar"
+				position = { x = 24 y = 66 }
+				alwaysTransparent = yes
+			}
+
+			iconType = {
+				name = "social_draw_icon"
+				position = { x = 15 y = 120 }
+				spriteType = "GFX_social_draw_icon"
+				alwaysTransparent = yes
+			}
+
+			effectButtonType = {
+				name = "social_draw_button"
+				position = { x = 60 y = 300 }
+				spriteType = "GFX_standard_button_116_34"
+				buttonFont = "cg_16b"
+				text = "social_draw"
+				font = "cg_16b"
+				oversound = mouse_over
+				navLeft = "change"
+				pdx_tooltip = "social_draw_tooltip"
+			}
+		}
+
+		containerWindowType = {
+			name = "pbships_draw_window_engineer"
+			position = { x = 535 y = 55 }
+			size = { width = 259 height = 389 }
+			moveable = no
+
+			background = {
+				name = "background"
+				spriteType = "GFX_tiles_frame_light"
+			}
+
+			buttonType = {
+				name = "previous_page"
+				quadTextureSprite = "GFX_button_left"
+				position = { x = 4 y = 4 }
+				shortcut = "CTRL+TAB"
+				clicksound = "click"
+				pdx_tooltip = "PREV"
+			}
+
+			instantTextBoxType = {
+				name = "engineer_title"
+				font = "cg_16b"
+				text = "engineer_title_default"
+				position = { x = 46 y = 15 }
+				maxWidth = 167
+				maxHeight = 20
+				fixedSize = yes
+				format = center
+				orientation = upper_left
+				alwaysTransparent = yes
+			}
+
+			buttonType = {
+				name = "next_page"
+				quadTextureSprite = "GFX_button_right"
+				position = { x = 217 y = 4 }
+				shortcut = "TAB"
+				clicksound = "click"
+				pdx_tooltip = "NEXT"
+			}
+
+			instantTextBoxType = {
+				name = "engineer_draw_points"
+				font = "cg_16b"
+				text = "engineer_points_per_day"
+				position = { x = 4 y = 46 }
+				maxWidth = 251
+				maxHeight = 20
+				fixedSize = yes
+				format = center
+				orientation = upper_left
+				text_color_code = "H"
+			}
+
+			iconType = {
+				name = "engineer_progressbar"
+				spriteType = "GFX_queue_progressbar"
+				position = { x = 25 y = 66 }
+				alwaysTransparent = yes
+			}
+
+			iconType = {
+				name = "engineer_draw_icon"
+				position = { x = 15 y = 120 }
+				spriteType = "GFX_engineer_draw_icon"
+				alwaysTransparent = yes
+			}
+
+			effectButtonType = {
+				name = "engineer_draw_button"
+				position = { x = 60 y = 300 }
+				spriteType = "GFX_standard_button_116_34"
+				buttonFont = "cg_16b"
+				text = "engineer_draw"
+				font = "cg_16b"
+				oversound = mouse_over
+				navLeft = "change"
+				pdx_tooltip = "engineer_draw_tooltip"
+			}
+		}
+
+		# hide all below
+		iconType = { name = "hex_bg" spriteType = "GFX_hex_center_bg" position = { x = 114514 y = 114514 } alwaysTransparent = yes }
+		buttonType = { name = "focus_button" position = { x = 114514 y = 114514 } orientation = "UPPER_RIGHT" spriteType = "GFX_fleetview_focus" buttonFont = "cg_16b" shortcut = "q" }
+		instantTextBoxType = { name = "heading" font = "malgun_goth_24" text = "DIPLOMACY" position = { x = 114514 y = 114514 } maxWidth = 543 maxHeight = 22 fixedSize = yes alwaysTransparent = yes }
+		instantTextBoxType = { name = "alien_message" font = "cg_16b" position = { x = 114514 y = 114514 } maxWidth = 465 maxHeight = 220 format = left scrollbartype = "standardtext_slider" }
+		buttonType = { name = "confirm_button" quadTextureSprite = "GFX_standard_button_142_34_button" position = { x= 114514 y = 114514  } Orientation = "UPPER_RIGHT" font = "cg_16b" text = "MESSAGE_OK" clicksound = "confirmation" }		containerWindowType = { name = "portrait_background" position = { x = 114514 y = 114514 } size = { width = 964 height = 350 } clipping = yes			iconType = { name = "event_picture" spriteType = "GFX_diplomacy_portrait_frame" position = { x = -6 y = -5 } }			iconType = { name = "portrait" position = { x = 250 y = 0 } spriteType = "GFX_portrait_character" }
+		}
+		containerWindowType = { name = "portrait" position = { x = 114514 y = 114514 } size = { width = 964 height = 350 } clipping = yes
+			iconType = { name = "portrait" spriteType = "GFX_portrait_gamesetup_mask" alwaysTransparent = yes }
+			iconType = { name = "black_frame" spriteType = "GFX_diplomacy_portrait_shadow_frame" position = { x = -4 y = -5} alwaysTransparent = yes }
+			iconType = { name = "stripes_1" spriteType = "GFX_diplomacy_stripes_2" alwaysTransparent = yes }
+			iconType = { name = "city_frame" spriteType = "GFX_diplomacy_portrait_frame_trader" position = { x = -6 y = -5 } alwaysTransparent = yes }
+		}
+		iconType = { name = "empire_info_bg" spriteType = "GFX_diplomacy_dark_fade_bg" position = { x = 114514 y = 114514 } alwaysTransparent = yes }
+		instantTextBoxType={ name = "empire_name" font = "malgun_goth_24" text = "Kammarian Galactic Concordat" position = { x = 114514 y = 114514 } maxWidth = 450 maxHeight = 16 format = LEFT text_color_code = "E" fixedsize = yes }
+		instantTextBoxType={ name = "empire_government_type" font = "cg_16b" text = "Autocracy" position = { x = 114514 y = 114514 } maxWidth = 250 maxHeight = 16 format = LEFT fixedsize = yes text_color_code = "Y" }
+		instantTextBoxType={ name = "empire_personality_type" font = "cg_16b" text = "Despicable Neutrals" position = { x = 114514 y = 114514 } maxWidth = 250 maxHeight = 16 format = LEFT fixedsize = yes }
+		OverlappingElementsBoxType = { name = "empire_ethics_icons" position = { x = 114514 y = 114514 } size = { x = 240 y = 30 } spacing = 2.0 format = left }
+		buttonType = { name = "empire_flag" quadTextureSprite = "GFX_empire_flag_128_trader" position = { x = 114514 y = 114514 } orientation = UPPER_LEFT }
+		containerWindowType = { name = "leader_details" position = { x = 114514 y = 114514 }
+			containerWindowType = { name = "empire_traits_box" position = { x = 0 y = -5 } size = { width = 210 height = 75 } background = { name = "ethics_bg" spriteType = "GFX_tiles_dark_area_cut_8" } }
+			instantTextBoxType = { name = "empire_traits_label" position = { x = 214 y = 37 } font = "cg_16b" maxWidth = 230 maxHeight = 20 fixedSize = yes format = left text = "RULER_TRAITS" alwaysTransparent = yes }
+			overlappingElementsBoxType = { name = "leader_traits" position = { x = 215 y = 55 } size = { x = 125 y = 330 } }
+			instantTextBoxType = { name = "leader_name" position = { x = 10 y = 0 } font = "cg_16b" maxWidth = 330 maxHeight = 20 fixedSize = yes format = left text = "Leader Name" text_color_code = "E" }
+			instantTextBoxType = { name = "leader_species" position = { x = 10 y = 18 } font = "cg_16b" maxWidth = 330 maxHeight = 20 fixedSize = yes text = "Leader Species" format = left }
+		}
+		containerWindowType = { name = "opinion_window" position = { x = 114514 y = 114514 } size = { width = 94 height = 30 } background = { name = "opinion_bg" spriteType = "GFX_tiled_window_transparent" }
+			iconType = { name = "their_opinion_icon" spriteType = "GFX_diplomacy_opinion" position = { x = 7 y = 4 } alwaysTransparent = yes }
+			instantTextBoxType = { name = "their_opinion" font = "cg_16b" maxWidth = 40 position = { x = 40 y = 7 } format = left text = "100" alwaysTransparent = yes }
+		}
+		containerWindowType = { name = "EVENT_DIPLO" position = { x = 114514 y = 114514 } size = { width=563 height=280 } moveable = no
+			instantTextBoxType={ name = "action_title" font = "malgun_goth_24" position = { x = 20 y = 0 } maxWidth = 520 alwaysTransparent = yes }
+			instantTextBoxType={ name = "action_desc" font = "malgun_goth_24" position = { x = 490 y = 0 } maxWidth = 500 maxHeight = 180 Orientation = "UPPER_LEFT" format = center alwaysTransparent = yes text_color_code = "H" }
+			listboxType = { name = "option_list" position = { x = 500 y = 20 } backGround="" size = { x = 460 y = 240 } spacing = 1 scrollbartype = "standardlistbox_slider" borderSize = { x = 0 y = 0 } Orientation = "UPPER_LEFT" }
+		}
+	}
+}

@@ -55,11 +55,11 @@
  CRUISER_MID_X1S2HB1:0 "入侵者巨炮核心"
  CRUISER_MID_X1HB1M1:0 "侵袭者巨炮核心"
  CRUISER_STERN_AUX:0 "辅助舰艉"
- CRUISER_STERN_L1:0 "重装舰艉"
- CRUISER_STERN_L1M1:0 "死战不退舰艉"
- CRUISER_STERN_M3:0 "齐射舰艉"
+ CRUISER_STERN_L1M1:0 "重装舰艉"
+ CRUISER_STERN_L2:0 "死战不退舰艉"
+ CRUISER_STERN_M4:0 "齐射舰艉"
  CRUISER_STERN_HB1:0 "航母舰艉"
- CRUISER_STERN_M1HB1:0 "侵略航母舰艉"
+ CRUISER_STERN_L1HB1:0 "侵略航母舰艉"
  CRUISER_STERN_S2HB1:0 "防御航母舰艉"
 
  ####################################

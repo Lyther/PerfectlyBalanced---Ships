@@ -5,7 +5,6 @@
 
 # Escorts
 
-# not localized
 ship_section_template = {
 	key = "FE_ESCORT_HB1_KEY"
 	ship_size = fe_escort
@@ -33,7 +32,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_ESCORT_X1_KEY"
 	ship_size = fe_escort
@@ -60,7 +58,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_ESCORT_X1HB1_KEY"
 	ship_size = fe_escort
@@ -93,7 +90,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_ESCORT_MID_HB1_KEY"
 	ship_size = fe_escort
@@ -121,7 +117,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_ESCORT_MID_L1_KEY"
 	ship_size = fe_escort
@@ -148,7 +143,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_ESCORT_MID_HB2_KEY"
 	ship_size = fe_escort
@@ -182,7 +176,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_ESCORT_MID_X1_KEY"
 	ship_size = fe_escort
@@ -209,7 +202,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_ESCORT_MID_X1HB1_KEY"
 	ship_size = fe_escort
@@ -242,7 +234,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_ESCORT_STERN_HB1_KEY"
 	ship_size = fe_escort
@@ -270,7 +261,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_ESCORT_STERN_L1_KEY"
 	ship_size = fe_escort
@@ -297,7 +287,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_ESCORT_STERN_HB2_KEY"
 	ship_size = fe_escort
@@ -331,7 +320,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_ESCORT_STERN_X1_KEY"
 	ship_size = fe_escort
@@ -358,7 +346,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_ESCORT_STERN_X1HB1_KEY"
 	ship_size = fe_escort
@@ -393,7 +380,6 @@ ship_section_template = {
 
 # Battlecruisers
 
-# not localized
 ship_section_template = {
 	key = "FE_BATTLECRUISER_BOW_X1HB2_KEY"
 	ship_size = fe_battlecruiser
@@ -433,7 +419,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_BATTLECRUISER_BOW_X2_KEY"
 	ship_size = fe_battlecruiser
@@ -466,7 +451,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_BATTLECRUISER_BOW_T1_KEY"
 	ship_size = fe_battlecruiser
@@ -494,7 +478,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_BATTLECRUISER_BOW_X2HB1_KEY"
 	ship_size = fe_battlecruiser
@@ -533,7 +516,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_BATTLECRUISER_BOW_T1HB1_KEY"
 	ship_size = fe_battlecruiser
@@ -567,7 +549,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_BATTLECRUISER_BOW_X3_KEY"
 	ship_size = fe_battlecruiser
@@ -605,7 +586,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_BATTLECRUISER_BOW_X3HB1_KEY"
 	ship_size = fe_battlecruiser
@@ -649,7 +629,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_BATTLECRUISER_BOW_T1X1_KEY"
 	ship_size = fe_battlecruiser
@@ -682,7 +661,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_BATTLECRUISER_BOW_T1X1HB1_KEY"
 	ship_size = fe_battlecruiser
@@ -721,7 +699,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_BATTLECRUISER_HB1PD2_KEY"
 	ship_size = fe_battlecruiser
@@ -759,7 +736,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_BATTLECRUISER_X2_KEY"
 	ship_size = fe_battlecruiser
@@ -791,7 +767,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_BATTLECRUISER_X2HB1_KEY"
 	ship_size = fe_battlecruiser
@@ -829,7 +804,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_BATTLECRUISER_T1_KEY"
 	ship_size = fe_battlecruiser
@@ -856,7 +830,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_BATTLECRUISER_T1HB1_KEY"
 	ship_size = fe_battlecruiser
@@ -889,7 +862,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_BATTLECRUISER_X3_KEY"
 	ship_size = fe_battlecruiser
@@ -926,7 +898,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_BATTLECRUISER_T1X1_KEY"
 	ship_size = fe_battlecruiser
@@ -958,7 +929,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_BATTLECRUISER_T1HB2_KEY"
 	ship_size = fe_battlecruiser
@@ -997,7 +967,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_BATTLECRUISER_STERN_X1M1_KEY"
 	ship_size = fe_battlecruiser
@@ -1029,7 +998,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_BATTLECRUISER_STERN_X2_KEY"
 	ship_size = fe_battlecruiser
@@ -1061,7 +1029,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_BATTLECRUISER_STERN_X2HB1_KEY"
 	ship_size = fe_battlecruiser
@@ -1099,7 +1066,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_BATTLECRUISER_STERN_T1_KEY"
 	ship_size = fe_battlecruiser
@@ -1126,7 +1092,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_BATTLECRUISER_STERN_T1HB1_KEY"
 	ship_size = fe_battlecruiser
@@ -1159,7 +1124,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_BATTLECRUISER_STERN_X3_KEY"
 	ship_size = fe_battlecruiser
@@ -1196,7 +1160,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_BATTLECRUISER_STERN_T1X1_KEY"
 	ship_size = fe_battlecruiser
@@ -1228,7 +1191,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_BATTLECRUISER_STERN_T1HB2_KEY"
 	ship_size = fe_battlecruiser
@@ -1269,7 +1231,6 @@ ship_section_template = {
 
 # Titan
 
-# not localized
 ship_section_template = {
 	key = "FE_TITAN_BOW_X2_KEY"
 	ship_size = fe_titan
@@ -1302,7 +1263,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_TITAN_BOW_T2_KEY"
 	ship_size = fe_titan
@@ -1335,7 +1295,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_TITAN_BOW_X4_KEY"
 	ship_size = fe_titan
@@ -1378,7 +1337,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_TITAN_BOW_T2HB1_KEY"
 	ship_size = fe_titan
@@ -1417,7 +1375,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_TITAN_BOW_X4HB1_KEY"
 	ship_size = fe_titan
@@ -1466,7 +1423,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_TITAN_BOW_T3_KEY"
 	ship_size = fe_titan
@@ -1504,7 +1460,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_TITAN_BOW_X6_KEY"
 	ship_size = fe_titan
@@ -1557,7 +1512,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_TITAN_T2_KEY"
 	ship_size = fe_titan
@@ -1590,7 +1544,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_TITAN_T2X1_KEY"
 	ship_size = fe_titan
@@ -1628,7 +1581,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_TITAN_T2X1HB1_KEY"
 	ship_size = fe_titan
@@ -1672,7 +1624,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_TITAN_X5_KEY"
 	ship_size = fe_titan
@@ -1720,7 +1671,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_TITAN_X5HB1_KEY"
 	ship_size = fe_titan
@@ -1774,7 +1724,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_TITAN_T3_KEY"
 	ship_size = fe_titan
@@ -1812,7 +1761,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_TITAN_X6_KEY"
 	ship_size = fe_titan
@@ -1865,7 +1813,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_TITAN_T2_HANGAR"
 	ship_size = fe_titan
@@ -1898,7 +1845,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_TITAN_T2HB1_HANGAR"
 	ship_size = fe_titan
@@ -1937,7 +1883,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_TITAN_X4_HANGAR"
 	ship_size = fe_titan
@@ -1980,7 +1925,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_TITAN_X4HB1_HANGAR"
 	ship_size = fe_titan
@@ -2029,7 +1973,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_TITAN_T2X1_HANGAR"
 	ship_size = fe_titan
@@ -2067,7 +2010,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_TITAN_X5_HANGAR"
 	ship_size = fe_titan
@@ -2115,7 +2057,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_TITAN_T2_STERN"
 	ship_size = fe_titan
@@ -2147,7 +2088,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_TITAN_T2HB1_STERN"
 	ship_size = fe_titan
@@ -2185,7 +2125,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_TITAN_X4_STERN"
 	ship_size = fe_titan
@@ -2227,7 +2166,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_TITAN_X4HB1_STERN"
 	ship_size = fe_titan
@@ -2275,7 +2213,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_TITAN_T2X1_STERN"
 	ship_size = fe_titan
@@ -2312,7 +2249,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_TITAN_X5_STERN"
 	ship_size = fe_titan
@@ -2361,7 +2297,6 @@ ship_section_template = {
 
 # Defense Station Section
 
-# not localized
 ship_section_template = {
 	key = "FE_SMALL_STATION_HEAVY_X1HB1"
 	ship_size = fe_small_station
@@ -2393,7 +2328,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_SMALL_STATION_HEAVY_X2"
 	ship_size = fe_small_station
@@ -2424,7 +2358,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_SMALL_STATION_HEAVY_T1"
 	ship_size = fe_small_station
@@ -2450,7 +2383,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_SMALL_STATION_HEAVY_X3"
 	ship_size = fe_small_station
@@ -2486,7 +2418,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_SMALL_STATION_HEAVY_T1X1"
 	ship_size = fe_small_station
@@ -2517,7 +2448,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_SMALL_STATION_HEAVY_X3HB1"
 	ship_size = fe_small_station
@@ -2559,7 +2489,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_SMALL_STATION_HEAVY_T1X1HB1"
 	ship_size = fe_small_station
@@ -2596,7 +2525,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_SMALL_STATION_MEDIUM_X1"
 	ship_size = fe_small_station
@@ -2622,7 +2550,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_SMALL_STATION_MEDIUM_HB2"
 	ship_size = fe_small_station
@@ -2655,7 +2582,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_SMALL_STATION_MEDIUM_X2"
 	ship_size = fe_small_station
@@ -2686,7 +2612,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_SMALL_STATION_MEDIUM_T1"
 	ship_size = fe_small_station
@@ -2712,7 +2637,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_SMALL_STATION_MEDIUM_X2HB1"
 	ship_size = fe_small_station
@@ -2749,7 +2673,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_SMALL_STATION_MEDIUM_T1HB1"
 	ship_size = fe_small_station
@@ -2781,7 +2704,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_SMALL_STATION_MEDIUM_X3"
 	ship_size = fe_small_station
@@ -2817,7 +2739,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_SMALL_STATION_MEDIUM_T1X1"
 	ship_size = fe_small_station
@@ -2850,7 +2771,6 @@ ship_section_template = {
 
 # Large Station Section
 
-# not localized
 ship_section_template = {
 	key = "FE_LARGE_STATION_XL_X4"
 	ship_size = fe_large_station
@@ -2891,7 +2811,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_LARGE_STATION_XL_T2"
 	ship_size = fe_large_station
@@ -2922,7 +2841,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_LARGE_STATION_XL_X6"
 	ship_size = fe_large_station
@@ -2973,7 +2891,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_LARGE_STATION_XL_T3"
 	ship_size = fe_large_station
@@ -3009,7 +2926,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_LARGE_STATION_XL_X7"
 	ship_size = fe_large_station
@@ -3065,7 +2981,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_LARGE_STATION_XL_T3X1"
 	ship_size = fe_large_station
@@ -3106,7 +3021,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_LARGE_STATION_HEAVY_X2"
 	ship_size = fe_large_station
@@ -3137,7 +3051,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_LARGE_STATION_HEAVY_T1"
 	ship_size = fe_large_station
@@ -3163,7 +3076,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_LARGE_STATION_HEAVY_X3"
 	ship_size = fe_large_station
@@ -3199,7 +3111,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_LARGE_STATION_HEAVY_T1X1"
 	ship_size = fe_large_station
@@ -3230,7 +3141,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_LARGE_STATION_HEAVY_X4"
 	ship_size = fe_large_station
@@ -3271,7 +3181,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_LARGE_STATION_HEAVY_T2"
 	ship_size = fe_large_station
@@ -3302,7 +3211,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_LARGE_STATION_HEAVY_X5"
 	ship_size = fe_large_station
@@ -3348,7 +3256,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_LARGE_STATION_HEAVY_T2X1"
 	ship_size = fe_large_station
@@ -3384,7 +3291,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_LARGE_STATION_MEDIUM_X1HB1"
 	ship_size = fe_large_station
@@ -3416,7 +3322,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_LARGE_STATION_MEDIUM_X2"
 	ship_size = fe_large_station
@@ -3447,7 +3352,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_LARGE_STATION_MEDIUM_T1"
 	ship_size = fe_large_station
@@ -3473,7 +3377,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_LARGE_STATION_MEDIUM_X4"
 	ship_size = fe_large_station
@@ -3514,7 +3417,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_LARGE_STATION_MEDIUM_T2"
 	ship_size = fe_large_station
@@ -3545,7 +3447,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_LARGE_STATION_MEDIUM_X4HB1"
 	ship_size = fe_large_station
@@ -3592,7 +3493,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_LARGE_STATION_MEDIUM_T2HB1"
 	ship_size = fe_large_station
@@ -3629,7 +3529,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_LARGE_STATION_PD_HB1"
 	ship_size = fe_large_station
@@ -3656,7 +3555,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_LARGE_STATION_PD_X1"
 	ship_size = fe_large_station
@@ -3682,7 +3580,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_LARGE_STATION_PD_X2"
 	ship_size = fe_large_station
@@ -3713,7 +3610,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_LARGE_STATION_PD_T1"
 	ship_size = fe_large_station
@@ -3739,7 +3635,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_LARGE_STATION_PD_X3"
 	ship_size = fe_large_station
@@ -3775,7 +3670,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_LARGE_STATION_PD_T1X1"
 	ship_size = fe_large_station
@@ -3806,7 +3700,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_LARGE_STATION_PD_X3HB1"
 	ship_size = fe_large_station
@@ -3848,7 +3741,6 @@ ship_section_template = {
 	}
 }
 
-# not localized
 ship_section_template = {
 	key = "FE_LARGE_STATION_PD_T1X1HB1"
 	ship_size = fe_large_station
