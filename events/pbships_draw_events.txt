@@ -1,0 +1,119 @@
+namespace = pbships_draw
+
+# draw a random section
+country_event = {
+	id = pbships_draw.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		random_list = {
+			10 = { # corvette
+				get_corvette_mid_ship_section_tech = yes
+			}
+			10 = { # frigate
+				get_frigate_mid_ship_section_tech = yes
+			}
+			10 = { # destroyer
+				random_list = {
+					10 = { # bow
+						get_destroyer_bow_ship_section_tech = yes
+					}
+					10 = { # stern
+						get_destroyer_stern_ship_section_tech = yes
+					}
+				}
+			}
+			10 = { # cruiser
+				random_list = {
+					10 = { # bow
+						get_cruiser_bow_ship_section_tech = yes
+					}
+					10 = { # mid
+						get_cruiser_mid_ship_section_tech = yes
+					}
+					10 = { # stern
+						get_cruiser_stern_ship_section_tech = yes
+					}
+				}
+			}
+			10 = { # battleship
+				random_list = {
+					10 = { # bow
+						get_battleship_bow_ship_section_tech = yes
+					}
+					10 = { # mid
+						get_battleship_mid_ship_section_tech = yes
+					}
+					10 = { # stern
+						get_battleship_stern_ship_section_tech = yes
+					}
+				}
+			}
+			# 10 = { # titan
+			# 	random_list = {
+			# 		10 = { # bow
+			# 			get_ship_section_tech = { SHIP = titan SLOT = bow }
+			# 		}
+			# 		10 = { # mid
+			# 			get_ship_section_tech = { SHIP = titan SLOT = mid }
+			# 		}
+			# 		10 = { # stern
+			# 			get_ship_section_tech = { SHIP = titan SLOT = stern }
+			# 		}
+			# 	}
+			# }
+			# 10 = { # juggernaut
+			# 	get_ship_section_tech = { SHIP = juggernaut SLOT = core }
+			# }
+			# 10 = { # colossus
+			# 	get_ship_section_tech = { SHIP = colossus SLOT = ship }
+			# }
+			# 10 = { # crisis_corvette
+			# 	get_ship_section_tech = { SHIP = crisis_corvette SLOT = mid }
+			# }
+			# 10 = { # crisis_destroyer
+			# 	get_ship_section_tech = { SHIP = crisis_destroyer SLOT = mid }
+			# }
+			# 10 = { # crisis_cruiser
+			# 	get_ship_section_tech = { SHIP = crisis_cruiser SLOT = mid }
+			# }
+			# 10 = { # star_eater
+			# 	get_ship_section_tech = { SHIP = star_eater SLOT = mid }
+			# }
+			# 10 = { # military station small
+			# 	random_list = {
+			# 		10 = { # north
+			# 			get_ship_section_tech = { SHIP = military_station_small SLOT = north }
+			# 		}
+			# 		10 = { # west
+			# 			get_ship_section_tech = { SHIP = military_station_small SLOT = west }
+			# 		}
+			# 		10 = { # south
+			# 			get_ship_section_tech = { SHIP = military_station_small SLOT = south }
+			# 		}
+			# 		10 = { # east
+			# 			get_ship_section_tech = { SHIP = military_station_small SLOT = east }
+			# 		}
+			# 	}
+			# }
+		}
+	}
+}
+
+# ship sections pool empty
+# there is a very small chance that this event is triggered before the pool empty.
+# the chance < 0.1%.
+country_event = {
+	id = pbships_draw.999
+	title = "pbships_draw.999.name"
+	desc = "pbships_draw.999.desc"
+	picture = GFX_evt_unknown_ships
+	show_sound = event_alien_signal
+
+	is_triggered_only = yes
+
+	option = {
+		name = pbships_draw.999.a
+	}
+}

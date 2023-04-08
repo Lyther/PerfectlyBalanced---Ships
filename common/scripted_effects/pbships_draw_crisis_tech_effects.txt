@@ -1,0 +1,179 @@
+get_crisis_corvette_mid_ship_section_tech = {
+	random_list = {
+		100 = { get_crisis_corvette_mid_ship_section_tech_level_1 = yes }
+		80 = { get_crisis_corvette_mid_ship_section_tech_level_2 = yes }
+		60 = { get_crisis_corvette_mid_ship_section_tech_level_3 = yes }
+		40 = { get_crisis_corvette_mid_ship_section_tech_level_4 = yes }
+		20 = { get_crisis_corvette_mid_ship_section_tech_level_5 = yes }
+		10 = { get_crisis_corvette_mid_ship_section_tech_level_6 = yes }
+		8 = { get_crisis_corvette_mid_ship_section_tech_level_7 = yes }
+		6 = { get_crisis_corvette_mid_ship_section_tech_level_8 = yes }
+		4 = { get_crisis_corvette_mid_ship_section_tech_level_9 = yes }
+		2 = { get_crisis_corvette_mid_ship_section_tech_level_10 = yes }
+	}
+}
+
+get_crisis_destroyer_mid_ship_section_tech = {
+	random_list = {
+		100 = { get_crisis_destroyer_mid_ship_section_tech_level_1 = yes }
+		80 = { get_crisis_destroyer_mid_ship_section_tech_level_2 = yes }
+		60 = { get_crisis_destroyer_mid_ship_section_tech_level_3 = yes }
+		40 = { get_crisis_destroyer_mid_ship_section_tech_level_4 = yes }
+		20 = { get_crisis_destroyer_mid_ship_section_tech_level_5 = yes }
+		10 = { get_crisis_destroyer_mid_ship_section_tech_level_6 = yes }
+		8 = { get_crisis_destroyer_mid_ship_section_tech_level_7 = yes }
+		6 = { get_crisis_destroyer_mid_ship_section_tech_level_8 = yes }
+		4 = { get_crisis_destroyer_mid_ship_section_tech_level_9 = yes }
+		2 = { get_crisis_destroyer_mid_ship_section_tech_level_10 = yes }
+	}
+}
+
+get_crisis_cruiser_mid_ship_section_tech = {
+	random_list = {
+		100 = { get_crisis_cruiser_mid_ship_section_tech_level_1 = yes }
+		80 = { get_crisis_cruiser_mid_ship_section_tech_level_2 = yes }
+		60 = { get_crisis_cruiser_mid_ship_section_tech_level_3 = yes }
+		40 = { get_crisis_cruiser_mid_ship_section_tech_level_4 = yes }
+		20 = { get_crisis_cruiser_mid_ship_section_tech_level_5 = yes }
+		10 = { get_crisis_cruiser_mid_ship_section_tech_level_6 = yes }
+		8 = { get_crisis_cruiser_mid_ship_section_tech_level_7 = yes }
+		6 = { get_crisis_cruiser_mid_ship_section_tech_level_8 = yes }
+		4 = { get_crisis_cruiser_mid_ship_section_tech_level_9 = yes }
+		2 = { get_crisis_cruiser_mid_ship_section_tech_level_10 = yes }
+	}
+}
+
+get_star_eater_mid_ship_section_tech = {
+	random_list = {
+		100 = { get_star_eater_mid_ship_section_tech_level_1 = yes }
+		80 = { get_star_eater_mid_ship_section_tech_level_2 = yes }
+		60 = { get_star_eater_mid_ship_section_tech_level_3 = yes }
+		40 = { get_star_eater_mid_ship_section_tech_level_4 = yes }
+		20 = { get_star_eater_mid_ship_section_tech_level_5 = yes }
+		10 = { get_star_eater_mid_ship_section_tech_level_6 = yes }
+		8 = { get_star_eater_mid_ship_section_tech_level_7 = yes }
+		6 = { get_star_eater_mid_ship_section_tech_level_8 = yes }
+		4 = { get_star_eater_mid_ship_section_tech_level_9 = yes }
+		2 = { get_star_eater_mid_ship_section_tech_level_10 = yes }
+	}
+}
+
+get_crisis_corvette_mid_ship_section_tech_level_1 = {
+}
+
+get_crisis_corvette_mid_ship_section_tech_level_2 = {
+}
+
+get_crisis_corvette_mid_ship_section_tech_level_3 = {
+}
+
+get_crisis_corvette_mid_ship_section_tech_level_4 = {
+}
+
+get_crisis_corvette_mid_ship_section_tech_level_5 = {
+}
+
+get_crisis_corvette_mid_ship_section_tech_level_6 = {
+}
+
+get_crisis_corvette_mid_ship_section_tech_level_7 = {
+}
+
+get_crisis_corvette_mid_ship_section_tech_level_8 = {
+}
+
+get_crisis_corvette_mid_ship_section_tech_level_9 = {
+}
+
+get_crisis_corvette_mid_ship_section_tech_level_10 = {
+}
+
+get_crisis_destroyer_mid_ship_section_tech_level_1 = {
+}
+
+get_crisis_destroyer_mid_ship_section_tech_level_2 = {
+}
+
+get_crisis_destroyer_mid_ship_section_tech_level_3 = {
+}
+
+get_crisis_destroyer_mid_ship_section_tech_level_4 = {
+}
+
+get_crisis_destroyer_mid_ship_section_tech_level_5 = {
+}
+
+get_crisis_destroyer_mid_ship_section_tech_level_6 = {
+}
+
+get_crisis_destroyer_mid_ship_section_tech_level_7 = {
+}
+
+get_crisis_destroyer_mid_ship_section_tech_level_8 = {
+}
+
+get_crisis_destroyer_mid_ship_section_tech_level_9 = {
+}
+
+get_crisis_destroyer_mid_ship_section_tech_level_10 = {
+}
+
+get_crisis_cruiser_mid_ship_section_tech_level_1 = {
+}
+
+get_crisis_cruiser_mid_ship_section_tech_level_2 = {
+}
+
+get_crisis_cruiser_mid_ship_section_tech_level_3 = {
+}
+
+get_crisis_cruiser_mid_ship_section_tech_level_4 = {
+}
+
+get_crisis_cruiser_mid_ship_section_tech_level_5 = {
+}
+
+get_crisis_cruiser_mid_ship_section_tech_level_6 = {
+}
+
+get_crisis_cruiser_mid_ship_section_tech_level_7 = {
+}
+
+get_crisis_cruiser_mid_ship_section_tech_level_8 = {
+}
+
+get_crisis_cruiser_mid_ship_section_tech_level_9 = {
+}
+
+get_crisis_cruiser_mid_ship_section_tech_level_10 = {
+}
+
+get_star_eater_mid_ship_section_tech_level_1 = {
+}
+
+get_star_eater_mid_ship_section_tech_level_2 = {
+}
+
+get_star_eater_mid_ship_section_tech_level_3 = {
+}
+
+get_star_eater_mid_ship_section_tech_level_4 = {
+}
+
+get_star_eater_mid_ship_section_tech_level_5 = {
+}
+
+get_star_eater_mid_ship_section_tech_level_6 = {
+}
+
+get_star_eater_mid_ship_section_tech_level_7 = {
+}
+
+get_star_eater_mid_ship_section_tech_level_8 = {
+}
+
+get_star_eater_mid_ship_section_tech_level_9 = {
+}
+
+get_star_eater_mid_ship_section_tech_level_10 = {
+}

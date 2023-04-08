@@ -7,10 +7,10 @@ import math
 ship_size_list = ["battleship", "colossus", "frigate", "corvette", "crisis_corvette", "crisis_destroyer", "crisis_cruiser", "star_eater", "cruiser", "destroyer", "eventship_04", "leviathan_01_scavenger_bot", "leviathan_01_elder_tiyanki", "leviathan_01_voidspawn", "juggernaut", "space_dragon_red", "stellarite", "npc_warship_01", "dimensional_horror", "toxic_god", "sphere", "galleon", "wraith_01_blue", "wraith_01_red", "wraith_01_yellow", "space_dragon_blue", "military_station_small", "military_station_medium", "military_station_large", "offspring_corvette", "offspring_destroyer", "offspring_cruiser", "offspring_battleship", "titan"]
 fits_on_slot_dict = {"battleship": ["bow", "mid", "stern"], "colossus": ["ship"], "frigate": ["mid"], "corvette": ["mid"], "crisis_corvette": ["mid"], "crisis_destroyer": ["mid"], "crisis_cruiser": ["mid"], "star_eater": ["mid"], "cruiser": ["bow", "mid", "stern"], "destroyer": ["bow", "stern"], "eventship_04": ["mid"], "leviathan_01_scavenger_bot": ["mid"], "leviathan_01_elder_tiyanki": ["mid"], "leviathan_01_voidspawn": ["mid"], "juggernaut": ["core"], "space_dragon_red": ["mid"], "stellarite": ["mid"], "npc_warship_01": ["mid"], "dimensional_horror": ["mid"], "toxic_god": ["mid"], "sphere": ["mid"], "galleon": ["mid"], "wraith_01_blue": ["mid"], "wraith_01_red": ["mid"], "wraith_01_yellow": ["mid"], "space_dragon_blue": ["mid"], "military_station_small": ["north", "west", "east", "south"], "military_station_medium": ["north", "west", "east", "south"], "military_station_large": ["north", "west", "east", "south"], "offspring_corvette": ["mid"], "offspring_destroyer": ["bow", "stern"], "offspring_cruiser": ["bow", "mid", "stern"], "offsprint_battleship": ["bow", "mid", "stern"], "titan": ["bow", "mid", "stern"]}
 entity_dict = {"battleship": {"bow": ["battleship_bow_L1M1S2_entity", "battleship_bow_L2_entity", "battleship_bow_M1S2SHB_entity", "battleship_bow_XL1_entity"], "mid": ["battleship_mid_L2M2_entity", "battleship_mid_L3_entity", "battleship_mid_M4SHB_entity", "battleship_mid_S4LHB_entity"], "stern": ["battleship_stern_L1_entity", "battleship_stern_M2_entity"]}, "colossus": {"ship": ["colossus_ship_entity"]}, "frigate": {"mid": ["corvette_M1S1_entity", "corvette_S3_entity"]}, "corvette": {"mid": ["corvette_M1S1_entity", "corvette_S3_entity"]}, "crisis_corvette": {"mid": ["crisis_corvette_M1S1_entity", "crisis_corvette_S3_entity"]}, "crisis_destroyer": {"mid": ["crisis_destroyer_1M2S1M_entity", "crisis_destroyer_1L2S_entity"]}, "crisis_cruiser": {"mid": ["crisis_cruiser_hull_entity"]}, "star_eater": {"mid": ["star_eater_ship_entity"]}, "cruiser": {"bow": ["cruiser_bow_L1_entity", "cruiser_bow_M1S2_entity", "cruiser_bow_M2_entity"], "mid": ["cruiser_mid_S2HB_entity", "cruiser_mid_L1M1_entity", "cruiser_mid_M3_entity", "cruiser_mid_M2S2_entity"], "stern": ["cruiser_stern_M1_entity", "cruiser_stern_S2_entity"]}, "destroyer": {"bow": ["destroyer_bow_M1S2_entity", "destroyer_bow_S3_entity", "destroyer_bow_L1_entity"], "stern": ["destroyer_stern_S2_entity", "destroyer_stern_M1_entity"]}, "juggernaut": {"core": ["juggernaut_core_section_entity"]}, "military_station_small": {"north": ["military_station_section_light_entity", "military_station_section_medium_entity", "military_station_section_heavy_entity", "military_station_section_hangar_entity"], "west": ["military_station_section_light_entity", "military_station_section_medium_entity", "military_station_section_heavy_entity", "military_station_section_hangar_entity"], "east": ["military_station_section_light_entity", "military_station_section_medium_entity", "military_station_section_heavy_entity", "military_station_section_hangar_entity"], "south": ["military_station_section_light_entity", "military_station_section_medium_entity", "military_station_section_heavy_entity", "military_station_section_hangar_entity"]}, "military_station_medium": {"north": ["military_station_section_light_entity", "military_station_section_medium_entity", "military_station_section_heavy_entity", "military_station_section_hangar_entity"], "west": ["military_station_section_light_entity", "military_station_section_medium_entity", "military_station_section_heavy_entity", "military_station_section_hangar_entity"], "east": ["military_station_section_light_entity", "military_station_section_medium_entity", "military_station_section_heavy_entity", "military_station_section_hangar_entity"], "south": ["military_station_section_light_entity", "military_station_section_medium_entity", "military_station_section_heavy_entity", "military_station_section_hangar_entity"]}, "military_station_large": {"north": ["military_station_section_light_entity", "military_station_section_medium_entity", "military_station_section_heavy_entity", "military_station_section_hangar_entity"], "west": ["military_station_section_light_entity", "military_station_section_medium_entity", "military_station_section_heavy_entity", "military_station_section_hangar_entity"], "east": ["military_station_section_light_entity", "military_station_section_medium_entity", "military_station_section_heavy_entity", "military_station_section_hangar_entity"], "south": ["military_station_section_light_entity", "military_station_section_medium_entity", "military_station_section_heavy_entity", "military_station_section_hangar_entity"]}, "titan": {"bow": ["titan_bow_entity"], "mid": ["titan_mid_entity"], "stern": ["titan_stern_entity"]}}
-entity_locator_dict = {"battleship_bow_L1M1S2_entity": {"L": 1, "M": 1, "S": 2}, "battleship_bow_L2_entity": {"L": 2}, "battleship_bow_M1S2SHB_entity": {"HB": 1, "M": 1, "S": 2}, "battleship_bow_XL1_entity": {"XL": 1}, "battleship_mid_L2M2_entity": {"L": 2, "M": 2}, "battleship_mid_L3_entity": {"L": 3}, "battleship_mid_M4SHB_entity": {"HB": 1, "M": 4}, "battleship_mid_S4LHB_entity": {"HB": 2, "S": 4}, "battleship_stern_L1_entity": {"L": 1}, "battleship_stern_M2_entity": {"M": 2}, "colossus_ship_entity": {"W": 1}, "corvette_M1S1_entity": {"M": 1, "S": 1}, "corvette_S3_entity": {"S": 3}, "crisis_corvette_M1S1_entity": {"M": 1, "S": 1}, "crisis_corvette_S3_entity": {"S": 3}, "crisis_destroyer_1M2S1M_entity": {"M": 2, "S": 2}, "crisis_destroyer_1L2S_entity": {"L": 1, "S": 2}, "crisis_cruiser_hull_entity": {"L": 1, "M": 2, "S": 2}, "star_eater_ship_entity": {"root": 25}, "cruiser_bow_L1_entity": {"L": 1}, "cruiser_bow_M1S2_entity": {"M": 1, "S": 2}, "cruiser_bow_M2_entity": {"M": 2}, "cruiser_mid_S2HB_entity": {"HB": 1, "S": 2}, "cruiser_mid_L1M1_entity": {"L": 1, "M": 1}, "cruiser_mid_M3_entity": {"M": 3}, "cruiser_mid_M2S2_entity": {"M": 2, "S": 2}, "cruiser_stern_M1_entity": {"M": 1}, "cruiser_stern_S2_entity": {"S": 2}, "destroyer_bow_M1S2_entity": {"M": 1, "S": 2}, "destroyer_bow_S3_entity": {"S": 3}, "destroyer_bow_L1_entity": {"S": 3}, "destroyer_stern_S2_entity": {"S": 2}, "destroyer_stern_M1_entity": {"M": 1}, "juggernaut_core_section_entity": {"XL": 2, "HB": 6, "M": 5}, "military_station_section_light_entity": {"S": 4}, "military_station_section_medium_entity": {"M": 2}, "military_station_section_heavy_entity": {"L": 1}, "military_station_section_hangar_entity": {"L": 1}, "titan_bow_entity": {"XL": 1}, "titan_mid_entity": {"L": 4}, "titan_stern_entity": {"L": 2}}
+entity_locator_dict = {"battleship_bow_L1M1S2_entity": {"L": 1, "M": 1, "S": 2}, "battleship_bow_L2_entity": {"L": 2}, "battleship_bow_M1S2SHB_entity": {"HB": 1, "M": 1, "S": 2}, "battleship_bow_XL1_entity": {"X": 1}, "battleship_mid_L2M2_entity": {"L": 2, "M": 2}, "battleship_mid_L3_entity": {"L": 3}, "battleship_mid_M4SHB_entity": {"HB": 1, "M": 4}, "battleship_mid_S4LHB_entity": {"HB": 2, "S": 4}, "battleship_stern_L1_entity": {"L": 1}, "battleship_stern_M2_entity": {"M": 2}, "colossus_ship_entity": {"W": 1}, "corvette_M1S1_entity": {"M": 1, "S": 1}, "corvette_S3_entity": {"S": 3}, "crisis_corvette_M1S1_entity": {"M": 1, "S": 1}, "crisis_corvette_S3_entity": {"S": 3}, "crisis_destroyer_1M2S1M_entity": {"M": 2, "S": 2}, "crisis_destroyer_1L2S_entity": {"L": 1, "S": 2}, "crisis_cruiser_hull_entity": {"L": 1, "M": 2, "S": 2}, "star_eater_ship_entity": {"core": 1, "root": 25}, "cruiser_bow_L1_entity": {"L": 1}, "cruiser_bow_M1S2_entity": {"M": 1, "S": 2}, "cruiser_bow_M2_entity": {"M": 2}, "cruiser_mid_S2HB_entity": {"HB": 1, "S": 2}, "cruiser_mid_L1M1_entity": {"L": 1, "M": 1}, "cruiser_mid_M3_entity": {"M": 3}, "cruiser_mid_M2S2_entity": {"M": 2, "S": 2}, "cruiser_stern_M1_entity": {"M": 1}, "cruiser_stern_S2_entity": {"S": 2}, "destroyer_bow_M1S2_entity": {"M": 1, "S": 2}, "destroyer_bow_S3_entity": {"S": 3}, "destroyer_bow_L1_entity": {"L": 1}, "destroyer_stern_S2_entity": {"S": 2}, "destroyer_stern_M1_entity": {"M": 1}, "juggernaut_core_section_entity": {"X": 2, "HB": 6, "M": 5}, "military_station_section_light_entity": {"S": 4}, "military_station_section_medium_entity": {"M": 2}, "military_station_section_heavy_entity": {"L": 1}, "military_station_section_hangar_entity": {"L": 1}, "titan_bow_entity": {"X": 1}, "titan_mid_entity": {"L": 4}, "titan_stern_entity": {"L": 2}}
 vanilla_section_score_dict = {"battleship": {"bow": 20, "mid": 24, "stern": 10}, "colossus": {"ship": 24}, "frigate": {"mid": 9}, "corvette": {"mid": 8}, "crisis_corvette": {"mid": 10}, "crisis_destroyer": {"mid": 16}, "crisis_cruiser": {"mid": 26}, "star_eater": {"mid": 141}, "cruiser": {"bow": 12, "mid": 14, "stern": 8}, "destroyer": {"bow": 10, "stern": 6}, "juggernaut": {"core": 142}, "military_station_small": {"north": 12, "west": 12, "east": 12, "south": 12}, "military_station_medium": {"north": 12, "west": 12, "east": 12, "south": 12}, "military_station_large": {"north": 26, "west": 26, "east": 26, "south": 26}, "titan": {"bow": 40, "mid": 40, "stern": 14}}
-section_cost_dict = {"battleship": 80, "frigate": 30, "corvette": 30, "cruiser": 40, "destroyer": 30, "military_station_small": 30, "military_station_medium": 30, "titan": 160}
-component_score_dict = {"PD": 1, "S": 1, "US": 1, "G": 2, "M": 2, "AUX": 2, "UM": 2, "L": 4, "UL": 4, "HB": 4, "X": 8, "T": 16}
+section_cost_dict = {"battleship": 80, "frigate": 30, "corvette": 30, "cruiser": 40, "destroyer": 30, "military_station_small": 30, "military_station_medium": 30, "titan": 160, "juggernaut": 960}
+component_score_dict = {"PD": 1, "S": 1, "US": 1, "G": 2, "M": 2, "AUX": 2, "UM": 2, "L": 4, "UL": 4, "HB": 4, "X": 8, "T": 16, "W": 0}
 component_type_l_simp_chinese = {"PD": "点防", "S": "哨卫", "US": "轻甲", "G": "鱼雷", "M": "炮台", "AUX": "辅助", "UM": "重甲", "L": "重炮", "UL": "铁卫", "HB": "舰载机", "X": "轴基", "T": "泰坦"}
 component_quantity_l_simp_chinese = {1: "", 2: "点射", 3: "连射", 4: "四重", 5: "齐射", 6: "覆盖", 7: "焚烧", 8: "炼狱", 9: "审判", 10: "天灾"}
 ship_size_l_simp_chinese = {"battleship": "战列舰", "colossus": "巨像", "frigate": "雷击艇", "corvette": "护卫舰", "crisis_corvette": "威慑级护卫舰", "crisis_destroyer": "威慑级驱逐舰", "crisis_cruiser": "威慑级巡洋舰", "star_eater": "焚天神兵", "cruiser": "巡洋舰", "destroyer": "驱逐舰", "juggernaut": "主宰", "military_station_small": "小型防御平台", "military_station_medium": "中型防御平台", "military_station_large": "重型防御平台", "titan": "泰坦"}
@@ -38,12 +38,16 @@ def write_l_english_file(text: str):
     with open("tmp/pbships_l_english.txt", "a", encoding="utf-8") as output:
         print(text, file = output)
 
-def write_tech_l_simp_chinese_file(text:str):
+def write_tech_l_simp_chinese_file(text: str):
     with open("tmp/pbships_tech_l_simp_chinese.txt", "a", encoding="utf-8") as output:
         print(text, file = output)
 
-def write_tech_l_english_file(text:str):
+def write_tech_l_english_file(text: str):
     with open("tmp/pbships_tech_l_english.txt", "a", encoding="utf-8") as output:
+        print(text, file = output)
+
+def write_random_list_file(text: str):
+    with open("tmp/pbships_random_list.txt", "a", encoding="utf-8") as output:
         print(text, file = output)
 
 def calculate_score(ship_size: str, slot: str, rank: int) -> int:
@@ -51,11 +55,23 @@ def calculate_score(ship_size: str, slot: str, rank: int) -> int:
     return result
 
 def calculate_cost(ship_size: str, rank: int) -> int:
-    result = int(section_cost_dict[ship_size] * (1.5 ** (rank - 1)))
+    result = 0
+    if ship_size in section_cost_dict:
+        result = int(section_cost_dict[ship_size] * (1.5 ** (rank - 1)))
     return result
 
 def sort_components_by_score(components: dict) -> dict:
     return dict(sorted(components.items(), key = lambda x: component_score_dict[x[0]] * x[1], reverse=True))
+
+def draw_random_list_string(tech: str) -> str:
+    result = "1000 = {\n"
+    result = result + "\tif = {\n"
+    result = result + "\t\tlimit = { NOT = { has_technology = " + tech + " } }\n"
+    result = result + "\t\tgive_technology = { tech = " + tech + " message = yes }\n"
+    result = result + "\t}\n"
+    result = result + "}"
+    write_random_list_file(result)
+    return result
 
 def draw_localisation_string(key: str, rank: int, ship_size: str, components: dict, slot: str, tech: str) -> list:
     components = sort_components_by_score(components)
@@ -99,14 +115,13 @@ def draw_localisation_string(key: str, rank: int, ship_size: str, components: di
 
 def draw_tech_template_string(rank: int, tech: str) -> str:
     result = tech + " = {\n"
-    result = result + "\tcost = @tier" + str((rank + 1) % 5) + "cost3\n"
+    result = result + "\tcost = @tier" + str((rank % 5) + 1) + "cost3\n"
     result = result + "\tarea = engineering\n"
     if 5 <= rank <= 9:
         result = result + "\tis_rare = yes\n"
-    result = result + "\ttier = " + str((rank + 1) % 5) + "\n"
+    result = result + "\ttier = " + str((rank % 5) + 1) + "\n"
     result = result + "\tcategory = { voidcraft }\n"
     result = result + "\tweight = 0\n"
-    result = result + "\tpotential = { always = no }\n"
     result = result + "\tai_weight = { factor = 0 }\n"
     result = result + "}\n"
     write_tech_file(result)
@@ -135,6 +150,7 @@ def draw_section_template_string(ship_size: str, slot: str, components: dict, en
     write_section_file(result)
     draw_tech_template_string(rank, tech)
     draw_localisation_string(key, rank, ship_size, components, slot, tech)
+    draw_random_list_string(tech)
     return result
 
 def draw_component_slot_string(entity: str, components: dict) -> str:
@@ -196,6 +212,11 @@ def draw_component_slot_string(entity: str, components: dict) -> str:
                 text = text + "\tcomponent_slot = {\n\t\tname = \"EXTRA_LARGE_" + f"{i:0>2d}" + "\"\n"
                 text = text + "\t\ttemplate = \"invisible_extra_large_fixed\"\n\t\tlocatorname = \"" + component_locators[current_ptr] + "\"\n\t}\n"
                 current_ptr += 1
+        elif c == "W":
+            for i in range(1, components[c] + 1):
+                text = text + "\tcomponent_slot = {\n\t\tname = \"PLANET_KILLER_GUN_" + f"{i:0>2d}" + "\"\n"
+                text = text + "\t\ttemplate = \"invisible_planet_killer_fixed\"\n\t\tlocatorname = \"" + component_locators[current_ptr] + "\"\n\t}\n"
+                current_ptr += 1
         else:
             raise RuntimeError("[!] Unknown turret or utility component: " + c)
         result = result + text
@@ -236,19 +257,21 @@ def get_turret_locatorname(entity: str, index: int) -> list:
     return result
 
 def draw_cost_string(ship_size: str, rank: int) -> str:
+    cost = calculate_cost(ship_size, rank)
     result = "\tresources = {\n"
     result = result + "\t\tcategory = ship_sections\n"
-    result = result + "\t\tcost = {\n"
-    result = result + "\t\t\talloys = " + str(calculate_cost(ship_size, rank)) + "\n"
-    result = result + "\t\t}\n"
+    if cost != 0:
+        result = result + "\t\tcost = {\n"
+        result = result + "\t\t\talloys = " + str(cost) + "\n"
+        result = result + "\t\t}\n"
     result = result + "\t}"
     return result
 
-def generate_frigate(rank: int, component_queue: list, diversity: float):
+def generate_frigate(slot: str, rank: int, component_queue: list, diversity: float):
     # print("[+] Diversity:", diversity)
     # print("[+] Component queue:", component_queue)
-    entity = random.choice(entity_dict["frigate"]["mid"])
-    total_score = calculate_score("frigate", "mid", rank)
+    entity = random.choice(entity_dict["frigate"][slot])
+    total_score = calculate_score("frigate", slot, rank)
     components = {}
     rest_score = total_score
     for c in component_queue:
@@ -272,7 +295,379 @@ def generate_frigate(rank: int, component_queue: list, diversity: float):
         print("[*] Score verify failed, skip this round.")
     components = dict(sorted(components.items(), key = lambda x: component_score_dict[x[0]], reverse=True))
     print("[+] Generated section:", components)
-    section = draw_section_template_string("frigate", "mid", components, entity, rank)
+    section = draw_section_template_string("frigate", slot, components, entity, rank)
+    # print(section)
+
+def generate_corvette(slot: str, rank: int, component_queue: list, diversity: float):
+    # print("[+] Diversity:", diversity)
+    # print("[+] Component queue:", component_queue)
+    entity = random.choice(entity_dict["corvette"][slot])
+    total_score = calculate_score("corvette", slot, rank)
+    components = {}
+    rest_score = total_score
+    for c in component_queue:
+        # print("[+] Component:", c)
+        if (rest_score == 0):
+            break
+        num = math.ceil(rest_score * diversity / component_score_dict[c])
+        if num * component_score_dict[c] > rest_score:
+            num -= 1
+        if num > 0:
+            components[c] = num
+            rest_score -= component_score_dict[c] * num
+            # print("[+] Add", num, c, "component(s) for ship")
+    verify_score = 0
+    for c in components:
+        verify_score += component_score_dict[c] * components[c]
+    # print("[+]", verify_score, total_score)
+    try:
+        assert(verify_score == total_score)
+    except:
+        print("[*] Score verify failed, skip this round.")
+    components = dict(sorted(components.items(), key = lambda x: component_score_dict[x[0]], reverse=True))
+    print("[+] Generated section:", components)
+    section = draw_section_template_string("corvette", slot, components, entity, rank)
+    # print(section)
+
+def generate_destroyer(slot: str, rank: int, component_queue: list, diversity: float):
+    # print("[+] Diversity:", diversity)
+    # print("[+] Component queue:", component_queue)
+    entity = random.choice(entity_dict["destroyer"][slot])
+    total_score = calculate_score("destroyer", slot, rank)
+    components = {}
+    rest_score = total_score
+    for c in component_queue:
+        # print("[+] Component:", c)
+        if (rest_score == 0):
+            break
+        num = math.ceil(rest_score * diversity / component_score_dict[c])
+        if num * component_score_dict[c] > rest_score:
+            num -= 1
+        if num > 0:
+            components[c] = num
+            rest_score -= component_score_dict[c] * num
+            # print("[+] Add", num, c, "component(s) for ship")
+    verify_score = 0
+    for c in components:
+        verify_score += component_score_dict[c] * components[c]
+    # print("[+]", verify_score, total_score)
+    try:
+        assert(verify_score == total_score)
+    except:
+        print("[*] Score verify failed, skip this round.")
+    components = dict(sorted(components.items(), key = lambda x: component_score_dict[x[0]], reverse=True))
+    print("[+] Generated section:", components)
+    section = draw_section_template_string("destroyer", slot, components, entity, rank)
+    # print(section)
+
+def generate_cruiser(slot: str, rank: int, component_queue: list, diversity: float):
+    # print("[+] Diversity:", diversity)
+    # print("[+] Component queue:", component_queue)
+    entity = random.choice(entity_dict["cruiser"][slot])
+    total_score = calculate_score("cruiser", slot, rank)
+    components = {}
+    rest_score = total_score
+    for c in component_queue:
+        # print("[+] Component:", c)
+        if (rest_score == 0):
+            break
+        num = math.ceil(rest_score * diversity / component_score_dict[c])
+        if num * component_score_dict[c] > rest_score:
+            num -= 1
+        if num > 0:
+            components[c] = num
+            rest_score -= component_score_dict[c] * num
+            # print("[+] Add", num, c, "component(s) for ship")
+    verify_score = 0
+    for c in components:
+        verify_score += component_score_dict[c] * components[c]
+    # print("[+]", verify_score, total_score)
+    try:
+        assert(verify_score == total_score)
+    except:
+        print("[*] Score verify failed, skip this round.")
+    components = dict(sorted(components.items(), key = lambda x: component_score_dict[x[0]], reverse=True))
+    print("[+] Generated section:", components)
+    section = draw_section_template_string("cruiser", slot, components, entity, rank)
+    # print(section)
+
+def generate_battleship(slot: str, rank: int, component_queue: list, diversity: float):
+    # print("[+] Diversity:", diversity)
+    # print("[+] Component queue:", component_queue)
+    entity = random.choice(entity_dict["battleship"][slot])
+    total_score = calculate_score("battleship", slot, rank)
+    components = {}
+    rest_score = total_score
+    for c in component_queue:
+        # print("[+] Component:", c)
+        if (rest_score == 0):
+            break
+        num = math.ceil(rest_score * diversity / component_score_dict[c])
+        if num * component_score_dict[c] > rest_score:
+            num -= 1
+        if num > 0:
+            components[c] = num
+            rest_score -= component_score_dict[c] * num
+            # print("[+] Add", num, c, "component(s) for ship")
+    verify_score = 0
+    for c in components:
+        verify_score += component_score_dict[c] * components[c]
+    # print("[+]", verify_score, total_score)
+    try:
+        assert(verify_score == total_score)
+    except:
+        print("[*] Score verify failed, skip this round.")
+    components = dict(sorted(components.items(), key = lambda x: component_score_dict[x[0]], reverse=True))
+    print("[+] Generated section:", components)
+    section = draw_section_template_string("battleship", slot, components, entity, rank)
+    # print(section)
+
+def generate_titan(slot: str, rank: int, component_queue: list, diversity: float):
+    # print("[+] Diversity:", diversity)
+    # print("[+] Component queue:", component_queue)
+    entity = random.choice(entity_dict["titan"][slot])
+    total_score = calculate_score("titan", slot, rank)
+    components = {}
+    rest_score = total_score
+    for c in component_queue:
+        # print("[+] Component:", c)
+        if (rest_score == 0):
+            break
+        num = math.ceil(rest_score * diversity / component_score_dict[c])
+        if num * component_score_dict[c] > rest_score:
+            num -= 1
+        if num > 0:
+            components[c] = num
+            rest_score -= component_score_dict[c] * num
+            # print("[+] Add", num, c, "component(s) for ship")
+    verify_score = 0
+    for c in components:
+        verify_score += component_score_dict[c] * components[c]
+    # print("[+]", verify_score, total_score)
+    try:
+        assert(verify_score == total_score)
+    except:
+        print("[*] Score verify failed, skip this round.")
+    components = dict(sorted(components.items(), key = lambda x: component_score_dict[x[0]], reverse=True))
+    print("[+] Generated section:", components)
+    section = draw_section_template_string("titan", slot, components, entity, rank)
+    # print(section)
+
+def generate_juggernaut(slot: str, rank: int, component_queue: list, diversity: float):
+    # print("[+] Diversity:", diversity)
+    # print("[+] Component queue:", component_queue)
+    entity = random.choice(entity_dict["juggernaut"][slot])
+    total_score = calculate_score("juggernaut", slot, rank)
+    components = {}
+    rest_score = total_score
+    for c in component_queue:
+        # print("[+] Component:", c)
+        if (rest_score == 0):
+            break
+        num = math.ceil(rest_score * diversity / component_score_dict[c])
+        if num * component_score_dict[c] > rest_score:
+            num -= 1
+        if num > 0:
+            components[c] = num
+            rest_score -= component_score_dict[c] * num
+            # print("[+] Add", num, c, "component(s) for ship")
+    verify_score = 0
+    for c in components:
+        verify_score += component_score_dict[c] * components[c]
+    # print("[+]", verify_score, total_score)
+    try:
+        assert(verify_score == total_score)
+    except:
+        print("[*] Score verify failed, skip this round.")
+    components = dict(sorted(components.items(), key = lambda x: component_score_dict[x[0]], reverse=True))
+    print("[+] Generated section:", components)
+    section = draw_section_template_string("juggernaut", slot, components, entity, rank)
+    # print(section)
+
+def generate_colossus(slot: str, rank: int, component_queue: list, diversity: float):
+    # print("[+] Diversity:", diversity)
+    # print("[+] Component queue:", component_queue)
+    entity = random.choice(entity_dict["colossus"][slot])
+    total_score = calculate_score("colossus", slot, rank)
+    components = {"W": 1}
+    rest_score = total_score
+    for c in component_queue:
+        # print("[+] Component:", c)
+        if (rest_score == 0):
+            break
+        num = math.ceil(rest_score * diversity / component_score_dict[c])
+        if num * component_score_dict[c] > rest_score:
+            num -= 1
+        if num > 0:
+            components[c] = num
+            rest_score -= component_score_dict[c] * num
+            # print("[+] Add", num, c, "component(s) for ship")
+    verify_score = 0
+    for c in components:
+        verify_score += component_score_dict[c] * components[c]
+    # print("[+]", verify_score, total_score)
+    try:
+        assert(verify_score == total_score)
+    except:
+        print("[*] Score verify failed, skip this round.")
+    components = dict(sorted(components.items(), key = lambda x: component_score_dict[x[0]], reverse=True))
+    print("[+] Generated section:", components)
+    section = draw_section_template_string("colossus", slot, components, entity, rank)
+    # print(section)
+
+def generate_crisis_corvette(slot: str, rank: int, component_queue: list, diversity: float):
+    # print("[+] Diversity:", diversity)
+    # print("[+] Component queue:", component_queue)
+    entity = random.choice(entity_dict["crisis_corvette"][slot])
+    total_score = calculate_score("crisis_corvette", slot, rank)
+    components = {}
+    rest_score = total_score
+    for c in component_queue:
+        # print("[+] Component:", c)
+        if (rest_score == 0):
+            break
+        num = math.ceil(rest_score * diversity / component_score_dict[c])
+        if num * component_score_dict[c] > rest_score:
+            num -= 1
+        if num > 0:
+            components[c] = num
+            rest_score -= component_score_dict[c] * num
+            # print("[+] Add", num, c, "component(s) for ship")
+    verify_score = 0
+    for c in components:
+        verify_score += component_score_dict[c] * components[c]
+    # print("[+]", verify_score, total_score)
+    try:
+        assert(verify_score == total_score)
+    except:
+        print("[*] Score verify failed, skip this round.")
+    components = dict(sorted(components.items(), key = lambda x: component_score_dict[x[0]], reverse=True))
+    print("[+] Generated section:", components)
+    section = draw_section_template_string("crisis_corvette", slot, components, entity, rank)
+    # print(section)
+
+def generate_crisis_destroyer(slot: str, rank: int, component_queue: list, diversity: float):
+    # print("[+] Diversity:", diversity)
+    # print("[+] Component queue:", component_queue)
+    entity = random.choice(entity_dict["crisis_destroyer"][slot])
+    total_score = calculate_score("crisis_destroyer", slot, rank)
+    components = {}
+    rest_score = total_score
+    for c in component_queue:
+        # print("[+] Component:", c)
+        if (rest_score == 0):
+            break
+        num = math.ceil(rest_score * diversity / component_score_dict[c])
+        if num * component_score_dict[c] > rest_score:
+            num -= 1
+        if num > 0:
+            components[c] = num
+            rest_score -= component_score_dict[c] * num
+            # print("[+] Add", num, c, "component(s) for ship")
+    verify_score = 0
+    for c in components:
+        verify_score += component_score_dict[c] * components[c]
+    # print("[+]", verify_score, total_score)
+    try:
+        assert(verify_score == total_score)
+    except:
+        print("[*] Score verify failed, skip this round.")
+    components = dict(sorted(components.items(), key = lambda x: component_score_dict[x[0]], reverse=True))
+    print("[+] Generated section:", components)
+    section = draw_section_template_string("crisis_destroyer", slot, components, entity, rank)
+    # print(section)
+
+def generate_crisis_cruiser(slot: str, rank: int, component_queue: list, diversity: float):
+    # print("[+] Diversity:", diversity)
+    # print("[+] Component queue:", component_queue)
+    entity = random.choice(entity_dict["crisis_cruiser"][slot])
+    total_score = calculate_score("crisis_cruiser", slot, rank)
+    components = {}
+    rest_score = total_score
+    for c in component_queue:
+        # print("[+] Component:", c)
+        if (rest_score == 0):
+            break
+        num = math.ceil(rest_score * diversity / component_score_dict[c])
+        if num * component_score_dict[c] > rest_score:
+            num -= 1
+        if num > 0:
+            components[c] = num
+            rest_score -= component_score_dict[c] * num
+            # print("[+] Add", num, c, "component(s) for ship")
+    verify_score = 0
+    for c in components:
+        verify_score += component_score_dict[c] * components[c]
+    # print("[+]", verify_score, total_score)
+    try:
+        assert(verify_score == total_score)
+    except:
+        print("[*] Score verify failed, skip this round.")
+    components = dict(sorted(components.items(), key = lambda x: component_score_dict[x[0]], reverse=True))
+    print("[+] Generated section:", components)
+    section = draw_section_template_string("crisis_cruiser", slot, components, entity, rank)
+    # print(section)
+
+def generate_star_eater(slot: str, rank: int, component_queue: list, diversity: float):
+    # print("[+] Diversity:", diversity)
+    # print("[+] Component queue:", component_queue)
+    entity = random.choice(entity_dict["star_eater"][slot])
+    total_score = calculate_score("star_eater", slot, rank)
+    components = {"W": 1}
+    rest_score = total_score
+    for c in component_queue:
+        # print("[+] Component:", c)
+        if (rest_score == 0):
+            break
+        num = math.ceil(rest_score * diversity / component_score_dict[c])
+        if num * component_score_dict[c] > rest_score:
+            num -= 1
+        if num > 0:
+            components[c] = num
+            rest_score -= component_score_dict[c] * num
+            # print("[+] Add", num, c, "component(s) for ship")
+    verify_score = 0
+    for c in components:
+        verify_score += component_score_dict[c] * components[c]
+    # print("[+]", verify_score, total_score)
+    try:
+        assert(verify_score == total_score)
+    except:
+        print("[*] Score verify failed, skip this round.")
+    components = dict(sorted(components.items(), key = lambda x: component_score_dict[x[0]], reverse=True))
+    print("[+] Generated section:", components)
+    section = draw_section_template_string("star_eater", slot, components, entity, rank)
+    # print(section)
+
+def generate_military_station_small(slot: str, rank: int, component_queue: list, diversity: float):
+    # print("[+] Diversity:", diversity)
+    # print("[+] Component queue:", component_queue)
+    entity = random.choice(entity_dict["military_station_small"][slot])
+    total_score = calculate_score("military_station_small", slot, rank)
+    components = {}
+    rest_score = total_score
+    for c in component_queue:
+        # print("[+] Component:", c)
+        if (rest_score == 0):
+            break
+        num = math.ceil(rest_score * diversity / component_score_dict[c])
+        if num * component_score_dict[c] > rest_score:
+            num -= 1
+        if num > 0:
+            components[c] = num
+            rest_score -= component_score_dict[c] * num
+            # print("[+] Add", num, c, "component(s) for ship")
+    verify_score = 0
+    for c in components:
+        verify_score += component_score_dict[c] * components[c]
+    # print("[+]", verify_score, total_score)
+    try:
+        assert(verify_score == total_score)
+    except:
+        print("[*] Score verify failed, skip this round.")
+    components = dict(sorted(components.items(), key = lambda x: component_score_dict[x[0]], reverse=True))
+    print("[+] Generated section:", components)
+    section = draw_section_template_string("military_station_small", slot, components, entity, rank)
     # print(section)
 
 def main(args: list):
@@ -295,12 +690,37 @@ def main(args: list):
     assert(0 <= rank < 10)
     for _ in range(quantity):
         component_queue = list(component_score_dict.copy().keys())
+        component_queue.remove("W")
         random.shuffle(component_queue)
         diversity = random.random()
         assert(isinstance(component_queue, list))
         assert(0 <= diversity <= 1)
         if ship_size == "frigate":
-            generate_frigate(rank, component_queue, diversity)
+            generate_frigate(fits_on_slot, rank, component_queue, diversity)
+        elif ship_size == "corvette":
+            generate_corvette(fits_on_slot, rank, component_queue, diversity)
+        elif ship_size == "destroyer":
+            generate_destroyer(fits_on_slot, rank, component_queue, diversity)
+        elif ship_size == "cruiser":
+            generate_cruiser(fits_on_slot, rank, component_queue, diversity)
+        elif ship_size == "battleship":
+            generate_battleship(fits_on_slot, rank, component_queue, diversity)
+        elif ship_size == "titan":
+            generate_titan(fits_on_slot, rank, component_queue, diversity)
+        elif ship_size == "juggernaut":
+            generate_juggernaut(fits_on_slot, rank, component_queue, diversity)
+        elif ship_size == "colossus":
+            generate_colossus(fits_on_slot, rank, component_queue, diversity)
+        elif ship_size == "crisis_corvette":
+            generate_crisis_corvette(fits_on_slot, rank, component_queue, diversity)
+        elif ship_size == "crisis_destroyer":
+            generate_crisis_destroyer(fits_on_slot, rank, component_queue, diversity)
+        elif ship_size == "crisis_cruiser":
+            generate_crisis_cruiser(fits_on_slot, rank, component_queue, diversity)
+        elif ship_size == "star_eater":
+            generate_star_eater(fits_on_slot, rank, component_queue, diversity)
+        elif ship_size == "military_station_small":
+            generate_military_station_small(fits_on_slot, rank, component_queue, diversity)
 
 if __name__ == "__main__":
     if len(sys.argv) != 5 and len(sys.argv) != 7:

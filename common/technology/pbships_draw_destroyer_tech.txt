@@ -1,0 +1,1900 @@
+tech_destroyer_bow_pd7s1 = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_m1g1us4 = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_hb1aux1s2 = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_l1um1aux1 = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_hb1um1pd1s1 = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_hb2 = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_aux4 = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_um3s2 = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_aux3g1 = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_x1 = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_um4g1 = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_aux1us7s1 = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_m5 = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_x1um1 = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_pd9us1 = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_hb2pd2 = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_ul2um1 = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_hb2g1 = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_ul1s6 = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_um3g2 = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_hb1um1aux1pd3us1 = {
+	cost = @tier3cost3
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_l1hb1m1aux1 = {
+	cost = @tier3cost3
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_l1aux3us1s1 = {
+	cost = @tier3cost3
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_m1aux1pd4us3s1 = {
+	cost = @tier3cost3
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_hb3 = {
+	cost = @tier3cost3
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_l1m1g1pd1s1us1 = {
+	cost = @tier3cost3
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_l1um1m1pd2s1us1 = {
+	cost = @tier3cost3
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_g1m1aux1s3us2pd1 = {
+	cost = @tier3cost3
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_x1us3s1 = {
+	cost = @tier3cost3
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_ul1l1us3pd1 = {
+	cost = @tier3cost3
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_ul1hb1um1aux1us1s1 = {
+	cost = @tier4cost3
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_g4m2pd2 = {
+	cost = @tier4cost3
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_ul3s2 = {
+	cost = @tier4cost3
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_m1g1um1us4pd3s1 = {
+	cost = @tier4cost3
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_um4m2us1s1 = {
+	cost = @tier4cost3
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_l1ul1g1m1s1pd1 = {
+	cost = @tier4cost3
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_um4m2aux1 = {
+	cost = @tier4cost3
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_ul1um5 = {
+	cost = @tier4cost3
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_aux6g1 = {
+	cost = @tier4cost3
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_um2us9pd1 = {
+	cost = @tier4cost3
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_us16pd1 = {
+	cost = @tier5cost3
+	area = engineering
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_um8us1 = {
+	cost = @tier5cost3
+	area = engineering
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_ul4pd1 = {
+	cost = @tier5cost3
+	area = engineering
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_um8pd1 = {
+	cost = @tier5cost3
+	area = engineering
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_m2aux1us6pd4s1 = {
+	cost = @tier5cost3
+	area = engineering
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_hb3um2pd1 = {
+	cost = @tier5cost3
+	area = engineering
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_hb2l1um2us1 = {
+	cost = @tier5cost3
+	area = engineering
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_ul1l1m3us3 = {
+	cost = @tier5cost3
+	area = engineering
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_l1aux2m1pd4s3 = {
+	cost = @tier5cost3
+	area = engineering
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_ul3um2pd1 = {
+	cost = @tier5cost3
+	area = engineering
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_aux3s13pd1 = {
+	cost = @tier1cost3
+	area = engineering
+	is_rare = yes
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_ul5 = {
+	cost = @tier1cost3
+	area = engineering
+	is_rare = yes
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_um5us5s3pd1 = {
+	cost = @tier1cost3
+	area = engineering
+	is_rare = yes
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_l1hb1ul1m1um1aux1g1 = {
+	cost = @tier1cost3
+	area = engineering
+	is_rare = yes
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_aux2pd11s5 = {
+	cost = @tier1cost3
+	area = engineering
+	is_rare = yes
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_g10 = {
+	cost = @tier1cost3
+	area = engineering
+	is_rare = yes
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_l3ul2 = {
+	cost = @tier1cost3
+	area = engineering
+	is_rare = yes
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_hb4s3pd1 = {
+	cost = @tier1cost3
+	area = engineering
+	is_rare = yes
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_x1ul1aux1s5us1 = {
+	cost = @tier1cost3
+	area = engineering
+	is_rare = yes
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_aux9pd2 = {
+	cost = @tier1cost3
+	area = engineering
+	is_rare = yes
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_ul1pd19us1 = {
+	cost = @tier2cost3
+	area = engineering
+	is_rare = yes
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_g11us2 = {
+	cost = @tier2cost3
+	area = engineering
+	is_rare = yes
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_hb6 = {
+	cost = @tier2cost3
+	area = engineering
+	is_rare = yes
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_um1us17pd5 = {
+	cost = @tier2cost3
+	area = engineering
+	is_rare = yes
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_m2us20 = {
+	cost = @tier2cost3
+	area = engineering
+	is_rare = yes
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_l1aux10 = {
+	cost = @tier2cost3
+	area = engineering
+	is_rare = yes
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_hb2g2m1pd9us1 = {
+	cost = @tier2cost3
+	area = engineering
+	is_rare = yes
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_l6 = {
+	cost = @tier2cost3
+	area = engineering
+	is_rare = yes
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_aux7pd6s3us1 = {
+	cost = @tier2cost3
+	area = engineering
+	is_rare = yes
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_g3us16pd2 = {
+	cost = @tier2cost3
+	area = engineering
+	is_rare = yes
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_l2ul1um6aux1pd3 = {
+	cost = @tier3cost3
+	area = engineering
+	is_rare = yes
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_um10aux4s1 = {
+	cost = @tier3cost3
+	area = engineering
+	is_rare = yes
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_ul1hb1um2g1m1s6us5pd1 = {
+	cost = @tier3cost3
+	area = engineering
+	is_rare = yes
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_hb2um2g2us12s1 = {
+	cost = @tier3cost3
+	area = engineering
+	is_rare = yes
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_ul2um1pd15us4 = {
+	cost = @tier3cost3
+	area = engineering
+	is_rare = yes
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_hb4m2um1us7 = {
+	cost = @tier3cost3
+	area = engineering
+	is_rare = yes
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_hb7pd1 = {
+	cost = @tier3cost3
+	area = engineering
+	is_rare = yes
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_hb4ul2m2s1 = {
+	cost = @tier3cost3
+	area = engineering
+	is_rare = yes
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_x1l4hb1pd1 = {
+	cost = @tier3cost3
+	area = engineering
+	is_rare = yes
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_ul2l1hb1um1m1s6pd3 = {
+	cost = @tier3cost3
+	area = engineering
+	is_rare = yes
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_aux13g1pd7 = {
+	cost = @tier4cost3
+	area = engineering
+	is_rare = yes
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_hb2l1g2m2um1s8pd5 = {
+	cost = @tier4cost3
+	area = engineering
+	is_rare = yes
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_l8pd3 = {
+	cost = @tier4cost3
+	area = engineering
+	is_rare = yes
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_t1m7us2s2pd1 = {
+	cost = @tier4cost3
+	area = engineering
+	is_rare = yes
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_x1l1hb1ul1m1um1g1aux1s2us2pd2 = {
+	cost = @tier4cost3
+	area = engineering
+	is_rare = yes
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_g15m2us1 = {
+	cost = @tier4cost3
+	area = engineering
+	is_rare = yes
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_x1g8m5us1 = {
+	cost = @tier4cost3
+	area = engineering
+	is_rare = yes
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_x1hb1l1um2aux2m1g1pd2us1s1 = {
+	cost = @tier4cost3
+	area = engineering
+	is_rare = yes
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_aux10g1us9s4 = {
+	cost = @tier4cost3
+	area = engineering
+	is_rare = yes
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_hb2l1g4aux2um1us5s2pd1 = {
+	cost = @tier4cost3
+	area = engineering
+	is_rare = yes
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_hb2g7aux5m2pd2s2us1 = {
+	cost = @tier5cost3
+	area = engineering
+	is_rare = yes
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_m20aux1 = {
+	cost = @tier5cost3
+	area = engineering
+	is_rare = yes
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_ul2hb1g2pd16us10 = {
+	cost = @tier5cost3
+	area = engineering
+	is_rare = yes
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_us39s3 = {
+	cost = @tier5cost3
+	area = engineering
+	is_rare = yes
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_x2l4g2um2us1pd1 = {
+	cost = @tier5cost3
+	area = engineering
+	is_rare = yes
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_t2hb2m1 = {
+	cost = @tier5cost3
+	area = engineering
+	is_rare = yes
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_x1hb1ul1um6g4aux1pd3us1 = {
+	cost = @tier5cost3
+	area = engineering
+	is_rare = yes
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_x1ul2g5pd14s1us1 = {
+	cost = @tier5cost3
+	area = engineering
+	is_rare = yes
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_x2l1m5g3s4us1pd1 = {
+	cost = @tier5cost3
+	area = engineering
+	is_rare = yes
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_bow_x5us2 = {
+	cost = @tier5cost3
+	area = engineering
+	is_rare = yes
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_g2pd1 = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_g1aux1pd1 = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_aux2pd1 = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_s4pd1 = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_g1m1us1 = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_hb1pd1 = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_l1us1 = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_g2s1 = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_ul1s1 = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_g1um1us1 = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_g1m1us1s1 = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_m1s2us1pd1 = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_hb1s1pd1 = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_hb1s1pd1 = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_l1pd1s1 = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_hb1g1 = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_um1m1s2 = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_l1us2 = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_hb1m1 = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_l1pd1s1 = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_um3us1 = {
+	cost = @tier3cost3
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_hb1um1s1 = {
+	cost = @tier3cost3
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_m1um1g1us1 = {
+	cost = @tier3cost3
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_m1us4pd1 = {
+	cost = @tier3cost3
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_l1g1pd1 = {
+	cost = @tier3cost3
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_pd5us2 = {
+	cost = @tier3cost3
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_hb1aux1us1 = {
+	cost = @tier3cost3
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_l1pd2s1 = {
+	cost = @tier3cost3
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_aux3pd1 = {
+	cost = @tier3cost3
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_ul1um1pd1 = {
+	cost = @tier3cost3
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_us8 = {
+	cost = @tier4cost3
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_m1us3pd2s1 = {
+	cost = @tier4cost3
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_g4 = {
+	cost = @tier4cost3
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_hb1us4 = {
+	cost = @tier4cost3
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_aux1um1m1s1us1 = {
+	cost = @tier4cost3
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_m1pd6 = {
+	cost = @tier4cost3
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_ul2 = {
+	cost = @tier4cost3
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_aux3pd2 = {
+	cost = @tier4cost3
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_um1pd6 = {
+	cost = @tier4cost3
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_x1 = {
+	cost = @tier4cost3
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_l2aux1 = {
+	cost = @tier5cost3
+	area = engineering
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_ul2us2 = {
+	cost = @tier5cost3
+	area = engineering
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_l1g2aux1 = {
+	cost = @tier5cost3
+	area = engineering
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_g2m1aux1s2 = {
+	cost = @tier5cost3
+	area = engineering
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_ul1aux2um1 = {
+	cost = @tier5cost3
+	area = engineering
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_x1aux1 = {
+	cost = @tier5cost3
+	area = engineering
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_ul2g1 = {
+	cost = @tier5cost3
+	area = engineering
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_g4s2 = {
+	cost = @tier5cost3
+	area = engineering
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_g4m1 = {
+	cost = @tier5cost3
+	area = engineering
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_hb2um1 = {
+	cost = @tier5cost3
+	area = engineering
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_hb1aux1g1um1s1us1 = {
+	cost = @tier1cost3
+	area = engineering
+	is_rare = yes
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_hb3 = {
+	cost = @tier1cost3
+	area = engineering
+	is_rare = yes
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_us11s1 = {
+	cost = @tier1cost3
+	area = engineering
+	is_rare = yes
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_g6 = {
+	cost = @tier1cost3
+	area = engineering
+	is_rare = yes
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_ul1us5pd3 = {
+	cost = @tier1cost3
+	area = engineering
+	is_rare = yes
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_x1pd3s1 = {
+	cost = @tier1cost3
+	area = engineering
+	is_rare = yes
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_l1g1aux1s2pd1us1 = {
+	cost = @tier1cost3
+	area = engineering
+	is_rare = yes
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_hb1aux1pd3us1s1 = {
+	cost = @tier1cost3
+	area = engineering
+	is_rare = yes
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_m1s9us1 = {
+	cost = @tier1cost3
+	area = engineering
+	is_rare = yes
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_g4m2 = {
+	cost = @tier1cost3
+	area = engineering
+	is_rare = yes
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_l1hb1um1s1us1pd1 = {
+	cost = @tier2cost3
+	area = engineering
+	is_rare = yes
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_aux5us3s1 = {
+	cost = @tier2cost3
+	area = engineering
+	is_rare = yes
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_x1ul1m1 = {
+	cost = @tier2cost3
+	area = engineering
+	is_rare = yes
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_g7 = {
+	cost = @tier2cost3
+	area = engineering
+	is_rare = yes
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_hb2g2us2 = {
+	cost = @tier2cost3
+	area = engineering
+	is_rare = yes
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_hb1um5 = {
+	cost = @tier2cost3
+	area = engineering
+	is_rare = yes
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_l1aux1m1g1um1us2 = {
+	cost = @tier2cost3
+	area = engineering
+	is_rare = yes
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_s10us3pd1 = {
+	cost = @tier2cost3
+	area = engineering
+	is_rare = yes
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_l1m1g1aux1pd1s1us1 = {
+	cost = @tier2cost3
+	area = engineering
+	is_rare = yes
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_x1m1s2pd1us1 = {
+	cost = @tier2cost3
+	area = engineering
+	is_rare = yes
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_hb1m2s6pd3 = {
+	cost = @tier3cost3
+	area = engineering
+	is_rare = yes
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_ul1aux2g1s6pd1 = {
+	cost = @tier3cost3
+	area = engineering
+	is_rare = yes
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_x2s1 = {
+	cost = @tier3cost3
+	area = engineering
+	is_rare = yes
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_x1l1m2s1 = {
+	cost = @tier3cost3
+	area = engineering
+	is_rare = yes
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_x2s1 = {
+	cost = @tier3cost3
+	area = engineering
+	is_rare = yes
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_um2s12us1 = {
+	cost = @tier3cost3
+	area = engineering
+	is_rare = yes
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_l1g6pd1 = {
+	cost = @tier3cost3
+	area = engineering
+	is_rare = yes
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_hb1aux2m1um1us3pd1s1 = {
+	cost = @tier3cost3
+	area = engineering
+	is_rare = yes
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_hb1l1us6s3 = {
+	cost = @tier3cost3
+	area = engineering
+	is_rare = yes
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_hb1l1g1aux1m1um1pd1 = {
+	cost = @tier3cost3
+	area = engineering
+	is_rare = yes
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_x1hb1ul1g1pd2s1 = {
+	cost = @tier4cost3
+	area = engineering
+	is_rare = yes
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_ul2g1um1us4s3pd1 = {
+	cost = @tier4cost3
+	area = engineering
+	is_rare = yes
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_us20s1 = {
+	cost = @tier4cost3
+	area = engineering
+	is_rare = yes
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_aux4g3um1us3s1pd1 = {
+	cost = @tier4cost3
+	area = engineering
+	is_rare = yes
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_um7m1pd5 = {
+	cost = @tier4cost3
+	area = engineering
+	is_rare = yes
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_g10s1 = {
+	cost = @tier4cost3
+	area = engineering
+	is_rare = yes
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_aux5um1pd5s3us1 = {
+	cost = @tier4cost3
+	area = engineering
+	is_rare = yes
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_x2pd4s1 = {
+	cost = @tier4cost3
+	area = engineering
+	is_rare = yes
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_l1ul1g2um1us3s2pd1 = {
+	cost = @tier4cost3
+	area = engineering
+	is_rare = yes
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_hb5us1 = {
+	cost = @tier4cost3
+	area = engineering
+	is_rare = yes
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_x1ul4s1 = {
+	cost = @tier5cost3
+	area = engineering
+	is_rare = yes
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_t1ul2pd1 = {
+	cost = @tier5cost3
+	area = engineering
+	is_rare = yes
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_ul2hb1g5s2pd1 = {
+	cost = @tier5cost3
+	area = engineering
+	is_rare = yes
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_ul2hb1m1s5pd4us1 = {
+	cost = @tier5cost3
+	area = engineering
+	is_rare = yes
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_m6um2us6pd2s1 = {
+	cost = @tier5cost3
+	area = engineering
+	is_rare = yes
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_m9aux3pd1 = {
+	cost = @tier5cost3
+	area = engineering
+	is_rare = yes
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_t1aux1m1us2pd2s1 = {
+	cost = @tier5cost3
+	area = engineering
+	is_rare = yes
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_t1l2s1 = {
+	cost = @tier5cost3
+	area = engineering
+	is_rare = yes
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_t1l1g1m1us1 = {
+	cost = @tier5cost3
+	area = engineering
+	is_rare = yes
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_destroyer_stern_s20us4pd1 = {
+	cost = @tier5cost3
+	area = engineering
+	is_rare = yes
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
