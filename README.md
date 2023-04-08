@@ -1,5 +1,7 @@
 # Perfectly Balanced - Ships
 
+The development version of this mod would post on [GitHub](https://github.com/Lyther/PerfectlyBalanced---Ships). If you want to play the latest version instead of the stable version, please follow the repo and use `git pull` to get the latest commit.
+
 (Not balanced at all!)
 
 Adds new ship sectors, ship accessories, and more ship combat tactics to the game.
@@ -37,6 +39,8 @@ For other mods that are compatible, such as new weapon slot types/ship types, pl
 * NSC: New Ship Classes
 
 # 意识流平衡：舰船
+
+此MOD的开发版本将在[GitHub](https://github.com/Lyther/PerfectlyBalanced---Ships)进行实时更新，如果您想游玩最新的开发版本而非稳定版本，可以通过GitHub仓库的`git pull`获取最新的commit。
 
 （完全随缘、随便做做数值的平衡！）
 

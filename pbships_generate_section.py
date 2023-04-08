@@ -21,14 +21,30 @@ ship_size_l_english = {"battleship": "Battleship ", "colossus": "Colossus ", "fr
 slot_l_english = {"bow": "Bow", "mid": "Hull", "stern": "Stern", "hanger": "Hanger", "north": "Section", "west": "Section", "east": "Section", "south": "Section"}
 
 def write_section_file(text: str):
-    with open("pbships_section.txt", "a") as output:
+    with open("tmp/pbships_section.txt", "a", encoding="utf-8") as output:
         print(text, file = output)
     # print("[+] Section file write done.")
 
 def write_tech_file(text: str):
-    with open("pbships_tech.txt", "a") as output:
+    with open("tmp/pbships_tech.txt", "a", encoding="utf-8") as output:
         print(text, file = output)
     # print("[+] Tech file write done.")
+
+def write_l_simp_chinese_file(text: str):
+    with open("tmp/pbships_l_simp_chinese.txt", "a", encoding="utf-8") as output:
+        print(text, file = output)
+
+def write_l_english_file(text: str):
+    with open("tmp/pbships_l_english.txt", "a", encoding="utf-8") as output:
+        print(text, file = output)
+
+def write_tech_l_simp_chinese_file(text:str):
+    with open("tmp/pbships_tech_l_simp_chinese.txt", "a", encoding="utf-8") as output:
+        print(text, file = output)
+
+def write_tech_l_english_file(text:str):
+    with open("tmp/pbships_tech_l_english.txt", "a", encoding="utf-8") as output:
+        print(text, file = output)
 
 def calculate_score(ship_size: str, slot: str, rank: int) -> int:
     result = int(vanilla_section_score_dict[ship_size][slot] * (1.2 ** (rank - 1)))
@@ -40,6 +56,46 @@ def calculate_cost(ship_size: str, rank: int) -> int:
 
 def sort_components_by_score(components: dict) -> dict:
     return dict(sorted(components.items(), key = lambda x: component_score_dict[x[0]] * x[1], reverse=True))
+
+def draw_localisation_string(key: str, rank: int, ship_size: str, components: dict, slot: str, tech: str) -> list:
+    components = sort_components_by_score(components)
+    result_simp_chinese = " " + key + ":0 \""
+    if rank < 5:
+        for i in range((rank % 5) + 1):
+            result_simp_chinese = result_simp_chinese + "☆"
+    else:
+        for i in range((rank % 5) + 1):
+            result_simp_chinese = result_simp_chinese + "★"
+    result_simp_chinese = result_simp_chinese + ship_size_l_simp_chinese[ship_size]
+    result_simp_chinese = result_simp_chinese + component_quantity_l_simp_chinese[min(list(components.values())[0], 10)]
+    result_simp_chinese = result_simp_chinese + component_type_l_simp_chinese[list(components.keys())[0]]
+    if len(list(components.keys())) > 1:
+        result_simp_chinese = result_simp_chinese + component_quantity_l_simp_chinese[min(list(components.values())[1], 10)]
+        result_simp_chinese = result_simp_chinese + component_type_l_simp_chinese[list(components.keys())[1]]
+    result_simp_chinese = result_simp_chinese + slot_l_simp_chinese[slot]
+    result_simp_chinese = result_simp_chinese + "\""
+    write_l_simp_chinese_file(result_simp_chinese)
+    result_tech_simp_chinese = result_simp_chinese.replace(key, tech)
+    write_tech_l_simp_chinese_file(result_tech_simp_chinese)
+    result_english = " " + key + ":0 \""
+    if rank < 5:
+        for i in range((rank % 5) + 1):
+            result_english = result_english + "☆"
+    else:
+        for i in range((rank % 5) + 1):
+            result_english = result_english + "★"
+    result_english = result_english + ship_size_l_english[ship_size]
+    result_english = result_english + component_quantity_l_english[min(list(components.values())[0], 10)]
+    result_english = result_english + component_type_l_english[list(components.keys())[0]]
+    if len(list(components.keys())) > 1:
+        result_english = result_english + component_quantity_l_english[min(list(components.values())[1], 10)]
+        result_english = result_english + component_type_l_english[list(components.keys())[1]]
+    result_english = result_english + slot_l_english[slot]
+    result_english = result_english + "\""
+    write_l_english_file(result_english)
+    result_tech_english = result_english.replace(key, tech)
+    write_tech_l_english_file(result_tech_english)
+    return [result_simp_chinese, result_english, result_tech_simp_chinese, result_tech_english]
 
 def draw_tech_template_string(rank: int, tech: str) -> str:
     result = tech + " = {\n"
@@ -78,6 +134,7 @@ def draw_section_template_string(ship_size: str, slot: str, components: dict, en
     result = result + "}\n"
     write_section_file(result)
     draw_tech_template_string(rank, tech)
+    draw_localisation_string(key, rank, ship_size, components, slot, tech)
     return result
 
 def draw_component_slot_string(entity: str, components: dict) -> str:
@@ -211,12 +268,12 @@ def generate_frigate(rank: int, component_queue: list, diversity: float):
     # print("[+]", verify_score, total_score)
     try:
         assert(verify_score == total_score)
-        components = dict(sorted(components.items(), key = lambda x: component_score_dict[x[0]], reverse=True))
-        print("[+] Generated section:", components)
-        section = draw_section_template_string("frigate", "mid", components, entity, rank)
-        # print(section)
     except:
         print("[*] Score verify failed, skip this round.")
+    components = dict(sorted(components.items(), key = lambda x: component_score_dict[x[0]], reverse=True))
+    print("[+] Generated section:", components)
+    section = draw_section_template_string("frigate", "mid", components, entity, rank)
+    # print(section)
 
 def main(args: list):
     ship_size = ""
