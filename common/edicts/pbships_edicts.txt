@@ -2,6 +2,10 @@ open_pbships_draw_gui = {
 	length = 0
 	icon = "GFX_edict_type_policy"
 
+	potential = {
+		always = no
+	}
+
 	effect = {
 		country_event = { id = pbships_gui.2 }
 	}
