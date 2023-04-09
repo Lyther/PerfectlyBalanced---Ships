@@ -1,0 +1,4638 @@
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_UL1M1PD1US1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_ul1m1pd1us1 }
+
+	large_utility_slots = 1
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	small_utility_slots = 1
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_M1S5US1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_m1s5us1 }
+
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	small_utility_slots = 1
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_HB1UL1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_hb1ul1 }
+
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		locatorname = "medium_gun_01"
+	}
+	large_utility_slots = 1
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_G4"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_g4 }
+
+	component_slot = {
+		name = "TORPEDO_01"
+		template = "medium_missile_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "TORPEDO_02"
+		template = "medium_missile_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "TORPEDO_03"
+		template = "medium_missile_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "TORPEDO_04"
+		template = "medium_missile_turret"
+		locatorname = "small_gun_01"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_UL2"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_ul2 }
+
+	large_utility_slots = 2
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_L1UM1S1PD1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_l1um1s1pd1 }
+
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "large_turret"
+		locatorname = "small_gun_01"
+	}
+	medium_utility_slots = 1
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "point_defence_turret"
+		locatorname = "small_gun_03"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_UM1US5PD1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_um1us5pd1 }
+
+	medium_utility_slots = 1
+	small_utility_slots = 5
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_01"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_HB1PD4"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_hb1pd4 }
+
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_01"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_UL1UM1M1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_ul1um1m1 }
+
+	large_utility_slots = 1
+	medium_utility_slots = 1
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "small_gun_01"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_X1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_x1 }
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "small_gun_01"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_L2M1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_l2m1 }
+
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "large_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = "large_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "small_gun_03"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_UL2G1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_ul2g1 }
+
+	large_utility_slots = 2
+	component_slot = {
+		name = "TORPEDO_01"
+		template = "medium_missile_turret"
+		locatorname = "medium_gun_01"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_HB1PD5US1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_hb1pd5us1 }
+
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	small_utility_slots = 1
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_X1M1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_x1m1 }
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "small_gun_01"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_UL2UM1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_ul2um1 }
+
+	large_utility_slots = 2
+	medium_utility_slots = 1
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_L1UL1PD1S1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_l1ul1pd1s1 }
+
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "large_turret"
+		locatorname = "medium_gun_01"
+	}
+	large_utility_slots = 1
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_PD8S2"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_pd8s2 }
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "point_defence_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_06"
+		template = "point_defence_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_07"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_08"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_09"
+		template = "small_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_10"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_S10"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_s10 }
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "small_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = "small_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_06"
+		template = "small_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_07"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_08"
+		template = "small_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_09"
+		template = "small_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_10"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_AUX4G1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_aux4g1 }
+
+	aux_utility_slots = 4
+	component_slot = {
+		name = "TORPEDO_01"
+		template = "medium_missile_turret"
+		locatorname = "small_gun_01"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_L2US2"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_l2us2 }
+
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "large_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = "large_turret"
+		locatorname = "small_gun_01"
+	}
+	small_utility_slots = 2
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_M5AUX1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_m5aux1 }
+
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "medium_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = "medium_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = "medium_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_05"
+		template = "medium_turret"
+		locatorname = "medium_gun_01"
+	}
+	aux_utility_slots = 1
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_X1US2S1PD1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_x1us2s1pd1 }
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	small_utility_slots = 2
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_01"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_AUX6"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_aux6 }
+
+	aux_utility_slots = 6
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_L3"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_l3 }
+
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "large_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = "large_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		template = "large_turret"
+		locatorname = "small_gun_03"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_PD10US2"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_pd10us2 }
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "point_defence_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_06"
+		template = "point_defence_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_07"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_08"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_09"
+		template = "point_defence_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_10"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	small_utility_slots = 2
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_HB1UM3AUX1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_hb1um3aux1 }
+
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		locatorname = "small_gun_01"
+	}
+	medium_utility_slots = 3
+	aux_utility_slots = 1
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_UL1G1S2US2PD1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_ul1g1s2us2pd1 }
+
+	large_utility_slots = 1
+	component_slot = {
+		name = "TORPEDO_01"
+		template = "medium_missile_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "small_gun_03"
+	}
+	small_utility_slots = 2
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_HB1G4"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_hb1g4 }
+
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "TORPEDO_01"
+		template = "medium_missile_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "TORPEDO_02"
+		template = "medium_missile_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "TORPEDO_03"
+		template = "medium_missile_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "TORPEDO_04"
+		template = "medium_missile_turret"
+		locatorname = "small_gun_02"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_UL2M1S1PD1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_ul2m1s1pd1 }
+
+	large_utility_slots = 2
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_01"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_HB2AUX2"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_hb2aux2 }
+
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = "large_strike_craft"
+		locatorname = "small_gun_01"
+	}
+	aux_utility_slots = 2
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_L2HB1US1PD1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_l2hb1us1pd1 }
+
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "large_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = "large_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		locatorname = "small_gun_03"
+	}
+	small_utility_slots = 1
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_HB3PD2"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_hb3pd2 }
+
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = "large_strike_craft"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		template = "large_strike_craft"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_L1UM4G1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_l1um4g1 }
+
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "large_turret"
+		locatorname = "medium_gun_01"
+	}
+	medium_utility_slots = 4
+	component_slot = {
+		name = "TORPEDO_01"
+		template = "medium_missile_turret"
+		locatorname = "small_gun_01"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_X1UM3"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_x1um3 }
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "small_gun_01"
+	}
+	medium_utility_slots = 3
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_L1M1AUX1G1PD2US1S1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_l1m1aux1g1pd2us1s1 }
+
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "large_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "small_gun_02"
+	}
+	aux_utility_slots = 1
+	component_slot = {
+		name = "TORPEDO_01"
+		template = "medium_missile_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+	small_utility_slots = 1
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "small_turret"
+		locatorname = "small_gun_03"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_UL3M1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_ul3m1 }
+
+	large_utility_slots = 3
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "small_gun_01"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_X1M1US2S1PD1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_x1m1us2s1pd1 }
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "small_gun_01"
+	}
+	small_utility_slots = 2
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_X1UL1US1S1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_x1ul1us1s1 }
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "small_gun_01"
+	}
+	large_utility_slots = 1
+	small_utility_slots = 1
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "small_gun_02"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_S13PD1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_s13pd1 }
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_06"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_07"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_08"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_09"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_10"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_11"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_12"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_13"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_14"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_X1AUX1G1PD2"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_x1aux1g1pd2 }
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "small_gun_01"
+	}
+	aux_utility_slots = 1
+	component_slot = {
+		name = "TORPEDO_01"
+		template = "medium_missile_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "point_defence_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_X2US1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_x2us1 }
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "small_gun_01"
+	}
+	small_utility_slots = 1
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_US16S1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_us16s1 }
+
+	small_utility_slots = 16
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_AUX1US15"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_aux1us15 }
+
+	aux_utility_slots = 1
+	small_utility_slots = 15
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_M4US4S2PD2"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_m4us4s2pd2 }
+
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "medium_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = "medium_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = "medium_turret"
+		locatorname = "small_gun_01"
+	}
+	small_utility_slots = 4
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_HB4US1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_hb4us1 }
+
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = "large_strike_craft"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		template = "large_strike_craft"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_04"
+		template = "large_strike_craft"
+		locatorname = "small_gun_01"
+	}
+	small_utility_slots = 1
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_X1G1AUX1UM1PD2S1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_x1g1aux1um1pd2s1 }
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "TORPEDO_01"
+		template = "medium_missile_turret"
+		locatorname = "small_gun_02"
+	}
+	aux_utility_slots = 1
+	medium_utility_slots = 1
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "point_defence_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "small_turret"
+		locatorname = "small_gun_02"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_G2PD13"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_g2pd13 }
+
+	component_slot = {
+		name = "TORPEDO_01"
+		template = "medium_missile_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "TORPEDO_02"
+		template = "medium_missile_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_06"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_07"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_08"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_09"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_10"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_11"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_12"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_13"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_01"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_X1UL2S1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_x1ul2s1 }
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "small_gun_01"
+	}
+	large_utility_slots = 2
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "small_gun_02"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_HB1G6PD1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_hb1g6pd1 }
+
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "TORPEDO_01"
+		template = "medium_missile_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "TORPEDO_02"
+		template = "medium_missile_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "TORPEDO_03"
+		template = "medium_missile_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "TORPEDO_04"
+		template = "medium_missile_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "TORPEDO_05"
+		template = "medium_missile_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "TORPEDO_06"
+		template = "medium_missile_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_X1M2AUX1S1PD1US1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_x1m2aux1s1pd1us1 }
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "medium_turret"
+		locatorname = "small_gun_03"
+	}
+	aux_utility_slots = 1
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+	small_utility_slots = 1
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_UM4AUX3G2S1PD1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_um4aux3g2s1pd1 }
+
+	medium_utility_slots = 4
+	aux_utility_slots = 3
+	component_slot = {
+		name = "TORPEDO_01"
+		template = "medium_missile_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "TORPEDO_02"
+		template = "medium_missile_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_UM7S4PD2"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_um7s4pd2 }
+
+	medium_utility_slots = 7
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "small_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_06"
+		template = "point_defence_turret"
+		locatorname = "small_gun_03"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_L4UL1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_l4ul1 }
+
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "large_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = "large_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		template = "large_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_04"
+		template = "large_turret"
+		locatorname = "small_gun_01"
+	}
+	large_utility_slots = 1
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_T1G1UM1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_t1g1um1 }
+
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "TORPEDO_01"
+		template = "medium_missile_turret"
+		locatorname = "small_gun_01"
+	}
+	medium_utility_slots = 1
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_HB4UM2"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_hb4um2 }
+
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = "large_strike_craft"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		template = "large_strike_craft"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_04"
+		template = "large_strike_craft"
+		locatorname = "small_gun_01"
+	}
+	medium_utility_slots = 2
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_T1UM2"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_t1um2 }
+
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_01"
+	}
+	medium_utility_slots = 2
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_UL3HB2"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_ul3hb2 }
+
+	large_utility_slots = 3
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = "large_strike_craft"
+		locatorname = "small_gun_01"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_L2PD11S1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_l2pd11s1 }
+
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "large_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = "large_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "point_defence_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "point_defence_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_06"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_07"
+		template = "point_defence_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_08"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_09"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_10"
+		template = "point_defence_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_11"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_12"
+		template = "small_turret"
+		locatorname = "small_gun_02"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_UM8M2"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_um8m2 }
+
+	medium_utility_slots = 8
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "medium_turret"
+		locatorname = "small_gun_02"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_UL3HB1M1US1S1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_ul3hb1m1us1s1 }
+
+	large_utility_slots = 3
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "small_gun_01"
+	}
+	small_utility_slots = 1
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_X3"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_x3 }
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_03"
+		template = "invisible_extra_large_fixed"
+		locatorname = "small_gun_03"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_HB2L1UM3G1US3PD1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_hb2l1um3g1us3pd1 }
+
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = "large_strike_craft"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "large_turret"
+		locatorname = "small_gun_03"
+	}
+	medium_utility_slots = 3
+	component_slot = {
+		name = "TORPEDO_01"
+		template = "medium_missile_turret"
+		locatorname = "small_gun_01"
+	}
+	small_utility_slots = 3
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_L6"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_l6 }
+
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "large_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = "large_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		template = "large_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "LARGE_GUN_04"
+		template = "large_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_05"
+		template = "large_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_06"
+		template = "large_turret"
+		locatorname = "small_gun_03"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_HB1UL1US9PD6S1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_hb1ul1us9pd6s1 }
+
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		locatorname = "medium_gun_01"
+	}
+	large_utility_slots = 1
+	small_utility_slots = 9
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_06"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_07"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_PD23S1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_pd23s1 }
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "point_defence_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_06"
+		template = "point_defence_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_07"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_08"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_09"
+		template = "point_defence_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_10"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_11"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_12"
+		template = "point_defence_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_13"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_14"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_15"
+		template = "point_defence_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_16"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_17"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_18"
+		template = "point_defence_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_19"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_20"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_21"
+		template = "point_defence_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_22"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_23"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_24"
+		template = "small_turret"
+		locatorname = "small_gun_03"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_G12"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_g12 }
+
+	component_slot = {
+		name = "TORPEDO_01"
+		template = "medium_missile_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "TORPEDO_02"
+		template = "medium_missile_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "TORPEDO_03"
+		template = "medium_missile_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "TORPEDO_04"
+		template = "medium_missile_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "TORPEDO_05"
+		template = "medium_missile_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "TORPEDO_06"
+		template = "medium_missile_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "TORPEDO_07"
+		template = "medium_missile_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "TORPEDO_08"
+		template = "medium_missile_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "TORPEDO_09"
+		template = "medium_missile_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "TORPEDO_10"
+		template = "medium_missile_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "TORPEDO_11"
+		template = "medium_missile_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "TORPEDO_12"
+		template = "medium_missile_turret"
+		locatorname = "small_gun_01"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_UM10M2"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_um10m2 }
+
+	medium_utility_slots = 10
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "medium_turret"
+		locatorname = "small_gun_01"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_HB5S4"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_hb5s4 }
+
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = "large_strike_craft"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		template = "large_strike_craft"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_04"
+		template = "large_strike_craft"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_05"
+		template = "large_strike_craft"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_UL5AUX2"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_ul5aux2 }
+
+	large_utility_slots = 5
+	aux_utility_slots = 2
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_HB2UM4G1PD3US2S1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_hb2um4g1pd3us2s1 }
+
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = "large_strike_craft"
+		locatorname = "small_gun_02"
+	}
+	medium_utility_slots = 4
+	component_slot = {
+		name = "TORPEDO_01"
+		template = "medium_missile_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "point_defence_turret"
+		locatorname = "small_gun_03"
+	}
+	small_utility_slots = 2
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_T1X1UM2PD1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_t1x1um2pd1 }
+
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "small_gun_01"
+	}
+	medium_utility_slots = 2
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_01"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_UL5US7S2"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_ul5us7s2 }
+
+	large_utility_slots = 5
+	small_utility_slots = 7
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_UM12US5"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_um12us5 }
+
+	medium_utility_slots = 12
+	small_utility_slots = 5
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_UM9S7US3PD1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_um9s7us3pd1 }
+
+	medium_utility_slots = 9
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "small_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = "small_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_06"
+		template = "small_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_07"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	small_utility_slots = 3
+	component_slot = {
+		name = "SMALL_GUN_08"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_X1L2G2UM1M1AUX1PD1S1US1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_x1l2g2um1m1aux1pd1s1us1 }
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "large_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = "large_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "TORPEDO_01"
+		template = "medium_missile_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "TORPEDO_02"
+		template = "medium_missile_turret"
+		locatorname = "medium_gun_01"
+	}
+	medium_utility_slots = 1
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "small_gun_01"
+	}
+	aux_utility_slots = 1
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	small_utility_slots = 1
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_HB2UL1AUX2PD12S1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_hb2ul1aux2pd12s1 }
+
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = "large_strike_craft"
+		locatorname = "small_gun_01"
+	}
+	large_utility_slots = 1
+	aux_utility_slots = 2
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_06"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_07"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_08"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_09"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_10"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_11"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_12"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_13"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_T1G6PD1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_t1g6pd1 }
+
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "TORPEDO_01"
+		template = "medium_missile_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "TORPEDO_02"
+		template = "medium_missile_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "TORPEDO_03"
+		template = "medium_missile_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "TORPEDO_04"
+		template = "medium_missile_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "TORPEDO_05"
+		template = "medium_missile_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "TORPEDO_06"
+		template = "medium_missile_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_M14PD1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_m14pd1 }
+
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "medium_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = "medium_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = "medium_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_05"
+		template = "medium_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_06"
+		template = "medium_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_07"
+		template = "medium_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_08"
+		template = "medium_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_09"
+		template = "medium_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_10"
+		template = "medium_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_11"
+		template = "medium_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_12"
+		template = "medium_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_13"
+		template = "medium_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_14"
+		template = "medium_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "point_defence_turret"
+		locatorname = "small_gun_03"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_X2HB1UM2AUX1S2PD1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_x2hb1um2aux1s2pd1 }
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		locatorname = "small_gun_03"
+	}
+	medium_utility_slots = 2
+	aux_utility_slots = 1
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "point_defence_turret"
+		locatorname = "small_gun_03"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_UL1S13US7PD4"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_ul1s13us7pd4 }
+
+	large_utility_slots = 1
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_06"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_07"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_08"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_09"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_10"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_11"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_12"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_13"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+	small_utility_slots = 7
+	component_slot = {
+		name = "SMALL_GUN_14"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_15"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_16"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_17"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_01"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_UL1AUX10PD9US2"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_ul1aux10pd9us2 }
+
+	large_utility_slots = 1
+	aux_utility_slots = 10
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "point_defence_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_06"
+		template = "point_defence_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_07"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_08"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_09"
+		template = "point_defence_turret"
+		locatorname = "small_gun_03"
+	}
+	small_utility_slots = 2
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_UM17US1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_um17us1 }
+
+	medium_utility_slots = 17
+	small_utility_slots = 1
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_HB8S3"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_hb8s3 }
+
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = "large_strike_craft"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		template = "large_strike_craft"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_04"
+		template = "large_strike_craft"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_05"
+		template = "large_strike_craft"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_06"
+		template = "large_strike_craft"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_07"
+		template = "large_strike_craft"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_08"
+		template = "large_strike_craft"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_L2UL1HB1AUX3UM2M1US5S1PD1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_l2ul1hb1aux3um2m1us5s1pd1 }
+
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "large_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = "large_turret"
+		locatorname = "small_gun_02"
+	}
+	large_utility_slots = 1
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		locatorname = "small_gun_03"
+	}
+	aux_utility_slots = 3
+	medium_utility_slots = 2
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "small_gun_01"
+	}
+	small_utility_slots = 5
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "point_defence_turret"
+		locatorname = "small_gun_03"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_UM1PD32US1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_um1pd32us1 }
+
+	medium_utility_slots = 1
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "point_defence_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_06"
+		template = "point_defence_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_07"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_08"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_09"
+		template = "point_defence_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_10"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_11"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_12"
+		template = "point_defence_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_13"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_14"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_15"
+		template = "point_defence_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_16"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_17"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_18"
+		template = "point_defence_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_19"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_20"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_21"
+		template = "point_defence_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_22"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_23"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_24"
+		template = "point_defence_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_25"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_26"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_27"
+		template = "point_defence_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_28"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_29"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_30"
+		template = "point_defence_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_31"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_32"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+	small_utility_slots = 1
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_X4PD3"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_x4pd3 }
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_03"
+		template = "invisible_extra_large_fixed"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_04"
+		template = "invisible_extra_large_fixed"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "point_defence_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_S34US1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_s34us1 }
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "small_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = "small_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_06"
+		template = "small_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_07"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_08"
+		template = "small_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_09"
+		template = "small_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_10"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_11"
+		template = "small_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_12"
+		template = "small_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_13"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_14"
+		template = "small_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_15"
+		template = "small_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_16"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_17"
+		template = "small_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_18"
+		template = "small_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_19"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_20"
+		template = "small_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_21"
+		template = "small_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_22"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_23"
+		template = "small_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_24"
+		template = "small_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_25"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_26"
+		template = "small_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_27"
+		template = "small_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_28"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_29"
+		template = "small_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_30"
+		template = "small_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_31"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_32"
+		template = "small_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_33"
+		template = "small_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_34"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	small_utility_slots = 1
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_T1AUX2G2UM2M2PD1US1S1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_t1aux2g2um2m2pd1us1s1 }
+
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_01"
+	}
+	aux_utility_slots = 2
+	component_slot = {
+		name = "TORPEDO_01"
+		template = "medium_missile_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "TORPEDO_02"
+		template = "medium_missile_turret"
+		locatorname = "medium_gun_01"
+	}
+	medium_utility_slots = 2
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "medium_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	small_utility_slots = 1
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_HB5UL2L1G1PD1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_hb5ul2l1g1pd1 }
+
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = "large_strike_craft"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		template = "large_strike_craft"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_04"
+		template = "large_strike_craft"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_05"
+		template = "large_strike_craft"
+		locatorname = "small_gun_02"
+	}
+	large_utility_slots = 2
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "large_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "TORPEDO_01"
+		template = "medium_missile_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_UL1HB1L1M2AUX2UM2G1US4S2PD1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_ul1hb1l1m2aux2um2g1us4s2pd1 }
+
+	large_utility_slots = 1
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "large_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "medium_turret"
+		locatorname = "small_gun_01"
+	}
+	aux_utility_slots = 2
+	medium_utility_slots = 2
+	component_slot = {
+		name = "TORPEDO_01"
+		template = "medium_missile_turret"
+		locatorname = "medium_gun_01"
+	}
+	small_utility_slots = 4
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_AUX1US39PD1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_aux1us39pd1 }
+
+	aux_utility_slots = 1
+	small_utility_slots = 39
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_X1L1HB1UL1UM1M1AUX1G1PD2US2S1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_x1l1hb1ul1um1m1aux1g1pd2us2s1 }
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "large_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		locatorname = "small_gun_03"
+	}
+	large_utility_slots = 1
+	medium_utility_slots = 1
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "small_gun_01"
+	}
+	aux_utility_slots = 1
+	component_slot = {
+		name = "TORPEDO_01"
+		template = "medium_missile_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "point_defence_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	small_utility_slots = 2
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "small_turret"
+		locatorname = "small_gun_02"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_L6UL3UM2PD2"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_l6ul3um2pd2 }
+
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "large_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = "large_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		template = "large_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "LARGE_GUN_04"
+		template = "large_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_05"
+		template = "large_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_06"
+		template = "large_turret"
+		locatorname = "small_gun_03"
+	}
+	large_utility_slots = 3
+	medium_utility_slots = 2
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_AUX5M1S25PD5"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_aux5m1s25pd5 }
+
+	aux_utility_slots = 5
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_06"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_07"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_08"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_09"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_10"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_11"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_12"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_13"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_14"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_15"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_16"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_17"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_18"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_19"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_20"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_21"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_22"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_23"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_24"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_25"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_26"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_27"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_28"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_29"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_30"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_01"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_T1UL3UM1G1US9PD1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_t1ul3um1g1us9pd1 }
+
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_01"
+	}
+	large_utility_slots = 3
+	medium_utility_slots = 1
+	component_slot = {
+		name = "TORPEDO_01"
+		template = "medium_missile_turret"
+		locatorname = "small_gun_01"
+	}
+	small_utility_slots = 9
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_01"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_HB10S2"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_hb10s2 }
+
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = "large_strike_craft"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		template = "large_strike_craft"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_04"
+		template = "large_strike_craft"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_05"
+		template = "large_strike_craft"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_06"
+		template = "large_strike_craft"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_07"
+		template = "large_strike_craft"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_08"
+		template = "large_strike_craft"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_09"
+		template = "large_strike_craft"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_10"
+		template = "large_strike_craft"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "small_gun_03"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_T2US10"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_t2us10 }
+
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "TITANIC_02"
+		template = "invisible_titanic_fixed"
+		locatorname = "small_gun_01"
+	}
+	small_utility_slots = 10
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_T2M3AUX2"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_t2m3aux2 }
+
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "TITANIC_02"
+		template = "invisible_titanic_fixed"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "medium_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = "medium_turret"
+		locatorname = "medium_gun_01"
+	}
+	aux_utility_slots = 2
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_HB1M5G1US26"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_hb1m5g1us26 }
+
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "medium_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = "medium_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = "medium_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_05"
+		template = "medium_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "TORPEDO_01"
+		template = "medium_missile_turret"
+		locatorname = "medium_gun_01"
+	}
+	small_utility_slots = 26
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "CRISIS_CORVETTE_MID_T1L1UL1AUX1UM1M1G1PD5S4US1"
+	ship_size = crisis_corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "crisis_corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_crisis_corvette_mid_t1l1ul1aux1um1m1g1pd5s4us1 }
+
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "large_turret"
+		locatorname = "small_gun_01"
+	}
+	large_utility_slots = 1
+	aux_utility_slots = 1
+	medium_utility_slots = 1
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "TORPEDO_01"
+		template = "medium_missile_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_06"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_07"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_08"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_09"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+	small_utility_slots = 1
+
+	resources = {
+		category = ship_sections
+	}
+}
+

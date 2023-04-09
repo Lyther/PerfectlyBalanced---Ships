@@ -1,0 +1,950 @@
+tech_crisis_corvette_mid_ul1m1pd1us1 = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_m1s5us1 = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_hb1ul1 = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_g4 = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_ul2 = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_l1um1s1pd1 = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_um1us5pd1 = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_hb1pd4 = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_ul1um1m1 = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_x1 = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_l2m1 = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_ul2g1 = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_hb1pd5us1 = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_x1m1 = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_ul2um1 = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_l1ul1pd1s1 = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_pd8s2 = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_s10 = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_aux4g1 = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_l2us2 = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_m5aux1 = {
+	cost = @tier3cost3
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_x1us2s1pd1 = {
+	cost = @tier3cost3
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_aux6 = {
+	cost = @tier3cost3
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_l3 = {
+	cost = @tier3cost3
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_pd10us2 = {
+	cost = @tier3cost3
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_hb1um3aux1 = {
+	cost = @tier3cost3
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_ul1g1s2us2pd1 = {
+	cost = @tier3cost3
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_hb1g4 = {
+	cost = @tier3cost3
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_ul2m1s1pd1 = {
+	cost = @tier3cost3
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_hb2aux2 = {
+	cost = @tier3cost3
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_l2hb1us1pd1 = {
+	cost = @tier4cost3
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_hb3pd2 = {
+	cost = @tier4cost3
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_l1um4g1 = {
+	cost = @tier4cost3
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_x1um3 = {
+	cost = @tier4cost3
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_l1m1aux1g1pd2us1s1 = {
+	cost = @tier4cost3
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_ul3m1 = {
+	cost = @tier4cost3
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_x1m1us2s1pd1 = {
+	cost = @tier4cost3
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_x1ul1us1s1 = {
+	cost = @tier4cost3
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_s13pd1 = {
+	cost = @tier4cost3
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_x1aux1g1pd2 = {
+	cost = @tier4cost3
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_x2us1 = {
+	cost = @tier5cost3
+	area = engineering
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_us16s1 = {
+	cost = @tier5cost3
+	area = engineering
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_aux1us15 = {
+	cost = @tier5cost3
+	area = engineering
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_m4us4s2pd2 = {
+	cost = @tier5cost3
+	area = engineering
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_hb4us1 = {
+	cost = @tier5cost3
+	area = engineering
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_x1g1aux1um1pd2s1 = {
+	cost = @tier5cost3
+	area = engineering
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_g2pd13 = {
+	cost = @tier5cost3
+	area = engineering
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_x1ul2s1 = {
+	cost = @tier5cost3
+	area = engineering
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_hb1g6pd1 = {
+	cost = @tier5cost3
+	area = engineering
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_x1m2aux1s1pd1us1 = {
+	cost = @tier5cost3
+	area = engineering
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_um4aux3g2s1pd1 = {
+	cost = @tier1cost3
+	area = engineering
+	is_rare = yes
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_um7s4pd2 = {
+	cost = @tier1cost3
+	area = engineering
+	is_rare = yes
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_l4ul1 = {
+	cost = @tier1cost3
+	area = engineering
+	is_rare = yes
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_t1g1um1 = {
+	cost = @tier1cost3
+	area = engineering
+	is_rare = yes
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_hb4um2 = {
+	cost = @tier1cost3
+	area = engineering
+	is_rare = yes
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_t1um2 = {
+	cost = @tier1cost3
+	area = engineering
+	is_rare = yes
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_ul3hb2 = {
+	cost = @tier1cost3
+	area = engineering
+	is_rare = yes
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_l2pd11s1 = {
+	cost = @tier1cost3
+	area = engineering
+	is_rare = yes
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_um8m2 = {
+	cost = @tier1cost3
+	area = engineering
+	is_rare = yes
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_ul3hb1m1us1s1 = {
+	cost = @tier1cost3
+	area = engineering
+	is_rare = yes
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_x3 = {
+	cost = @tier2cost3
+	area = engineering
+	is_rare = yes
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_hb2l1um3g1us3pd1 = {
+	cost = @tier2cost3
+	area = engineering
+	is_rare = yes
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_l6 = {
+	cost = @tier2cost3
+	area = engineering
+	is_rare = yes
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_hb1ul1us9pd6s1 = {
+	cost = @tier2cost3
+	area = engineering
+	is_rare = yes
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_pd23s1 = {
+	cost = @tier2cost3
+	area = engineering
+	is_rare = yes
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_g12 = {
+	cost = @tier2cost3
+	area = engineering
+	is_rare = yes
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_um10m2 = {
+	cost = @tier2cost3
+	area = engineering
+	is_rare = yes
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_hb5s4 = {
+	cost = @tier2cost3
+	area = engineering
+	is_rare = yes
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_ul5aux2 = {
+	cost = @tier2cost3
+	area = engineering
+	is_rare = yes
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_hb2um4g1pd3us2s1 = {
+	cost = @tier2cost3
+	area = engineering
+	is_rare = yes
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_t1x1um2pd1 = {
+	cost = @tier3cost3
+	area = engineering
+	is_rare = yes
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_ul5us7s2 = {
+	cost = @tier3cost3
+	area = engineering
+	is_rare = yes
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_um12us5 = {
+	cost = @tier3cost3
+	area = engineering
+	is_rare = yes
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_um9s7us3pd1 = {
+	cost = @tier3cost3
+	area = engineering
+	is_rare = yes
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_x1l2g2um1m1aux1pd1s1us1 = {
+	cost = @tier3cost3
+	area = engineering
+	is_rare = yes
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_hb2ul1aux2pd12s1 = {
+	cost = @tier3cost3
+	area = engineering
+	is_rare = yes
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_t1g6pd1 = {
+	cost = @tier3cost3
+	area = engineering
+	is_rare = yes
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_m14pd1 = {
+	cost = @tier3cost3
+	area = engineering
+	is_rare = yes
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_x2hb1um2aux1s2pd1 = {
+	cost = @tier3cost3
+	area = engineering
+	is_rare = yes
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_ul1s13us7pd4 = {
+	cost = @tier3cost3
+	area = engineering
+	is_rare = yes
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_ul1aux10pd9us2 = {
+	cost = @tier4cost3
+	area = engineering
+	is_rare = yes
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_um17us1 = {
+	cost = @tier4cost3
+	area = engineering
+	is_rare = yes
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_hb8s3 = {
+	cost = @tier4cost3
+	area = engineering
+	is_rare = yes
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_l2ul1hb1aux3um2m1us5s1pd1 = {
+	cost = @tier4cost3
+	area = engineering
+	is_rare = yes
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_um1pd32us1 = {
+	cost = @tier4cost3
+	area = engineering
+	is_rare = yes
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_x4pd3 = {
+	cost = @tier4cost3
+	area = engineering
+	is_rare = yes
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_s34us1 = {
+	cost = @tier4cost3
+	area = engineering
+	is_rare = yes
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_t1aux2g2um2m2pd1us1s1 = {
+	cost = @tier4cost3
+	area = engineering
+	is_rare = yes
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_hb5ul2l1g1pd1 = {
+	cost = @tier4cost3
+	area = engineering
+	is_rare = yes
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_ul1hb1l1m2aux2um2g1us4s2pd1 = {
+	cost = @tier4cost3
+	area = engineering
+	is_rare = yes
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_aux1us39pd1 = {
+	cost = @tier5cost3
+	area = engineering
+	is_rare = yes
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_x1l1hb1ul1um1m1aux1g1pd2us2s1 = {
+	cost = @tier5cost3
+	area = engineering
+	is_rare = yes
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_l6ul3um2pd2 = {
+	cost = @tier5cost3
+	area = engineering
+	is_rare = yes
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_aux5m1s25pd5 = {
+	cost = @tier5cost3
+	area = engineering
+	is_rare = yes
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_t1ul3um1g1us9pd1 = {
+	cost = @tier5cost3
+	area = engineering
+	is_rare = yes
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_hb10s2 = {
+	cost = @tier5cost3
+	area = engineering
+	is_rare = yes
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_t2us10 = {
+	cost = @tier5cost3
+	area = engineering
+	is_rare = yes
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_t2m3aux2 = {
+	cost = @tier5cost3
+	area = engineering
+	is_rare = yes
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_hb1m5g1us26 = {
+	cost = @tier5cost3
+	area = engineering
+	is_rare = yes
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_crisis_corvette_mid_t1l1ul1aux1um1m1g1pd5s4us1 = {
+	cost = @tier5cost3
+	area = engineering
+	is_rare = yes
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+

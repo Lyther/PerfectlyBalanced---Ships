@@ -31,19 +31,19 @@ def write_tech_file(text: str):
     # print("[+] Tech file write done.")
 
 def write_l_simp_chinese_file(text: str):
-    with open("tmp/pbships_l_simp_chinese.txt", "a", encoding="utf-8") as output:
+    with open("tmp/pbships_l_simp_chinese.yml", "a", encoding="utf-8") as output:
         print(text, file = output)
 
 def write_l_english_file(text: str):
-    with open("tmp/pbships_l_english.txt", "a", encoding="utf-8") as output:
+    with open("tmp/pbships_l_english.yml", "a", encoding="utf-8") as output:
         print(text, file = output)
 
 def write_tech_l_simp_chinese_file(text: str):
-    with open("tmp/pbships_tech_l_simp_chinese.txt", "a", encoding="utf-8") as output:
+    with open("tmp/pbships_tech_l_simp_chinese.yml", "a", encoding="utf-8") as output:
         print(text, file = output)
 
 def write_tech_l_english_file(text: str):
-    with open("tmp/pbships_tech_l_english.txt", "a", encoding="utf-8") as output:
+    with open("tmp/pbships_tech_l_english.yml", "a", encoding="utf-8") as output:
         print(text, file = output)
 
 def write_random_list_file(text: str):
