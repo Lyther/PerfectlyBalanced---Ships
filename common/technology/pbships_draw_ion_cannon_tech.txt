@@ -1,0 +1,946 @@
+tech_ion_cannon_ship_aux18pd2 = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_t1g1pd20 = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_x3g4aux1s3pd1 = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_t1x1l1ul1g1aux1s1pd1 = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_l9us2 = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_t2g2um1 = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_ul8g3 = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_m2pd20s13us1 = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_t1x1l1g2aux1m1pd2 = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_l4aux1s20 = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_ul9hb2pd2 = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_t1g12aux1s4 = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_l5aux2um1us20 = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_ul2m9pd20 = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_t1x1l1ul1aux2g1m1s3pd2us1 = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_m19us7s1 = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_t1x1hb1ul1l1m2um2s1us1 = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_x1m16aux3 = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_l1g7um5m3aux1s7us2pd1 = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_hb8m5s3us1 = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_ul6um1s20 = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_l3hb1ul1um8g3us2s1pd1 = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_m18um1pd8 = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_ul2m18g1 = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_x1s20us17pd1 = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_ul3l1um4m2aux1g1s9pd5 = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_x1hb2m6um1g1aux1pd17us4 = {
+	cost = @tier3cost3
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_l11m5s1 = {
+	cost = @tier3cost3
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_t1ul4hb2l1g2aux1us5 = {
+	cost = @tier3cost3
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_t2ul3hb1m2s2us1 = {
+	cost = @tier3cost3
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_hb4aux13m2g1us6pd1 = {
+	cost = @tier3cost3
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_g17um3aux1pd13 = {
+	cost = @tier3cost3
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_x1hb2um12m1us13 = {
+	cost = @tier3cost3
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_x1hb4ul2um3aux2us12pd1 = {
+	cost = @tier3cost3
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_l3g20s3 = {
+	cost = @tier3cost3
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_hb8um1us20pd1 = {
+	cost = @tier3cost3
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_ul3um16m2us17s1 = {
+	cost = @tier4cost3
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_x6ul3m2um1 = {
+	cost = @tier4cost3
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_x8m1 = {
+	cost = @tier4cost3
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_l16aux1 = {
+	cost = @tier4cost3
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_t1x1l4hb2um2g1us11pd1 = {
+	cost = @tier4cost3
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_m20s20pd6 = {
+	cost = @tier4cost3
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_g20um13 = {
+	cost = @tier4cost3
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_t3x2us2 = {
+	cost = @tier4cost3
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_ul6um20aux1 = {
+	cost = @tier4cost3
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_hb3ul2g13s20 = {
+	cost = @tier4cost3
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_t1x1l1hb1m4um2aux2g1s11us10pd8 = {
+	cost = @tier5cost3
+	area = engineering
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_hb8aux9um6g4m2us2pd2s1 = {
+	cost = @tier5cost3
+	area = engineering
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_x5m8aux2g1s10us6pd1 = {
+	cost = @tier5cost3
+	area = engineering
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_ul2l1aux7g2m1pd20s18us9 = {
+	cost = @tier5cost3
+	area = engineering
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_x4um20s6pd1 = {
+	cost = @tier5cost3
+	area = engineering
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_x1l6um20m1s4pd1 = {
+	cost = @tier5cost3
+	area = engineering
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_x2l8m2g1aux1s18us5 = {
+	cost = @tier5cost3
+	area = engineering
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_x4aux6g4m2um1pd18us2s1 = {
+	cost = @tier5cost3
+	area = engineering
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_ul19l4us3 = {
+	cost = @tier1cost3
+	area = engineering
+	is_rare = yes
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_l7ul3hb2um9m2g1aux1us20pd1 = {
+	cost = @tier1cost3
+	area = engineering
+	is_rare = yes
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_t1l1aux20g13um3m1pd1 = {
+	cost = @tier1cost3
+	area = engineering
+	is_rare = yes
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_x9l1m9s1 = {
+	cost = @tier1cost3
+	area = engineering
+	is_rare = yes
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_x6hb3l2m12aux1s1 = {
+	cost = @tier1cost3
+	area = engineering
+	is_rare = yes
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_ul17hb1g10s3 = {
+	cost = @tier1cost3
+	area = engineering
+	is_rare = yes
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_t1x2hb2ul1l1m5g4aux2um1s18us3pd2 = {
+	cost = @tier1cost3
+	area = engineering
+	is_rare = yes
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_ul3m18um3g1pd20s18us1 = {
+	cost = @tier1cost3
+	area = engineering
+	is_rare = yes
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_l15ul1aux5s20us1 = {
+	cost = @tier1cost3
+	area = engineering
+	is_rare = yes
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_t6ul1m7 = {
+	cost = @tier2cost3
+	area = engineering
+	is_rare = yes
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_ul14hb7um2m1pd15s8us1 = {
+	cost = @tier2cost3
+	area = engineering
+	is_rare = yes
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_m20aux20pd20us12s2 = {
+	cost = @tier2cost3
+	area = engineering
+	is_rare = yes
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_ul13l3g11aux3m1us20 = {
+	cost = @tier2cost3
+	area = engineering
+	is_rare = yes
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_t2x2hb13l2ul1pd1s1 = {
+	cost = @tier2cost3
+	area = engineering
+	is_rare = yes
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_t5aux11m2us8 = {
+	cost = @tier2cost3
+	area = engineering
+	is_rare = yes
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_x1hb3aux20m16um1us18s2 = {
+	cost = @tier2cost3
+	area = engineering
+	is_rare = yes
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_hb20m7pd20 = {
+	cost = @tier2cost3
+	area = engineering
+	is_rare = yes
+	tier = 2
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_hb15l3um20aux11m1pd1 = {
+	cost = @tier3cost3
+	area = engineering
+	is_rare = yes
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_hb20um13g4aux1s20pd1 = {
+	cost = @tier3cost3
+	area = engineering
+	is_rare = yes
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_x7g20s20us20pd1 = {
+	cost = @tier3cost3
+	area = engineering
+	is_rare = yes
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_ul20um20g8us1 = {
+	cost = @tier3cost3
+	area = engineering
+	is_rare = yes
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_hb13l3g20um12aux3us2pd1 = {
+	cost = @tier3cost3
+	area = engineering
+	is_rare = yes
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_t5um5m3pd20us20s1 = {
+	cost = @tier3cost3
+	area = engineering
+	is_rare = yes
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_hb16g20aux1pd20us11 = {
+	cost = @tier3cost3
+	area = engineering
+	is_rare = yes
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_x16g4pd1 = {
+	cost = @tier3cost3
+	area = engineering
+	is_rare = yes
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_t3x1ul4g20aux2us20s1 = {
+	cost = @tier3cost3
+	area = engineering
+	is_rare = yes
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_x9l2ul1aux15um1s20us18pd10 = {
+	cost = @tier4cost3
+	area = engineering
+	is_rare = yes
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_ul20l5hb1um20pd20 = {
+	cost = @tier4cost3
+	area = engineering
+	is_rare = yes
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_x4ul20aux2s20us20pd8 = {
+	cost = @tier4cost3
+	area = engineering
+	is_rare = yes
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_x14m20pd11us1 = {
+	cost = @tier4cost3
+	area = engineering
+	is_rare = yes
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_t1ul14l1m20g13us20pd2 = {
+	cost = @tier4cost3
+	area = engineering
+	is_rare = yes
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_t6x1m20us20 = {
+	cost = @tier4cost3
+	area = engineering
+	is_rare = yes
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_x18um9s2 = {
+	cost = @tier4cost3
+	area = engineering
+	is_rare = yes
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_t2x1ul1hb1aux18g14um6m4pd20us7s5 = {
+	cost = @tier4cost3
+	area = engineering
+	is_rare = yes
+	tier = 4
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_t3x9hb1m5g3um1s20pd20us15 = {
+	cost = @tier5cost3
+	area = engineering
+	is_rare = yes
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_t8hb5ul2um20us1 = {
+	cost = @tier5cost3
+	area = engineering
+	is_rare = yes
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_x6hb7l2ul1m20um20aux8pd10us3 = {
+	cost = @tier5cost3
+	area = engineering
+	is_rare = yes
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_t5x1hb7l4um20m1us20s3 = {
+	cost = @tier5cost3
+	area = engineering
+	is_rare = yes
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_hb16l2ul1aux20um15m9g5pd20us3 = {
+	cost = @tier5cost3
+	area = engineering
+	is_rare = yes
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_t1l20ul20s20pd1 = {
+	cost = @tier5cost3
+	area = engineering
+	is_rare = yes
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_t2l20ul20pd4s1 = {
+	cost = @tier5cost3
+	area = engineering
+	is_rare = yes
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_ul8m20g20um20aux2s20pd20us1 = {
+	cost = @tier5cost3
+	area = engineering
+	is_rare = yes
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_x2l19aux20um20m2s20pd1 = {
+	cost = @tier5cost3
+	area = engineering
+	is_rare = yes
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_l17ul2aux20m15um5g1s20us17pd2 = {
+	cost = @tier5cost3
+	area = engineering
+	is_rare = yes
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_x9hb20ul2um13pd11 = {
+	cost = @tier5cost3
+	area = engineering
+	is_rare = yes
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
+tech_ion_cannon_ship_x8l5ul1aux20m15g3um2us20s9 = {
+	cost = @tier5cost3
+	area = engineering
+	is_rare = yes
+	tier = 5
+	category = { voidcraft }
+	weight = 0
+	ai_weight = { factor = 0 }
+}
+
