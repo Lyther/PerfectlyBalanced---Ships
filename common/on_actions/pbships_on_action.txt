@@ -5,13 +5,8 @@ on_press_begin = {
 	}
 }
 
+# Initialize mod
 on_game_start = {
-	events = {
-		pbships_gui.3
-	}
-}
-
-on_single_player_save_game_load = {
 	events = {
 		pbships_gui.3
 	}

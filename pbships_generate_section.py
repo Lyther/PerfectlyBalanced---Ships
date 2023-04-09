@@ -64,11 +64,9 @@ def sort_components_by_score(components: dict) -> dict:
     return dict(sorted(components.items(), key = lambda x: component_score_dict[x[0]] * x[1], reverse=True))
 
 def draw_random_list_string(tech: str) -> str:
-    result = "1000 = {\n"
-    result = result + "\tif = {\n"
-    result = result + "\t\tlimit = { NOT = { has_technology = " + tech + " } }\n"
-    result = result + "\t\tgive_technology = { tech = " + tech + " message = yes }\n"
-    result = result + "\t}\n"
+    result = "else_if = {\n"
+    result = result + "\tlimit = { NOT = { has_technology = " + tech + " } }\n"
+    result = result + "\tgive_technology = { tech = " + tech + " message = yes }\n"
     result = result + "}"
     write_random_list_file(result)
     return result

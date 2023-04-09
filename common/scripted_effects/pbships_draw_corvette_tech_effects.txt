@@ -14,681 +14,461 @@ get_corvette_mid_ship_section_tech = {
 }
 
 get_corvette_mid_ship_section_tech_level_1 = {
-	random_list = {
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_g2m1 } }
-				give_technology = { tech = tech_corvette_mid_g2m1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_hb1us2 } }
-				give_technology = { tech = tech_corvette_mid_hb1us2 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_aux3 } }
-				give_technology = { tech = tech_corvette_mid_aux3 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_pd4us2 } }
-				give_technology = { tech = tech_corvette_mid_pd4us2 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_g1m1us1pd1 } }
-				give_technology = { tech = tech_corvette_mid_g1m1us1pd1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_ul1um1 } }
-				give_technology = { tech = tech_corvette_mid_ul1um1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_ul1g1 } }
-				give_technology = { tech = tech_corvette_mid_ul1g1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_g2um1 } }
-				give_technology = { tech = tech_corvette_mid_g2um1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_l1s1us1 } }
-				give_technology = { tech = tech_corvette_mid_l1s1us1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_um3 } }
-				give_technology = { tech = tech_corvette_mid_um3 message = yes }
-			}
-		}
-		1 = {
-			get_corvette_mid_ship_section_tech_level_2 = yes
-		}
+	if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_g2m1 } }
+		give_technology = { tech = tech_corvette_mid_g2m1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_hb1us2 } }
+		give_technology = { tech = tech_corvette_mid_hb1us2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_aux3 } }
+		give_technology = { tech = tech_corvette_mid_aux3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_pd4us2 } }
+		give_technology = { tech = tech_corvette_mid_pd4us2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_g1m1us1pd1 } }
+		give_technology = { tech = tech_corvette_mid_g1m1us1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_ul1um1 } }
+		give_technology = { tech = tech_corvette_mid_ul1um1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_ul1g1 } }
+		give_technology = { tech = tech_corvette_mid_ul1g1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_g2um1 } }
+		give_technology = { tech = tech_corvette_mid_g2um1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_l1s1us1 } }
+		give_technology = { tech = tech_corvette_mid_l1s1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_um3 } }
+		give_technology = { tech = tech_corvette_mid_um3 message = yes }
+	}
+	else = {
+		get_corvette_mid_ship_section_tech_level_2 = yes
 	}
 }
 
 get_corvette_mid_ship_section_tech_level_2 = {
-	random_list = {
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_l1um1m1 } }
-				give_technology = { tech = tech_corvette_mid_l1um1m1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_um2g1pd2 } }
-				give_technology = { tech = tech_corvette_mid_um2g1pd2 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_x1 } }
-				give_technology = { tech = tech_corvette_mid_x1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_um4 } }
-				give_technology = { tech = tech_corvette_mid_um4 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_ul1um1aux1 } }
-				give_technology = { tech = tech_corvette_mid_ul1um1aux1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_l1aux1g1 } }
-				give_technology = { tech = tech_corvette_mid_l1aux1g1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_m3s2 } }
-				give_technology = { tech = tech_corvette_mid_m3s2 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_pd8 } }
-				give_technology = { tech = tech_corvette_mid_pd8 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_ul2 } }
-				give_technology = { tech = tech_corvette_mid_ul2 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_x1 } }
-				give_technology = { tech = tech_corvette_mid_x1 message = yes }
-			}
-		}
-		1 = {
-			get_corvette_mid_ship_section_tech_level_3 = yes
-		}
+	if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_l1um1m1 } }
+		give_technology = { tech = tech_corvette_mid_l1um1m1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_um2g1pd2 } }
+		give_technology = { tech = tech_corvette_mid_um2g1pd2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_x1 } }
+		give_technology = { tech = tech_corvette_mid_x1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_um4 } }
+		give_technology = { tech = tech_corvette_mid_um4 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_ul1um1aux1 } }
+		give_technology = { tech = tech_corvette_mid_ul1um1aux1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_l1aux1g1 } }
+		give_technology = { tech = tech_corvette_mid_l1aux1g1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_m3s2 } }
+		give_technology = { tech = tech_corvette_mid_m3s2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_pd8 } }
+		give_technology = { tech = tech_corvette_mid_pd8 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_ul2 } }
+		give_technology = { tech = tech_corvette_mid_ul2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_x1 } }
+		give_technology = { tech = tech_corvette_mid_x1 message = yes }
+	}
+	else = {
+		get_corvette_mid_ship_section_tech_level_3 = yes
 	}
 }
 
 get_corvette_mid_ship_section_tech_level_3 = {
-	random_list = {
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_hb2pd1 } }
-				give_technology = { tech = tech_corvette_mid_hb2pd1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_aux1um1pd3s2 } }
-				give_technology = { tech = tech_corvette_mid_aux1um1pd3s2 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_m2um1s2us1 } }
-				give_technology = { tech = tech_corvette_mid_m2um1s2us1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_ul2pd1 } }
-				give_technology = { tech = tech_corvette_mid_ul2pd1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_aux3s2pd1 } }
-				give_technology = { tech = tech_corvette_mid_aux3s2pd1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_us8s1 } }
-				give_technology = { tech = tech_corvette_mid_us8s1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_um4s1 } }
-				give_technology = { tech = tech_corvette_mid_um4s1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_pd7s2 } }
-				give_technology = { tech = tech_corvette_mid_pd7s2 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_hb2pd1 } }
-				give_technology = { tech = tech_corvette_mid_hb2pd1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_um1aux1us4pd1 } }
-				give_technology = { tech = tech_corvette_mid_um1aux1us4pd1 message = yes }
-			}
-		}
-		1 = {
-			get_corvette_mid_ship_section_tech_level_4 = yes
-		}
+	if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_hb2pd1 } }
+		give_technology = { tech = tech_corvette_mid_hb2pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_aux1um1pd3s2 } }
+		give_technology = { tech = tech_corvette_mid_aux1um1pd3s2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_m2um1s2us1 } }
+		give_technology = { tech = tech_corvette_mid_m2um1s2us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_ul2pd1 } }
+		give_technology = { tech = tech_corvette_mid_ul2pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_aux3s2pd1 } }
+		give_technology = { tech = tech_corvette_mid_aux3s2pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_us8s1 } }
+		give_technology = { tech = tech_corvette_mid_us8s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_um4s1 } }
+		give_technology = { tech = tech_corvette_mid_um4s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_pd7s2 } }
+		give_technology = { tech = tech_corvette_mid_pd7s2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_hb2pd1 } }
+		give_technology = { tech = tech_corvette_mid_hb2pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_um1aux1us4pd1 } }
+		give_technology = { tech = tech_corvette_mid_um1aux1us4pd1 message = yes }
+	}
+	else = {
+		get_corvette_mid_ship_section_tech_level_4 = yes
 	}
 }
 
 get_corvette_mid_ship_section_tech_level_4 = {
-	random_list = {
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_um4m1us1 } }
-				give_technology = { tech = tech_corvette_mid_um4m1us1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_um2us7 } }
-				give_technology = { tech = tech_corvette_mid_um2us7 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_l1m2us1pd1s1 } }
-				give_technology = { tech = tech_corvette_mid_l1m2us1pd1s1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_ul1um1m1g1us1 } }
-				give_technology = { tech = tech_corvette_mid_ul1um1m1g1us1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_hb1us3pd2s1 } }
-				give_technology = { tech = tech_corvette_mid_hb1us3pd2s1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_aux2g1s2pd2us1 } }
-				give_technology = { tech = tech_corvette_mid_aux2g1s2pd2us1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_hb1s6pd1 } }
-				give_technology = { tech = tech_corvette_mid_hb1s6pd1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_ul2s3 } }
-				give_technology = { tech = tech_corvette_mid_ul2s3 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_l1g1um1m1s1 } }
-				give_technology = { tech = tech_corvette_mid_l1g1um1m1s1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_hb1aux1g1m1pd1 } }
-				give_technology = { tech = tech_corvette_mid_hb1aux1g1m1pd1 message = yes }
-			}
-		}
-		1 = {
-			get_corvette_mid_ship_section_tech_level_5 = yes
-		}
+	if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_um4m1us1 } }
+		give_technology = { tech = tech_corvette_mid_um4m1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_um2us7 } }
+		give_technology = { tech = tech_corvette_mid_um2us7 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_l1m2us1pd1s1 } }
+		give_technology = { tech = tech_corvette_mid_l1m2us1pd1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_ul1um1m1g1us1 } }
+		give_technology = { tech = tech_corvette_mid_ul1um1m1g1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_hb1us3pd2s1 } }
+		give_technology = { tech = tech_corvette_mid_hb1us3pd2s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_aux2g1s2pd2us1 } }
+		give_technology = { tech = tech_corvette_mid_aux2g1s2pd2us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_hb1s6pd1 } }
+		give_technology = { tech = tech_corvette_mid_hb1s6pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_ul2s3 } }
+		give_technology = { tech = tech_corvette_mid_ul2s3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_l1g1um1m1s1 } }
+		give_technology = { tech = tech_corvette_mid_l1g1um1m1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_hb1aux1g1m1pd1 } }
+		give_technology = { tech = tech_corvette_mid_hb1aux1g1m1pd1 message = yes }
+	}
+	else = {
+		get_corvette_mid_ship_section_tech_level_5 = yes
 	}
 }
 
 get_corvette_mid_ship_section_tech_level_5 = {
-	random_list = {
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_l2ul1s1 } }
-				give_technology = { tech = tech_corvette_mid_l2ul1s1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_x1um1us1s1pd1 } }
-				give_technology = { tech = tech_corvette_mid_x1um1us1s1pd1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_l1pd9 } }
-				give_technology = { tech = tech_corvette_mid_l1pd9 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_ul1um1m1g1pd1us1s1 } }
-				give_technology = { tech = tech_corvette_mid_ul1um1m1g1pd1us1s1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_hb2um2us1 } }
-				give_technology = { tech = tech_corvette_mid_hb2um2us1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_ul1um2aux1g1us1 } }
-				give_technology = { tech = tech_corvette_mid_ul1um2aux1g1us1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_m2um1g1aux1us2s1 } }
-				give_technology = { tech = tech_corvette_mid_m2um1g1aux1us2s1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_hb2s3us1pd1 } }
-				give_technology = { tech = tech_corvette_mid_hb2s3us1pd1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_l1g2pd3us1s1 } }
-				give_technology = { tech = tech_corvette_mid_l1g2pd3us1s1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_ul3us1 } }
-				give_technology = { tech = tech_corvette_mid_ul3us1 message = yes }
-			}
-		}
-		1 = {
-			get_corvette_mid_ship_section_tech_level_6 = yes
-		}
+	if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_l2ul1s1 } }
+		give_technology = { tech = tech_corvette_mid_l2ul1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_x1um1us1s1pd1 } }
+		give_technology = { tech = tech_corvette_mid_x1um1us1s1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_l1pd9 } }
+		give_technology = { tech = tech_corvette_mid_l1pd9 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_ul1um1m1g1pd1us1s1 } }
+		give_technology = { tech = tech_corvette_mid_ul1um1m1g1pd1us1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_hb2um2us1 } }
+		give_technology = { tech = tech_corvette_mid_hb2um2us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_ul1um2aux1g1us1 } }
+		give_technology = { tech = tech_corvette_mid_ul1um2aux1g1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_m2um1g1aux1us2s1 } }
+		give_technology = { tech = tech_corvette_mid_m2um1g1aux1us2s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_hb2s3us1pd1 } }
+		give_technology = { tech = tech_corvette_mid_hb2s3us1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_l1g2pd3us1s1 } }
+		give_technology = { tech = tech_corvette_mid_l1g2pd3us1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_ul3us1 } }
+		give_technology = { tech = tech_corvette_mid_ul3us1 message = yes }
+	}
+	else = {
+		get_corvette_mid_ship_section_tech_level_6 = yes
 	}
 }
 
 get_corvette_mid_ship_section_tech_level_6 = {
-	random_list = {
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_ul1um2aux1us2pd2s1 } }
-				give_technology = { tech = tech_corvette_mid_ul1um2aux1us2pd2s1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_l3aux2 } }
-				give_technology = { tech = tech_corvette_mid_l3aux2 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_t1 } }
-				give_technology = { tech = tech_corvette_mid_t1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_us15pd1 } }
-				give_technology = { tech = tech_corvette_mid_us15pd1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_l1ul1m1g1aux1us1s1 } }
-				give_technology = { tech = tech_corvette_mid_l1ul1m1g1aux1us1s1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_x1ul1pd2s1us1 } }
-				give_technology = { tech = tech_corvette_mid_x1ul1pd2s1us1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_m8 } }
-				give_technology = { tech = tech_corvette_mid_m8 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_ul3us3pd1 } }
-				give_technology = { tech = tech_corvette_mid_ul3us3pd1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_ul2g1m1s3pd1 } }
-				give_technology = { tech = tech_corvette_mid_ul2g1m1s3pd1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_hb2ul1s2pd1us1 } }
-				give_technology = { tech = tech_corvette_mid_hb2ul1s2pd1us1 message = yes }
-			}
-		}
-		1 = {
-			get_corvette_mid_ship_section_tech_level_7 = yes
-		}
+	if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_ul1um2aux1us2pd2s1 } }
+		give_technology = { tech = tech_corvette_mid_ul1um2aux1us2pd2s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_l3aux2 } }
+		give_technology = { tech = tech_corvette_mid_l3aux2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_t1 } }
+		give_technology = { tech = tech_corvette_mid_t1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_us15pd1 } }
+		give_technology = { tech = tech_corvette_mid_us15pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_l1ul1m1g1aux1us1s1 } }
+		give_technology = { tech = tech_corvette_mid_l1ul1m1g1aux1us1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_x1ul1pd2s1us1 } }
+		give_technology = { tech = tech_corvette_mid_x1ul1pd2s1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_m8 } }
+		give_technology = { tech = tech_corvette_mid_m8 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_ul3us3pd1 } }
+		give_technology = { tech = tech_corvette_mid_ul3us3pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_ul2g1m1s3pd1 } }
+		give_technology = { tech = tech_corvette_mid_ul2g1m1s3pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_hb2ul1s2pd1us1 } }
+		give_technology = { tech = tech_corvette_mid_hb2ul1s2pd1us1 message = yes }
+	}
+	else = {
+		get_corvette_mid_ship_section_tech_level_7 = yes
 	}
 }
 
 get_corvette_mid_ship_section_tech_level_7 = {
-	random_list = {
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_l1hb1g1m1aux1pd2s2us1 } }
-				give_technology = { tech = tech_corvette_mid_l1hb1g1m1aux1pd2s2us1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_l1hb1ul1m1aux1pd1us1s1 } }
-				give_technology = { tech = tech_corvette_mid_l1hb1ul1m1aux1pd1us1s1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_hb3g2um1s1 } }
-				give_technology = { tech = tech_corvette_mid_hb3g2um1s1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_x1g3s4pd1 } }
-				give_technology = { tech = tech_corvette_mid_x1g3s4pd1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_hb4us3 } }
-				give_technology = { tech = tech_corvette_mid_hb4us3 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_ul1m2g2aux1s5 } }
-				give_technology = { tech = tech_corvette_mid_ul1m2g2aux1s5 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_hb1m4pd5s1us1 } }
-				give_technology = { tech = tech_corvette_mid_hb1m4pd5s1us1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_ul3aux1s5 } }
-				give_technology = { tech = tech_corvette_mid_ul3aux1s5 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_x1hb1l1us1s1pd1 } }
-				give_technology = { tech = tech_corvette_mid_x1hb1l1us1s1pd1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_hb1l1ul1g2aux1pd1 } }
-				give_technology = { tech = tech_corvette_mid_hb1l1ul1g2aux1pd1 message = yes }
-			}
-		}
-		1 = {
-			get_corvette_mid_ship_section_tech_level_8 = yes
-		}
+	if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_l1hb1g1m1aux1pd2s2us1 } }
+		give_technology = { tech = tech_corvette_mid_l1hb1g1m1aux1pd2s2us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_l1hb1ul1m1aux1pd1us1s1 } }
+		give_technology = { tech = tech_corvette_mid_l1hb1ul1m1aux1pd1us1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_hb3g2um1s1 } }
+		give_technology = { tech = tech_corvette_mid_hb3g2um1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_x1g3s4pd1 } }
+		give_technology = { tech = tech_corvette_mid_x1g3s4pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_hb4us3 } }
+		give_technology = { tech = tech_corvette_mid_hb4us3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_ul1m2g2aux1s5 } }
+		give_technology = { tech = tech_corvette_mid_ul1m2g2aux1s5 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_hb1m4pd5s1us1 } }
+		give_technology = { tech = tech_corvette_mid_hb1m4pd5s1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_ul3aux1s5 } }
+		give_technology = { tech = tech_corvette_mid_ul3aux1s5 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_x1hb1l1us1s1pd1 } }
+		give_technology = { tech = tech_corvette_mid_x1hb1l1us1s1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_hb1l1ul1g2aux1pd1 } }
+		give_technology = { tech = tech_corvette_mid_hb1l1ul1g2aux1pd1 message = yes }
+	}
+	else = {
+		get_corvette_mid_ship_section_tech_level_8 = yes
 	}
 }
 
 get_corvette_mid_ship_section_tech_level_8 = {
-	random_list = {
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_l4m3pd1 } }
-				give_technology = { tech = tech_corvette_mid_l4m3pd1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_aux9pd4us1 } }
-				give_technology = { tech = tech_corvette_mid_aux9pd4us1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_t1ul1aux1pd1 } }
-				give_technology = { tech = tech_corvette_mid_t1ul1aux1pd1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_ul5m1us1 } }
-				give_technology = { tech = tech_corvette_mid_ul5m1us1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_hb5aux1s1 } }
-				give_technology = { tech = tech_corvette_mid_hb5aux1s1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_l2hb1aux2g1us4s1 } }
-				give_technology = { tech = tech_corvette_mid_l2hb1aux2g1us4s1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_aux3g1us11pd3s1 } }
-				give_technology = { tech = tech_corvette_mid_aux3g1us11pd3s1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_x1hb1um2m2g1pd1 } }
-				give_technology = { tech = tech_corvette_mid_x1hb1um2m2g1pd1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_hb1aux3g2m2um1pd2us1 } }
-				give_technology = { tech = tech_corvette_mid_hb1aux3g2m2um1pd2us1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_x1ul1m1g1pd3us3s1 } }
-				give_technology = { tech = tech_corvette_mid_x1ul1m1g1pd3us3s1 message = yes }
-			}
-		}
-		1 = {
-			get_corvette_mid_ship_section_tech_level_9 = yes
-		}
+	if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_l4m3pd1 } }
+		give_technology = { tech = tech_corvette_mid_l4m3pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_aux9pd4us1 } }
+		give_technology = { tech = tech_corvette_mid_aux9pd4us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_t1ul1aux1pd1 } }
+		give_technology = { tech = tech_corvette_mid_t1ul1aux1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_ul5m1us1 } }
+		give_technology = { tech = tech_corvette_mid_ul5m1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_hb5aux1s1 } }
+		give_technology = { tech = tech_corvette_mid_hb5aux1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_l2hb1aux2g1us4s1 } }
+		give_technology = { tech = tech_corvette_mid_l2hb1aux2g1us4s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_aux3g1us11pd3s1 } }
+		give_technology = { tech = tech_corvette_mid_aux3g1us11pd3s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_x1hb1um2m2g1pd1 } }
+		give_technology = { tech = tech_corvette_mid_x1hb1um2m2g1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_hb1aux3g2m2um1pd2us1 } }
+		give_technology = { tech = tech_corvette_mid_hb1aux3g2m2um1pd2us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_x1ul1m1g1pd3us3s1 } }
+		give_technology = { tech = tech_corvette_mid_x1ul1m1g1pd3us3s1 message = yes }
+	}
+	else = {
+		get_corvette_mid_ship_section_tech_level_9 = yes
 	}
 }
 
 get_corvette_mid_ship_section_tech_level_9 = {
-	random_list = {
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_t1um2aux1g1us3s1 } }
-				give_technology = { tech = tech_corvette_mid_t1um2aux1g1us3s1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_l1g4aux1um1s11pd1 } }
-				give_technology = { tech = tech_corvette_mid_l1g4aux1um1s11pd1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_t1l3 } }
-				give_technology = { tech = tech_corvette_mid_t1l3 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_l2m3aux2g1um1us3pd2s1 } }
-				give_technology = { tech = tech_corvette_mid_l2m3aux2g1um1us3pd2s1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_hb5um3us2 } }
-				give_technology = { tech = tech_corvette_mid_hb5um3us2 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_aux12us4 } }
-				give_technology = { tech = tech_corvette_mid_aux12us4 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_x2l1g2aux2 } }
-				give_technology = { tech = tech_corvette_mid_x2l1g2aux2 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_ul2m7aux2pd1s1 } }
-				give_technology = { tech = tech_corvette_mid_ul2m7aux2pd1s1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_l7 } }
-				give_technology = { tech = tech_corvette_mid_l7 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_hb5l2 } }
-				give_technology = { tech = tech_corvette_mid_hb5l2 message = yes }
-			}
-		}
-		1 = {
-			get_corvette_mid_ship_section_tech_level_10 = yes
-		}
+	if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_t1um2aux1g1us3s1 } }
+		give_technology = { tech = tech_corvette_mid_t1um2aux1g1us3s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_l1g4aux1um1s11pd1 } }
+		give_technology = { tech = tech_corvette_mid_l1g4aux1um1s11pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_t1l3 } }
+		give_technology = { tech = tech_corvette_mid_t1l3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_l2m3aux2g1um1us3pd2s1 } }
+		give_technology = { tech = tech_corvette_mid_l2m3aux2g1um1us3pd2s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_hb5um3us2 } }
+		give_technology = { tech = tech_corvette_mid_hb5um3us2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_aux12us4 } }
+		give_technology = { tech = tech_corvette_mid_aux12us4 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_x2l1g2aux2 } }
+		give_technology = { tech = tech_corvette_mid_x2l1g2aux2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_ul2m7aux2pd1s1 } }
+		give_technology = { tech = tech_corvette_mid_ul2m7aux2pd1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_l7 } }
+		give_technology = { tech = tech_corvette_mid_l7 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_hb5l2 } }
+		give_technology = { tech = tech_corvette_mid_hb5l2 message = yes }
+	}
+	else = {
+		get_corvette_mid_ship_section_tech_level_10 = yes
 	}
 }
 
 get_corvette_mid_ship_section_tech_level_10 = {
-	random_list = {
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_hb3l1um3m3g1pd3us1 } }
-				give_technology = { tech = tech_corvette_mid_hb3l1um3m3g1pd3us1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_x1ul4um4aux1 } }
-				give_technology = { tech = tech_corvette_mid_x1ul4um4aux1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_t2us1pd1 } }
-				give_technology = { tech = tech_corvette_mid_t2us1pd1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_l1aux7m4pd5us2s1 } }
-				give_technology = { tech = tech_corvette_mid_l1aux7m4pd5us2s1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_t1x1g1um1aux1m1us2 } }
-				give_technology = { tech = tech_corvette_mid_t1x1g1um1aux1m1us2 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_g4um1pd24 } }
-				give_technology = { tech = tech_corvette_mid_g4um1pd24 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_um14pd5s1 } }
-				give_technology = { tech = tech_corvette_mid_um14pd5s1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_g4um3aux2s13us2pd1 } }
-				give_technology = { tech = tech_corvette_mid_g4um3aux2s13us2pd1 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_l7um3 } }
-				give_technology = { tech = tech_corvette_mid_l7um3 message = yes }
-			}
-		}
-		1000 = {
-			if = {
-				limit = { NOT = { has_technology = tech_corvette_mid_t1x1l2aux1 } }
-				give_technology = { tech = tech_corvette_mid_t1x1l2aux1 message = yes }
-			}
-		}
-		1 = {
-			country_event = { id = pbships_draw.999 }
-		}
+	if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_hb3l1um3m3g1pd3us1 } }
+		give_technology = { tech = tech_corvette_mid_hb3l1um3m3g1pd3us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_x1ul4um4aux1 } }
+		give_technology = { tech = tech_corvette_mid_x1ul4um4aux1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_t2us1pd1 } }
+		give_technology = { tech = tech_corvette_mid_t2us1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_l1aux7m4pd5us2s1 } }
+		give_technology = { tech = tech_corvette_mid_l1aux7m4pd5us2s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_t1x1g1um1aux1m1us2 } }
+		give_technology = { tech = tech_corvette_mid_t1x1g1um1aux1m1us2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_g4um1pd24 } }
+		give_technology = { tech = tech_corvette_mid_g4um1pd24 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_um14pd5s1 } }
+		give_technology = { tech = tech_corvette_mid_um14pd5s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_g4um3aux2s13us2pd1 } }
+		give_technology = { tech = tech_corvette_mid_g4um3aux2s13us2pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_l7um3 } }
+		give_technology = { tech = tech_corvette_mid_l7um3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_corvette_mid_t1x1l2aux1 } }
+		give_technology = { tech = tech_corvette_mid_t1x1l2aux1 message = yes }
+	}
+	else = {
+		country_event = { id = pbships_draw.999 }
 	}
 }
