@@ -37,12 +37,12 @@
 @large_titan_power_5 = 3920
 @large_titan_power_6 = 7840
 
-@large_juggernaut_power_1 = 2520
-@large_juggernaut_power_2 = 3540
-@large_juggernaut_power_3 = 4760
-@large_juggernaut_power_4 = 6200
-@large_juggernaut_power_5 = 7840
-@large_juggernaut_power_6 = 15680
+@large_juggernaut_power_1 = 5000
+@large_juggernaut_power_2 = 6500
+@large_juggernaut_power_3 = 8460
+@large_juggernaut_power_4 = 11000
+@large_juggernaut_power_5 = 14300
+@large_juggernaut_power_6 = 28600
 
 @large_colossus_power_5 = 13200
 @large_colossus_power_6 = 26400
@@ -93,12 +93,12 @@
 @large_titan_cost_5 = 528
 @large_titan_cost_6 = 688
 
-@large_juggernaut_power_1 = 352
-@large_juggernaut_power_2 = 480
-@large_juggernaut_power_3 = 640
-@large_juggernaut_power_4 = 832
-@large_juggernaut_power_5 = 1056
-@large_juggernaut_power_6 = 1376
+@large_juggernaut_power_1 = 616
+@large_juggernaut_power_2 = 803
+@large_juggernaut_power_3 = 1045
+@large_juggernaut_power_4 = 1353
+@large_juggernaut_power_5 = 1760
+@large_juggernaut_power_6 = 2288
 
 @large_colossus_cost_5 = 1620
 @large_colossus_cost_6 = 2150
@@ -140,7 +140,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_fission_power" }
 	component_set = "power_core"
-	size_restriction = { corvette colonizer lithoid_colonizer lithoid_colonizer sponsored_colonizer constructor science transport crisis_corvette offspring_corvette }
+	size_restriction = { corvette frigatecolonizer lithoid_colonizer lithoid_colonizer sponsored_colonizer constructor science transport crisis_corvette offspring_corvette }
 	upgrades_to = "LARGE_CORVETTE_FUSION_REACTOR"
 }
 
@@ -331,7 +331,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_fusion_power" }
 	component_set = "power_core"
-	size_restriction = { corvette colonizer lithoid_colonizer sponsored_colonizer constructor science transport crisis_corvette offspring_corvette }
+	size_restriction = { corvette frigatecolonizer lithoid_colonizer sponsored_colonizer constructor science transport crisis_corvette offspring_corvette }
 	upgrades_to = "LARGE_CORVETTE_COLD_FUSION_REACTOR"
 }
 
@@ -522,7 +522,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_cold_fusion_power" }
 	component_set = "power_core"
-	size_restriction = { corvette colonizer lithoid_colonizer sponsored_colonizer constructor science transport crisis_corvette offspring_corvette }
+	size_restriction = { corvette frigatecolonizer lithoid_colonizer sponsored_colonizer constructor science transport crisis_corvette offspring_corvette }
 	upgrades_to = "LARGE_CORVETTE_ANTIMATTER_REACTOR"
 }
 
@@ -713,7 +713,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_antimatter_power" }
 	component_set = "power_core"
-	size_restriction = { corvette colonizer lithoid_colonizer sponsored_colonizer constructor science transport crisis_corvette offspring_corvette }
+	size_restriction = { corvette frigatecolonizer lithoid_colonizer sponsored_colonizer constructor science transport crisis_corvette offspring_corvette }
 	upgrades_to = "LARGE_CORVETTE_ZERO_POINT_REACTOR"
 }
 
@@ -863,6 +863,9 @@ utility_component_template = {
 			alloys = 0.06
 		}
 	}
+	ship_modifier = {
+		ship_hull_mult = -0.20
+	}
 
 	prerequisites = { "tech_antimatter_power" }
 	component_set = "power_core"
@@ -901,7 +904,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_zero_point_power" }
 	component_set = "power_core"
-	size_restriction = { corvette colonizer lithoid_colonizer sponsored_colonizer constructor science transport crisis_corvette offspring_corvette }
+	size_restriction = { corvette frigatecolonizer lithoid_colonizer sponsored_colonizer constructor science transport crisis_corvette offspring_corvette }
 	upgrades_to = "LARGE_CORVETTE_DARK_MATTER_REACTOR"
 }
 
@@ -1143,7 +1146,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_dark_matter_power_core" }
 	component_set = "power_core"
-	size_restriction = { corvette colonizer lithoid_colonizer sponsored_colonizer constructor science transport crisis_corvette offspring_corvette }
+	size_restriction = { corvette frigatecolonizer lithoid_colonizer sponsored_colonizer constructor science transport crisis_corvette offspring_corvette }
 }
 
 utility_component_template = {
