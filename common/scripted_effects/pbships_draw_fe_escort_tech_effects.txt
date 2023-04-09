@@ -1,134 +1,119 @@
-get_titan_bow_ship_section_tech = {
+get_fe_escort_bow_ship_section_tech = {
 	random_list = {
-		100 = { get_titan_bow_ship_section_tech_level_1 = yes }
-		80 = { get_titan_bow_ship_section_tech_level_2 = yes }
-		60 = { get_titan_bow_ship_section_tech_level_3 = yes }
-		40 = { get_titan_bow_ship_section_tech_level_4 = yes }
-		20 = { get_titan_bow_ship_section_tech_level_5 = yes }
-		10 = { get_titan_bow_ship_section_tech_level_6 = yes }
-		8 = { get_titan_bow_ship_section_tech_level_7 = yes }
-		6 = { get_titan_bow_ship_section_tech_level_8 = yes }
-		4 = { get_titan_bow_ship_section_tech_level_9 = yes }
-		2 = { get_titan_bow_ship_section_tech_level_10 = yes }
+		100 = { get_fe_escort_bow_ship_section_tech_level_1 = yes }
+		80 = { get_fe_escort_bow_ship_section_tech_level_2 = yes }
+		60 = { get_fe_escort_bow_ship_section_tech_level_3 = yes }
+		40 = { get_fe_escort_bow_ship_section_tech_level_4 = yes }
+		20 = { get_fe_escort_bow_ship_section_tech_level_5 = yes }
+		10 = { get_fe_escort_bow_ship_section_tech_level_6 = yes }
+		8 = { get_fe_escort_bow_ship_section_tech_level_7 = yes }
+		6 = { get_fe_escort_bow_ship_section_tech_level_8 = yes }
+		4 = { get_fe_escort_bow_ship_section_tech_level_9 = yes }
+		2 = { get_fe_escort_bow_ship_section_tech_level_10 = yes }
 	}
 }
 
-get_titan_mid_ship_section_tech = {
+get_fe_escort_stern_ship_section_tech = {
 	random_list = {
-		100 = { get_titan_mid_ship_section_tech_level_1 = yes }
-		80 = { get_titan_mid_ship_section_tech_level_2 = yes }
-		60 = { get_titan_mid_ship_section_tech_level_3 = yes }
-		40 = { get_titan_mid_ship_section_tech_level_4 = yes }
-		20 = { get_titan_mid_ship_section_tech_level_5 = yes }
-		10 = { get_titan_mid_ship_section_tech_level_6 = yes }
-		8 = { get_titan_mid_ship_section_tech_level_7 = yes }
-		6 = { get_titan_mid_ship_section_tech_level_8 = yes }
-		4 = { get_titan_mid_ship_section_tech_level_9 = yes }
-		2 = { get_titan_mid_ship_section_tech_level_10 = yes }
+		100 = { get_fe_escort_stern_ship_section_tech_level_1 = yes }
+		80 = { get_fe_escort_stern_ship_section_tech_level_2 = yes }
+		60 = { get_fe_escort_stern_ship_section_tech_level_3 = yes }
+		40 = { get_fe_escort_stern_ship_section_tech_level_4 = yes }
+		20 = { get_fe_escort_stern_ship_section_tech_level_5 = yes }
+		10 = { get_fe_escort_stern_ship_section_tech_level_6 = yes }
+		8 = { get_fe_escort_stern_ship_section_tech_level_7 = yes }
+		6 = { get_fe_escort_stern_ship_section_tech_level_8 = yes }
+		4 = { get_fe_escort_stern_ship_section_tech_level_9 = yes }
+		2 = { get_fe_escort_stern_ship_section_tech_level_10 = yes }
 	}
 }
 
-get_titan_stern_ship_section_tech = {
-	random_list = {
-		100 = { get_titan_stern_ship_section_tech_level_1 = yes }
-		80 = { get_titan_stern_ship_section_tech_level_2 = yes }
-		60 = { get_titan_stern_ship_section_tech_level_3 = yes }
-		40 = { get_titan_stern_ship_section_tech_level_4 = yes }
-		20 = { get_titan_stern_ship_section_tech_level_5 = yes }
-		10 = { get_titan_stern_ship_section_tech_level_6 = yes }
-		8 = { get_titan_stern_ship_section_tech_level_7 = yes }
-		6 = { get_titan_stern_ship_section_tech_level_8 = yes }
-		4 = { get_titan_stern_ship_section_tech_level_9 = yes }
-		2 = { get_titan_stern_ship_section_tech_level_10 = yes }
-	}
+get_fe_escort_bow_ship_section_tech_level_1 = {
 }
 
-get_titan_bow_ship_section_tech_level_1 = {
+get_fe_escort_bow_ship_section_tech_level_2 = {
 }
 
-get_titan_bow_ship_section_tech_level_2 = {
+get_fe_escort_bow_ship_section_tech_level_3 = {
 }
 
-get_titan_bow_ship_section_tech_level_3 = {
+get_fe_escort_bow_ship_section_tech_level_4 = {
 }
 
-get_titan_bow_ship_section_tech_level_4 = {
+get_fe_escort_bow_ship_section_tech_level_5 = {
 }
 
-get_titan_bow_ship_section_tech_level_5 = {
+get_fe_escort_bow_ship_section_tech_level_6 = {
 }
 
-get_titan_bow_ship_section_tech_level_6 = {
+get_fe_escort_bow_ship_section_tech_level_7 = {
 }
 
-get_titan_bow_ship_section_tech_level_7 = {
+get_fe_escort_bow_ship_section_tech_level_8 = {
 }
 
-get_titan_bow_ship_section_tech_level_8 = {
+get_fe_escort_bow_ship_section_tech_level_9 = {
 }
 
-get_titan_bow_ship_section_tech_level_9 = {
+get_fe_escort_bow_ship_section_tech_level_10 = {
 }
 
-get_titan_bow_ship_section_tech_level_10 = {
+get_fe_escort_mid_ship_section_tech_level_1 = {
 }
 
-get_titan_mid_ship_section_tech_level_1 = {
+get_fe_escort_mid_ship_section_tech_level_2 = {
 }
 
-get_titan_mid_ship_section_tech_level_2 = {
+get_fe_escort_mid_ship_section_tech_level_3 = {
 }
 
-get_titan_mid_ship_section_tech_level_3 = {
+get_fe_escort_mid_ship_section_tech_level_4 = {
 }
 
-get_titan_mid_ship_section_tech_level_4 = {
+get_fe_escort_mid_ship_section_tech_level_5 = {
 }
 
-get_titan_mid_ship_section_tech_level_5 = {
+get_fe_escort_mid_ship_section_tech_level_6 = {
 }
 
-get_titan_mid_ship_section_tech_level_6 = {
+get_fe_escort_mid_ship_section_tech_level_7 = {
 }
 
-get_titan_mid_ship_section_tech_level_7 = {
+get_fe_escort_mid_ship_section_tech_level_8 = {
 }
 
-get_titan_mid_ship_section_tech_level_8 = {
+get_fe_escort_mid_ship_section_tech_level_9 = {
 }
 
-get_titan_mid_ship_section_tech_level_9 = {
+get_fe_escort_mid_ship_section_tech_level_10 = {
 }
 
-get_titan_mid_ship_section_tech_level_10 = {
+get_fe_escort_stern_ship_section_tech_level_1 = {
 }
 
-get_titan_stern_ship_section_tech_level_1 = {
+get_fe_escort_stern_ship_section_tech_level_2 = {
 }
 
-get_titan_stern_ship_section_tech_level_2 = {
+get_fe_escort_stern_ship_section_tech_level_3 = {
 }
 
-get_titan_stern_ship_section_tech_level_3 = {
+get_fe_escort_stern_ship_section_tech_level_4 = {
 }
 
-get_titan_stern_ship_section_tech_level_4 = {
+get_fe_escort_stern_ship_section_tech_level_5 = {
 }
 
-get_titan_stern_ship_section_tech_level_5 = {
+get_fe_escort_stern_ship_section_tech_level_6 = {
 }
 
-get_titan_stern_ship_section_tech_level_6 = {
+get_fe_escort_stern_ship_section_tech_level_7 = {
 }
 
-get_titan_stern_ship_section_tech_level_7 = {
+get_fe_escort_stern_ship_section_tech_level_8 = {
 }
 
-get_titan_stern_ship_section_tech_level_8 = {
+get_fe_escort_stern_ship_section_tech_level_9 = {
 }
 
-get_titan_stern_ship_section_tech_level_9 = {
-}
-
-get_titan_stern_ship_section_tech_level_10 = {
+get_fe_escort_stern_ship_section_tech_level_10 = {
 }
