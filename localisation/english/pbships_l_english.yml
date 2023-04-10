@@ -226,3 +226,7 @@
 
  edict_open_pbships_draw_gui:0 "Ship section lottery"
  edict_open_pbships_draw_gui_desc:0 "Open the lottery interface to start a new ship section experience!"
+
+ pbships_draw.999.name:0 "Won a prize?"
+ pbships_draw.999.desc:0 "§RNothing was won...§!"
+ pbships_draw.999.a:0 "Fxxk off, give back my money!"

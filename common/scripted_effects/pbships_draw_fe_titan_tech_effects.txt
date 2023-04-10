@@ -59,121 +59,1841 @@ get_fe_titan_stern_ship_section_tech = {
 }
 
 get_fe_titan_bow_ship_section_tech_level_1 = {
+	if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_x3aux3s1 } }
+		give_technology = { tech = tech_fe_titan_bow_x3aux3s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_hb2ul1aux5m1pd4us2s1 } }
+		give_technology = { tech = tech_fe_titan_bow_hb2ul1aux5m1pd4us2s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_hb7um1us1 } }
+		give_technology = { tech = tech_fe_titan_bow_hb7um1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_x1hb2g1s10pd2us1 } }
+		give_technology = { tech = tech_fe_titan_bow_x1hb2g1s10pd2us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_l7m1s1 } }
+		give_technology = { tech = tech_fe_titan_bow_l7m1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_hb5l1m3pd1 } }
+		give_technology = { tech = tech_fe_titan_bow_hb5l1m3pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_um4m2us17s2 } }
+		give_technology = { tech = tech_fe_titan_bow_um4m2us17s2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_ul1pd20s7 } }
+		give_technology = { tech = tech_fe_titan_bow_ul1pd20s7 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_ul1g4pd13s5us1 } }
+		give_technology = { tech = tech_fe_titan_bow_ul1g4pd13s5us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_g5s20us1 } }
+		give_technology = { tech = tech_fe_titan_bow_g5s20us1 message = yes }
+	}
+	else = {
+		get_fe_titan_bow_ship_section_tech_level_2 = yes
+	}
 }
 
 get_fe_titan_bow_ship_section_tech_level_2 = {
+	if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_m2pd20s14 } }
+		give_technology = { tech = tech_fe_titan_bow_m2pd20s14 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_l8pd5s1 } }
+		give_technology = { tech = tech_fe_titan_bow_l8pd5s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_x1hb2ul1m3g2aux2us2s1pd1 } }
+		give_technology = { tech = tech_fe_titan_bow_x1hb2ul1m3g2aux2us2s1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_um9s20 } }
+		give_technology = { tech = tech_fe_titan_bow_um9s20 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_t1x1aux3m1s4pd1us1 } }
+		give_technology = { tech = tech_fe_titan_bow_t1x1aux3m1s4pd1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_t1m11 } }
+		give_technology = { tech = tech_fe_titan_bow_t1m11 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_x4pd4us2 } }
+		give_technology = { tech = tech_fe_titan_bow_x4pd4us2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_x4us6 } }
+		give_technology = { tech = tech_fe_titan_bow_x4us6 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_l2ul1um13 } }
+		give_technology = { tech = tech_fe_titan_bow_l2ul1um13 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_x1aux7um3pd9s1 } }
+		give_technology = { tech = tech_fe_titan_bow_x1aux7um3pd9s1 message = yes }
+	}
+	else = {
+		get_fe_titan_bow_ship_section_tech_level_3 = yes
+	}
 }
 
 get_fe_titan_bow_ship_section_tech_level_3 = {
+	if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_t1ul2l1g3us9s1pd1 } }
+		give_technology = { tech = tech_fe_titan_bow_t1ul2l1g3us9s1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_x4hb3pd1 } }
+		give_technology = { tech = tech_fe_titan_bow_x4hb3pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_um20aux2s1 } }
+		give_technology = { tech = tech_fe_titan_bow_um20aux2s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_x2aux14pd1 } }
+		give_technology = { tech = tech_fe_titan_bow_x2aux14pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_t1x1hb1ul1aux2um2g1s1pd1us1 } }
+		give_technology = { tech = tech_fe_titan_bow_t1x1hb1ul1aux2um2g1s1pd1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_l3g15pd2s1 } }
+		give_technology = { tech = tech_fe_titan_bow_l3g15pd2s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_t2aux6s1 } }
+		give_technology = { tech = tech_fe_titan_bow_t2aux6s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_t1hb2aux4um3m2pd1us1s1 } }
+		give_technology = { tech = tech_fe_titan_bow_t1hb2aux4um3m2pd1us1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_t2aux6s1 } }
+		give_technology = { tech = tech_fe_titan_bow_t2aux6s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_aux20um2s1 } }
+		give_technology = { tech = tech_fe_titan_bow_aux20um2s1 message = yes }
+	}
+	else = {
+		get_fe_titan_bow_ship_section_tech_level_4 = yes
+	}
 }
 
 get_fe_titan_bow_ship_section_tech_level_4 = {
+	if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_g9um1m1pd20us8s4 } }
+		give_technology = { tech = tech_fe_titan_bow_g9um1m1pd20us8s4 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_hb8ul3aux3g2 } }
+		give_technology = { tech = tech_fe_titan_bow_hb8ul3aux3g2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_l4um15g3us2 } }
+		give_technology = { tech = tech_fe_titan_bow_l4um15g3us2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_aux20m6s2 } }
+		give_technology = { tech = tech_fe_titan_bow_aux20m6s2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_ul4hb2l1m2us20pd1s1 } }
+		give_technology = { tech = tech_fe_titan_bow_ul4hb2l1m2us20pd1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_t1hb2l1ul1m1aux1pd16us1s1 } }
+		give_technology = { tech = tech_fe_titan_bow_t1hb2l1ul1m1aux1pd16us1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_hb3um20aux1 } }
+		give_technology = { tech = tech_fe_titan_bow_hb3um20aux1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_hb7m3s20 } }
+		give_technology = { tech = tech_fe_titan_bow_hb7m3s20 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_x1l2aux9um6g1m1s3pd1 } }
+		give_technology = { tech = tech_fe_titan_bow_x1l2aux9um6g1m1s3pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_aux17m7pd4s2 } }
+		give_technology = { tech = tech_fe_titan_bow_aux17m7pd4s2 message = yes }
+	}
+	else = {
+		get_fe_titan_bow_ship_section_tech_level_5 = yes
+	}
 }
 
 get_fe_titan_bow_ship_section_tech_level_5 = {
+	if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_ul12m7us3 } }
+		give_technology = { tech = tech_fe_titan_bow_ul12m7us3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_ul2hb1l1um7aux2m2g1us11s9pd5 } }
+		give_technology = { tech = tech_fe_titan_bow_ul2hb1l1um7aux2m2g1us11s9pd5 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_t3g2aux1us11 } }
+		give_technology = { tech = tech_fe_titan_bow_t3g2aux1us11 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_t1l7aux5g3us3s1pd1 } }
+		give_technology = { tech = tech_fe_titan_bow_t1l7aux5g3us3s1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_l5ul1aux20pd1 } }
+		give_technology = { tech = tech_fe_titan_bow_l5ul1aux20pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_ul6m20s1 } }
+		give_technology = { tech = tech_fe_titan_bow_ul6m20s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_x2ul10m3um1us1 } }
+		give_technology = { tech = tech_fe_titan_bow_x2ul10m3um1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_x4ul2um3aux2s14us1 } }
+		give_technology = { tech = tech_fe_titan_bow_x4ul2um3aux2s14us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_x5m2s20pd1 } }
+		give_technology = { tech = tech_fe_titan_bow_x5m2s20pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_ul5l1aux20s1 } }
+		give_technology = { tech = tech_fe_titan_bow_ul5l1aux20s1 message = yes }
+	}
+	else = {
+		get_fe_titan_bow_ship_section_tech_level_6 = yes
+	}
 }
 
 get_fe_titan_bow_ship_section_tech_level_6 = {
+	if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_m20us20s18 } }
+		give_technology = { tech = tech_fe_titan_bow_m20us20s18 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_m20aux9pd20 } }
+		give_technology = { tech = tech_fe_titan_bow_m20aux9pd20 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_l12g9um2s7pd1 } }
+		give_technology = { tech = tech_fe_titan_bow_l12g9um2s7pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_ul4g20pd20s2 } }
+		give_technology = { tech = tech_fe_titan_bow_ul4g20pd20s2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_t3um4s19us2pd1 } }
+		give_technology = { tech = tech_fe_titan_bow_t3um4s19us2pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_t1x2hb3ul1m3g3um2us13pd1 } }
+		give_technology = { tech = tech_fe_titan_bow_t1x2hb3ul1m3g3um2us13pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_hb9l2g6aux1s18pd2 } }
+		give_technology = { tech = tech_fe_titan_bow_hb9l2g6aux1s18pd2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_hb10l5um3g1pd10 } }
+		give_technology = { tech = tech_fe_titan_bow_hb10l5um3g1pd10 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_ul13aux3s20 } }
+		give_technology = { tech = tech_fe_titan_bow_ul13aux3s20 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_m20aux7us20s3pd1 } }
+		give_technology = { tech = tech_fe_titan_bow_m20aux7us20s3pd1 message = yes }
+	}
+	else = {
+		get_fe_titan_bow_ship_section_tech_level_7 = yes
+	}
 }
 
 get_fe_titan_bow_ship_section_tech_level_7 = {
+	if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_x3ul1um16g7aux4m1us6pd2s2 } }
+		give_technology = { tech = tech_fe_titan_bow_x3ul1um16g7aux4m1us6pd2s2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_t5l3pd2 } }
+		give_technology = { tech = tech_fe_titan_bow_t5l3pd2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_l14hb6g1pd9s3 } }
+		give_technology = { tech = tech_fe_titan_bow_l14hb6g1pd9s3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_x3hb17m1 } }
+		give_technology = { tech = tech_fe_titan_bow_x3hb17m1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_ul3um20g20pd2 } }
+		give_technology = { tech = tech_fe_titan_bow_ul3um20g20pd2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_t2x2l3ul2hb1aux9s3us1 } }
+		give_technology = { tech = tech_fe_titan_bow_t2x2l3ul2hb1aux9s3us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_x1hb11m20um1 } }
+		give_technology = { tech = tech_fe_titan_bow_x1hb11m20um1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_hb3m20g20us2 } }
+		give_technology = { tech = tech_fe_titan_bow_hb3m20g20us2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_t1x2l5g13um5m1us2pd1s1 } }
+		give_technology = { tech = tech_fe_titan_bow_t1x2l5g13um5m1us2pd1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_t1x1hb2ul2l1g6um5aux2m1s20us1pd1 } }
+		give_technology = { tech = tech_fe_titan_bow_t1x1hb2ul2l1g6um5aux2m1s20us1pd1 message = yes }
+	}
+	else = {
+		get_fe_titan_bow_ship_section_tech_level_8 = yes
+	}
 }
 
 get_fe_titan_bow_ship_section_tech_level_8 = {
+	if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_m20aux18g6pd20s4us1 } }
+		give_technology = { tech = tech_fe_titan_bow_m20aux18g6pd20s4us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_ul4l2m20g14us20pd1 } }
+		give_technology = { tech = tech_fe_titan_bow_ul4l2m20g14us20pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_x1l9ul4g3um2m1s20pd20us1 } }
+		give_technology = { tech = tech_fe_titan_bow_x1l9ul4g3um2m1s20pd20us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_t1hb13m2pd20us20s1 } }
+		give_technology = { tech = tech_fe_titan_bow_t1hb13m2pd20us20s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_l20aux16us1 } }
+		give_technology = { tech = tech_fe_titan_bow_l20aux16us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_x3hb2aux14m4um1g1us20pd20s1 } }
+		give_technology = { tech = tech_fe_titan_bow_x3hb2aux14m4um1g1us20pd20s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_x13ul2s1 } }
+		give_technology = { tech = tech_fe_titan_bow_x13ul2s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_x5ul2l1g9um1pd20us20s1 } }
+		give_technology = { tech = tech_fe_titan_bow_x5ul2l1g9um1pd20us20s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_ul7l1g20pd20us20s1 } }
+		give_technology = { tech = tech_fe_titan_bow_ul7l1g20pd20us20s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_l20m16s1 } }
+		give_technology = { tech = tech_fe_titan_bow_l20m16s1 message = yes }
+	}
+	else = {
+		get_fe_titan_bow_ship_section_tech_level_9 = yes
+	}
 }
 
 get_fe_titan_bow_ship_section_tech_level_9 = {
+	if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_t1x6l2g20us20s3pd1 } }
+		give_technology = { tech = tech_fe_titan_bow_t1x6l2g20us20s3pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_x10um20g7aux1 } }
+		give_technology = { tech = tech_fe_titan_bow_x10um20g7aux1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_x4hb13l1g7m4us20s5pd1 } }
+		give_technology = { tech = tech_fe_titan_bow_x4hb13l1g7m4us20s5pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_x5l6hb2um20aux6m1pd8s2 } }
+		give_technology = { tech = tech_fe_titan_bow_x5l6hb2um20aux6m1pd8s2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_x1ul14l8hb3g4s19us1 } }
+		give_technology = { tech = tech_fe_titan_bow_x1ul14l8hb3g4s19us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_x2ul13l1m20g12 } }
+		give_technology = { tech = tech_fe_titan_bow_x2ul13l1m20g12 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_x3hb16m17g1pd7s4us1 } }
+		give_technology = { tech = tech_fe_titan_bow_x3hb16m17g1pd7s4us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_x10l8m3um2pd14 } }
+		give_technology = { tech = tech_fe_titan_bow_x10l8m3um2pd14 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_l12m20g20us7pd1 } }
+		give_technology = { tech = tech_fe_titan_bow_l12m20g20us7pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_x16g4 } }
+		give_technology = { tech = tech_fe_titan_bow_x16g4 message = yes }
+	}
+	else = {
+		get_fe_titan_bow_ship_section_tech_level_10 = yes
+	}
 }
 
 get_fe_titan_bow_ship_section_tech_level_10 = {
+	if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_x17g3s20pd1 } }
+		give_technology = { tech = tech_fe_titan_bow_x17g3s20pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_hb16ul8l4aux20g2s6us1 } }
+		give_technology = { tech = tech_fe_titan_bow_hb16ul8l4aux20g2s6us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_t2l20hb2aux20g1pd1 } }
+		give_technology = { tech = tech_fe_titan_bow_t2l20hb2aux20g1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_x9l7hb2um6aux1us20s20pd1 } }
+		give_technology = { tech = tech_fe_titan_bow_x9l7hb2um6aux1us20s20pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_t3l7hb3ul1um20m9g1pd7s3us1 } }
+		give_technology = { tech = tech_fe_titan_bow_t3l7hb3ul1um20m9g1pd7s3us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_t2x1hb5l1aux20m12g5um4pd12s5 } }
+		give_technology = { tech = tech_fe_titan_bow_t2x1hb5l1aux20m12g5um4pd12s5 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_l20hb15g9pd4us1 } }
+		give_technology = { tech = tech_fe_titan_bow_l20hb15g9pd4us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_x8hb5l1um18aux5m1s20pd6us1 } }
+		give_technology = { tech = tech_fe_titan_bow_x8hb5l1um18aux5m1s20pd6us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_x10ul1m17g1s20us15pd8 } }
+		give_technology = { tech = tech_fe_titan_bow_x10ul1m17g1s20us15pd8 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_bow_x17s20pd7 } }
+		give_technology = { tech = tech_fe_titan_bow_x17s20pd7 message = yes }
+	}
+	else = {
+		country_event = { id = pbships_draw.999 }
+	}
 }
 
 get_fe_titan_mid_ship_section_tech_level_1 = {
+	if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_aux17us4 } }
+		give_technology = { tech = tech_fe_titan_mid_aux17us4 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_x1ul1hb1m2aux2um1g1us5s5 } }
+		give_technology = { tech = tech_fe_titan_mid_x1ul1hb1m2aux2um1g1us5s5 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_ul9um1 } }
+		give_technology = { tech = tech_fe_titan_mid_ul9um1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_x1ul1l1hb1m3aux3um2pd2 } }
+		give_technology = { tech = tech_fe_titan_mid_x1ul1l1hb1m3aux3um2pd2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_x1um5g1s17pd1 } }
+		give_technology = { tech = tech_fe_titan_mid_x1um5g1s17pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_l3um2us20pd2 } }
+		give_technology = { tech = tech_fe_titan_mid_l3um2us20pd2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_t1m4g3um1aux1s2us1pd1 } }
+		give_technology = { tech = tech_fe_titan_mid_t1m4g3um1aux1s2us1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_x1l2hb1g3um2m1aux1s2us1pd1 } }
+		give_technology = { tech = tech_fe_titan_mid_x1l2hb1g3um2m1aux1s2us1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_ul3l1m3aux2s7us4pd1 } }
+		give_technology = { tech = tech_fe_titan_mid_ul3l1m3aux2s7us4pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_x4g3 } }
+		give_technology = { tech = tech_fe_titan_mid_x4g3 message = yes }
+	}
+	else = {
+		get_fe_titan_mid_ship_section_tech_level_2 = yes
+	}
 }
 
 get_fe_titan_mid_ship_section_tech_level_2 = {
+	if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_x4aux4g2um1 } }
+		give_technology = { tech = tech_fe_titan_mid_x4aux4g2um1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_l1m20g1 } }
+		give_technology = { tech = tech_fe_titan_mid_l1m20g1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_t1x1hb1l1ul1g1um1m1aux1us1pd1 } }
+		give_technology = { tech = tech_fe_titan_mid_t1x1hb1l1ul1g1um1m1aux1us1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_m18s8us2 } }
+		give_technology = { tech = tech_fe_titan_mid_m18s8us2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_t1x1ul2aux4um3 } }
+		give_technology = { tech = tech_fe_titan_mid_t1x1ul2aux4um3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_l1um20pd2 } }
+		give_technology = { tech = tech_fe_titan_mid_l1um20pd2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_l3ul2m11aux1pd2 } }
+		give_technology = { tech = tech_fe_titan_mid_l3ul2m11aux1pd2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_hb9m4s2 } }
+		give_technology = { tech = tech_fe_titan_mid_hb9m4s2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_hb7g1s11pd5 } }
+		give_technology = { tech = tech_fe_titan_mid_hb7g1s11pd5 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_ul1l1m6aux4s18 } }
+		give_technology = { tech = tech_fe_titan_mid_ul1l1m6aux4s18 message = yes }
+	}
+	else = {
+		get_fe_titan_mid_ship_section_tech_level_3 = yes
+	}
 }
 
 get_fe_titan_mid_ship_section_tech_level_3 = {
+	if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_t1x4aux2us2pd1 } }
+		give_technology = { tech = tech_fe_titan_mid_t1x4aux2us2pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_t1x1l2hb1ul1um3aux2m1s1us1pd1 } }
+		give_technology = { tech = tech_fe_titan_mid_t1x1l2hb1ul1um3aux2m1s1us1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_t1x1hb1l1aux3um2g2m2pd4us1 } }
+		give_technology = { tech = tech_fe_titan_mid_t1x1hb1l1aux3um2g2m2pd4us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_hb6ul2l1um7aux2us1 } }
+		give_technology = { tech = tech_fe_titan_mid_hb6ul2l1um7aux2us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_l2aux15g7s2us1 } }
+		give_technology = { tech = tech_fe_titan_mid_l2aux15g7s2us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_t2um1s20pd1 } }
+		give_technology = { tech = tech_fe_titan_mid_t2um1s20pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_t1x1hb1aux3m3um2g1pd6us2s1 } }
+		give_technology = { tech = tech_fe_titan_mid_t1x1hb1aux3m3um2g1pd6us2s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_l1m9g6aux3um1us8pd4s1 } }
+		give_technology = { tech = tech_fe_titan_mid_l1m9g6aux3um1us8pd4s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_ul13m1pd1 } }
+		give_technology = { tech = tech_fe_titan_mid_ul13m1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_aux20g7pd1 } }
+		give_technology = { tech = tech_fe_titan_mid_aux20g7pd1 message = yes }
+	}
+	else = {
+		get_fe_titan_mid_ship_section_tech_level_4 = yes
+	}
 }
 
 get_fe_titan_mid_ship_section_tech_level_4 = {
+	if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_ul14hb2g1 } }
+		give_technology = { tech = tech_fe_titan_mid_ul14hb2g1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_t1ul1um14m8s1us1 } }
+		give_technology = { tech = tech_fe_titan_mid_t1ul1um14m8s1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_t4m1 } }
+		give_technology = { tech = tech_fe_titan_mid_t4m1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_ul4hb2um13aux5g2us1pd1 } }
+		give_technology = { tech = tech_fe_titan_mid_ul4hb2um13aux5g2us1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_x7pd9s1 } }
+		give_technology = { tech = tech_fe_titan_mid_x7pd9s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_l6ul1m7g2um1us10s6pd2 } }
+		give_technology = { tech = tech_fe_titan_mid_l6ul1m7g2um1us10s6pd2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_hb12ul1m7 } }
+		give_technology = { tech = tech_fe_titan_mid_hb12ul1m7 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_t1hb3ul2l1aux4um3g1pd8us1s1 } }
+		give_technology = { tech = tech_fe_titan_mid_t1hb3ul2l1aux4um3g1pd8us1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_l12hb4um1 } }
+		give_technology = { tech = tech_fe_titan_mid_l12hb4um1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_x1l2hb1ul1aux4g3m2um2s10pd9us1 } }
+		give_technology = { tech = tech_fe_titan_mid_x1l2hb1ul1aux4g3m2um2s10pd9us1 message = yes }
+	}
+	else = {
+		get_fe_titan_mid_ship_section_tech_level_5 = yes
+	}
 }
 
 get_fe_titan_mid_ship_section_tech_level_5 = {
+	if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_x2l10ul5us2pd1 } }
+		give_technology = { tech = tech_fe_titan_mid_x2l10ul5us2pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_x5ul3aux10um1s4us1 } }
+		give_technology = { tech = tech_fe_titan_mid_x5ul3aux10um1s4us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_ul9hb5m5aux3g2pd2us1 } }
+		give_technology = { tech = tech_fe_titan_mid_ul9hb5m5aux3g2pd2us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_x2g20us20pd3 } }
+		give_technology = { tech = tech_fe_titan_mid_x2g20us20pd3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_x1aux18um2s19us11pd1 } }
+		give_technology = { tech = tech_fe_titan_mid_x1aux18um2s19us11pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_t4ul3um1pd1 } }
+		give_technology = { tech = tech_fe_titan_mid_t4ul3um1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_t2l4ul1m5g3um3aux2us1 } }
+		give_technology = { tech = tech_fe_titan_mid_t2l4ul1m5g3um3aux2us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_aux20g17m2pd1 } }
+		give_technology = { tech = tech_fe_titan_mid_aux20g17m2pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_t1um20us20pd3 } }
+		give_technology = { tech = tech_fe_titan_mid_t1um20us20pd3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_m20g9us20pd1 } }
+		give_technology = { tech = tech_fe_titan_mid_m20g9us20pd1 message = yes }
+	}
+	else = {
+		get_fe_titan_mid_ship_section_tech_level_6 = yes
+	}
 }
 
 get_fe_titan_mid_ship_section_tech_level_6 = {
+	if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_ul19s16pd3 } }
+		give_technology = { tech = tech_fe_titan_mid_ul19s16pd3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_x1l20us7 } }
+		give_technology = { tech = tech_fe_titan_mid_x1l20us7 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_x1l6hb4ul1um9aux5g4m1us3s2 } }
+		give_technology = { tech = tech_fe_titan_mid_x1l6hb4ul1um9aux5g4m1us3s2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_ul2m20g12us20s3 } }
+		give_technology = { tech = tech_fe_titan_mid_ul2m20g12us20s3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_t1hb18g3us1 } }
+		give_technology = { tech = tech_fe_titan_mid_t1hb18g3us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_x11us7 } }
+		give_technology = { tech = tech_fe_titan_mid_x11us7 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_hb4g20um4aux3m1us20s3 } }
+		give_technology = { tech = tech_fe_titan_mid_hb4g20um4aux3m1us20s3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_ul18s20us3 } }
+		give_technology = { tech = tech_fe_titan_mid_ul18s20us3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_t4hb5l2g1pd1 } }
+		give_technology = { tech = tech_fe_titan_mid_t4hb5l2g1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_l20s15 } }
+		give_technology = { tech = tech_fe_titan_mid_l20s15 message = yes }
+	}
+	else = {
+		get_fe_titan_mid_ship_section_tech_level_7 = yes
+	}
 }
 
 get_fe_titan_mid_ship_section_tech_level_7 = {
+	if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_t5g7us20 } }
+		give_technology = { tech = tech_fe_titan_mid_t5g7us20 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_um20m20us20pd13s1 } }
+		give_technology = { tech = tech_fe_titan_mid_um20m20us20pd13s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_x2hb8ul5m6g2aux1um1pd20s4us2 } }
+		give_technology = { tech = tech_fe_titan_mid_x2hb8ul5m6g2aux1um1pd20s4us2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_hb13l1g1pd20s20us16 } }
+		give_technology = { tech = tech_fe_titan_mid_hb13l1g1pd20s20us16 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_t1l10g13aux9m6us1pd1 } }
+		give_technology = { tech = tech_fe_titan_mid_t1l10g13aux9m6us1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_t1hb8ul6l4aux4g3s11pd1 } }
+		give_technology = { tech = tech_fe_titan_mid_t1hb8ul6l4aux4g3s11pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_l15m20um6s2 } }
+		give_technology = { tech = tech_fe_titan_mid_l15m20um6s2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_um20m20aux16s2 } }
+		give_technology = { tech = tech_fe_titan_mid_um20m20aux16s2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_hb20pd20s14 } }
+		give_technology = { tech = tech_fe_titan_mid_hb20pd20s14 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_x6g20m1us17pd6s1 } }
+		give_technology = { tech = tech_fe_titan_mid_x6g20m1us17pd6s1 message = yes }
+	}
+	else = {
+		get_fe_titan_mid_ship_section_tech_level_8 = yes
+	}
 }
 
 get_fe_titan_mid_ship_section_tech_level_8 = {
+	if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_x11hb6ul1pd20us1 } }
+		give_technology = { tech = tech_fe_titan_mid_x11hb6ul1pd20us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_t5ul1aux1s20us20pd11 } }
+		give_technology = { tech = tech_fe_titan_mid_t5ul1aux1s20us20pd11 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_t2hb10ul1um20pd20us1 } }
+		give_technology = { tech = tech_fe_titan_mid_t2hb10ul1um20pd20us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_x14us20s5 } }
+		give_technology = { tech = tech_fe_titan_mid_x14us20s5 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_hb20aux13um4us20pd2s1 } }
+		give_technology = { tech = tech_fe_titan_mid_hb20aux13um4us20pd2s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_l14ul2m20um6pd20s1 } }
+		give_technology = { tech = tech_fe_titan_mid_l14ul2m20um6pd20s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_t8aux4us1 } }
+		give_technology = { tech = tech_fe_titan_mid_t8aux4us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_hb18m20s20us5 } }
+		give_technology = { tech = tech_fe_titan_mid_hb18m20s20us5 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_l13hb8ul2g10m6um3aux1pd3us2 } }
+		give_technology = { tech = tech_fe_titan_mid_l13hb8ul2g10m6um3aux1pd3us2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_x12um20s1 } }
+		give_technology = { tech = tech_fe_titan_mid_x12um20s1 message = yes }
+	}
+	else = {
+		get_fe_titan_mid_ship_section_tech_level_9 = yes
+	}
 }
 
 get_fe_titan_mid_ship_section_tech_level_9 = {
+	if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_hb20g20aux12s20 } }
+		give_technology = { tech = tech_fe_titan_mid_hb20g20aux12s20 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_l20hb1m20aux14s11us1 } }
+		give_technology = { tech = tech_fe_titan_mid_l20hb1m20aux14s11us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_ul20hb3g13m2aux1s20us20 } }
+		give_technology = { tech = tech_fe_titan_mid_ul20hb3g13m2aux1s20us20 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_l20um20aux17us8s2 } }
+		give_technology = { tech = tech_fe_titan_mid_l20um20aux17us8s2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_l20hb1m20g20 } }
+		give_technology = { tech = tech_fe_titan_mid_l20hb1m20g20 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_t4ul1aux20g8pd20s20 } }
+		give_technology = { tech = tech_fe_titan_mid_t4ul1aux20g8pd20s20 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_hb20m20um2s20us20 } }
+		give_technology = { tech = tech_fe_titan_mid_hb20m20um2s20us20 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_x2hb17aux20m20 } }
+		give_technology = { tech = tech_fe_titan_mid_x2hb17aux20m20 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_ul20aux20m11g1s20 } }
+		give_technology = { tech = tech_fe_titan_mid_ul20aux20m11g1s20 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_t1x7l2um20g20us3s1 } }
+		give_technology = { tech = tech_fe_titan_mid_t1x7l2um20g20us3s1 message = yes }
+	}
+	else = {
+		get_fe_titan_mid_ship_section_tech_level_10 = yes
+	}
 }
 
 get_fe_titan_mid_ship_section_tech_level_10 = {
+	if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_x18m20aux6s1 } }
+		give_technology = { tech = tech_fe_titan_mid_x18m20aux6s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_t6g20aux13m5us20s4pd1 } }
+		give_technology = { tech = tech_fe_titan_mid_t6g20aux13m5us20s4pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_hb20m20g20um17s3 } }
+		give_technology = { tech = tech_fe_titan_mid_hb20m20g20um17s3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_x4hb20um20m2pd20s20us1 } }
+		give_technology = { tech = tech_fe_titan_mid_x4hb20um20m2pd20s20us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_t5x1ul11g7aux3um1m1pd20us20s1 } }
+		give_technology = { tech = tech_fe_titan_mid_t5x1ul11g7aux3um1m1pd20us20s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_t6l20ul5s1 } }
+		give_technology = { tech = tech_fe_titan_mid_t6l20ul5s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_x20g16aux2pd1 } }
+		give_technology = { tech = tech_fe_titan_mid_x20g16aux2pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_l16hb1aux20um17m5g3pd20us18s1 } }
+		give_technology = { tech = tech_fe_titan_mid_l16hb1aux20um17m5g3pd20us18s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_t1x3ul7l4hb1aux17g5um4m3pd20s20us11 } }
+		give_technology = { tech = tech_fe_titan_mid_t1x3ul7l4hb1aux17g5um4m3pd20s20us11 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_mid_t8ul3l1um16pd20s1 } }
+		give_technology = { tech = tech_fe_titan_mid_t8ul3l1um16pd20s1 message = yes }
+	}
+	else = {
+		country_event = { id = pbships_draw.999 }
+	}
 }
 
 get_fe_titan_hanger_ship_section_tech_level_1 = {
+	if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_ul5um4pd2us1 } }
+		give_technology = { tech = tech_fe_titan_hangar_ul5um4pd2us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_t1m4um1pd4us1 } }
+		give_technology = { tech = tech_fe_titan_hangar_t1m4um1pd4us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_ul7m1us1 } }
+		give_technology = { tech = tech_fe_titan_hangar_ul7m1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_x1l1hb1ul1g1um1aux1m1us1s1pd1 } }
+		give_technology = { tech = tech_fe_titan_hangar_x1l1hb1ul1g1um1aux1m1us1s1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_g9um2s8pd1 } }
+		give_technology = { tech = tech_fe_titan_hangar_g9um2s8pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_x1m10pd2us1 } }
+		give_technology = { tech = tech_fe_titan_hangar_x1m10pd2us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_t1ul1m3aux1g1s1 } }
+		give_technology = { tech = tech_fe_titan_hangar_t1ul1m3aux1g1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_um13s5 } }
+		give_technology = { tech = tech_fe_titan_hangar_um13s5 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_hb3l1g4m2pd1us1s1 } }
+		give_technology = { tech = tech_fe_titan_hangar_hb3l1g4m2pd1us1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_l6um3pd1 } }
+		give_technology = { tech = tech_fe_titan_hangar_l6um3pd1 message = yes }
+	}
+	else = {
+		get_fe_titan_hanger_ship_section_tech_level_2 = yes
+	}
 }
 
 get_fe_titan_hanger_ship_section_tech_level_2 = {
+	if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_hb5m1pd10us5s1 } }
+		give_technology = { tech = tech_fe_titan_hangar_hb5m1pd10us5s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_t1hb1l1aux2um2g1us2s2 } }
+		give_technology = { tech = tech_fe_titan_hangar_t1hb1l1aux2um2g1us2s2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_l2hb1um3g2s11us4pd1 } }
+		give_technology = { tech = tech_fe_titan_hangar_l2hb1um3g2s11us4pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_hb9pd2 } }
+		give_technology = { tech = tech_fe_titan_hangar_hb9pd2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_hb7um1s7pd1 } }
+		give_technology = { tech = tech_fe_titan_hangar_hb7um1s7pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_t2us5s1 } }
+		give_technology = { tech = tech_fe_titan_hangar_t2us5s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_x4m3 } }
+		give_technology = { tech = tech_fe_titan_hangar_x4m3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_hb7um4us2 } }
+		give_technology = { tech = tech_fe_titan_hangar_hb7um4us2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_x4m3 } }
+		give_technology = { tech = tech_fe_titan_hangar_x4m3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_m13um4us3pd1 } }
+		give_technology = { tech = tech_fe_titan_hangar_m13um4us3pd1 message = yes }
+	}
+	else = {
+		get_fe_titan_hanger_ship_section_tech_level_3 = yes
+	}
 }
 
 get_fe_titan_hanger_ship_section_tech_level_3 = {
+	if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_hb1um9aux1pd20us1 } }
+		give_technology = { tech = tech_fe_titan_hangar_hb1um9aux1pd20us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_aux20um2s1 } }
+		give_technology = { tech = tech_fe_titan_hangar_aux20um2s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_aux13um3m1s11 } }
+		give_technology = { tech = tech_fe_titan_hangar_aux13um3m1s11 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_l1aux8m5g4pd4us2s1 } }
+		give_technology = { tech = tech_fe_titan_hangar_l1aux8m5g4pd4us2s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_ul1um20us1 } }
+		give_technology = { tech = tech_fe_titan_hangar_ul1um20us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_x5g2s1 } }
+		give_technology = { tech = tech_fe_titan_hangar_x5g2s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_t1x1l1hb1m2um1g1s4pd1 } }
+		give_technology = { tech = tech_fe_titan_hangar_t1x1l1hb1m2um1g1s4pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_t1x1ul1aux2um2g1us3s2pd2 } }
+		give_technology = { tech = tech_fe_titan_hangar_t1x1ul1aux2um2g1us3s2pd2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_g19s6pd1 } }
+		give_technology = { tech = tech_fe_titan_hangar_g19s6pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_l10us5 } }
+		give_technology = { tech = tech_fe_titan_hangar_l10us5 message = yes }
+	}
+	else = {
+		get_fe_titan_hanger_ship_section_tech_level_4 = yes
+	}
 }
 
 get_fe_titan_hanger_ship_section_tech_level_4 = {
+	if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_t3s6 } }
+		give_technology = { tech = tech_fe_titan_hangar_t3s6 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_ul1m11aux7g4um1us3s1 } }
+		give_technology = { tech = tech_fe_titan_hangar_ul1m11aux7g4um1us3s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_t3m3 } }
+		give_technology = { tech = tech_fe_titan_hangar_t3m3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_l13m1 } }
+		give_technology = { tech = tech_fe_titan_hangar_l13m1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_t1x2l3hb2pd1us1 } }
+		give_technology = { tech = tech_fe_titan_hangar_t1x2l3hb2pd1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_t2hb2um1s11pd1 } }
+		give_technology = { tech = tech_fe_titan_hangar_t2hb2um1s11pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_l10hb1s10 } }
+		give_technology = { tech = tech_fe_titan_hangar_l10hb1s10 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_t3g3 } }
+		give_technology = { tech = tech_fe_titan_hangar_t3g3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_x2ul6aux3m1us4pd1s1 } }
+		give_technology = { tech = tech_fe_titan_hangar_x2ul6aux3m1us4pd1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_ul8hb2pd13s1 } }
+		give_technology = { tech = tech_fe_titan_hangar_ul8hb2pd13s1 message = yes }
+	}
+	else = {
+		get_fe_titan_hanger_ship_section_tech_level_5 = yes
+	}
 }
 
 get_fe_titan_hanger_ship_section_tech_level_5 = {
+	if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_x1hb3l2g6um2us14pd6s1 } }
+		give_technology = { tech = tech_fe_titan_hangar_x1hb3l2g6um2us14pd6s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_t1x1hb2ul1l1m3g2aux1um1pd4s4us3 } }
+		give_technology = { tech = tech_fe_titan_hangar_t1x1hb2ul1l1m3g2aux1um1pd4s4us3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_g20aux2s20us1 } }
+		give_technology = { tech = tech_fe_titan_hangar_g20aux2s20us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_x2hb3l2ul1m5aux4g1us3pd1s1 } }
+		give_technology = { tech = tech_fe_titan_hangar_x2hb3l2ul1m5aux4g1us3pd1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_hb14g4s1 } }
+		give_technology = { tech = tech_fe_titan_hangar_hb14g4s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_hb1m20us20pd1 } }
+		give_technology = { tech = tech_fe_titan_hangar_hb1m20us20pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_t1x1l2hb2um3m2aux2s9pd1us1 } }
+		give_technology = { tech = tech_fe_titan_hangar_t1x1l2hb2um3m2aux2s9pd1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_ul3l2um13m8aux1us1 } }
+		give_technology = { tech = tech_fe_titan_hangar_ul3l2um13m8aux1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_ul7l3m8aux2s3pd1us1 } }
+		give_technology = { tech = tech_fe_titan_hangar_ul7l3m8aux2s3pd1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_x5pd20s5 } }
+		give_technology = { tech = tech_fe_titan_hangar_x5pd20s5 message = yes }
+	}
+	else = {
+		get_fe_titan_hanger_ship_section_tech_level_6 = yes
+	}
 }
 
 get_fe_titan_hanger_ship_section_tech_level_6 = {
+	if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_l1m20g6us20s2 } }
+		give_technology = { tech = tech_fe_titan_hangar_l1m20g6us20s2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_t1ul5hb1um3m2aux1g1s15us7pd2 } }
+		give_technology = { tech = tech_fe_titan_hangar_t1ul5hb1um3m2aux1g1s15us7pd2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_x5m6um2us20pd2 } }
+		give_technology = { tech = tech_fe_titan_hangar_x5m6um2us20pd2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_hb5aux20g5um1s4pd1us1 } }
+		give_technology = { tech = tech_fe_titan_hangar_hb5aux20g5um1s4pd1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_x3hb10aux2s8us2 } }
+		give_technology = { tech = tech_fe_titan_hangar_x3hb10aux2s8us2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_um20m17pd4 } }
+		give_technology = { tech = tech_fe_titan_hangar_um20m17pd4 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_l8ul1aux20s2 } }
+		give_technology = { tech = tech_fe_titan_hangar_l8ul1aux20s2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_t2m16g3aux1s4pd2 } }
+		give_technology = { tech = tech_fe_titan_hangar_t2m16g3aux1s4pd2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_hb19m1 } }
+		give_technology = { tech = tech_fe_titan_hangar_hb19m1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_t2l1aux20g1 } }
+		give_technology = { tech = tech_fe_titan_hangar_t2l1aux20g1 message = yes }
+	}
+	else = {
+		get_fe_titan_hanger_ship_section_tech_level_7 = yes
+	}
 }
 
 get_fe_titan_hanger_ship_section_tech_level_7 = {
+	if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_hb13l4m3pd20 } }
+		give_technology = { tech = tech_fe_titan_hangar_hb13l4m3pd20 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_x2ul18us5s1 } }
+		give_technology = { tech = tech_fe_titan_hangar_x2ul18us5s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_t2aux20g1pd20 } }
+		give_technology = { tech = tech_fe_titan_hangar_t2aux20g1pd20 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_x2hb1m20aux5g1um1s20 } }
+		give_technology = { tech = tech_fe_titan_hangar_x2hb1m20aux5g1um1s20 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_hb20us14 } }
+		give_technology = { tech = tech_fe_titan_hangar_hb20us14 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_t2ul3l2um20us2 } }
+		give_technology = { tech = tech_fe_titan_hangar_t2ul3l2um20us2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_t2hb1ul1l1um5s20pd14us6 } }
+		give_technology = { tech = tech_fe_titan_hangar_t2hb1ul1l1um5s20pd14us6 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_ul20pd13s1 } }
+		give_technology = { tech = tech_fe_titan_hangar_ul20pd13s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_ul19s15pd3 } }
+		give_technology = { tech = tech_fe_titan_hangar_ul19s15pd3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_hb1g20s20pd20us10 } }
+		give_technology = { tech = tech_fe_titan_hangar_hb1g20s20pd20us10 message = yes }
+	}
+	else = {
+		get_fe_titan_hanger_ship_section_tech_level_8 = yes
+	}
 }
 
 get_fe_titan_hanger_ship_section_tech_level_8 = {
+	if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_hb11ul1um20aux9s7 } }
+		give_technology = { tech = tech_fe_titan_hangar_hb11ul1um20aux9s7 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_x4l20pd1 } }
+		give_technology = { tech = tech_fe_titan_hangar_x4l20pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_x1hb1ul1aux14m5um2g1s20pd19us14 } }
+		give_technology = { tech = tech_fe_titan_hangar_x1hb1ul1aux14m5um2g1s20pd19us14 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_l13aux6m3g1s20pd20us1 } }
+		give_technology = { tech = tech_fe_titan_hangar_l13aux6m3g1s20pd20us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_ul13l2aux14um1s15us8 } }
+		give_technology = { tech = tech_fe_titan_hangar_ul13l2aux14um1s15us8 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_t2hb15m3um1pd12s1 } }
+		give_technology = { tech = tech_fe_titan_hangar_t2hb15m3um1pd12s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_t4x1ul1m12pd13 } }
+		give_technology = { tech = tech_fe_titan_hangar_t4x1ul1m12pd13 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_hb17ul7m2s11us2 } }
+		give_technology = { tech = tech_fe_titan_hangar_hb17ul7m2s11us2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_t1l13aux14g8s1 } }
+		give_technology = { tech = tech_fe_titan_hangar_t1l13aux14g8s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_l16hb7ul2pd12s1 } }
+		give_technology = { tech = tech_fe_titan_hangar_l16hb7ul2pd12s1 message = yes }
+	}
+	else = {
+		get_fe_titan_hanger_ship_section_tech_level_9 = yes
+	}
 }
 
 get_fe_titan_hanger_ship_section_tech_level_9 = {
+	if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_ul7m20aux20um1us20pd6 } }
+		give_technology = { tech = tech_fe_titan_hangar_ul7m20aux20um1us20pd6 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_t3ul3um20aux10m4g2pd2s1us1 } }
+		give_technology = { tech = tech_fe_titan_hangar_t3ul3um20aux10m4g2pd2s1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_t5ul2um14m7aux1pd3s1 } }
+		give_technology = { tech = tech_fe_titan_hangar_t5ul2um14m7aux1pd3s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_t4x1hb6m20 } }
+		give_technology = { tech = tech_fe_titan_hangar_t4x1hb6m20 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_m20g17aux1pd20s20us20 } }
+		give_technology = { tech = tech_fe_titan_hangar_m20g17aux1pd20s20us20 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_x12m2um1us20pd14 } }
+		give_technology = { tech = tech_fe_titan_hangar_x12m2um1us20pd14 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_l20ul7um3aux1s20 } }
+		give_technology = { tech = tech_fe_titan_hangar_l20ul7um3aux1s20 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_x4hb20um3aux2pd14 } }
+		give_technology = { tech = tech_fe_titan_hangar_x4hb20um3aux2pd14 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_t3ul20l2 } }
+		give_technology = { tech = tech_fe_titan_hangar_t3ul20l2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_hb9ul3l1aux20g3pd20s17us1 } }
+		give_technology = { tech = tech_fe_titan_hangar_hb9ul3l1aux20g3pd20s17us1 message = yes }
+	}
+	else = {
+		get_fe_titan_hanger_ship_section_tech_level_10 = yes
+	}
 }
 
 get_fe_titan_hanger_ship_section_tech_level_10 = {
+	if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_t1ul20m20aux3pd20s1 } }
+		give_technology = { tech = tech_fe_titan_hangar_t1ul20m20aux3pd20s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_ul20hb12aux6s20us3 } }
+		give_technology = { tech = tech_fe_titan_hangar_ul20hb12aux6s20us3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_t1l20aux20s20pd7 } }
+		give_technology = { tech = tech_fe_titan_hangar_t1l20aux20s20pd7 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_t4ul10hb6l2g7m1aux1s8pd1 } }
+		give_technology = { tech = tech_fe_titan_hangar_t4ul10hb6l2g7m1aux1s8pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_x13aux20pd16s3 } }
+		give_technology = { tech = tech_fe_titan_hangar_x13aux20pd16s3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_x5hb20aux20m1us1 } }
+		give_technology = { tech = tech_fe_titan_hangar_x5hb20aux20m1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_t3x14us2pd1 } }
+		give_technology = { tech = tech_fe_titan_hangar_t3x14us2pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_t9um9pd1 } }
+		give_technology = { tech = tech_fe_titan_hangar_t9um9pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_t10pd3 } }
+		give_technology = { tech = tech_fe_titan_hangar_t10pd3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_hangar_t7um20g5us1 } }
+		give_technology = { tech = tech_fe_titan_hangar_t7um20g5us1 message = yes }
+	}
+	else = {
+		country_event = { id = pbships_draw.999 }
+	}
 }
 
 get_fe_titan_stern_ship_section_tech_level_1 = {
+	if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_x3g3 } }
+		give_technology = { tech = tech_fe_titan_stern_x3g3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_x1ul2g7 } }
+		give_technology = { tech = tech_fe_titan_stern_x1ul2g7 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_hb2g9s3us1 } }
+		give_technology = { tech = tech_fe_titan_stern_hb2g9s3us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_t1l3us1s1 } }
+		give_technology = { tech = tech_fe_titan_stern_t1l3us1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_ul2l1g3aux1us4pd3s3 } }
+		give_technology = { tech = tech_fe_titan_stern_ul2l1g3aux1us4pd3s3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_l2aux8um2g1 } }
+		give_technology = { tech = tech_fe_titan_stern_l2aux8um2g1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_x1l1hb1ul1um1m1g1aux1s1pd1 } }
+		give_technology = { tech = tech_fe_titan_stern_x1l1hb1ul1um1m1g1aux1s1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_x1ul1hb1um2g1aux1pd5s1 } }
+		give_technology = { tech = tech_fe_titan_stern_x1ul1hb1um2g1aux1pd5s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_hb2ul1us17pd1 } }
+		give_technology = { tech = tech_fe_titan_stern_hb2ul1us17pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_x3m3 } }
+		give_technology = { tech = tech_fe_titan_stern_x3m3 message = yes }
+	}
+	else = {
+		get_fe_titan_stern_ship_section_tech_level_2 = yes
+	}
 }
 
 get_fe_titan_stern_ship_section_tech_level_2 = {
+	if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_aux7um1s20 } }
+		give_technology = { tech = tech_fe_titan_stern_aux7um1s20 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_x1hb2l1aux5m1us3s1 } }
+		give_technology = { tech = tech_fe_titan_stern_x1hb2l1aux5m1us3s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_g7s20us2 } }
+		give_technology = { tech = tech_fe_titan_stern_g7s20us2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_t1x1ul1l1g1s2 } }
+		give_technology = { tech = tech_fe_titan_stern_t1x1ul1l1g1s2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_ul7g3s2 } }
+		give_technology = { tech = tech_fe_titan_stern_ul7g3s2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_ul2aux9s9us1 } }
+		give_technology = { tech = tech_fe_titan_stern_ul2aux9s9us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_l1um15g1 } }
+		give_technology = { tech = tech_fe_titan_stern_l1um15g1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_um12m4g2 } }
+		give_technology = { tech = tech_fe_titan_stern_um12m4g2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_t1l1aux3m1g1um1s4 } }
+		give_technology = { tech = tech_fe_titan_stern_t1l1aux3m1g1um1s4 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_hb7g4 } }
+		give_technology = { tech = tech_fe_titan_stern_hb7g4 message = yes }
+	}
+	else = {
+		get_fe_titan_stern_ship_section_tech_level_3 = yes
+	}
 }
 
 get_fe_titan_stern_ship_section_tech_level_3 = {
+	if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_hb5l3aux3um1us2pd1 } }
+		give_technology = { tech = tech_fe_titan_stern_hb5l3aux3um1us2pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_hb1g19us1 } }
+		give_technology = { tech = tech_fe_titan_stern_hb1g19us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_um20m1pd1 } }
+		give_technology = { tech = tech_fe_titan_stern_um20m1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_um9s20us4pd1 } }
+		give_technology = { tech = tech_fe_titan_stern_um9s20us4pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_t1ul1m6aux5s1 } }
+		give_technology = { tech = tech_fe_titan_stern_t1ul1m6aux5s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_m20s3 } }
+		give_technology = { tech = tech_fe_titan_stern_m20s3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_ul4g3us20pd1 } }
+		give_technology = { tech = tech_fe_titan_stern_ul4g3us20pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_aux19um2pd1 } }
+		give_technology = { tech = tech_fe_titan_stern_aux19um2pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_t1um5g2m1s8us2pd1 } }
+		give_technology = { tech = tech_fe_titan_stern_t1um5g2m1s8us2pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_x5aux1pd1 } }
+		give_technology = { tech = tech_fe_titan_stern_x5aux1pd1 message = yes }
+	}
+	else = {
+		get_fe_titan_stern_ship_section_tech_level_4 = yes
+	}
 }
 
 get_fe_titan_stern_ship_section_tech_level_4 = {
+	if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_hb10s9us2 } }
+		give_technology = { tech = tech_fe_titan_stern_hb10s9us2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_hb5m6g3um2us7s1pd1 } }
+		give_technology = { tech = tech_fe_titan_stern_hb5m6g3um2us7s1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_t1hb5l3aux1us1 } }
+		give_technology = { tech = tech_fe_titan_stern_t1hb5l3aux1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_hb3m19us1 } }
+		give_technology = { tech = tech_fe_titan_stern_hb3m19us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_x1l3hb2m3s16pd1 } }
+		give_technology = { tech = tech_fe_titan_stern_x1l3hb2m3s16pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_x2l2g11m1pd3 } }
+		give_technology = { tech = tech_fe_titan_stern_x2l2g11m1pd3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_l10um1pd9 } }
+		give_technology = { tech = tech_fe_titan_stern_l10um1pd9 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_t1x1ul1hb1l1aux2um1m1pd4us2s1 } }
+		give_technology = { tech = tech_fe_titan_stern_t1x1ul1hb1l1aux2um1m1pd4us2s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_l2aux11m6um2us2pd2s1 } }
+		give_technology = { tech = tech_fe_titan_stern_l2aux11m6um2us2pd2s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_l11hb1pd3 } }
+		give_technology = { tech = tech_fe_titan_stern_l11hb1pd3 message = yes }
+	}
+	else = {
+		get_fe_titan_stern_ship_section_tech_level_5 = yes
+	}
 }
 
 get_fe_titan_stern_ship_section_tech_level_5 = {
+	if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_t2aux4us20pd2 } }
+		give_technology = { tech = tech_fe_titan_stern_t2aux4us20pd2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_hb12l3us2 } }
+		give_technology = { tech = tech_fe_titan_stern_hb12l3us2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_x7s6 } }
+		give_technology = { tech = tech_fe_titan_stern_x7s6 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_x1aux12m2g1s15us9 } }
+		give_technology = { tech = tech_fe_titan_stern_x1aux12m2g1s15us9 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_m20um9pd3s1 } }
+		give_technology = { tech = tech_fe_titan_stern_m20um9pd3s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_x1ul2m5s20pd15us1 } }
+		give_technology = { tech = tech_fe_titan_stern_x1ul2m5s20pd15us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_ul3m3aux1us20s20pd2 } }
+		give_technology = { tech = tech_fe_titan_stern_ul3m3aux1us20s20pd2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_hb11um1s12us4 } }
+		give_technology = { tech = tech_fe_titan_stern_hb11um1s12us4 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_x5m3g2s12 } }
+		give_technology = { tech = tech_fe_titan_stern_x5m3g2s12 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_x2l1m20g1 } }
+		give_technology = { tech = tech_fe_titan_stern_x2l1m20g1 message = yes }
+	}
+	else = {
+		get_fe_titan_stern_ship_section_tech_level_6 = yes
+	}
 }
 
 get_fe_titan_stern_ship_section_tech_level_6 = {
+	if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_x1l6hb3m3aux1g1s16us3pd1 } }
+		give_technology = { tech = tech_fe_titan_stern_x1l6hb3m3aux1g1s16us3pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_hb5l3m15aux3um2pd1us1 } }
+		give_technology = { tech = tech_fe_titan_stern_hb5l3m15aux3um2pd1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_t1ul14um1 } }
+		give_technology = { tech = tech_fe_titan_stern_t1ul14um1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_hb14m7pd3us1 } }
+		give_technology = { tech = tech_fe_titan_stern_hb14m7pd3us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_t1x1l2ul2hb1aux5m3um2g1s6us1pd1 } }
+		give_technology = { tech = tech_fe_titan_stern_t1x1l2ul2hb1aux5m3um2g1s6us1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_g20pd20s14 } }
+		give_technology = { tech = tech_fe_titan_stern_g20pd20s14 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_l12g3us20 } }
+		give_technology = { tech = tech_fe_titan_stern_l12g3us20 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_t2aux18m2s1us1 } }
+		give_technology = { tech = tech_fe_titan_stern_t2aux18m2s1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_t3l2aux9 } }
+		give_technology = { tech = tech_fe_titan_stern_t3l2aux9 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_um20m12pd7us3 } }
+		give_technology = { tech = tech_fe_titan_stern_um20m12pd7us3 message = yes }
+	}
+	else = {
+		get_fe_titan_stern_ship_section_tech_level_7 = yes
+	}
 }
 
 get_fe_titan_stern_ship_section_tech_level_7 = {
+	if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_t2l3um20pd3us2 } }
+		give_technology = { tech = tech_fe_titan_stern_t2l3um20pd3us2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_t1x1hb8pd20us13 } }
+		give_technology = { tech = tech_fe_titan_stern_t1x1hb8pd20us13 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_hb1um20g9s20us7 } }
+		give_technology = { tech = tech_fe_titan_stern_hb1um20g9s20us7 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_l12g20s1 } }
+		give_technology = { tech = tech_fe_titan_stern_l12g20s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_um20aux20us8pd1 } }
+		give_technology = { tech = tech_fe_titan_stern_um20aux20us8pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_x1l2g13um10aux1m1s13pd9us1 } }
+		give_technology = { tech = tech_fe_titan_stern_x1l2g13um10aux1m1s13pd9us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_t3hb2us20s12pd1 } }
+		give_technology = { tech = tech_fe_titan_stern_t3hb2us20s12pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_t1ul2aux20g11m1s1 } }
+		give_technology = { tech = tech_fe_titan_stern_t1ul2aux20g11m1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_t1l10g2m1us20s7 } }
+		give_technology = { tech = tech_fe_titan_stern_t1l10g2m1us20s7 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_x1hb5ul4l2g14um4us1 } }
+		give_technology = { tech = tech_fe_titan_stern_x1hb5ul4l2g14um4us1 message = yes }
+	}
+	else = {
+		get_fe_titan_stern_ship_section_tech_level_8 = yes
+	}
 }
 
 get_fe_titan_stern_ship_section_tech_level_8 = {
+	if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_hb6l2g20um1us20pd11s2 } }
+		give_technology = { tech = tech_fe_titan_stern_hb6l2g20um1us20pd11s2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_t1x3ul4hb3aux15g1um1pd3s2 } }
+		give_technology = { tech = tech_fe_titan_stern_t1x3ul4hb3aux15g1um1pd3s2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_t1l2hb1ul1g14aux10m1pd20s5 } }
+		give_technology = { tech = tech_fe_titan_stern_t1l2hb1ul1g14aux10m1pd20s5 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_t2ul18s3 } }
+		give_technology = { tech = tech_fe_titan_stern_t2ul18s3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_l12ul2aux9um5s20us2pd1 } }
+		give_technology = { tech = tech_fe_titan_stern_l12ul2aux9um5s20us2pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_ul15g20m3pd1 } }
+		give_technology = { tech = tech_fe_titan_stern_ul15g20m3pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_t6ul2aux1pd1 } }
+		give_technology = { tech = tech_fe_titan_stern_t6ul2aux1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_x8m20s3 } }
+		give_technology = { tech = tech_fe_titan_stern_x8m20s3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_t1x1l4hb2ul2aux11um9m5us1 } }
+		give_technology = { tech = tech_fe_titan_stern_t1x1l4hb2ul2aux11um9m5us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_l16hb7ul1g5us1 } }
+		give_technology = { tech = tech_fe_titan_stern_l16hb7ul1g5us1 message = yes }
+	}
+	else = {
+		get_fe_titan_stern_ship_section_tech_level_9 = yes
+	}
 }
 
 get_fe_titan_stern_ship_section_tech_level_9 = {
+	if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_hb20m20us8 } }
+		give_technology = { tech = tech_fe_titan_stern_hb20m20us8 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_t7m7us2 } }
+		give_technology = { tech = tech_fe_titan_stern_t7m7us2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_ul20hb1um12s20 } }
+		give_technology = { tech = tech_fe_titan_stern_ul20hb1um12s20 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_t3ul20 } }
+		give_technology = { tech = tech_fe_titan_stern_t3ul20 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_t1x5ul6l1hb1m9g5um2aux1s6 } }
+		give_technology = { tech = tech_fe_titan_stern_t1x5ul6l1hb1m9g5um2aux1s6 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_x1ul2hb1g20m17aux7pd20 } }
+		give_technology = { tech = tech_fe_titan_stern_x1ul2hb1g20m17aux7pd20 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_x6l3um20m11aux2s2 } }
+		give_technology = { tech = tech_fe_titan_stern_x6l3um20m11aux2s2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_x5um20aux3m1s20pd20 } }
+		give_technology = { tech = tech_fe_titan_stern_x5um20aux3m1s20pd20 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_t8 } }
+		give_technology = { tech = tech_fe_titan_stern_t8 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_hb20l10s7us1 } }
+		give_technology = { tech = tech_fe_titan_stern_hb20l10s7us1 message = yes }
+	}
+	else = {
+		get_fe_titan_stern_ship_section_tech_level_10 = yes
+	}
 }
 
 get_fe_titan_stern_ship_section_tech_level_10 = {
+	if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_x1hb5l2ul1aux20g14m5um1pd20us13s1 } }
+		give_technology = { tech = tech_fe_titan_stern_x1hb5l2ul1aux20g14m5um1pd20us13s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_l20hb8m20s2 } }
+		give_technology = { tech = tech_fe_titan_stern_l20hb8m20s2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_l20m20g1us20s12 } }
+		give_technology = { tech = tech_fe_titan_stern_l20m20g1us20s12 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_l20aux16um1pd20us20 } }
+		give_technology = { tech = tech_fe_titan_stern_l20aux16um1pd20us20 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_ul20hb3aux19m2us19pd1 } }
+		give_technology = { tech = tech_fe_titan_stern_ul20hb3aux19m2us19pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_x1l20um20g10m1us4 } }
+		give_technology = { tech = tech_fe_titan_stern_x1l20um20g10m1us4 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_t9us10 } }
+		give_technology = { tech = tech_fe_titan_stern_t9us10 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_x10hb3aux20g1us20 } }
+		give_technology = { tech = tech_fe_titan_stern_x10hb3aux20g1us20 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_ul8hb1m20aux20um3s20us12 } }
+		give_technology = { tech = tech_fe_titan_stern_ul8hb1m20aux20um3s20us12 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_fe_titan_stern_x2l16hb5aux14um2pd20us1s1 } }
+		give_technology = { tech = tech_fe_titan_stern_x2l16hb5aux14um2pd20us1s1 message = yes }
+	}
+	else = {
+		country_event = { id = pbships_draw.999 }
+	}
 }

@@ -226,3 +226,7 @@
 
  edict_open_pbships_draw_gui:0 "舰船区段抽奖"
  edict_open_pbships_draw_gui_desc:0 "开启抽奖界面开始全新的舰船区段体验！"
+
+ pbships_draw.999.name:0 "出货了？"
+ pbships_draw.999.desc:0 "§R啥都没出...§!"
+ pbships_draw.999.a:0 "RNM，退钱！"

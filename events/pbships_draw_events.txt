@@ -63,40 +63,40 @@ country_event = {
 					}
 				}
 			}
-			# 10 = { # juggernaut
-			# 	get_juggernaut_core_ship_section_tech = yes
-			# }
+			10 = { # juggernaut
+				get_juggernaut_core_ship_section_tech = yes
+			}
 			10 = { # colossus
 				get_colossus_ship_section_tech = yes
 			}
-			# 10 = { # crisis_corvette
-			# 	get_crisis_corvette_mid_ship_section_tech = yes
-			# }
-			# 10 = { # crisis_destroyer
-			# 	get_crisis_destroyer_mid_ship_section_tech = yes
-			# }
-			# 10 = { # crisis_cruiser
-			# 	get_crisis_cruiser_mid_ship_section_tech = yes
-			# }
-			# 10 = { # star_eater
-			# 	get_star_eater_mid_ship_section_tech = yes
-			# }
-			# 10 = { # military station small
-			# 	random_list = {
-			# 		10 = { # north
-			# 			get_military_station_small_north_ship_section_tech = yes
-			# 		}
-			# 		10 = { # west
-			# 			get_military_station_small_west_ship_section_tech = yes
-			# 		}
-			# 		10 = { # south
-			# 			get_military_station_small_south_ship_section_tech = yes
-			# 		}
-			# 		10 = { # east
-			# 			get_military_station_small_east_ship_section_tech = yes
-			# 		}
-			# 	}
-			# }
+			10 = { # crisis_corvette
+				get_crisis_corvette_mid_ship_section_tech = yes
+			}
+			10 = { # crisis_destroyer
+				get_crisis_destroyer_mid_ship_section_tech = yes
+			}
+			10 = { # crisis_cruiser
+				get_crisis_cruiser_mid_ship_section_tech = yes
+			}
+			10 = { # star_eater
+				get_star_eater_mid_ship_section_tech = yes
+			}
+			10 = { # military station small
+				random_list = {
+					10 = { # north
+						get_military_station_small_north_ship_section_tech = yes
+					}
+					10 = { # west
+						get_military_station_small_west_ship_section_tech = yes
+					}
+					10 = { # south
+						get_military_station_small_south_ship_section_tech = yes
+					}
+					10 = { # east
+						get_military_station_small_east_ship_section_tech = yes
+					}
+				}
+			}
 			# 10 = { # fe_escort
 			# 	random_list = {
 			# 		10 = { # bow
