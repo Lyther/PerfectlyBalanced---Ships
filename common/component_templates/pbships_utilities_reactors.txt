@@ -7,52 +7,52 @@
 @large_corvette_power_3 = 160
 @large_corvette_power_4 = 210
 @large_corvette_power_5 = 270
-@large_corvette_power_6 = 540
+@large_corvette_power_6 = 1080
 
 @large_destroyer_power_1 = 160
 @large_destroyer_power_2 = 220
 @large_destroyer_power_3 = 300
 @large_destroyer_power_4 = 400
 @large_destroyer_power_5 = 530
-@large_destroyer_power_6 = 1060
+@large_destroyer_power_6 = 2120
 
 @large_cruiser_power_1 = 320
 @large_cruiser_power_2 = 440
 @large_cruiser_power_3 = 600
 @large_cruiser_power_4 = 780
 @large_cruiser_power_5 = 1000
-@large_cruiser_power_6 = 2000
+@large_cruiser_power_6 = 4000
 
 @large_battleship_power_1 = 630
 @large_battleship_power_2 = 880
 @large_battleship_power_3 = 1190
 @large_battleship_power_4 = 1570
 @large_battleship_power_5 = 1950
-@large_battleship_power_6 = 3900
+@large_battleship_power_6 = 7800
 
 @large_titan_power_1 = 1260
 @large_titan_power_2 = 1770
 @large_titan_power_3 = 2380
 @large_titan_power_4 = 3100
 @large_titan_power_5 = 3920
-@large_titan_power_6 = 7840
+@large_titan_power_6 = 15680
 
 @large_juggernaut_power_1 = 5000
 @large_juggernaut_power_2 = 6500
 @large_juggernaut_power_3 = 8460
 @large_juggernaut_power_4 = 11000
 @large_juggernaut_power_5 = 14300
-@large_juggernaut_power_6 = 28600
+@large_juggernaut_power_6 = 57200
 
 @large_colossus_power_5 = 13200
-@large_colossus_power_6 = 26400
+@large_colossus_power_6 = 52800
 
 @large_platform_power_1 = 215
 @large_platform_power_2 = 290
 @large_platform_power_3 = 385
 @large_platform_power_4 = 500
 @large_platform_power_5 = 650
-@large_platform_power_6 = 1300
+@large_platform_power_6 = 2600
 
 #############
 #	COST	#

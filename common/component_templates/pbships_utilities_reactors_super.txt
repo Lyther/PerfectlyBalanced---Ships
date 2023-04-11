@@ -7,52 +7,52 @@
 @super_corvette_power_3 = 260
 @super_corvette_power_4 = 340
 @super_corvette_power_5 = 440
-@super_corvette_power_6 = 880
+@super_corvette_power_6 = 1760
 
 @super_destroyer_power_1 = 280
 @super_destroyer_power_2 = 360
 @super_destroyer_power_3 = 480
 @super_destroyer_power_4 = 640
 @super_destroyer_power_5 = 860
-@super_destroyer_power_6 = 1720
+@super_destroyer_power_6 = 3440
 
 @super_cruiser_power_1 = 560
 @super_cruiser_power_2 = 720
 @super_cruiser_power_3 = 960
 @super_cruiser_power_4 = 1240
 @super_cruiser_power_5 = 1600
-@super_cruiser_power_6 = 3200
+@super_cruiser_power_6 = 6400
 
 @super_battleship_power_1 = 1100
 @super_battleship_power_2 = 1440
 @super_battleship_power_3 = 1900
 @super_battleship_power_4 = 2500
 @super_battleship_power_5 = 3100
-@super_battleship_power_6 = 6200
+@super_battleship_power_6 = 12400
 
 @super_titan_power_1 = 2200
 @super_titan_power_2 = 2900
 @super_titan_power_3 = 3800
 @super_titan_power_4 = 5000
 @super_titan_power_5 = 6400
-@super_titan_power_6 = 12800
+@super_titan_power_6 = 25600
 
 @super_juggernaut_power_1 = 7700
 @super_juggernaut_power_2 = 10000
 @super_juggernaut_power_3 = 13000
 @super_juggernaut_power_4 = 16920
 @super_juggernaut_power_5 = 22000
-@super_juggernaut_power_6 = 44000
+@super_juggernaut_power_6 = 88000
 
 @super_colossus_power_5 = 20000
-@super_colossus_power_6 = 40000
+@super_colossus_power_6 = 80000
 
 @super_platform_power_1 = 400
 @super_platform_power_2 = 520
 @super_platform_power_3 = 680
 @super_platform_power_4 = 880
 @super_platform_power_5 = 1150
-@super_platform_power_6 = 1500
+@super_platform_power_6 = 3000
 
 #############
 #	COST	#
