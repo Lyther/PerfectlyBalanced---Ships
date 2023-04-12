@@ -128,6 +128,9 @@ country_event = {
 						10 = { # bow
 							get_fe_escort_bow_ship_section_tech = yes
 						}
+						10 = { # mid
+							get_fe_escort_mid_ship_section_tech = yes
+						}
 						10 = { # stern
 							get_fe_escort_stern_ship_section_tech = yes
 						}
