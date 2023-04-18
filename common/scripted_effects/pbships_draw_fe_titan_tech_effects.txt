@@ -28,18 +28,18 @@ get_fe_titan_mid_ship_section_tech = {
 	}
 }
 
-get_fe_titan_hanger_ship_section_tech = {
+get_fe_titan_hangar_ship_section_tech = {
 	random_list = {
-		100 = { get_fe_titan_hanger_ship_section_tech_level_1 = yes }
-		80 = { get_fe_titan_hanger_ship_section_tech_level_2 = yes }
-		60 = { get_fe_titan_hanger_ship_section_tech_level_3 = yes }
-		40 = { get_fe_titan_hanger_ship_section_tech_level_4 = yes }
-		20 = { get_fe_titan_hanger_ship_section_tech_level_5 = yes }
-		10 = { get_fe_titan_hanger_ship_section_tech_level_6 = yes }
-		8 = { get_fe_titan_hanger_ship_section_tech_level_7 = yes }
-		6 = { get_fe_titan_hanger_ship_section_tech_level_8 = yes }
-		4 = { get_fe_titan_hanger_ship_section_tech_level_9 = yes }
-		2 = { get_fe_titan_hanger_ship_section_tech_level_10 = yes }
+		100 = { get_fe_titan_hangar_ship_section_tech_level_1 = yes }
+		80 = { get_fe_titan_hangar_ship_section_tech_level_2 = yes }
+		60 = { get_fe_titan_hangar_ship_section_tech_level_3 = yes }
+		40 = { get_fe_titan_hangar_ship_section_tech_level_4 = yes }
+		20 = { get_fe_titan_hangar_ship_section_tech_level_5 = yes }
+		10 = { get_fe_titan_hangar_ship_section_tech_level_6 = yes }
+		8 = { get_fe_titan_hangar_ship_section_tech_level_7 = yes }
+		6 = { get_fe_titan_hangar_ship_section_tech_level_8 = yes }
+		4 = { get_fe_titan_hangar_ship_section_tech_level_9 = yes }
+		2 = { get_fe_titan_hangar_ship_section_tech_level_10 = yes }
 	}
 }
 
@@ -514,7 +514,7 @@ get_fe_titan_bow_ship_section_tech_level_10 = {
 		give_technology = { tech = tech_fe_titan_bow_x17s20pd7 message = yes }
 	}
 	else = {
-		country_event = { id = pbships_draw.999 }
+		get_fe_titan_mid_ship_section_tech = yes
 	}
 }
 
@@ -974,11 +974,11 @@ get_fe_titan_mid_ship_section_tech_level_10 = {
 		give_technology = { tech = tech_fe_titan_mid_t8ul3l1um16pd20s1 message = yes }
 	}
 	else = {
-		country_event = { id = pbships_draw.999 }
+		get_fe_titan_hangar_ship_section_tech = yes
 	}
 }
 
-get_fe_titan_hanger_ship_section_tech_level_1 = {
+get_fe_titan_hangar_ship_section_tech_level_1 = {
 	if = {
 		limit = { NOT = { has_technology = tech_fe_titan_hangar_ul5um4pd2us1 } }
 		give_technology = { tech = tech_fe_titan_hangar_ul5um4pd2us1 message = yes }
@@ -1020,11 +1020,11 @@ get_fe_titan_hanger_ship_section_tech_level_1 = {
 		give_technology = { tech = tech_fe_titan_hangar_l6um3pd1 message = yes }
 	}
 	else = {
-		get_fe_titan_hanger_ship_section_tech_level_2 = yes
+		get_fe_titan_hangar_ship_section_tech_level_2 = yes
 	}
 }
 
-get_fe_titan_hanger_ship_section_tech_level_2 = {
+get_fe_titan_hangar_ship_section_tech_level_2 = {
 	if = {
 		limit = { NOT = { has_technology = tech_fe_titan_hangar_hb5m1pd10us5s1 } }
 		give_technology = { tech = tech_fe_titan_hangar_hb5m1pd10us5s1 message = yes }
@@ -1066,11 +1066,11 @@ get_fe_titan_hanger_ship_section_tech_level_2 = {
 		give_technology = { tech = tech_fe_titan_hangar_m13um4us3pd1 message = yes }
 	}
 	else = {
-		get_fe_titan_hanger_ship_section_tech_level_3 = yes
+		get_fe_titan_hangar_ship_section_tech_level_3 = yes
 	}
 }
 
-get_fe_titan_hanger_ship_section_tech_level_3 = {
+get_fe_titan_hangar_ship_section_tech_level_3 = {
 	if = {
 		limit = { NOT = { has_technology = tech_fe_titan_hangar_hb1um9aux1pd20us1 } }
 		give_technology = { tech = tech_fe_titan_hangar_hb1um9aux1pd20us1 message = yes }
@@ -1112,11 +1112,11 @@ get_fe_titan_hanger_ship_section_tech_level_3 = {
 		give_technology = { tech = tech_fe_titan_hangar_l10us5 message = yes }
 	}
 	else = {
-		get_fe_titan_hanger_ship_section_tech_level_4 = yes
+		get_fe_titan_hangar_ship_section_tech_level_4 = yes
 	}
 }
 
-get_fe_titan_hanger_ship_section_tech_level_4 = {
+get_fe_titan_hangar_ship_section_tech_level_4 = {
 	if = {
 		limit = { NOT = { has_technology = tech_fe_titan_hangar_t3s6 } }
 		give_technology = { tech = tech_fe_titan_hangar_t3s6 message = yes }
@@ -1158,11 +1158,11 @@ get_fe_titan_hanger_ship_section_tech_level_4 = {
 		give_technology = { tech = tech_fe_titan_hangar_ul8hb2pd13s1 message = yes }
 	}
 	else = {
-		get_fe_titan_hanger_ship_section_tech_level_5 = yes
+		get_fe_titan_hangar_ship_section_tech_level_5 = yes
 	}
 }
 
-get_fe_titan_hanger_ship_section_tech_level_5 = {
+get_fe_titan_hangar_ship_section_tech_level_5 = {
 	if = {
 		limit = { NOT = { has_technology = tech_fe_titan_hangar_x1hb3l2g6um2us14pd6s1 } }
 		give_technology = { tech = tech_fe_titan_hangar_x1hb3l2g6um2us14pd6s1 message = yes }
@@ -1204,11 +1204,11 @@ get_fe_titan_hanger_ship_section_tech_level_5 = {
 		give_technology = { tech = tech_fe_titan_hangar_x5pd20s5 message = yes }
 	}
 	else = {
-		get_fe_titan_hanger_ship_section_tech_level_6 = yes
+		get_fe_titan_hangar_ship_section_tech_level_6 = yes
 	}
 }
 
-get_fe_titan_hanger_ship_section_tech_level_6 = {
+get_fe_titan_hangar_ship_section_tech_level_6 = {
 	if = {
 		limit = { NOT = { has_technology = tech_fe_titan_hangar_l1m20g6us20s2 } }
 		give_technology = { tech = tech_fe_titan_hangar_l1m20g6us20s2 message = yes }
@@ -1250,11 +1250,11 @@ get_fe_titan_hanger_ship_section_tech_level_6 = {
 		give_technology = { tech = tech_fe_titan_hangar_t2l1aux20g1 message = yes }
 	}
 	else = {
-		get_fe_titan_hanger_ship_section_tech_level_7 = yes
+		get_fe_titan_hangar_ship_section_tech_level_7 = yes
 	}
 }
 
-get_fe_titan_hanger_ship_section_tech_level_7 = {
+get_fe_titan_hangar_ship_section_tech_level_7 = {
 	if = {
 		limit = { NOT = { has_technology = tech_fe_titan_hangar_hb13l4m3pd20 } }
 		give_technology = { tech = tech_fe_titan_hangar_hb13l4m3pd20 message = yes }
@@ -1296,11 +1296,11 @@ get_fe_titan_hanger_ship_section_tech_level_7 = {
 		give_technology = { tech = tech_fe_titan_hangar_hb1g20s20pd20us10 message = yes }
 	}
 	else = {
-		get_fe_titan_hanger_ship_section_tech_level_8 = yes
+		get_fe_titan_hangar_ship_section_tech_level_8 = yes
 	}
 }
 
-get_fe_titan_hanger_ship_section_tech_level_8 = {
+get_fe_titan_hangar_ship_section_tech_level_8 = {
 	if = {
 		limit = { NOT = { has_technology = tech_fe_titan_hangar_hb11ul1um20aux9s7 } }
 		give_technology = { tech = tech_fe_titan_hangar_hb11ul1um20aux9s7 message = yes }
@@ -1342,11 +1342,11 @@ get_fe_titan_hanger_ship_section_tech_level_8 = {
 		give_technology = { tech = tech_fe_titan_hangar_l16hb7ul2pd12s1 message = yes }
 	}
 	else = {
-		get_fe_titan_hanger_ship_section_tech_level_9 = yes
+		get_fe_titan_hangar_ship_section_tech_level_9 = yes
 	}
 }
 
-get_fe_titan_hanger_ship_section_tech_level_9 = {
+get_fe_titan_hangar_ship_section_tech_level_9 = {
 	if = {
 		limit = { NOT = { has_technology = tech_fe_titan_hangar_ul7m20aux20um1us20pd6 } }
 		give_technology = { tech = tech_fe_titan_hangar_ul7m20aux20um1us20pd6 message = yes }
@@ -1388,11 +1388,11 @@ get_fe_titan_hanger_ship_section_tech_level_9 = {
 		give_technology = { tech = tech_fe_titan_hangar_hb9ul3l1aux20g3pd20s17us1 message = yes }
 	}
 	else = {
-		get_fe_titan_hanger_ship_section_tech_level_10 = yes
+		get_fe_titan_hangar_ship_section_tech_level_10 = yes
 	}
 }
 
-get_fe_titan_hanger_ship_section_tech_level_10 = {
+get_fe_titan_hangar_ship_section_tech_level_10 = {
 	if = {
 		limit = { NOT = { has_technology = tech_fe_titan_hangar_t1ul20m20aux3pd20s1 } }
 		give_technology = { tech = tech_fe_titan_hangar_t1ul20m20aux3pd20s1 message = yes }
@@ -1434,7 +1434,7 @@ get_fe_titan_hanger_ship_section_tech_level_10 = {
 		give_technology = { tech = tech_fe_titan_hangar_t7um20g5us1 message = yes }
 	}
 	else = {
-		country_event = { id = pbships_draw.999 }
+		get_fe_titan_stern_ship_section_tech = yes
 	}
 }
 
@@ -1894,6 +1894,6 @@ get_fe_titan_stern_ship_section_tech_level_10 = {
 		give_technology = { tech = tech_fe_titan_stern_x2l16hb5aux14um2pd20us1s1 message = yes }
 	}
 	else = {
-		country_event = { id = pbships_draw.999 }
+		get_fe_small_station_heavy_ship_section_tech = yes
 	}
 }

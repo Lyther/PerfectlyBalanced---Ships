@@ -506,7 +506,7 @@ get_military_station_small_north_ship_section_tech_level_10 = {
 		give_technology = { tech = tech_military_station_small_north_ul9um2s11 message = yes }
 	}
 	else = {
-		country_event = { id = pbships_draw.999 }
+		get_military_station_small_west_ship_section_tech = yes
 	}
 }
 
@@ -954,7 +954,7 @@ get_military_station_small_west_ship_section_tech_level_10 = {
 		give_technology = { tech = tech_military_station_small_west_t1x1hb1ul1aux2m2um1g1us5pd1s1 message = yes }
 	}
 	else = {
-		country_event = { id = pbships_draw.999 }
+		get_military_station_small_south_ship_section_tech = yes
 	}
 }
 
@@ -1402,7 +1402,7 @@ get_military_station_small_south_ship_section_tech_level_10 = {
 		give_technology = { tech = tech_military_station_small_south_t1hb3ul1l1g2m2um1pd5 message = yes }
 	}
 	else = {
-		country_event = { id = pbships_draw.999 }
+		get_military_station_small_east_ship_section_tech = yes
 	}
 }
 
@@ -1866,6 +1866,6 @@ get_military_station_small_east_ship_section_tech_level_10 = {
 		give_technology = { tech = tech_military_station_small_east_t1x1ul2l1um3m2pd4s1 message = yes }
 	}
 	else = {
-		country_event = { id = pbships_draw.999 }
+		get_ion_cannon_ship_section_tech = yes
 	}
 }

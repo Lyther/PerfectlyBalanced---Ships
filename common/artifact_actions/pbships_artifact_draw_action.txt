@@ -14,12 +14,23 @@ artifact_draw_section = {
 		is_ai = no
 	}
 
+	allow = {
+		custom_tooltip = {
+			fail_text = "requires_artifact_draw_section_no_cooldown"
+			NOT = { has_modifier = artifact_draw_section_cooldown }
+		}
+	}
+
 	effect = {
 		custom_tooltip = artifact_draw_section_effect
 		hidden_effect = {
 			if = {
 				limit = {
 					is_ai = no
+				}
+				add_modifier = {
+					modifier = "artifact_draw_section_cooldown"
+					days = 360
 				}
 				owner = {
 					country_event = { id = pbships_draw.1 }

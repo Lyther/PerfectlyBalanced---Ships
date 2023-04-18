@@ -223,6 +223,8 @@
  artifact_draw_section:0 "舰船区段随机获取"
  artifact_draw_section_desc:0 "舰船区段应当更加富有想象力，在原本的舰船区段之外，我们的科学家可以通过消耗一些 £minor_artifacts£ 稀有文物，并随机获取新的舰船区段。"
  artifact_draw_section_effect:0 "舰船区段出货表一览\n§g☆ 垃圾 30.3%§!\n§T☆☆ 普通 24.2%§!\n§W☆☆☆ 改进 18.2%§!\n§L☆☆☆☆ 进阶 12.1%§!\n§G☆☆☆☆☆ 优质 6.1%§!\n§E★ 稀有 3.0%§!\n§B★★ 精品 2.4%§!\n§_★★★ 卓越 1.8%§!\n§M★★★★ 完美 1.2%§!\n§R★★★★★ 传说 0.6%§!"
+ arcane_deciphering_cooldown:0 "$artifact_draw_section$冷却"
+ requires_artifact_draw_section_no_cooldown:0 "$TRIGGER_FAIL$ §R目前无法获取新的舰船区段。§!"
 
  edict_open_pbships_draw_gui:0 "舰船区段抽奖"
  edict_open_pbships_draw_gui_desc:0 "开启抽奖界面开始全新的舰船区段体验！"

@@ -469,6 +469,6 @@ get_colossus_ship_section_tech_level_10 = {
 		give_technology = { tech = tech_colossus_ship_t1x1l4ul3hb1aux4um3m2pd17s11us1w1 message = yes }
 	}
 	else = {
-		country_event = { id = pbships_draw.999 }
+		get_crisis_corvette_mid_ship_section_tech = yes
 	}
 }

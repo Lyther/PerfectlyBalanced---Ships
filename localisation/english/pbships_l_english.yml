@@ -223,6 +223,8 @@
  artifact_draw_section:0 "Random access to ship sections"
  artifact_draw_section_desc:0 "The ship sections should be more imaginative, and outside of the original ship sections, our scientists can consume some £minor_artifacts£ minor artifacts and randomly acquire new ship sections."
  artifact_draw_section_effect:0 "List of ship section probabilities\n§g☆ Garbage 30.3%§!\n§T☆☆ General 24.2%§!\n§W☆☆☆ Improved 18.2%§!\n§L☆☆☆☆ Advanced 12.1%§!\n§G☆☆☆☆☆ Outstanding 6.1%§!\n§E★ Rare 3.0%§!\n§B★★ Superb 2.4%§!\n§_★★★ Excellence 1.8%§!\n§M★★★★ Perfect 1.2%§!\n§R★★★★★ Legendary 0.6%§!"
+ arcane_deciphering_cooldown:0 "$artifact_draw_section$ Cooldown"
+ requires_artifact_draw_section_no_cooldown:0 "$TRIGGER_FAIL$ §RNew ship sections are currently unavailable.§!"
 
  edict_open_pbships_draw_gui:0 "Ship section lottery"
  edict_open_pbships_draw_gui_desc:0 "Open the lottery interface to start a new ship section experience!"

@@ -8,167 +8,197 @@ country_event = {
 
 	immediate = {
 		random_list = {
-			10 = { # corvette
+			1000 = { # corvette
 				get_corvette_mid_ship_section_tech = yes
 			}
-			10 = { # frigate
+			1000 = { # frigate
 				get_frigate_mid_ship_section_tech = yes
 			}
-			10 = { # destroyer
+			1000 = { # destroyer
 				random_list = {
-					10 = { # bow
+					1000 = { # bow
 						get_destroyer_bow_ship_section_tech = yes
 					}
-					10 = { # stern
+					1000 = { # stern
 						get_destroyer_stern_ship_section_tech = yes
 					}
 				}
 			}
-			10 = { # cruiser
+			1000 = { # cruiser
 				random_list = {
-					10 = { # bow
+					1000 = { # bow
 						get_cruiser_bow_ship_section_tech = yes
 					}
-					10 = { # mid
+					1000 = { # mid
 						get_cruiser_mid_ship_section_tech = yes
 					}
-					10 = { # stern
+					1000 = { # stern
 						get_cruiser_stern_ship_section_tech = yes
 					}
 				}
 			}
-			10 = { # battleship
+			1000 = { # battleship
 				random_list = {
-					10 = { # bow
+					1000 = { # bow
 						get_battleship_bow_ship_section_tech = yes
 					}
-					10 = { # mid
+					1000 = { # mid
 						get_battleship_mid_ship_section_tech = yes
 					}
-					10 = { # stern
+					1000 = { # stern
 						get_battleship_stern_ship_section_tech = yes
 					}
 				}
 			}
-			10 = { # titan
+			1000 = { # titan
 				random_list = {
-					10 = { # bow
+					1000 = { # bow
 						get_titan_bow_ship_section_tech = yes
 					}
-					10 = { # mid
+					1000 = { # mid
 						get_titan_mid_ship_section_tech = yes
 					}
-					10 = { # stern
+					1000 = { # stern
 						get_titan_stern_ship_section_tech = yes
 					}
 				}
 			}
-			10 = { # juggernaut
+			1000 = { # juggernaut
 				get_juggernaut_core_ship_section_tech = yes
 			}
-			10 = { # colossus
+			1000 = { # colossus
 				get_colossus_ship_section_tech = yes
 			}
-			10 = { # crisis_corvette
+			1000 = { # crisis_corvette
 				get_crisis_corvette_mid_ship_section_tech = yes
 			}
-			10 = { # crisis_destroyer
+			1000 = { # crisis_destroyer
 				get_crisis_destroyer_mid_ship_section_tech = yes
 			}
-			10 = { # crisis_cruiser
+			1000 = { # crisis_cruiser
 				get_crisis_cruiser_mid_ship_section_tech = yes
 			}
-			10 = { # star_eater
+			1000 = { # star_eater
 				get_star_eater_mid_ship_section_tech = yes
 			}
-			10 = { # military station small
+			1000 = { # military station small
 				random_list = {
-					10 = { # north
+					1000 = { # north
 						get_military_station_small_north_ship_section_tech = yes
 					}
-					10 = { # west
+					1000 = { # west
 						get_military_station_small_west_ship_section_tech = yes
 					}
-					10 = { # south
+					1000 = { # south
 						get_military_station_small_south_ship_section_tech = yes
 					}
-					10 = { # east
+					1000 = { # east
 						get_military_station_small_east_ship_section_tech = yes
 					}
 				}
 			}
-			10 = {
+			1000 = { # ion cannon
 				get_ion_cannon_ship_section_tech = yes
 			}
-			10 = {
-				country_event = { id = pbships_draw.2 }
-			}
-		}
-	}
-}
-
-# draw a random section - ZoFE
-country_event = {
-	id = pbships_draw.2
-	hide_window = yes
-	is_triggered_only = yes
-
-	immediate = {
-		if = {
-			limit = {
-				OR = {
-					has_ascension_perk = ap_galactic_ascendancy
-					has_ascension_perk = ap_galactic_consciousness
-					has_ascension_perk = ap_machine_ascendancy
+			1000 = { # ZoFE
+				modifier = {
+					factor = 0
+					NOR = {
+						has_ascension_perk = ap_galactic_ascendancy
+						has_ascension_perk = ap_galactic_consciousness
+						has_ascension_perk = ap_machine_ascendancy
+					}
 				}
-			}
-			random_list = {
-				10 = { # fe_escort
-					random_list = {
-						10 = { # bow
-							get_fe_escort_bow_ship_section_tech = yes
+				random_list = {
+					1000 = { # fe_escort
+						random_list = {
+							1000 = { # bow
+								get_fe_escort_bow_ship_section_tech = yes
+							}
+							1000 = { # mid
+								get_fe_escort_mid_ship_section_tech = yes
+							}
+							1000 = { # stern
+								get_fe_escort_stern_ship_section_tech = yes
+							}
 						}
-						10 = { # mid
-							get_fe_escort_mid_ship_section_tech = yes
+					}
+					1000 = { # fe_battlecruiser
+						random_list = {
+							1000 = { # bow
+								get_fe_battlecruiser_bow_ship_section_tech = yes
+							}
+							1000 = { # mid
+								get_fe_battlecruiser_mid_ship_section_tech = yes
+							}
+							1000 = { # stern
+								get_fe_battlecruiser_stern_ship_section_tech = yes
+							}
 						}
-						10 = { # stern
-							get_fe_escort_stern_ship_section_tech = yes
+					}
+					1000 = { # fe_titan
+						random_list = {
+							1000 = { # bow
+								get_fe_titan_bow_ship_section_tech = yes
+							}
+							1000 = { # mid
+								get_fe_titan_mid_ship_section_tech = yes
+							}
+							1000 = { # hangar
+								get_fe_titan_hangar_ship_section_tech = yes
+							}
+							1000 = { # stern
+								get_fe_titan_stern_ship_section_tech = yes
+							}
+						}
+					}
+					1000 = { # fe_small_station
+						random_list = {
+							1000 = { # heavy
+								get_fe_small_station_heavy_ship_section_tech = yes
+							}
+							1000 = { # medium
+								get_fe_small_station_medium_ship_section_tech = yes
+							}
+						}
+					}
+					1000 = { # fe_large_station
+						random_list = {
+							1000 = { # xl
+								get_fe_large_station_xl_ship_section_tech = yes
+							}
+							1000 = { # heavy
+								get_fe_large_station_heavy_ship_section_tech = yes
+							}
+							1000 = { # medium
+								get_fe_large_station_medium_ship_section_tech = yes
+							}
+							1000 = { # pd
+								get_fe_large_station_pd_ship_section_tech = yes
+							}
+						}
+					}
+					1000 = { # fe_goliath
+						random_list = {
+							1000 = { # bow
+								get_fe_goliath_bow_ship_section_tech = yes
+							}
+							1000 = { # mid
+								get_fe_goliath_mid_ship_section_tech = yes
+							}
+							1000 = { # hangar
+								get_fe_goliath_hangar_ship_section_tech = yes
+							}
+							1000 = { # stern
+								get_fe_goliath_stern_ship_section_tech = yes
+							}
 						}
 					}
 				}
-				10 = { # fe_battlecruiser
-					random_list = {
-						10 = { # bow
-							get_fe_battlecruiser_bow_ship_section_tech = yes
-						}
-						10 = { # mid
-							get_fe_battlecruiser_mid_ship_section_tech = yes
-						}
-						10 = { # stern
-							get_fe_battlecruiser_stern_ship_section_tech = yes
-						}
-					}
-				}
-				10 = { # fe_titan
-					random_list = {
-						10 = { # bow
-							get_fe_titan_bow_ship_section_tech = yes
-						}
-						10 = { # mid
-							get_fe_titan_mid_ship_section_tech = yes
-						}
-						10 = { # hanger
-							get_fe_titan_hanger_ship_section_tech = yes
-						}
-						10 = { # stern
-							get_fe_titan_stern_ship_section_tech = yes
-						}
-					}
-				}
 			}
-		}
-		else = {
-			country_event = { id = pbships_draw.999 }
+			1 = { # nothing
+				country_event = { id = pbships_draw.999 }
+			}
 		}
 	}
 }

@@ -484,7 +484,7 @@ get_fe_escort_bow_ship_section_tech_level_10 = {
 		give_technology = { tech = tech_fe_escort_bow_x4aux1 message = yes }
 	}
 	else = {
-		country_event = { id = pbships_draw.999 }
+		get_fe_escort_mid_ship_section_tech = yes
 	}
 }
 
@@ -944,7 +944,7 @@ get_fe_escort_mid_ship_section_tech_level_10 = {
 		give_technology = { tech = tech_fe_escort_mid_x2hb1l1g3s8pd4 message = yes }
 	}
 	else = {
-		country_event = { id = pbships_draw.999 }
+		get_fe_escort_stern_ship_section_tech = yes
 	}
 }
 
@@ -1402,6 +1402,6 @@ get_fe_escort_stern_ship_section_tech_level_10 = {
 		give_technology = { tech = tech_fe_escort_stern_t2aux5 message = yes }
 	}
 	else = {
-		country_event = { id = pbships_draw.999 }
+		get_fe_battlecruiser_bow_ship_section_tech = yes
 	}
 }
