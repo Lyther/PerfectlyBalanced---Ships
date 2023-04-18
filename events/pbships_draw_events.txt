@@ -81,7 +81,7 @@ country_event = {
 			1000 = { # star_eater
 				get_star_eater_mid_ship_section_tech = yes
 			}
-			1000 = { # military station small
+			1000 = { # military_station_small
 				random_list = {
 					1000 = { # north
 						get_military_station_small_north_ship_section_tech = yes
@@ -97,7 +97,7 @@ country_event = {
 					}
 				}
 			}
-			1000 = { # ion cannon
+			1000 = { # ion_cannon
 				get_ion_cannon_ship_section_tech = yes
 			}
 			1000 = { # ZoFE
@@ -193,6 +193,482 @@ country_event = {
 								get_fe_goliath_stern_ship_section_tech = yes
 							}
 						}
+					}
+				}
+			}
+			1 = { # nothing
+				country_event = { id = pbships_draw.999 }
+			}
+		}
+	}
+}
+
+# draw a corvette section
+country_event = {
+	id = pbships_draw.10
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		random_list = {
+			1000 = { # corvette
+				get_corvette_mid_ship_section_tech = yes
+			}
+			1 = { # nothing
+				country_event = { id = pbships_draw.999 }
+			}
+		}
+	}
+}
+
+# draw a frigate section
+country_event = {
+	id = pbships_draw.20
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		random_list = {
+			1000 = { # frigate
+				get_frigate_mid_ship_section_tech = yes
+			}
+			1 = { # nothing
+				country_event = { id = pbships_draw.999 }
+			}
+		}
+	}
+}
+
+# draw a destroyer section
+country_event = {
+	id = pbships_draw.30
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		random_list = {
+			1000 = { # destroyer
+				random_list = {
+					1000 = { # bow
+						get_destroyer_bow_ship_section_tech = yes
+					}
+					1000 = { # stern
+						get_destroyer_stern_ship_section_tech = yes
+					}
+				}
+			}
+			1 = { # nothing
+				country_event = { id = pbships_draw.999 }
+			}
+		}
+	}
+}
+
+# draw a cruiser section
+country_event = {
+	id = pbships_draw.40
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		random_list = {
+			1000 = { # cruiser
+				random_list = {
+					1000 = { # bow
+						get_cruiser_bow_ship_section_tech = yes
+					}
+					1000 = { # mid
+						get_cruiser_mid_ship_section_tech = yes
+					}
+					1000 = { # stern
+						get_cruiser_stern_ship_section_tech = yes
+					}
+				}
+			}
+			1 = { # nothing
+				country_event = { id = pbships_draw.999 }
+			}
+		}
+	}
+}
+
+# draw a battleship section
+country_event = {
+	id = pbships_draw.50
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		random_list = {
+			1000 = { # battleship
+				random_list = {
+					1000 = { # bow
+						get_battleship_bow_ship_section_tech = yes
+					}
+					1000 = { # mid
+						get_battleship_mid_ship_section_tech = yes
+					}
+					1000 = { # stern
+						get_battleship_stern_ship_section_tech = yes
+					}
+				}
+			}
+			1 = { # nothing
+				country_event = { id = pbships_draw.999 }
+			}
+		}
+	}
+}
+
+# draw a titan section
+country_event = {
+	id = pbships_draw.60
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		random_list = {
+			1000 = { # titan
+				random_list = {
+					1000 = { # bow
+						get_titan_bow_ship_section_tech = yes
+					}
+					1000 = { # mid
+						get_titan_mid_ship_section_tech = yes
+					}
+					1000 = { # stern
+						get_titan_stern_ship_section_tech = yes
+					}
+				}
+			}
+			1 = { # nothing
+				country_event = { id = pbships_draw.999 }
+			}
+		}
+	}
+}
+
+# draw a juggernaut section
+country_event = {
+	id = pbships_draw.70
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		random_list = {
+			1000 = { # juggernaut
+				get_juggernaut_core_ship_section_tech = yes
+			}
+			1 = { # nothing
+				country_event = { id = pbships_draw.999 }
+			}
+		}
+	}
+}
+
+# draw a colossus section
+country_event = {
+	id = pbships_draw.80
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		random_list = {
+			1000 = { # colossus
+				get_colossus_ship_section_tech = yes
+			}
+			1 = { # nothing
+				country_event = { id = pbships_draw.999 }
+			}
+		}
+	}
+}
+
+# draw a crisis_corvette section
+country_event = {
+	id = pbships_draw.90
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		random_list = {
+			1000 = { # crisis_corvette
+				get_crisis_corvette_mid_ship_section_tech = yes
+			}
+			1 = { # nothing
+				country_event = { id = pbships_draw.999 }
+			}
+		}
+	}
+}
+
+# draw a crisis_destroyer section
+country_event = {
+	id = pbships_draw.100
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		random_list = {
+			1000 = { # crisis_destroyer
+				get_crisis_destroyer_mid_ship_section_tech = yes
+			}
+			1 = { # nothing
+				country_event = { id = pbships_draw.999 }
+			}
+		}
+	}
+}
+
+# draw a crisis_cruiser section
+country_event = {
+	id = pbships_draw.110
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		random_list = {
+			1000 = { # crisis_cruiser
+				get_crisis_cruiser_mid_ship_section_tech = yes
+			}
+			1 = { # nothing
+				country_event = { id = pbships_draw.999 }
+			}
+		}
+	}
+}
+
+# draw a star_eater section
+country_event = {
+	id = pbships_draw.120
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		random_list = {
+			1000 = { # star_eater
+				get_star_eater_mid_ship_section_tech = yes
+			}
+			1 = { # nothing
+				country_event = { id = pbships_draw.999 }
+			}
+		}
+	}
+}
+
+# draw a military_station_small section
+country_event = {
+	id = pbships_draw.130
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		random_list = {
+			1000 = { # military_station_small
+				random_list = {
+					1000 = { # north
+						get_military_station_small_north_ship_section_tech = yes
+					}
+					1000 = { # west
+						get_military_station_small_west_ship_section_tech = yes
+					}
+					1000 = { # south
+						get_military_station_small_south_ship_section_tech = yes
+					}
+					1000 = { # east
+						get_military_station_small_east_ship_section_tech = yes
+					}
+				}
+			}
+			1 = { # nothing
+				country_event = { id = pbships_draw.999 }
+			}
+		}
+	}
+}
+
+# draw a ion_cannon section
+country_event = {
+	id = pbships_draw.140
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		random_list = {
+			1000 = { # ion_cannon
+				get_ion_cannon_ship_section_tech = yes
+			}
+			1 = { # nothing
+				country_event = { id = pbships_draw.999 }
+			}
+		}
+	}
+}
+
+# draw a fe_escort section
+country_event = {
+	id = pbships_draw.150
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		random_list = {
+			1000 = { # fe_escort
+				random_list = {
+					1000 = { # bow
+						get_fe_escort_bow_ship_section_tech = yes
+					}
+					1000 = { # mid
+						get_fe_escort_mid_ship_section_tech = yes
+					}
+					1000 = { # stern
+						get_fe_escort_stern_ship_section_tech = yes
+					}
+				}
+			}
+			1 = { # nothing
+				country_event = { id = pbships_draw.999 }
+			}
+		}
+	}
+}
+
+# draw a fe_battlecruiser section
+country_event = {
+	id = pbships_draw.160
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		random_list = {
+			1000 = { # fe_battlecruiser
+				random_list = {
+					1000 = { # bow
+						get_fe_battlecruiser_bow_ship_section_tech = yes
+					}
+					1000 = { # mid
+						get_fe_battlecruiser_mid_ship_section_tech = yes
+					}
+					1000 = { # stern
+						get_fe_battlecruiser_stern_ship_section_tech = yes
+					}
+				}
+			}
+			1 = { # nothing
+				country_event = { id = pbships_draw.999 }
+			}
+		}
+	}
+}
+
+# draw a fe_titan section
+country_event = {
+	id = pbships_draw.170
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		random_list = {
+			1000 = { # fe_titan
+				random_list = {
+					1000 = { # bow
+						get_fe_titan_bow_ship_section_tech = yes
+					}
+					1000 = { # mid
+						get_fe_titan_mid_ship_section_tech = yes
+					}
+					1000 = { # hangar
+						get_fe_titan_hangar_ship_section_tech = yes
+					}
+					1000 = { # stern
+						get_fe_titan_stern_ship_section_tech = yes
+					}
+				}
+			}
+			1 = { # nothing
+				country_event = { id = pbships_draw.999 }
+			}
+		}
+	}
+}
+
+# draw a fe_small_station section
+country_event = {
+	id = pbships_draw.180
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		random_list = {
+			1000 = { # fe_small_station
+				random_list = {
+					1000 = { # heavy
+						get_fe_small_station_heavy_ship_section_tech = yes
+					}
+					1000 = { # medium
+						get_fe_small_station_medium_ship_section_tech = yes
+					}
+				}
+			}
+			1 = { # nothing
+				country_event = { id = pbships_draw.999 }
+			}
+		}
+	}
+}
+
+# draw a fe_large_station section
+country_event = {
+	id = pbships_draw.190
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		random_list = {
+			1000 = { # fe_large_station
+				random_list = {
+					1000 = { # xl
+						get_fe_large_station_xl_ship_section_tech = yes
+					}
+					1000 = { # heavy
+						get_fe_large_station_heavy_ship_section_tech = yes
+					}
+					1000 = { # medium
+						get_fe_large_station_medium_ship_section_tech = yes
+					}
+					1000 = { # pd
+						get_fe_large_station_pd_ship_section_tech = yes
+					}
+				}
+			}
+			1 = { # nothing
+				country_event = { id = pbships_draw.999 }
+			}
+		}
+	}
+}
+
+# draw a fe_goliath section
+country_event = {
+	id = pbships_draw.200
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		random_list = {
+			1000 = { # fe_goliath
+				random_list = {
+					1000 = { # bow
+						get_fe_goliath_bow_ship_section_tech = yes
+					}
+					1000 = { # mid
+						get_fe_goliath_mid_ship_section_tech = yes
+					}
+					1000 = { # hangar
+						get_fe_goliath_hangar_ship_section_tech = yes
+					}
+					1000 = { # stern
+						get_fe_goliath_stern_ship_section_tech = yes
 					}
 				}
 			}

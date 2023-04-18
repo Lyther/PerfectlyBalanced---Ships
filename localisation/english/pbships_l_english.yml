@@ -226,6 +226,9 @@
  arcane_deciphering_cooldown:0 "$artifact_draw_section$ Cooldown"
  requires_artifact_draw_section_no_cooldown:0 "$TRIGGER_FAIL$ §RNew ship sections are currently unavailable.§!"
 
+ artifact_draw_section_10:0 "Random access to ship sections (10 times)"
+ artifact_draw_section_10_desc:0 "More... more... and more! Take my minor artifacts and gimme something at least!\n§RDisclaimer: no rare section guaranteed.§!"
+
  edict_open_pbships_draw_gui:0 "Ship section lottery"
  edict_open_pbships_draw_gui_desc:0 "Open the lottery interface to start a new ship section experience!"
 

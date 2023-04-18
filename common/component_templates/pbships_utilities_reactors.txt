@@ -326,7 +326,7 @@ utility_component_template = {
 		}
 	}
 	ship_modifier = {
-		ship_hull_mult = -0.10
+		ship_hull_mult = -0.05
 	}
 
 	prerequisites = { "tech_fusion_power" }
@@ -352,7 +352,7 @@ utility_component_template = {
 		}
 	}
 	ship_modifier = {
-		ship_hull_mult = -0.10
+		ship_hull_mult = -0.05
 	}
 
 	prerequisites = { "tech_fusion_power" }
@@ -378,7 +378,7 @@ utility_component_template = {
 		}
 	}
 	ship_modifier = {
-		ship_hull_mult = -0.10
+		ship_hull_mult = -0.05
 	}
 
 	prerequisites = { "tech_fusion_power" }
@@ -404,7 +404,7 @@ utility_component_template = {
 		}
 	}
 	ship_modifier = {
-		ship_hull_mult = -0.10
+		ship_hull_mult = -0.05
 	}
 
 	prerequisites = { "tech_fusion_power" }
@@ -430,7 +430,7 @@ utility_component_template = {
 		}
 	}
 	ship_modifier = {
-		ship_hull_mult = -0.10
+		ship_hull_mult = -0.05
 	}
 
 	prerequisites = { "tech_fusion_power" }
@@ -456,7 +456,7 @@ utility_component_template = {
 		}
 	}
 	ship_modifier = {
-		ship_hull_mult = -0.10
+		ship_hull_mult = -0.05
 	}
 
 	prerequisites = { "tech_fusion_power" }
@@ -482,7 +482,7 @@ utility_component_template = {
 		}
 	}
 	ship_modifier = {
-		ship_hull_mult = -0.10
+		ship_hull_mult = -0.05
 	}
 
 	prerequisites = { "tech_fusion_power" }
@@ -517,7 +517,7 @@ utility_component_template = {
 		}
 	}
 	ship_modifier = {
-		ship_hull_mult = -0.15
+		ship_hull_mult = -0.05
 	}
 
 	prerequisites = { "tech_cold_fusion_power" }
@@ -543,7 +543,7 @@ utility_component_template = {
 		}
 	}
 	ship_modifier = {
-		ship_hull_mult = -0.15
+		ship_hull_mult = -0.05
 	}
 
 	prerequisites = { "tech_cold_fusion_power" }
@@ -569,7 +569,7 @@ utility_component_template = {
 		}
 	}
 	ship_modifier = {
-		ship_hull_mult = -0.15
+		ship_hull_mult = -0.05
 	}
 
 	prerequisites = { "tech_cold_fusion_power" }
@@ -595,7 +595,7 @@ utility_component_template = {
 		}
 	}
 	ship_modifier = {
-		ship_hull_mult = -0.15
+		ship_hull_mult = -0.05
 	}
 
 	prerequisites = { "tech_cold_fusion_power" }
@@ -621,7 +621,7 @@ utility_component_template = {
 		}
 	}
 	ship_modifier = {
-		ship_hull_mult = -0.15
+		ship_hull_mult = -0.05
 	}
 
 	prerequisites = { "tech_cold_fusion_power" }
@@ -647,7 +647,7 @@ utility_component_template = {
 		}
 	}
 	ship_modifier = {
-		ship_hull_mult = -0.15
+		ship_hull_mult = -0.05
 	}
 
 	prerequisites = { "tech_cold_fusion_power" }
@@ -673,7 +673,7 @@ utility_component_template = {
 		}
 	}
 	ship_modifier = {
-		ship_hull_mult = -0.15
+		ship_hull_mult = -0.05
 	}
 
 	prerequisites = { "tech_cold_fusion_power" }
@@ -708,7 +708,7 @@ utility_component_template = {
 		}
 	}
 	ship_modifier = {
-		ship_hull_mult = -0.20
+		ship_hull_mult = -0.05
 	}
 
 	prerequisites = { "tech_antimatter_power" }
@@ -734,7 +734,7 @@ utility_component_template = {
 		}
 	}
 	ship_modifier = {
-		ship_hull_mult = -0.20
+		ship_hull_mult = -0.05
 	}
 
 	prerequisites = { "tech_antimatter_power" }
@@ -760,7 +760,7 @@ utility_component_template = {
 		}
 	}
 	ship_modifier = {
-		ship_hull_mult = -0.20
+		ship_hull_mult = -0.05
 	}
 
 	prerequisites = { "tech_antimatter_power" }
@@ -786,7 +786,7 @@ utility_component_template = {
 		}
 	}
 	ship_modifier = {
-		ship_hull_mult = -0.20
+		ship_hull_mult = -0.05
 	}
 
 	prerequisites = { "tech_antimatter_power" }
@@ -812,7 +812,7 @@ utility_component_template = {
 		}
 	}
 	ship_modifier = {
-		ship_hull_mult = -0.20
+		ship_hull_mult = -0.05
 	}
 
 	prerequisites = { "tech_antimatter_power" }
@@ -838,7 +838,7 @@ utility_component_template = {
 		}
 	}
 	ship_modifier = {
-		ship_hull_mult = -0.20
+		ship_hull_mult = -0.05
 	}
 
 	prerequisites = { "tech_antimatter_power" }
@@ -864,7 +864,7 @@ utility_component_template = {
 		}
 	}
 	ship_modifier = {
-		ship_hull_mult = -0.20
+		ship_hull_mult = -0.05
 	}
 
 	prerequisites = { "tech_antimatter_power" }
@@ -899,7 +899,7 @@ utility_component_template = {
 		}
 	}
 	ship_modifier = {
-		ship_hull_mult = -0.25
+		ship_hull_mult = -0.05
 	}
 
 	prerequisites = { "tech_zero_point_power" }
@@ -925,7 +925,7 @@ utility_component_template = {
 		}
 	}
 	ship_modifier = {
-		ship_hull_mult = -0.25
+		ship_hull_mult = -0.05
 	}
 
 	prerequisites = { "tech_zero_point_power" }
@@ -951,7 +951,7 @@ utility_component_template = {
 		}
 	}
 	ship_modifier = {
-		ship_hull_mult = -0.25
+		ship_hull_mult = -0.05
 	}
 
 	prerequisites = { "tech_zero_point_power" }
@@ -977,7 +977,7 @@ utility_component_template = {
 		}
 	}
 	ship_modifier = {
-		ship_hull_mult = -0.25
+		ship_hull_mult = -0.05
 	}
 
 	prerequisites = { "tech_zero_point_power" }
@@ -1003,7 +1003,7 @@ utility_component_template = {
 		}
 	}
 	ship_modifier = {
-		ship_hull_mult = -0.25
+		ship_hull_mult = -0.05
 	}
 
 	prerequisites = { "tech_zero_point_power" }
@@ -1029,7 +1029,7 @@ utility_component_template = {
 		}
 	}
 	ship_modifier = {
-		ship_hull_mult = -0.25
+		ship_hull_mult = -0.05
 	}
 
 	prerequisites = { "tech_zero_point_power" }
@@ -1055,7 +1055,7 @@ utility_component_template = {
 		}
 	}
 	ship_modifier = {
-		ship_hull_mult = -0.25
+		ship_hull_mult = -0.05
 	}
 
 	component_set = "power_core"
@@ -1080,7 +1080,7 @@ utility_component_template = {
 		}
 	}
 	ship_modifier = {
-		ship_hull_mult = -0.25
+		ship_hull_mult = -0.05
 	}
 
 	prerequisites = { "tech_zero_point_power" }
@@ -1111,7 +1111,7 @@ utility_component_template = {
 		}
 	}
 	ship_modifier = {
-		ship_hull_mult = -0.25
+		ship_hull_mult = -0.05
 	}
 
 	component_set = "power_core"
@@ -1141,7 +1141,7 @@ utility_component_template = {
 		}
 	}
 	ship_modifier = {
-		ship_hull_mult = -0.30
+		ship_hull_mult = -0.05
 	}
 
 	prerequisites = { "tech_dark_matter_power_core" }
@@ -1167,7 +1167,7 @@ utility_component_template = {
 		}
 	}
 	ship_modifier = {
-		ship_hull_mult = -0.30
+		ship_hull_mult = -0.05
 	}
 
 	prerequisites = { "tech_dark_matter_power_core" }
@@ -1193,7 +1193,7 @@ utility_component_template = {
 		}
 	}
 	ship_modifier = {
-		ship_hull_mult = -0.30
+		ship_hull_mult = -0.05
 	}
 
 	prerequisites = { "tech_dark_matter_power_core" }
@@ -1219,7 +1219,7 @@ utility_component_template = {
 		}
 	}
 	ship_modifier = {
-		ship_hull_mult = -0.30
+		ship_hull_mult = -0.05
 	}
 
 	prerequisites = { "tech_dark_matter_power_core" }
@@ -1245,7 +1245,7 @@ utility_component_template = {
 		}
 	}
 	ship_modifier = {
-		ship_hull_mult = -0.30
+		ship_hull_mult = -0.05
 	}
 
 	prerequisites = { "tech_dark_matter_power_core" }
@@ -1271,7 +1271,7 @@ utility_component_template = {
 		}
 	}
 	ship_modifier = {
-		ship_hull_mult = -0.30
+		ship_hull_mult = -0.05
 	}
 
 	prerequisites = { "tech_dark_matter_power_core" }
@@ -1297,7 +1297,7 @@ utility_component_template = {
 		}
 	}
 	ship_modifier = {
-		ship_hull_mult = -0.30
+		ship_hull_mult = -0.05
 	}
 
 	prerequisites = { "tech_dark_matter_power_core" }
@@ -1323,7 +1323,7 @@ utility_component_template = {
 		}
 	}
 	ship_modifier = {
-		ship_hull_mult = -0.30
+		ship_hull_mult = -0.05
 	}
 
 	prerequisites = { "tech_dark_matter_power_core" }
@@ -1354,7 +1354,7 @@ utility_component_template = {
 		}
 	}
 	ship_modifier = {
-		ship_hull_mult = -0.30
+		ship_hull_mult = -0.05
 	}
 
 	prerequisites = { "tech_dark_matter_power_core" }

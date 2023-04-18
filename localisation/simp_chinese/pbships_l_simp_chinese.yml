@@ -226,6 +226,9 @@
  arcane_deciphering_cooldown:0 "$artifact_draw_section$冷却"
  requires_artifact_draw_section_no_cooldown:0 "$TRIGGER_FAIL$ §R目前无法获取新的舰船区段。§!"
 
+ artifact_draw_section_10:0 "舰船区段随机获取（十连抽！）"
+ artifact_draw_section_10_desc:0 "怎么可能一直不出货呢？开始进行猛抽环节。\n§R注：无保底。§!"
+
  edict_open_pbships_draw_gui:0 "舰船区段抽奖"
  edict_open_pbships_draw_gui_desc:0 "开启抽奖界面开始全新的舰船区段体验！"
 
