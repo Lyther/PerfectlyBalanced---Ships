@@ -469,6 +469,6 @@ get_juggernaut_core_ship_section_tech_level_10 = {
 		give_technology = { tech = tech_juggernaut_core_t4x1hb23ul5l3m116aux72um4us30 message = yes }
 	}
 	else = {
-		get_colossus_ship_section_tech = yes
+		country_event = { id = pbships_draw.80 }
 	}
 }

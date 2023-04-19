@@ -484,7 +484,7 @@ get_destroyer_bow_ship_section_tech_level_10 = {
 		give_technology = { tech = tech_destroyer_bow_x5us2 message = yes }
 	}
 	else = {
-		get_destroyer_stern_ship_section_tech = yes
+		country_event = { id = pbships_draw.40 }
 	}
 }
 
@@ -944,6 +944,6 @@ get_destroyer_stern_ship_section_tech_level_10 = {
 		give_technology = { tech = tech_destroyer_stern_s20us4pd1 message = yes }
 	}
 	else = {
-		get_cruiser_bow_ship_section_tech = yes
+		country_event = { id = pbships_draw.40 }
 	}
 }

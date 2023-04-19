@@ -469,6 +469,6 @@ get_corvette_mid_ship_section_tech_level_10 = {
 		give_technology = { tech = tech_corvette_mid_t1x1l2aux1 message = yes }
 	}
 	else = {
-		get_frigate_mid_ship_section_tech = yes
+		country_event = { id = pbships_draw.20 }
 	}
 }

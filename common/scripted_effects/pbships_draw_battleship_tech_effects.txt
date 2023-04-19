@@ -499,7 +499,7 @@ get_battleship_bow_ship_section_tech_level_10 = {
 		give_technology = { tech = tech_battleship_bow_hb3m11us48s2pd1 message = yes }
 	}
 	else = {
-		get_battleship_mid_ship_section_tech = yes
+		country_event = { id = pbships_draw.60 }
 	}
 }
 
@@ -959,7 +959,7 @@ get_battleship_mid_ship_section_tech_level_10 = {
 		give_technology = { tech = tech_battleship_mid_t6l1um1us1 message = yes }
 	}
 	else = {
-		get_battleship_stern_ship_section_tech = yes
+		country_event = { id = pbships_draw.60 }
 	}
 }
 
@@ -1419,6 +1419,6 @@ get_battleship_stern_ship_section_tech_level_10 = {
 		give_technology = { tech = tech_battleship_stern_x1hb1l1ul1um2m1aux1g1s3pd2us1 message = yes }
 	}
 	else = {
-		get_titan_bow_ship_section_tech = yes
+		country_event = { id = pbships_draw.60 }
 	}
 }

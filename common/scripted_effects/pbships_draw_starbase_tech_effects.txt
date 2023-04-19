@@ -469,6 +469,6 @@ get_ion_cannon_ship_section_tech_level_10 = {
 		give_technology = { tech = tech_ion_cannon_ship_x8l5ul1aux20m15g3um2us20s9 message = yes }
 	}
 	else = {
-		get_fe_escort_bow_ship_section_tech = yes
+		country_event = { id = pbships_draw.150 }
 	}
 }

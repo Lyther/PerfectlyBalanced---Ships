@@ -484,7 +484,7 @@ get_fe_small_station_heavy_ship_section_tech_level_10 = {
 		give_technology = { tech = tech_fe_small_station_heavy_l15ul4hb2g13us1 message = yes }
 	}
 	else = {
-		get_fe_small_station_medium_ship_section_tech = yes
+		country_event = { id = pbships_draw.190 }
 	}
 }
 
@@ -944,6 +944,6 @@ get_fe_small_station_medium_ship_section_tech_level_10 = {
 		give_technology = { tech = tech_fe_small_station_medium_x2hb19pd2 message = yes }
 	}
 	else = {
-		get_fe_large_station_xl_ship_section_tech = yes
+		country_event = { id = pbships_draw.190 }
 	}
 }

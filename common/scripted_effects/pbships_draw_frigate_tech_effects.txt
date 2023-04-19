@@ -469,6 +469,6 @@ get_frigate_mid_ship_section_tech_level_10 = {
 		give_technology = { tech = tech_frigate_mid_ul2hb1um6aux2s6us4 message = yes }
 	}
 	else = {
-		get_destroyer_bow_ship_section_tech = yes
+		country_event = { id = pbships_draw.30 }
 	}
 }

@@ -33,7 +33,7 @@ artifact_draw_section = {
 					days = 360
 				}
 				owner = {
-					country_event = { id = pbships_draw.1 }
+					country_event = { id = pbships_draw.10 }
 				}
 			}
 		}
@@ -75,7 +75,10 @@ artifact_draw_section_10 = {
 					days = 360
 				}
 				owner = {
-					country_event = { id = pbships_draw.1 }
+					while = {
+						count = 10
+						country_event = { id = pbships_draw.10 }
+					}
 				}
 			}
 		}

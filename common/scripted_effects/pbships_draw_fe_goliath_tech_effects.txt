@@ -514,7 +514,7 @@ get_fe_goliath_bow_ship_section_tech_level_10 = {
 		give_technology = { tech = tech_fe_goliath_bow_x20hb20m20g20aux20um20us20pd1 message = yes }
 	}
 	else = {
-		get_fe_goliath_mid_ship_section_tech = yes
+		country_event = { id = pbships_draw.999 }
 	}
 }
 
@@ -974,7 +974,7 @@ get_fe_goliath_mid_ship_section_tech_level_10 = {
 		give_technology = { tech = tech_fe_goliath_mid_x15l20ul10aux20us13pd5s2 message = yes }
 	}
 	else = {
-		get_fe_goliath_hangar_ship_section_tech = yes
+		country_event = { id = pbships_draw.999 }
 	}
 }
 
@@ -1434,7 +1434,7 @@ get_fe_goliath_hangar_ship_section_tech_level_10 = {
 		give_technology = { tech = tech_fe_goliath_hangar_t3hb20l20m20um20pd12 message = yes }
 	}
 	else = {
-		get_fe_goliath_stern_ship_section_tech = yes
+		country_event = { id = pbships_draw.999 }
 	}
 }
 

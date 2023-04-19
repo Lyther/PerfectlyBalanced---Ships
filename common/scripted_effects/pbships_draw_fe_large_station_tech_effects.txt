@@ -514,7 +514,7 @@ get_fe_large_station_xl_ship_section_tech_level_10 = {
 		give_technology = { tech = tech_fe_large_station_xl_x5hb20ul2l1aux20m2s20pd20us16 message = yes }
 	}
 	else = {
-		get_fe_large_station_heavy_ship_section_tech = yes
+		country_event = { id = pbships_draw.200 }
 	}
 }
 
@@ -974,7 +974,7 @@ get_fe_large_station_heavy_ship_section_tech_level_10 = {
 		give_technology = { tech = tech_fe_large_station_heavy_ul20hb5um20pd20s3 message = yes }
 	}
 	else = {
-		get_fe_large_station_medium_ship_section_tech = yes
+		country_event = { id = pbships_draw.200 }
 	}
 }
 
@@ -1434,7 +1434,7 @@ get_fe_large_station_medium_ship_section_tech_level_10 = {
 		give_technology = { tech = tech_fe_large_station_medium_l14aux20g20um5 message = yes }
 	}
 	else = {
-		get_fe_large_station_pd_ship_section_tech = yes
+		country_event = { id = pbships_draw.200 }
 	}
 }
 
@@ -1894,6 +1894,6 @@ get_fe_large_station_pd_ship_section_tech_level_10 = {
 		give_technology = { tech = tech_fe_large_station_pd_t5um5us20s1 message = yes }
 	}
 	else = {
-		get_fe_goliath_bow_ship_section_tech = yes
+		country_event = { id = pbships_draw.200 }
 	}
 }

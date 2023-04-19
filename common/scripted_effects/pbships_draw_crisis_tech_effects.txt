@@ -514,7 +514,7 @@ get_crisis_corvette_mid_ship_section_tech_level_10 = {
 		give_technology = { tech = tech_crisis_corvette_mid_t1l1ul1aux1um1m1g1pd5s4us1 message = yes }
 	}
 	else = {
-		get_crisis_destroyer_mid_ship_section_tech = yes
+		country_event = { id = pbships_draw.100 }
 	}
 }
 
@@ -974,7 +974,7 @@ get_crisis_destroyer_mid_ship_section_tech_level_10 = {
 		give_technology = { tech = tech_crisis_destroyer_mid_x1ul15 message = yes }
 	}
 	else = {
-		get_crisis_cruiser_mid_ship_section_tech = yes
+		country_event = { id = pbships_draw.110 }
 	}
 }
 
@@ -1434,7 +1434,7 @@ get_crisis_cruiser_mid_ship_section_tech_level_10 = {
 		give_technology = { tech = tech_crisis_cruiser_mid_ul21um11s4us1 message = yes }
 	}
 	else = {
-		get_star_eater_mid_ship_section_tech = yes
+		country_event = { id = pbships_draw.120 }
 	}
 }
 
@@ -1894,6 +1894,6 @@ get_star_eater_mid_ship_section_tech_level_10 = {
 		give_technology = { tech = tech_star_eater_mid_g43aux7us504s2w1 message = yes }
 	}
 	else = {
-		get_military_station_small_north_ship_section_tech = yes
+		country_event = { id = pbships_draw.130 }
 	}
 }

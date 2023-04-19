@@ -499,7 +499,7 @@ get_cruiser_bow_ship_section_tech_level_10 = {
 		give_technology = { tech = tech_cruiser_bow_t1x4m1pd1 message = yes }
 	}
 	else = {
-		get_cruiser_mid_ship_section_tech = yes
+		country_event = { id = pbships_draw.50 }
 	}
 }
 
@@ -959,7 +959,7 @@ get_cruiser_mid_ship_section_tech_level_10 = {
 		give_technology = { tech = tech_cruiser_mid_ul7l1um7us8pd5s1 message = yes }
 	}
 	else = {
-		get_cruiser_stern_ship_section_tech = yes
+		country_event = { id = pbships_draw.50 }
 	}
 }
 
@@ -1419,6 +1419,6 @@ get_cruiser_stern_ship_section_tech_level_10 = {
 		give_technology = { tech = tech_cruiser_stern_t2m1 message = yes }
 	}
 	else = {
-		get_battleship_bow_ship_section_tech = yes
+		country_event = { id = pbships_draw.50 }
 	}
 }

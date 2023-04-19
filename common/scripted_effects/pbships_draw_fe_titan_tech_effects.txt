@@ -514,7 +514,7 @@ get_fe_titan_bow_ship_section_tech_level_10 = {
 		give_technology = { tech = tech_fe_titan_bow_x17s20pd7 message = yes }
 	}
 	else = {
-		get_fe_titan_mid_ship_section_tech = yes
+		country_event = { id = pbships_draw.180 }
 	}
 }
 
@@ -974,7 +974,7 @@ get_fe_titan_mid_ship_section_tech_level_10 = {
 		give_technology = { tech = tech_fe_titan_mid_t8ul3l1um16pd20s1 message = yes }
 	}
 	else = {
-		get_fe_titan_hangar_ship_section_tech = yes
+		country_event = { id = pbships_draw.180 }
 	}
 }
 
@@ -1434,7 +1434,7 @@ get_fe_titan_hangar_ship_section_tech_level_10 = {
 		give_technology = { tech = tech_fe_titan_hangar_t7um20g5us1 message = yes }
 	}
 	else = {
-		get_fe_titan_stern_ship_section_tech = yes
+		country_event = { id = pbships_draw.180 }
 	}
 }
 
@@ -1894,6 +1894,6 @@ get_fe_titan_stern_ship_section_tech_level_10 = {
 		give_technology = { tech = tech_fe_titan_stern_x2l16hb5aux14um2pd20us1s1 message = yes }
 	}
 	else = {
-		get_fe_small_station_heavy_ship_section_tech = yes
+		country_event = { id = pbships_draw.180 }
 	}
 }
