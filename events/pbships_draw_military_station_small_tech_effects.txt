@@ -1,0 +1,1871 @@
+get_military_station_small_north_ship_section_tech = {
+	random_list = {
+		100 = { get_military_station_small_north_ship_section_tech_level_1 = yes }
+		80 = { get_military_station_small_north_ship_section_tech_level_2 = yes }
+		60 = { get_military_station_small_north_ship_section_tech_level_3 = yes }
+		40 = { get_military_station_small_north_ship_section_tech_level_4 = yes }
+		20 = { get_military_station_small_north_ship_section_tech_level_5 = yes }
+		10 = { get_military_station_small_north_ship_section_tech_level_6 = yes }
+		8 = { get_military_station_small_north_ship_section_tech_level_7 = yes }
+		6 = { get_military_station_small_north_ship_section_tech_level_8 = yes }
+		4 = { get_military_station_small_north_ship_section_tech_level_9 = yes }
+		2 = { get_military_station_small_north_ship_section_tech_level_10 = yes }
+	}
+}
+
+get_military_station_small_west_ship_section_tech = {
+	random_list = {
+		100 = { get_military_station_small_west_ship_section_tech_level_1 = yes }
+		80 = { get_military_station_small_west_ship_section_tech_level_2 = yes }
+		60 = { get_military_station_small_west_ship_section_tech_level_3 = yes }
+		40 = { get_military_station_small_west_ship_section_tech_level_4 = yes }
+		20 = { get_military_station_small_west_ship_section_tech_level_5 = yes }
+		10 = { get_military_station_small_west_ship_section_tech_level_6 = yes }
+		8 = { get_military_station_small_west_ship_section_tech_level_7 = yes }
+		6 = { get_military_station_small_west_ship_section_tech_level_8 = yes }
+		4 = { get_military_station_small_west_ship_section_tech_level_9 = yes }
+		2 = { get_military_station_small_west_ship_section_tech_level_10 = yes }
+	}
+}
+
+get_military_station_small_south_ship_section_tech = {
+	random_list = {
+		100 = { get_military_station_small_south_ship_section_tech_level_1 = yes }
+		80 = { get_military_station_small_south_ship_section_tech_level_2 = yes }
+		60 = { get_military_station_small_south_ship_section_tech_level_3 = yes }
+		40 = { get_military_station_small_south_ship_section_tech_level_4 = yes }
+		20 = { get_military_station_small_south_ship_section_tech_level_5 = yes }
+		10 = { get_military_station_small_south_ship_section_tech_level_6 = yes }
+		8 = { get_military_station_small_south_ship_section_tech_level_7 = yes }
+		6 = { get_military_station_small_south_ship_section_tech_level_8 = yes }
+		4 = { get_military_station_small_south_ship_section_tech_level_9 = yes }
+		2 = { get_military_station_small_south_ship_section_tech_level_10 = yes }
+	}
+}
+
+get_military_station_small_east_ship_section_tech = {
+	random_list = {
+		100 = { get_military_station_small_east_ship_section_tech_level_1 = yes }
+		80 = { get_military_station_small_east_ship_section_tech_level_2 = yes }
+		60 = { get_military_station_small_east_ship_section_tech_level_3 = yes }
+		40 = { get_military_station_small_east_ship_section_tech_level_4 = yes }
+		20 = { get_military_station_small_east_ship_section_tech_level_5 = yes }
+		10 = { get_military_station_small_east_ship_section_tech_level_6 = yes }
+		8 = { get_military_station_small_east_ship_section_tech_level_7 = yes }
+		6 = { get_military_station_small_east_ship_section_tech_level_8 = yes }
+		4 = { get_military_station_small_east_ship_section_tech_level_9 = yes }
+		2 = { get_military_station_small_east_ship_section_tech_level_10 = yes }
+	}
+}
+
+get_military_station_small_north_ship_section_tech_level_1 = {
+	if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_l1ul1pd1s1 } }
+		give_technology = { tech = tech_military_station_small_north_l1ul1pd1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_pd6us3s1 } }
+		give_technology = { tech = tech_military_station_small_north_pd6us3s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_g5 } }
+		give_technology = { tech = tech_military_station_small_north_g5 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_g5 } }
+		give_technology = { tech = tech_military_station_small_north_g5 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_x1s1us1 } }
+		give_technology = { tech = tech_military_station_small_north_x1s1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_ul2um1 } }
+		give_technology = { tech = tech_military_station_small_north_ul2um1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_l2um1 } }
+		give_technology = { tech = tech_military_station_small_north_l2um1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_g3m1um1 } }
+		give_technology = { tech = tech_military_station_small_north_g3m1um1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_um2pd5s1 } }
+		give_technology = { tech = tech_military_station_small_north_um2pd5s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_aux3um2 } }
+		give_technology = { tech = tech_military_station_small_north_aux3um2 message = yes }
+	}
+	else = {
+		get_military_station_small_north_ship_section_tech_level_2 = yes
+	}
+}
+
+get_military_station_small_north_ship_section_tech_level_2 = {
+	if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_l1aux2g1pd1us1 } }
+		give_technology = { tech = tech_military_station_small_north_l1aux2g1pd1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_um4m2 } }
+		give_technology = { tech = tech_military_station_small_north_um4m2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_x1hb1 } }
+		give_technology = { tech = tech_military_station_small_north_x1hb1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_hb1um1aux1m1us1s1 } }
+		give_technology = { tech = tech_military_station_small_north_hb1um1aux1m1us1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_x1m2 } }
+		give_technology = { tech = tech_military_station_small_north_x1m2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_l1g4 } }
+		give_technology = { tech = tech_military_station_small_north_l1g4 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_um3g2pd1us1 } }
+		give_technology = { tech = tech_military_station_small_north_um3g2pd1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_g6 } }
+		give_technology = { tech = tech_military_station_small_north_g6 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_us8pd3s1 } }
+		give_technology = { tech = tech_military_station_small_north_us8pd3s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_l1aux1s3us2pd1 } }
+		give_technology = { tech = tech_military_station_small_north_l1aux1s3us2pd1 message = yes }
+	}
+	else = {
+		get_military_station_small_north_ship_section_tech_level_3 = yes
+	}
+}
+
+get_military_station_small_north_ship_section_tech_level_3 = {
+	if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_g5um2 } }
+		give_technology = { tech = tech_military_station_small_north_g5um2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_ul1pd10 } }
+		give_technology = { tech = tech_military_station_small_north_ul1pd10 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_um4g1us4 } }
+		give_technology = { tech = tech_military_station_small_north_um4g1us4 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_hb1um1aux1m1pd3s1 } }
+		give_technology = { tech = tech_military_station_small_north_hb1um1aux1m1pd3s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_l1um5 } }
+		give_technology = { tech = tech_military_station_small_north_l1um5 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_ul1us10 } }
+		give_technology = { tech = tech_military_station_small_north_ul1us10 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_l3s2 } }
+		give_technology = { tech = tech_military_station_small_north_l3s2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_hb1l1m1aux1pd1us1 } }
+		give_technology = { tech = tech_military_station_small_north_hb1l1m1aux1pd1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_g1us11pd1 } }
+		give_technology = { tech = tech_military_station_small_north_g1us11pd1 message = yes }
+	}
+	else = {
+		get_military_station_small_north_ship_section_tech_level_4 = yes
+	}
+}
+
+get_military_station_small_north_ship_section_tech_level_4 = {
+	if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_m8pd1 } }
+		give_technology = { tech = tech_military_station_small_north_m8pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_hb1l1aux1pd5us2 } }
+		give_technology = { tech = tech_military_station_small_north_hb1l1aux1pd5us2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_aux7us3 } }
+		give_technology = { tech = tech_military_station_small_north_aux7us3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_hb2aux2um1s2pd1 } }
+		give_technology = { tech = tech_military_station_small_north_hb2aux2um1s2pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_x1aux1um1m1pd2us1 } }
+		give_technology = { tech = tech_military_station_small_north_x1aux1um1m1pd2us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_hb1l1um1aux1m1s1pd1us1 } }
+		give_technology = { tech = tech_military_station_small_north_hb1l1um1aux1m1s1pd1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_aux8us1 } }
+		give_technology = { tech = tech_military_station_small_north_aux8us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_l4pd1 } }
+		give_technology = { tech = tech_military_station_small_north_l4pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_hb4pd1 } }
+		give_technology = { tech = tech_military_station_small_north_hb4pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_x2pd1 } }
+		give_technology = { tech = tech_military_station_small_north_x2pd1 message = yes }
+	}
+	else = {
+		get_military_station_small_north_ship_section_tech_level_5 = yes
+	}
+}
+
+get_military_station_small_north_ship_section_tech_level_5 = {
+	if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_hb2aux5s1pd1 } }
+		give_technology = { tech = tech_military_station_small_north_hb2aux5s1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_um3us11pd2s1 } }
+		give_technology = { tech = tech_military_station_small_north_um3us11pd2s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_x1l1ul1g1s1pd1 } }
+		give_technology = { tech = tech_military_station_small_north_x1l1ul1g1s1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_g3um1us9pd3 } }
+		give_technology = { tech = tech_military_station_small_north_g3um1us9pd3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_ul1m1us13pd1 } }
+		give_technology = { tech = tech_military_station_small_north_ul1m1us13pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_x2l1 } }
+		give_technology = { tech = tech_military_station_small_north_x2l1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_x1hb2um1us1s1 } }
+		give_technology = { tech = tech_military_station_small_north_x1hb2um1us1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_l1hb1ul1m1g1um1aux1 } }
+		give_technology = { tech = tech_military_station_small_north_l1hb1ul1m1g1um1aux1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_hb1um3g3aux2 } }
+		give_technology = { tech = tech_military_station_small_north_hb1um3g3aux2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_x2ul1 } }
+		give_technology = { tech = tech_military_station_small_north_x2ul1 message = yes }
+	}
+	else = {
+		get_military_station_small_north_ship_section_tech_level_6 = yes
+	}
+}
+
+get_military_station_small_north_ship_section_tech_level_6 = {
+	if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_aux12 } }
+		give_technology = { tech = tech_military_station_small_north_aux12 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_g11aux1 } }
+		give_technology = { tech = tech_military_station_small_north_g11aux1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_x1hb1g1aux1m1um1pd2us1s1 } }
+		give_technology = { tech = tech_military_station_small_north_x1hb1g1aux1m1um1pd2us1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_x3 } }
+		give_technology = { tech = tech_military_station_small_north_x3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_hb1us20 } }
+		give_technology = { tech = tech_military_station_small_north_hb1us20 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_x1hb1aux1g1m1pd3s2us1 } }
+		give_technology = { tech = tech_military_station_small_north_x1hb1aux1g1m1pd3s2us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_um8s6us2 } }
+		give_technology = { tech = tech_military_station_small_north_um8s6us2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_x3 } }
+		give_technology = { tech = tech_military_station_small_north_x3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_t1hb2 } }
+		give_technology = { tech = tech_military_station_small_north_t1hb2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_aux12 } }
+		give_technology = { tech = tech_military_station_small_north_aux12 message = yes }
+	}
+	else = {
+		get_military_station_small_north_ship_section_tech_level_7 = yes
+	}
+}
+
+get_military_station_small_north_ship_section_tech_level_7 = {
+	if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_aux11s6us1 } }
+		give_technology = { tech = tech_military_station_small_north_aux11s6us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_ul1g11m1us1 } }
+		give_technology = { tech = tech_military_station_small_north_ul1g11m1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_ul7s1 } }
+		give_technology = { tech = tech_military_station_small_north_ul7s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_t1m1s10us1 } }
+		give_technology = { tech = tech_military_station_small_north_t1m1s10us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_x1m4aux2um1us4pd2s1 } }
+		give_technology = { tech = tech_military_station_small_north_x1m4aux2um1us4pd2s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_l1g2s13pd7us1 } }
+		give_technology = { tech = tech_military_station_small_north_l1g2s13pd7us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_aux8g2um1us7 } }
+		give_technology = { tech = tech_military_station_small_north_aux8g2um1us7 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_um11s6pd1 } }
+		give_technology = { tech = tech_military_station_small_north_um11s6pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_g1pd20us7 } }
+		give_technology = { tech = tech_military_station_small_north_g1pd20us7 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_x1um5g3pd5 } }
+		give_technology = { tech = tech_military_station_small_north_x1um5g3pd5 message = yes }
+	}
+	else = {
+		get_military_station_small_north_ship_section_tech_level_8 = yes
+	}
+}
+
+get_military_station_small_north_ship_section_tech_level_8 = {
+	if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_um6s20us3 } }
+		give_technology = { tech = tech_military_station_small_north_um6s20us3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_x3g2pd6us1 } }
+		give_technology = { tech = tech_military_station_small_north_x3g2pd6us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_t1hb1ul1m2um1aux1us2s1 } }
+		give_technology = { tech = tech_military_station_small_north_t1hb1ul1m2um1aux1us2s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_x1hb2l1ul1m2g2pd3 } }
+		give_technology = { tech = tech_military_station_small_north_x1hb2l1ul1m2g2pd3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_aux7pd20us1 } }
+		give_technology = { tech = tech_military_station_small_north_aux7pd20us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_g10m1us9pd4 } }
+		give_technology = { tech = tech_military_station_small_north_g10m1us9pd4 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_m16aux1us1 } }
+		give_technology = { tech = tech_military_station_small_north_m16aux1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_hb4g4aux3us3s1pd1 } }
+		give_technology = { tech = tech_military_station_small_north_hb4g4aux3us3s1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_um15s5 } }
+		give_technology = { tech = tech_military_station_small_north_um15s5 message = yes }
+	}
+	else = {
+		get_military_station_small_north_ship_section_tech_level_9 = yes
+	}
+}
+
+get_military_station_small_north_ship_section_tech_level_9 = {
+	if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_x2hb1s20us2 } }
+		give_technology = { tech = tech_military_station_small_north_x2hb1s20us2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_t1hb1um6m2g2pd1us1 } }
+		give_technology = { tech = tech_military_station_small_north_t1hb1um6m2g2pd1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_x4um4s2 } }
+		give_technology = { tech = tech_military_station_small_north_x4um4s2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_t2pd9s1 } }
+		give_technology = { tech = tech_military_station_small_north_t2pd9s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_t2hb2um1 } }
+		give_technology = { tech = tech_military_station_small_north_t2hb2um1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_t1x1l1ul1g2m1um1pd1s1 } }
+		give_technology = { tech = tech_military_station_small_north_t1x1l1ul1g2m1um1pd1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_t1x1l1m2aux2um1s2us1pd1 } }
+		give_technology = { tech = tech_military_station_small_north_t1x1l1m2aux2um1s2us1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_g11aux2us10s5pd1 } }
+		give_technology = { tech = tech_military_station_small_north_g11aux2us10s5pd1 message = yes }
+	}
+	else = {
+		get_military_station_small_north_ship_section_tech_level_10 = yes
+	}
+}
+
+get_military_station_small_north_ship_section_tech_level_10 = {
+	if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_hb2g20aux1us1 } }
+		give_technology = { tech = tech_military_station_small_north_hb2g20aux1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_x6g1us1 } }
+		give_technology = { tech = tech_military_station_small_north_x6g1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_l1g7aux2s20us8pd1 } }
+		give_technology = { tech = tech_military_station_small_north_l1g7aux2s20us8pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_hb3aux17m2us1 } }
+		give_technology = { tech = tech_military_station_small_north_hb3aux17m2us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_t1m10um3aux1s4pd2us1 } }
+		give_technology = { tech = tech_military_station_small_north_t1m10um3aux1s4pd2us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_x2l3ul2m3um1aux1pd3us1s1 } }
+		give_technology = { tech = tech_military_station_small_north_x2l3ul2m3um1aux1pd3us1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_t1x1hb1ul1l1aux2um1g1s4us2pd1 } }
+		give_technology = { tech = tech_military_station_small_north_t1x1hb1ul1l1aux2um1g1s4us2pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_t1x2hb1l1aux2m2pd2us1 } }
+		give_technology = { tech = tech_military_station_small_north_t1x2hb1l1aux2m2pd2us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_l3g16pd5us2 } }
+		give_technology = { tech = tech_military_station_small_north_l3g16pd5us2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_x4hb3aux2g1pd1 } }
+		give_technology = { tech = tech_military_station_small_north_x4hb3aux2g1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_ul3l2um10g1pd7us2 } }
+		give_technology = { tech = tech_military_station_small_north_ul3l2um10g1pd7us2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_north_ul9um2s11 } }
+		give_technology = { tech = tech_military_station_small_north_ul9um2s11 message = yes }
+	}
+	else = {
+		country_event = { id = pbships_draw.140 }
+	}
+}
+
+get_military_station_small_west_ship_section_tech_level_1 = {
+	if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_l1aux1um1pd1us1 } }
+		give_technology = { tech = tech_military_station_small_west_l1aux1um1pd1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_x1us1s1 } }
+		give_technology = { tech = tech_military_station_small_west_x1us1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_aux3pd3us1 } }
+		give_technology = { tech = tech_military_station_small_west_aux3pd3us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_m3g1aux1 } }
+		give_technology = { tech = tech_military_station_small_west_m3g1aux1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_um5 } }
+		give_technology = { tech = tech_military_station_small_west_um5 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_x1m1 } }
+		give_technology = { tech = tech_military_station_small_west_x1m1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_hb1g1s3pd1 } }
+		give_technology = { tech = tech_military_station_small_west_hb1g1s3pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_hb1m1s4 } }
+		give_technology = { tech = tech_military_station_small_west_hb1m1s4 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_ul1m3 } }
+		give_technology = { tech = tech_military_station_small_west_ul1m3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_ul1aux1s2us2 } }
+		give_technology = { tech = tech_military_station_small_west_ul1aux1s2us2 message = yes }
+	}
+	else = {
+		get_military_station_small_west_ship_section_tech_level_2 = yes
+	}
+}
+
+get_military_station_small_west_ship_section_tech_level_2 = {
+	if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_ul1hb1aux2 } }
+		give_technology = { tech = tech_military_station_small_west_ul1hb1aux2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_hb1ul1g1pd1us1 } }
+		give_technology = { tech = tech_military_station_small_west_hb1ul1g1pd1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_aux3g2pd1s1 } }
+		give_technology = { tech = tech_military_station_small_west_aux3g2pd1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_s12 } }
+		give_technology = { tech = tech_military_station_small_west_s12 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_x1s3pd1 } }
+		give_technology = { tech = tech_military_station_small_west_x1s3pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_l2um1us2 } }
+		give_technology = { tech = tech_military_station_small_west_l2um1us2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_aux6 } }
+		give_technology = { tech = tech_military_station_small_west_aux6 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_g2aux1pd4s1us1 } }
+		give_technology = { tech = tech_military_station_small_west_g2aux1pd4s1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_x1hb1 } }
+		give_technology = { tech = tech_military_station_small_west_x1hb1 message = yes }
+	}
+	else = {
+		get_military_station_small_west_ship_section_tech_level_3 = yes
+	}
+}
+
+get_military_station_small_west_ship_section_tech_level_3 = {
+	if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_um7 } }
+		give_technology = { tech = tech_military_station_small_west_um7 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_um2m1pd7s1 } }
+		give_technology = { tech = tech_military_station_small_west_um2m1pd7s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_l3us2 } }
+		give_technology = { tech = tech_military_station_small_west_l3us2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_x1g1aux1pd2 } }
+		give_technology = { tech = tech_military_station_small_west_x1g1aux1pd2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_x1hb1s2 } }
+		give_technology = { tech = tech_military_station_small_west_x1hb1s2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_ul1m1g1um1s2pd2 } }
+		give_technology = { tech = tech_military_station_small_west_ul1m1g1um1s2pd2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_aux5g2 } }
+		give_technology = { tech = tech_military_station_small_west_aux5g2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_x1pd6 } }
+		give_technology = { tech = tech_military_station_small_west_x1pd6 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_m3um2pd2s1us1 } }
+		give_technology = { tech = tech_military_station_small_west_m3um2pd2s1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_ul2hb1us2 } }
+		give_technology = { tech = tech_military_station_small_west_ul2hb1us2 message = yes }
+	}
+	else = {
+		get_military_station_small_west_ship_section_tech_level_4 = yes
+	}
+}
+
+get_military_station_small_west_ship_section_tech_level_4 = {
+	if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_hb1um5s2us1 } }
+		give_technology = { tech = tech_military_station_small_west_hb1um5s2us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_t1s1 } }
+		give_technology = { tech = tech_military_station_small_west_t1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_t1us1 } }
+		give_technology = { tech = tech_military_station_small_west_t1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_ul1aux4s4us1 } }
+		give_technology = { tech = tech_military_station_small_west_ul1aux4s4us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_um8pd1 } }
+		give_technology = { tech = tech_military_station_small_west_um8pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_x1hb1ul1pd1 } }
+		give_technology = { tech = tech_military_station_small_west_x1hb1ul1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_ul3l1s1 } }
+		give_technology = { tech = tech_military_station_small_west_ul3l1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_l1ul1aux1um1m1pd1us1s1 } }
+		give_technology = { tech = tech_military_station_small_west_l1ul1aux1um1m1pd1us1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_hb1ul1l1g1um1s1 } }
+		give_technology = { tech = tech_military_station_small_west_hb1ul1l1g1um1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_g8us1 } }
+		give_technology = { tech = tech_military_station_small_west_g8us1 message = yes }
+	}
+	else = {
+		get_military_station_small_west_ship_section_tech_level_5 = yes
+	}
+}
+
+get_military_station_small_west_ship_section_tech_level_5 = {
+	if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_x1l1m2um1s2 } }
+		give_technology = { tech = tech_military_station_small_west_x1l1m2um1s2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_g9pd2 } }
+		give_technology = { tech = tech_military_station_small_west_g9pd2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_l2g4s2pd1us1 } }
+		give_technology = { tech = tech_military_station_small_west_l2g4s2pd1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_m7s4us2 } }
+		give_technology = { tech = tech_military_station_small_west_m7s4us2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_t1pd4 } }
+		give_technology = { tech = tech_military_station_small_west_t1pd4 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_x2pd3s1 } }
+		give_technology = { tech = tech_military_station_small_west_x2pd3s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_hb2s10us1pd1 } }
+		give_technology = { tech = tech_military_station_small_west_hb2s10us1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_l2m2aux1pd4s2 } }
+		give_technology = { tech = tech_military_station_small_west_l2m2aux1pd4s2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_pd19s1 } }
+		give_technology = { tech = tech_military_station_small_west_pd19s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_m6um3us2 } }
+		give_technology = { tech = tech_military_station_small_west_m6um3us2 message = yes }
+	}
+	else = {
+		get_military_station_small_west_ship_section_tech_level_6 = yes
+	}
+}
+
+get_military_station_small_west_ship_section_tech_level_6 = {
+	if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_l1us20 } }
+		give_technology = { tech = tech_military_station_small_west_l1us20 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_x1hb1l1g1um1us2pd1s1 } }
+		give_technology = { tech = tech_military_station_small_west_x1hb1l1g1um1us2pd1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_x1ul1m2aux1s5pd1 } }
+		give_technology = { tech = tech_military_station_small_west_x1ul1m2aux1s5pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_l2aux5m2pd1s1 } }
+		give_technology = { tech = tech_military_station_small_west_l2aux5m2pd1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_x1um2m1aux1g1us3pd2s1 } }
+		give_technology = { tech = tech_military_station_small_west_x1um2m1aux1g1us3pd2s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_ul5pd4 } }
+		give_technology = { tech = tech_military_station_small_west_ul5pd4 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_t1l1aux1us1s1 } }
+		give_technology = { tech = tech_military_station_small_west_t1l1aux1us1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_t1l1um1us2 } }
+		give_technology = { tech = tech_military_station_small_west_t1l1um1us2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_m7aux3us3s1 } }
+		give_technology = { tech = tech_military_station_small_west_m7aux3us3s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_x1l1aux2g2pd2us1s1 } }
+		give_technology = { tech = tech_military_station_small_west_x1l1aux2g2pd2us1s1 message = yes }
+	}
+	else = {
+		get_military_station_small_west_ship_section_tech_level_7 = yes
+	}
+}
+
+get_military_station_small_west_ship_section_tech_level_7 = {
+	if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_ul3l2hb1aux1s3 } }
+		give_technology = { tech = tech_military_station_small_west_ul3l2hb1aux1s3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_ul2hb1l1aux4pd4s1 } }
+		give_technology = { tech = tech_military_station_small_west_ul2hb1l1aux4pd4s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_l2aux9m1s1 } }
+		give_technology = { tech = tech_military_station_small_west_l2aux9m1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_t1x1g2pd1 } }
+		give_technology = { tech = tech_military_station_small_west_t1x1g2pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_x2g2um1pd3s2us2 } }
+		give_technology = { tech = tech_military_station_small_west_x2g2um1pd3s2us2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_ul2hb2aux2m1um1s4us1 } }
+		give_technology = { tech = tech_military_station_small_west_ul2hb2aux2m1um1s4us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_um4us20s1 } }
+		give_technology = { tech = tech_military_station_small_west_um4us20s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_hb1ul1g3um2aux1pd4s3us2 } }
+		give_technology = { tech = tech_military_station_small_west_hb1ul1g3um2aux1pd4s3us2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_x2l1aux1pd7 } }
+		give_technology = { tech = tech_military_station_small_west_x2l1aux1pd7 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_l1m12pd1 } }
+		give_technology = { tech = tech_military_station_small_west_l1m12pd1 message = yes }
+	}
+	else = {
+		get_military_station_small_west_ship_section_tech_level_8 = yes
+	}
+}
+
+get_military_station_small_west_ship_section_tech_level_8 = {
+	if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_x1m1us16pd9 } }
+		give_technology = { tech = tech_military_station_small_west_x1m1us16pd9 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_hb3ul1aux3m1g1pd5s3us1 } }
+		give_technology = { tech = tech_military_station_small_west_hb3ul1aux3m1g1pd5s3us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_aux10um4s4pd2us1 } }
+		give_technology = { tech = tech_military_station_small_west_aux10um4s4pd2us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_x1ul2g4s10pd1 } }
+		give_technology = { tech = tech_military_station_small_west_x1ul2g4s10pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_x1g3pd20s1 } }
+		give_technology = { tech = tech_military_station_small_west_x1g3pd20s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_ul8s3 } }
+		give_technology = { tech = tech_military_station_small_west_ul8s3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_t1l1ul1m3um1s3 } }
+		give_technology = { tech = tech_military_station_small_west_t1l1ul1m3um1s3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_x3ul2um1us1 } }
+		give_technology = { tech = tech_military_station_small_west_x3ul2um1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_l3ul1aux9pd1 } }
+		give_technology = { tech = tech_military_station_small_west_l3ul1aux9pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_aux16g1us1 } }
+		give_technology = { tech = tech_military_station_small_west_aux16g1us1 message = yes }
+	}
+	else = {
+		get_military_station_small_west_ship_section_tech_level_9 = yes
+	}
+}
+
+get_military_station_small_west_ship_section_tech_level_9 = {
+	if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_t1x3pd2 } }
+		give_technology = { tech = tech_military_station_small_west_t1x3pd2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_t1m3s20 } }
+		give_technology = { tech = tech_military_station_small_west_t1m3s20 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_ul10aux1 } }
+		give_technology = { tech = tech_military_station_small_west_ul10aux1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_t2um1s7us1 } }
+		give_technology = { tech = tech_military_station_small_west_t2um1s7us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_g20m1 } }
+		give_technology = { tech = tech_military_station_small_west_g20m1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_x1um17 } }
+		give_technology = { tech = tech_military_station_small_west_x1um17 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_x5m1 } }
+		give_technology = { tech = tech_military_station_small_west_x5m1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_g20um1 } }
+		give_technology = { tech = tech_military_station_small_west_g20um1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_aux1s20pd20 } }
+		give_technology = { tech = tech_military_station_small_west_aux1s20pd20 message = yes }
+	}
+	else = {
+		get_military_station_small_west_ship_section_tech_level_10 = yes
+	}
+}
+
+get_military_station_small_west_ship_section_tech_level_10 = {
+	if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_um20pd9s2 } }
+		give_technology = { tech = tech_military_station_small_west_um20pd9s2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_x5g4m1s1 } }
+		give_technology = { tech = tech_military_station_small_west_x5g4m1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_t1x1l1ul1m2g2aux2um2s1pd1us1 } }
+		give_technology = { tech = tech_military_station_small_west_t1x1l1ul1m2g2aux2um2s1pd1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_x1l4ul2um6aux2m1pd1 } }
+		give_technology = { tech = tech_military_station_small_west_x1l4ul2um6aux2m1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_x1l3hb1ul1m4g3aux1um1pd3us2 } }
+		give_technology = { tech = tech_military_station_small_west_x1l3hb1ul1m4g3aux1um1pd3us2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_l4hb1um15s1 } }
+		give_technology = { tech = tech_military_station_small_west_l4hb1um15s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_ul1m12g1s20pd1 } }
+		give_technology = { tech = tech_military_station_small_west_ul1m12g1s20pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_t1x1ul1l1hb1g2m2aux1us2pd2s1 } }
+		give_technology = { tech = tech_military_station_small_west_t1x1ul1l1hb1g2m2aux1us2pd2s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_west_t1x1hb1ul1aux2m2um1g1us5pd1s1 } }
+		give_technology = { tech = tech_military_station_small_west_t1x1hb1ul1aux2m2um1g1us5pd1s1 message = yes }
+	}
+	else = {
+		country_event = { id = pbships_draw.140 }
+	}
+}
+
+get_military_station_small_south_ship_section_tech_level_1 = {
+	if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_hb1l1um1 } }
+		give_technology = { tech = tech_military_station_small_south_hb1l1um1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_g4us2 } }
+		give_technology = { tech = tech_military_station_small_south_g4us2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_hb1um1us3s1 } }
+		give_technology = { tech = tech_military_station_small_south_hb1um1us3s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_hb2um1 } }
+		give_technology = { tech = tech_military_station_small_south_hb2um1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_us9pd1 } }
+		give_technology = { tech = tech_military_station_small_south_us9pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_ul2g1 } }
+		give_technology = { tech = tech_military_station_small_south_ul2g1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_pd7us2s1 } }
+		give_technology = { tech = tech_military_station_small_south_pd7us2s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_l1m3 } }
+		give_technology = { tech = tech_military_station_small_south_l1m3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_g2us5pd1 } }
+		give_technology = { tech = tech_military_station_small_south_g2us5pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_hb1m1g1us1s1 } }
+		give_technology = { tech = tech_military_station_small_south_hb1m1g1us1s1 message = yes }
+	}
+	else = {
+		get_military_station_small_south_ship_section_tech_level_2 = yes
+	}
+}
+
+get_military_station_small_south_ship_section_tech_level_2 = {
+	if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_ul2g1us2 } }
+		give_technology = { tech = tech_military_station_small_south_ul2g1us2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_ul1um1aux1m1pd1us1 } }
+		give_technology = { tech = tech_military_station_small_south_ul1um1aux1m1pd1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_um1pd9s1 } }
+		give_technology = { tech = tech_military_station_small_south_um1pd9s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_aux3m2g1 } }
+		give_technology = { tech = tech_military_station_small_south_aux3m2g1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_ul1um4 } }
+		give_technology = { tech = tech_military_station_small_south_ul1um4 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_um2s7us1 } }
+		give_technology = { tech = tech_military_station_small_south_um2s7us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_hb1aux2pd2us1s1 } }
+		give_technology = { tech = tech_military_station_small_south_hb1aux2pd2us1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_hb1l1g1us1pd1 } }
+		give_technology = { tech = tech_military_station_small_south_hb1l1g1us1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_ul1aux2us4 } }
+		give_technology = { tech = tech_military_station_small_south_ul1aux2us4 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_ul3 } }
+		give_technology = { tech = tech_military_station_small_south_ul3 message = yes }
+	}
+	else = {
+		get_military_station_small_south_ship_section_tech_level_3 = yes
+	}
+}
+
+get_military_station_small_south_ship_section_tech_level_3 = {
+	if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_l3g1 } }
+		give_technology = { tech = tech_military_station_small_south_l3g1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_hb1s9us1 } }
+		give_technology = { tech = tech_military_station_small_south_hb1s9us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_hb1ul1l1s1us1 } }
+		give_technology = { tech = tech_military_station_small_south_hb1ul1l1s1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_x1hb1m1 } }
+		give_technology = { tech = tech_military_station_small_south_x1hb1m1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_x1hb1pd1s1 } }
+		give_technology = { tech = tech_military_station_small_south_x1hb1pd1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_l1m4g1 } }
+		give_technology = { tech = tech_military_station_small_south_l1m4g1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_um4m1pd4 } }
+		give_technology = { tech = tech_military_station_small_south_um4m1pd4 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_hb1m1s4us2pd2 } }
+		give_technology = { tech = tech_military_station_small_south_hb1m1s4us2pd2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_l3g1 } }
+		give_technology = { tech = tech_military_station_small_south_l3g1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_m3um1g1s3us1 } }
+		give_technology = { tech = tech_military_station_small_south_m3um1g1s3us1 message = yes }
+	}
+	else = {
+		get_military_station_small_south_ship_section_tech_level_4 = yes
+	}
+}
+
+get_military_station_small_south_ship_section_tech_level_4 = {
+	if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_ul2us9 } }
+		give_technology = { tech = tech_military_station_small_south_ul2us9 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_l4us1 } }
+		give_technology = { tech = tech_military_station_small_south_l4us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_aux2us10s2pd1 } }
+		give_technology = { tech = tech_military_station_small_south_aux2us10s2pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_hb1ul1aux1um1m1us1pd1s1 } }
+		give_technology = { tech = tech_military_station_small_south_hb1ul1aux1um1m1us1pd1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_hb2m1s4us2pd1 } }
+		give_technology = { tech = tech_military_station_small_south_hb2m1s4us2pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_ul2m4pd1 } }
+		give_technology = { tech = tech_military_station_small_south_ul2m4pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_x1ul1um1us1s1pd1 } }
+		give_technology = { tech = tech_military_station_small_south_x1ul1um1us1s1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_um3g1pd8us1 } }
+		give_technology = { tech = tech_military_station_small_south_um3g1pd8us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_um1us14s1 } }
+		give_technology = { tech = tech_military_station_small_south_um1us14s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_us17 } }
+		give_technology = { tech = tech_military_station_small_south_us17 message = yes }
+	}
+	else = {
+		get_military_station_small_south_ship_section_tech_level_5 = yes
+	}
+}
+
+get_military_station_small_south_ship_section_tech_level_5 = {
+	if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_t1l1 } }
+		give_technology = { tech = tech_military_station_small_south_t1l1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_hb1l1aux1g1um1us3pd2s1 } }
+		give_technology = { tech = tech_military_station_small_south_hb1l1aux1g1um1us3pd2s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_l4pd3s1 } }
+		give_technology = { tech = tech_military_station_small_south_l4pd3s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_x2aux1s1us1 } }
+		give_technology = { tech = tech_military_station_small_south_x2aux1s1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_m10 } }
+		give_technology = { tech = tech_military_station_small_south_m10 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_ul2m1g1us6pd2 } }
+		give_technology = { tech = tech_military_station_small_south_ul2m1g1us6pd2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_hb1m1um1us6s4pd2 } }
+		give_technology = { tech = tech_military_station_small_south_hb1m1um1us6s4pd2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_us20 } }
+		give_technology = { tech = tech_military_station_small_south_us20 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_ul3aux1g1pd4 } }
+		give_technology = { tech = tech_military_station_small_south_ul3aux1g1pd4 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_um9pd2 } }
+		give_technology = { tech = tech_military_station_small_south_um9pd2 message = yes }
+	}
+	else = {
+		get_military_station_small_south_ship_section_tech_level_6 = yes
+	}
+}
+
+get_military_station_small_south_ship_section_tech_level_6 = {
+	if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_aux9um3 } }
+		give_technology = { tech = tech_military_station_small_south_aux9um3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_l1pd19us1 } }
+		give_technology = { tech = tech_military_station_small_south_l1pd19us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_l4g3pd2 } }
+		give_technology = { tech = tech_military_station_small_south_l4g3pd2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_x1hb1aux3g2m1 } }
+		give_technology = { tech = tech_military_station_small_south_x1hb1aux3g2m1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_hb6 } }
+		give_technology = { tech = tech_military_station_small_south_hb6 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_hb1ul1m3um1pd8 } }
+		give_technology = { tech = tech_military_station_small_south_hb1ul1m3um1pd8 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_l6 } }
+		give_technology = { tech = tech_military_station_small_south_l6 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_ul4s6us2 } }
+		give_technology = { tech = tech_military_station_small_south_ul4s6us2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_m3g2um1s10pd2 } }
+		give_technology = { tech = tech_military_station_small_south_m3g2um1s10pd2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_x1s13us2pd1 } }
+		give_technology = { tech = tech_military_station_small_south_x1s13us2pd1 message = yes }
+	}
+	else = {
+		get_military_station_small_south_ship_section_tech_level_7 = yes
+	}
+}
+
+get_military_station_small_south_ship_section_tech_level_7 = {
+	if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_x3ul1pd1 } }
+		give_technology = { tech = tech_military_station_small_south_x3ul1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_ul7s1 } }
+		give_technology = { tech = tech_military_station_small_south_ul7s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_x3m2s1 } }
+		give_technology = { tech = tech_military_station_small_south_x3m2s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_hb2aux2um1pd11s4 } }
+		give_technology = { tech = tech_military_station_small_south_hb2aux2um1pd11s4 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_hb2ul1um2aux2g1s4us2pd1 } }
+		give_technology = { tech = tech_military_station_small_south_hb2ul1um2aux2g1s4us2pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_l7us1 } }
+		give_technology = { tech = tech_military_station_small_south_l7us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_hb4aux2pd8us1 } }
+		give_technology = { tech = tech_military_station_small_south_hb4aux2pd8us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_l1m6g4um1us2s1 } }
+		give_technology = { tech = tech_military_station_small_south_l1m6g4um1us2s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_ul6aux2pd1 } }
+		give_technology = { tech = tech_military_station_small_south_ul6aux2pd1 message = yes }
+	}
+	else = {
+		get_military_station_small_south_ship_section_tech_level_8 = yes
+	}
+}
+
+get_military_station_small_south_ship_section_tech_level_8 = {
+	if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_t2aux1pd1 } }
+		give_technology = { tech = tech_military_station_small_south_t2aux1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_l2aux1g1um1pd12us5s4 } }
+		give_technology = { tech = tech_military_station_small_south_l2aux1g1um1pd12us5s4 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_x4aux1pd1 } }
+		give_technology = { tech = tech_military_station_small_south_x4aux1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_t2m1s1 } }
+		give_technology = { tech = tech_military_station_small_south_t2m1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_x1hb2ul1l1m2um1pd4s1 } }
+		give_technology = { tech = tech_military_station_small_south_x1hb2ul1l1m2um1pd4s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_m12um4pd2us1 } }
+		give_technology = { tech = tech_military_station_small_south_m12um4pd2us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_m13s7pd2 } }
+		give_technology = { tech = tech_military_station_small_south_m13s7pd2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_hb3um9aux2us1 } }
+		give_technology = { tech = tech_military_station_small_south_hb3um9aux2us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_t1l1hb1ul1g1um1s1us1pd1 } }
+		give_technology = { tech = tech_military_station_small_south_t1l1hb1ul1g1um1s1us1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_hb2m13us1 } }
+		give_technology = { tech = tech_military_station_small_south_hb2m13us1 message = yes }
+	}
+	else = {
+		get_military_station_small_south_ship_section_tech_level_9 = yes
+	}
+}
+
+get_military_station_small_south_ship_section_tech_level_9 = {
+	if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_g10aux1us11pd6s3 } }
+		give_technology = { tech = tech_military_station_small_south_g10aux1us11pd6s3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_t2us9s1 } }
+		give_technology = { tech = tech_military_station_small_south_t2us9s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_m20um1 } }
+		give_technology = { tech = tech_military_station_small_south_m20um1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_t1ul2hb1g5aux1pd1s1 } }
+		give_technology = { tech = tech_military_station_small_south_t1ul2hb1g5aux1pd1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_x1ul1l1g4aux2um2m1s4pd4 } }
+		give_technology = { tech = tech_military_station_small_south_x1ul1l1g4aux2um2m1s4pd4 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_x2ul2l1um5s4 } }
+		give_technology = { tech = tech_military_station_small_south_x2ul2l1um5s4 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_l1um12aux6g1 } }
+		give_technology = { tech = tech_military_station_small_south_l1um12aux6g1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_ul5g1us20 } }
+		give_technology = { tech = tech_military_station_small_south_ul5g1us20 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_m16g4um1 } }
+		give_technology = { tech = tech_military_station_small_south_m16g4um1 message = yes }
+	}
+	else = {
+		get_military_station_small_south_ship_section_tech_level_10 = yes
+	}
+}
+
+get_military_station_small_south_ship_section_tech_level_10 = {
+	if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_x6pd3 } }
+		give_technology = { tech = tech_military_station_small_south_x6pd3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_x2ul2hb1aux1g1s11pd8 } }
+		give_technology = { tech = tech_military_station_small_south_x2ul2hb1aux1g1s11pd8 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_x6aux1us1 } }
+		give_technology = { tech = tech_military_station_small_south_x6aux1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_x5um2pd7 } }
+		give_technology = { tech = tech_military_station_small_south_x5um2pd7 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_hb12um1s1 } }
+		give_technology = { tech = tech_military_station_small_south_hb12um1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_hb9g6um1us1 } }
+		give_technology = { tech = tech_military_station_small_south_hb9g6um1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_m12aux3us20pd1 } }
+		give_technology = { tech = tech_military_station_small_south_m12aux3us20pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_l2g11us20pd1 } }
+		give_technology = { tech = tech_military_station_small_south_l2g11us20pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_south_t1hb3ul1l1g2m2um1pd5 } }
+		give_technology = { tech = tech_military_station_small_south_t1hb3ul1l1g2m2um1pd5 message = yes }
+	}
+	else = {
+		country_event = { id = pbships_draw.140 }
+	}
+}
+
+get_military_station_small_east_ship_section_tech_level_1 = {
+	if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_um4us2 } }
+		give_technology = { tech = tech_military_station_small_east_um4us2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_um2s5us1 } }
+		give_technology = { tech = tech_military_station_small_east_um2s5us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_x1aux1 } }
+		give_technology = { tech = tech_military_station_small_east_x1aux1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_g1aux1um1m1pd2 } }
+		give_technology = { tech = tech_military_station_small_east_g1aux1um1m1pd2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_g1aux1us3s2pd1 } }
+		give_technology = { tech = tech_military_station_small_east_g1aux1us3s2pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_um1s7pd1 } }
+		give_technology = { tech = tech_military_station_small_east_um1s7pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_x1pd1s1 } }
+		give_technology = { tech = tech_military_station_small_east_x1pd1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_l1g3 } }
+		give_technology = { tech = tech_military_station_small_east_l1g3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_l1aux1um1us1pd1 } }
+		give_technology = { tech = tech_military_station_small_east_l1aux1um1us1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_us10 } }
+		give_technology = { tech = tech_military_station_small_east_us10 message = yes }
+	}
+	else = {
+		get_military_station_small_east_ship_section_tech_level_2 = yes
+	}
+}
+
+get_military_station_small_east_ship_section_tech_level_2 = {
+	if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_g2m1us6 } }
+		give_technology = { tech = tech_military_station_small_east_g2m1us6 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_ul1m1g1aux1pd1us1 } }
+		give_technology = { tech = tech_military_station_small_east_ul1m1g1aux1pd1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_ul1um1m1g1pd1us1 } }
+		give_technology = { tech = tech_military_station_small_east_ul1um1m1g1pd1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_hb1us8 } }
+		give_technology = { tech = tech_military_station_small_east_hb1us8 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_l1g4 } }
+		give_technology = { tech = tech_military_station_small_east_l1g4 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_x1us4 } }
+		give_technology = { tech = tech_military_station_small_east_x1us4 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_m5pd2 } }
+		give_technology = { tech = tech_military_station_small_east_m5pd2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_l1um1g1aux1m1 } }
+		give_technology = { tech = tech_military_station_small_east_l1um1g1aux1m1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_x1hb1 } }
+		give_technology = { tech = tech_military_station_small_east_x1hb1 message = yes }
+	}
+	else = {
+		get_military_station_small_east_ship_section_tech_level_3 = yes
+	}
+}
+
+get_military_station_small_east_ship_section_tech_level_3 = {
+	if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_l3s2 } }
+		give_technology = { tech = tech_military_station_small_east_l3s2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_x1hb1pd1s1 } }
+		give_technology = { tech = tech_military_station_small_east_x1hb1pd1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_g3m1pd4s2 } }
+		give_technology = { tech = tech_military_station_small_east_g3m1pd4s2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_s14 } }
+		give_technology = { tech = tech_military_station_small_east_s14 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_um6aux1 } }
+		give_technology = { tech = tech_military_station_small_east_um6aux1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_um4aux2us1pd1 } }
+		give_technology = { tech = tech_military_station_small_east_um4aux2us1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_hb3aux1 } }
+		give_technology = { tech = tech_military_station_small_east_hb3aux1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_l2um1s3pd1 } }
+		give_technology = { tech = tech_military_station_small_east_l2um1s3pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_hb1ul1g1um1pd2 } }
+		give_technology = { tech = tech_military_station_small_east_hb1ul1g1um1pd2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_ul3g1 } }
+		give_technology = { tech = tech_military_station_small_east_ul3g1 message = yes }
+	}
+	else = {
+		get_military_station_small_east_ship_section_tech_level_4 = yes
+	}
+}
+
+get_military_station_small_east_ship_section_tech_level_4 = {
+	if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_l3us3s1pd1 } }
+		give_technology = { tech = tech_military_station_small_east_l3us3s1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_x2pd1 } }
+		give_technology = { tech = tech_military_station_small_east_x2pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_l1um6s1 } }
+		give_technology = { tech = tech_military_station_small_east_l1um6s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_um2pd12us1 } }
+		give_technology = { tech = tech_military_station_small_east_um2pd12us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_ul1g2um1aux1pd2s2us1 } }
+		give_technology = { tech = tech_military_station_small_east_ul1g2um1aux1pd2s2us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_ul2l1aux2pd1 } }
+		give_technology = { tech = tech_military_station_small_east_ul2l1aux2pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_x2s1 } }
+		give_technology = { tech = tech_military_station_small_east_x2s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_m8pd1 } }
+		give_technology = { tech = tech_military_station_small_east_m8pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_ul2s9 } }
+		give_technology = { tech = tech_military_station_small_east_ul2s9 message = yes }
+	}
+	else = {
+		get_military_station_small_east_ship_section_tech_level_5 = yes
+	}
+}
+
+get_military_station_small_east_ship_section_tech_level_5 = {
+	if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_l2um2g1s3pd2us1 } }
+		give_technology = { tech = tech_military_station_small_east_l2um2g1s3pd2us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_l1um7pd2 } }
+		give_technology = { tech = tech_military_station_small_east_l1um7pd2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_l3g2um1us1s1 } }
+		give_technology = { tech = tech_military_station_small_east_l3g2um1us1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_l1ul1g3um1pd3us1 } }
+		give_technology = { tech = tech_military_station_small_east_l1ul1g3um1pd3us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_x1aux1pd7us2s1 } }
+		give_technology = { tech = tech_military_station_small_east_x1aux1pd7us2s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_t1m2 } }
+		give_technology = { tech = tech_military_station_small_east_t1m2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_aux3um2m1g1s3us2pd1 } }
+		give_technology = { tech = tech_military_station_small_east_aux3um2m1g1s3us2pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_t1g1aux1 } }
+		give_technology = { tech = tech_military_station_small_east_t1g1aux1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_x1m2aux1s4us1pd1 } }
+		give_technology = { tech = tech_military_station_small_east_x1m2aux1s4us1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_hb3m3pd2 } }
+		give_technology = { tech = tech_military_station_small_east_hb3m3pd2 message = yes }
+	}
+	else = {
+		get_military_station_small_east_ship_section_tech_level_6 = yes
+	}
+}
+
+get_military_station_small_east_ship_section_tech_level_6 = {
+	if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_l1pd19us1 } }
+		give_technology = { tech = tech_military_station_small_east_l1pd19us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_hb1um9us2 } }
+		give_technology = { tech = tech_military_station_small_east_hb1um9us2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_hb3ul1aux3s1us1 } }
+		give_technology = { tech = tech_military_station_small_east_hb3ul1aux3s1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_x1ul1hb1aux1m1um1pd1us1 } }
+		give_technology = { tech = tech_military_station_small_east_x1ul1hb1aux1m1um1pd1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_x3 } }
+		give_technology = { tech = tech_military_station_small_east_x3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_l6 } }
+		give_technology = { tech = tech_military_station_small_east_l6 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_l6 } }
+		give_technology = { tech = tech_military_station_small_east_l6 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_x1hb1l1ul1m1pd1us1 } }
+		give_technology = { tech = tech_military_station_small_east_x1hb1l1ul1m1pd1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_x2hb2 } }
+		give_technology = { tech = tech_military_station_small_east_x2hb2 message = yes }
+	}
+	else = {
+		get_military_station_small_east_ship_section_tech_level_7 = yes
+	}
+}
+
+get_military_station_small_east_ship_section_tech_level_7 = {
+	if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_um12m2s1 } }
+		give_technology = { tech = tech_military_station_small_east_um12m2s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_t1hb1aux1pd6us1 } }
+		give_technology = { tech = tech_military_station_small_east_t1hb1aux1pd6us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_x1m9um1pd1 } }
+		give_technology = { tech = tech_military_station_small_east_x1m9um1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_t1ul1hb1um1aux1pd1 } }
+		give_technology = { tech = tech_military_station_small_east_t1ul1hb1um1aux1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_t1l1g3m1pd1 } }
+		give_technology = { tech = tech_military_station_small_east_t1l1g3m1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_l3ul2um2aux1g1us1 } }
+		give_technology = { tech = tech_military_station_small_east_l3ul2um2aux1g1us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_ul2hb1g2aux2s9 } }
+		give_technology = { tech = tech_military_station_small_east_ul2hb1g2aux2s9 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_x3s5 } }
+		give_technology = { tech = tech_military_station_small_east_x3s5 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_x1l1aux2g2um1s5pd2 } }
+		give_technology = { tech = tech_military_station_small_east_x1l1aux2g2um1s5pd2 message = yes }
+	}
+	else = {
+		get_military_station_small_east_ship_section_tech_level_8 = yes
+	}
+}
+
+get_military_station_small_east_ship_section_tech_level_8 = {
+	if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_x3um1us8pd1 } }
+		give_technology = { tech = tech_military_station_small_east_x3um1us8pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_hb8pd3 } }
+		give_technology = { tech = tech_military_station_small_east_hb8pd3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_g7pd20s1 } }
+		give_technology = { tech = tech_military_station_small_east_g7pd20s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_hb6g1us8pd1 } }
+		give_technology = { tech = tech_military_station_small_east_hb6g1us8pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_g12um1us8s1 } }
+		give_technology = { tech = tech_military_station_small_east_g12um1us8s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_ul8g1pd1 } }
+		give_technology = { tech = tech_military_station_small_east_ul8g1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_x4pd3 } }
+		give_technology = { tech = tech_military_station_small_east_x4pd3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_t1l3um2m1pd1 } }
+		give_technology = { tech = tech_military_station_small_east_t1l3um2m1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_x1g7us8pd5 } }
+		give_technology = { tech = tech_military_station_small_east_x1g7us8pd5 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_x1g3us20s1 } }
+		give_technology = { tech = tech_military_station_small_east_x1g3us20s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_aux5m1s18us4pd1 } }
+		give_technology = { tech = tech_military_station_small_east_aux5m1s18us4pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_t2g1pd1 } }
+		give_technology = { tech = tech_military_station_small_east_t2g1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_m5g1s19us4 } }
+		give_technology = { tech = tech_military_station_small_east_m5g1s19us4 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_x1hb1ul1l1g2m1um1aux1s4us1 } }
+		give_technology = { tech = tech_military_station_small_east_x1hb1ul1l1g2m1um1aux1s4us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_l3um10us2s1 } }
+		give_technology = { tech = tech_military_station_small_east_l3um10us2s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_l6m2pd7 } }
+		give_technology = { tech = tech_military_station_small_east_l6m2pd7 message = yes }
+	}
+	else = {
+		get_military_station_small_east_ship_section_tech_level_9 = yes
+	}
+}
+
+get_military_station_small_east_ship_section_tech_level_9 = {
+	if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_x1l2ul2um2g2s5pd4us1 } }
+		give_technology = { tech = tech_military_station_small_east_x1l2ul2um2g2s5pd4us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_t1x1l1hb1g1um1aux1m1us1pd1 } }
+		give_technology = { tech = tech_military_station_small_east_t1x1l1hb1g1um1aux1m1us1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_aux10m1pd20 } }
+		give_technology = { tech = tech_military_station_small_east_aux10m1pd20 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_t1x1m9 } }
+		give_technology = { tech = tech_military_station_small_east_t1x1m9 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_g3pd20s15us1 } }
+		give_technology = { tech = tech_military_station_small_east_g3pd20s15us1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_t1hb3ul1um2s4us1pd1 } }
+		give_technology = { tech = tech_military_station_small_east_t1hb3ul1um2s4us1pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_l3hb1g2m2um1us11s5 } }
+		give_technology = { tech = tech_military_station_small_east_l3hb1g2m2um1us11s5 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_t1x1l1um4g3 } }
+		give_technology = { tech = tech_military_station_small_east_t1x1l1um4g3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_l3m10aux1us5s3 } }
+		give_technology = { tech = tech_military_station_small_east_l3m10aux1us5s3 message = yes }
+	}
+	else = {
+		get_military_station_small_east_ship_section_tech_level_10 = yes
+	}
+}
+
+get_military_station_small_east_ship_section_tech_level_10 = {
+	if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_l7pd20s3 } }
+		give_technology = { tech = tech_military_station_small_east_l7pd20s3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_um4g1s20us20pd1 } }
+		give_technology = { tech = tech_military_station_small_east_um4g1s20us20pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_hb2um20m1s1 } }
+		give_technology = { tech = tech_military_station_small_east_hb2um20m1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_t1ul5hb2m2g1s1 } }
+		give_technology = { tech = tech_military_station_small_east_t1ul5hb2m2g1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_x1hb10pd3 } }
+		give_technology = { tech = tech_military_station_small_east_x1hb10pd3 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_t1ul2um6m3us9 } }
+		give_technology = { tech = tech_military_station_small_east_t1ul2um6m3us9 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_t1x1ul2um3m1aux1g1pd5us1s1 } }
+		give_technology = { tech = tech_military_station_small_east_t1x1ul2um3m1aux1g1pd5us1s1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_x1l4g5um2aux1m1us7pd2 } }
+		give_technology = { tech = tech_military_station_small_east_x1l4g5um2aux1m1us7pd2 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_t1ul2l2hb1um2aux1g1us6pd1 } }
+		give_technology = { tech = tech_military_station_small_east_t1ul2l2hb1um2aux1g1us6pd1 message = yes }
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_military_station_small_east_t1x1ul2l1um3m2pd4s1 } }
+		give_technology = { tech = tech_military_station_small_east_t1x1ul2l1um3m2pd4s1 message = yes }
+	}
+	else = {
+		country_event = { id = pbships_draw.140 }
+	}
+}

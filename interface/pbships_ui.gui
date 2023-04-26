@@ -104,7 +104,13 @@ guiTypes = {
 				name = "physics_progressbar"
 				spriteType = "GFX_queue_progressbar"
 				position = { x = 25 y = 66 }
-				alwaysTransparent = yes
+			}
+			iconType = {
+				name = "physics_progressbar_marker"
+				spriteType = "GFX_waroverview_war_exhaustion_stats_progressbar_glow"
+				centerPosition = yes
+				position = { x = 25 y = 85 }
+				alwaystransparent = yes
 			}
 
 			iconType = {
@@ -186,7 +192,13 @@ guiTypes = {
 				name = "social_progressbar"
 				spriteType = "GFX_queue_progressbar"
 				position = { x = 24 y = 66 }
-				alwaysTransparent = yes
+			}
+			iconType = {
+				name = "social_progressbar_marker"
+				spriteType = "GFX_waroverview_war_exhaustion_stats_progressbar_glow"
+				centerPosition = yes
+				position = { x = 25 y = 85 }
+				alwaystransparent = yes
 			}
 
 			iconType = {
@@ -268,7 +280,13 @@ guiTypes = {
 				name = "engineer_progressbar"
 				spriteType = "GFX_queue_progressbar"
 				position = { x = 25 y = 66 }
-				alwaysTransparent = yes
+			}
+			iconType = {
+				name = "engineer_progressbar_marker"
+				spriteType = "GFX_waroverview_war_exhaustion_stats_progressbar_glow"
+				centerPosition = yes
+				position = { x = 25 y = 85 }
+				alwaystransparent = yes
 			}
 
 			iconType = {

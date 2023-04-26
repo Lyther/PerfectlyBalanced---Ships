@@ -5,11 +5,18 @@ on_press_begin = {
 	}
 }
 
-# Initialize mod
+# Initialize mod gui
 on_game_start = {
 	events = {
 		pbships_gui.3
 	}
+}
+
+# Initialize mod settings
+on_game_start_country = {
+    events = {
+        pbships_start_menu.0
+    }
 }
 
 # Open pbship draw UI
