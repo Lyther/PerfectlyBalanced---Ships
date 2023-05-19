@@ -1,6 +1,6 @@
 @section_cost = 80
-@section_cost_heavy = 96
-@section_cost_light = 64
+@section_cost_heavy = 120
+@section_cost_light = 40
 
 #BOW
 
