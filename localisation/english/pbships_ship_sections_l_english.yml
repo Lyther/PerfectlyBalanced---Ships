@@ -2,22 +2,21 @@
  ####################################
  # Corvette
  #################################### 
+ CORVETTE_MID_AUX1PD3US3:0 "Dartle"
+ CORVETTE_MID_UM2S1US3:0 "Harmor"
+ CORVETTE_MID_HB2:0 "Burst Aircraft"
+ CORVETTE_MID_HB2AUX1US3:0 "Aircraft Dartle Spardeck"
  CORVETTE_MID_S1M1:0 "Destruction"
- CORVETTE_MID_M2:0 "Heavy Core"
  CORVETTE_MID_M3:0 "Volley Ship"
  CORVETTE_MID_L1:0 "Giant"
  CORVETTE_MID_L1M1:0 "No-retreat"
- CORVETTE_MID_L1S2:0 "Discourager"
  CORVETTE_MID_L1PD2:0 "Nightmare Core"
  CORVETTE_MID_HB1:0 "Carrier Core"
  CORVETTE_MID_HB1PD2:0 "Carrier Point Defence Core"
- CORVETTE_MID_HB1M1:0 "Carrier Turret Core"
+ FRIGATE_MID_G1AUX1PD2US4:0 "Quad Spardeck Torpedo"
+ FRIGATE_MID_G1M1AUX2S1US4:0 "Burst Assistant Quad Spardeck"
  FRIGATE_MID_M2:0 "Twin-launch Torpedo Core"
  FRIGATE_MID_M3:0 "Torpedo Flak Core"
- FRIGATE_MID_HB1M1:0 "Carrier Torpedo Core"
- FRIGATE_MID_M3S1:0 "Torpedo Turret Core"
- FRIGATE_MID_M4:0 "Swarm Core"
- FRIGATE_MID_HB1M2:0 "Carrier Swarm Core"
 
  ####################################
  # Destroyer

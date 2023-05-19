@@ -2,22 +2,21 @@
  ####################################
  # Corvette
  #################################### 
+ CORVETTE_MID_AUX1PD3US3:0 "连射"
+ CORVETTE_MID_UM2S1US3:0 "重甲"
+ CORVETTE_MID_HB2:0 "点射舰载机"
+ CORVETTE_MID_HB2AUX1US3:0 "舰载机连射轻甲"
  CORVETTE_MID_S1M1:0 "毁灭"
- CORVETTE_MID_M2:0 "重装核心"
  CORVETTE_MID_M3:0 "齐射舰艇"
  CORVETTE_MID_L1:0 "巨人"
  CORVETTE_MID_L1M1:0 "死战不退"
- CORVETTE_MID_L1S2:0 "阻碍者"
  CORVETTE_MID_L1PD2:0 "梦魇核心"
  CORVETTE_MID_HB1:0 "航母核心"
  CORVETTE_MID_HB1PD2:0 "航母点防核心"
- CORVETTE_MID_HB1M1:0 "航母炮台核心"
+ FRIGATE_MID_G1AUX1PD2US4:0 "四重轻甲鱼雷"
+ FRIGATE_MID_G1M1AUX2S1US4:0 "点射辅助四重轻甲"
  FRIGATE_MID_M2:0 "双发鱼雷核心"
  FRIGATE_MID_M3:0 "鱼雷齐射核心"
- FRIGATE_MID_HB1M1:0 "航母鱼雷核心"
- FRIGATE_MID_M3S1:0 "鱼雷炮台核心"
- FRIGATE_MID_M4:0 "蜂群核心"
- FRIGATE_MID_HB1M2:0 "航母蜂群核心"
 
  ####################################
  # Destroyer
