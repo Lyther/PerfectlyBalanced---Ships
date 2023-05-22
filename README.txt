@@ -1,4 +1,4 @@
-# Perfectly Balanced - Ships
+[h1]Perfectly Balanced - Ships[/h1]
 
 The development version of this mod would post on [url=https://github.com/Lyther/PerfectlyBalanced---Ships]GitHub[/url]. If you want to play the latest version instead of the stable version, please follow the repo and use [code single]git pull[/code] to get the latest commit.
 
@@ -16,13 +16,13 @@ To balance out the lack of energy in the new slots, each reactor has a larger ve
 
 In addition, with five new combat computers and four combat tactics, from now on arc fleet roaming (strategic flee) and combat through range advantage becomes possible.
 
-## How to unlock new content
+[h2]How to unlock new content[/h2]
 
 You need to unlock it through scientific research. Standard ship templates (Standard Corvette Template, Standard Destroyer Template ......) provide basic new sectors, Hull Tech I provides better sectors, and Hull Tech II provides sectors dedicated to the real crisis of the galaxy!
 
 Large reactors will be unlocked via the same tech as normal reactors, and combat computers will likewise be unlocked along with the original combat computers.
 
-## Needs to be updated/needs to be compatible
+[h2]Needs to be updated/needs to be compatible[/h2]
 
 Compatible with almost all mods by default, except some localized language content files, without overwriting any original content (stream of consciousness balance is so stream of consciousness).
 
@@ -30,15 +30,13 @@ If a new version is released/needs to be compatible with an older version, pleas
 
 Compatible Mods:
 
-* ZoFE: The Zenith of Fallen Empires - 75%
-  * Not localized (Anyway there's no guy who cares about the ship section names).
-
+* ZoFE: The Zenith of Fallen Empires
 
 For other mods that are compatible, such as new weapon slot types/ship types, please leave a message through the Creative Workshop and I will also start compatibility updates for the following mods.
 
 * NSC: New Ship Classes
 
-# 意识流平衡：舰船
+[h1]意识流平衡：舰船[/h1]
 
 此MOD的开发版本将在[url=https://github.com/Lyther/PerfectlyBalanced---Ships]GitHub[/url]进行实时更新，如果您想游玩最新的开发版本而非稳定版本，可以通过GitHub仓库的[code single]git pull[/code]获取最新的commit。
 
@@ -56,13 +54,13 @@ For other mods that are compatible, such as new weapon slot types/ship types, pl
 
 此外，拥有五种全新的作战电脑和四种战斗模式，从此电弧舰队游走（战略转进），通过射程优势进行作战变成可能。
 
-## 如何解锁新的内容
+[h2]如何解锁新的内容[/h2]
 
 你需要通过科研来进行解锁，标准舰船模板（标准护卫舰模板、标准驱逐舰模板……）提供简易的新区段，船体科技一段提供更好的区段，船体科技二段提供专属于第四天灾的区段！
 
 大型反应堆将会和普通反应堆通过同样的科技进行解锁，作战电脑同样将会和原版的作战电脑一同解锁。
 
-## 需要更新/需要兼容
+[h2]需要更新/需要兼容[/h2]
 
 默认兼容几乎所有MOD，除去部分本地化语言内容文件外，没有覆盖任何原版内容（意识流平衡就是这么意识流）。
 
@@ -70,9 +68,7 @@ For other mods that are compatible, such as new weapon slot types/ship types, pl
 
 已经兼容的MOD列表：
 
-* ZoFE: The Zenith of Fallen Empires - 75%
-  * 尚未完成本地化（区段名字反正也不会有人看所以不完工也无所谓吧）。
-
+* ZoFE: The Zenith of Fallen Empires
 
 对于其他MOD的内容兼容，例如新的武器槽位种类/舰船种类，同样可以通过创意工坊留言，我也会对以下列表中的MOD开始兼容更新：
 

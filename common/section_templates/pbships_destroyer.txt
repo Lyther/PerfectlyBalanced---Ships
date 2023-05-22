@@ -43,8 +43,6 @@ ship_section_template = {
 	entity = "destroyer_bow_L1_entity"
 	icon = "GFX_ship_part_core_bow"
 
-	prerequisites = { tech_destroyer_build_speed }
-
 	component_slot = {
 		name = "STRIKE_CRAFT_01"
 		template = "large_strike_craft"
@@ -190,32 +188,62 @@ ship_section_template = {
 }
 
 ship_section_template = {
-	key = "DESTROYER_BOW_X1M1"
+	key = "DESTROYER_BOW_X1HB1"
 	ship_size = destroyer
 	fits_on_slot = bow
 	should_draw_components = yes
 	entity = "destroyer_bow_M1S2_entity"
 	icon = "GFX_ship_part_core_bow"
+	prerequisites = { tech_destroyer_hull_2 }
 
-    prerequisites = { tech_destroyer_hull_2 }
-
-    component_slot = {
-        name = "EXTRA_LARGE_01"
-        template = "invisible_extra_large_fixed"
-        locatorname = "medium_gun_01"
-    }
 	component_slot = {
-		name = "MEDIUM_GUN_02"
-		template = "medium_turret"
-		locatorname = "small_gun_01"
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_01"
 	}
-
-	small_utility_slots = 0
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		locatorname = "small_gun_02"
+	}
 
 	resources = {
 		category = ship_sections
 		cost = {
-			alloys = @section_cost
+			alloys = @section_cost_heavy
+		}
+	}
+}
+
+ship_section_template = {
+	key = "DESTROYER_BOW_HB3"
+	ship_size = destroyer
+	fits_on_slot = bow
+	should_draw_components = yes
+	entity = "destroyer_bow_L1_entity"
+	icon = "GFX_ship_part_core_bow"
+	prerequisites = { tech_destroyer_hull_2 }
+
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = "large_strike_craft"
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		template = "large_strike_craft"
+		locatorname = "large_gun_01"
+	}
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost_heavy
 		}
 	}
 }
@@ -276,16 +304,14 @@ ship_section_template = {
 }
 
 ship_section_template = {
-	key = "DESTROYER_STERN_AUX"
+	key = "DESTROYER_STERN_AUX3"
 	ship_size = destroyer
 	fits_on_slot = stern
 	should_draw_components = yes
-	entity = "destroyer_stern_S2_entity"
+	entity = "destroyer_stern_M1_entity"
 	icon = "GFX_ship_part_core_stern"
 
-	prerequisites = { tech_destroyer_hull_1 }
-
-	aux_utility_slots = 2
+	aux_utility_slots = 3
 
 	resources = {
 		category = ship_sections
