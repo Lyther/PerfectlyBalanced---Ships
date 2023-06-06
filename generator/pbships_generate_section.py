@@ -64,9 +64,8 @@ def main(args: list):
         fits_on_slot = args[2]
         rank = int(args[3])
         quantity = int(args[4])
-        assert(ship_size in ship_size_list)
-        assert(fits_on_slot in fits_on_slot_dict[ship_size])
-        assert(0 <= rank < 10)
+        assert(ship_size in ship_key_to_size_dict.keys())
+        assert(fits_on_slot in fits_on_slot_dict[ship_key_to_size_dict[ship_size]])
         for _ in range(quantity):
             result = False
             while not result:
@@ -82,9 +81,9 @@ def main(args: list):
 if __name__ == "__main__":
     if len(sys.argv) != 2 and len(sys.argv) != 5:
         print("Usage: python3 phships_generate_section.py <ship_size> <slot> <rank> <quantity>")
-        print("\t<ship_size> allowed:", ship_size_list)
+        print("\t<ship_size> allowed:", ship_key_to_size_dict.keys())
         print("\t<slot>: the generated slot for the given ship_size, some use bow/mid/stern, some just use core")
-        print("\t<rank>: a number in [0,10), the higher rank becomes more powerful and more expensive")
+        print("\t<rank>: a number to represent the quality, the higher rank becomes more powerful and more expensive")
         print("\t<quantity>: the number of sections you want to generate")
         print()
         print("Usage: python3 phships_generate_section.py <key_str>")

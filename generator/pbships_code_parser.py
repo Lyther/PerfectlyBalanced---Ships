@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
+from roman import toRoman
 from pbships_predefines import *
 from pbships_output import *
 from pbships_utilities import *
@@ -14,13 +15,7 @@ def parse_random_list_string(tech: str) -> str:
 
 def parse_localisation_string(key: str, rank: int, ship_size: str, components: dict, slot: str, tech: str) -> list:
     components = sort_components_by_score(components)
-    result_simp_chinese = " " + key + ":0 \""
-    if rank < 5:
-        for i in range((rank % 5) + 1):
-            result_simp_chinese = result_simp_chinese + "☆"
-    else:
-        for i in range((rank % 5) + 1):
-            result_simp_chinese = result_simp_chinese + "★"
+    result_simp_chinese = " " + key + ":0 \"[" + toRoman(rank) + "] "
     result_simp_chinese = result_simp_chinese + ship_size_l_simp_chinese[ship_size]
     result_simp_chinese = result_simp_chinese + component_quantity_l_simp_chinese[min(list(components.values())[0], 10)]
     result_simp_chinese = result_simp_chinese + component_type_l_simp_chinese[list(components.keys())[0]]
@@ -32,13 +27,7 @@ def parse_localisation_string(key: str, rank: int, ship_size: str, components: d
     write_l_simp_chinese_file(result_simp_chinese)
     result_tech_simp_chinese = result_simp_chinese.replace(key, tech)
     write_tech_l_simp_chinese_file(result_tech_simp_chinese)
-    result_english = " " + key + ":0 \""
-    if rank < 5:
-        for i in range((rank % 5) + 1):
-            result_english = result_english + "☆"
-    else:
-        for i in range((rank % 5) + 1):
-            result_english = result_english + "★"
+    result_english = " " + key + ":0 \"[" + toRoman(rank) + "] "
     result_english = result_english + ship_size_l_english[ship_size]
     result_english = result_english + component_quantity_l_english[min(list(components.values())[0], 10)]
     result_english = result_english + component_type_l_english[list(components.keys())[0]]
@@ -76,13 +65,13 @@ def parse_section_template_string(ship_size: str, slot: str, components: dict, e
     # print("[+] Generated key:", key)
     result = result + key
     result = result + "\"\n"
-    result = result + "\tship_size = " + ship_size + "\n"
+    result = result + "\tship_size = " + ship_key_to_size_dict[ship_size] + "\n"
     result = result + "\tfits_on_slot = " + slot + "\n"
     result = result + "\tshould_draw_components = yes\n"
     result = result + "\tentity = \"" + entity + "\"\n"
     result = result + "\ticon = \"GFX_ship_part_core_" + slot + "\"\n"
     tech = "tech_" + key.lower()
-    result = result + "\tprerequisites = { " + tech + " }\n\n"
+    result = result + "\tprerequisites = { \"" + tech + "\" }\n\n"
     result = result + parse_component_slot_string(entity, components) + "\n"
     result = result + get_cost_string(ship_size, rank) + "\n"
     result = result + "}\n"
@@ -196,14 +185,13 @@ def get_turret_locatorname(entity: str, index: int) -> list:
     return result
 
 def get_cost_string(ship_size: str, rank: int) -> str:
-    cost = calculate_cost(ship_size, rank)
     result = "\tresources = {\n"
     result = result + "\t\tcategory = ship_sections\n"
-    if cost != 0:
+    if ship_size in section_cost_dict:
         result = result + "\t\tcost = {\n"
-        result = result + "\t\t\talloys = " + str(cost) + "\n"
-        if ship_size == "fe_goliath":
-            result = result + "\t\t\tsr_living_metal = " + str(cost // 10) + "\n"
+        for r in section_cost_dict[ship_size].keys():
+            cost = calculate_cost(ship_size, rank, r)
+            result = result + "\t\t\t" + r + " = " + str(cost) + "\n"
         result = result + "\t\t}\n"
     result = result + "\t}"
     return result

@@ -7,11 +7,8 @@ def calculate_score(ship_size: str, slot: str, rank: int) -> int:
     result = int(vanilla_section_score_dict[ship_size][slot] * (1.2 ** (rank - 1)))
     return result
 
-def calculate_cost(ship_size: str, rank: int) -> int:
-    result = 0
-    if ship_size in section_cost_dict:
-        result = int(section_cost_dict[ship_size] * (1.5 ** (rank - 1)))
-    return result
+def calculate_cost(ship_size: str, rank: int, resource: str) -> int:
+    return int(section_cost_dict[ship_size][resource] * (1.5 ** (rank - 1)))
 
 def sort_components_by_score(components: dict) -> dict:
     return dict(sorted(components.items(), key = lambda x: component_score_dict[x[0]] * x[1], reverse=True))
