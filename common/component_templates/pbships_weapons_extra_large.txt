@@ -14,7 +14,7 @@ weapon_component_template = {
 	use_ship_kill_target = no
 
 	prerequisites = { "tech_energy_lance_1" }
-	component_set = "ENERGY_LANCE_1"
+	component_set = "ENERGY_LANCE_1_360"
 	projectile_gfx = "particle_lance"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_artillery artillery}
@@ -74,7 +74,7 @@ weapon_component_template = {
 	use_ship_kill_target = no
 
 	prerequisites = { "tech_energy_lance_2" }
-	component_set = "ENERGY_LANCE_2"
+	component_set = "ENERGY_LANCE_2_360"
 	projectile_gfx = "tachyon_lance"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_artillery artillery }
@@ -137,7 +137,7 @@ weapon_component_template = {
 	use_ship_kill_target = no
 
 	prerequisites = { "tech_arc_emitter_1" }
-	component_set = "ARC_EMITTER_1"
+	component_set = "ARC_EMITTER_1_360"
 	projectile_gfx = "arc_emitter"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_artillery artillery }
@@ -185,6 +185,7 @@ weapon_component_template = {
 	total_fire_time = 71
 	range = 150
 	accuracy = 1.00
+	size_damage_factor = 0.50
 }
 
 # ## Arc Emitter 2
@@ -199,7 +200,7 @@ weapon_component_template = {
 	use_ship_kill_target = no
 
 	prerequisites = { "tech_arc_emitter_2" }
-	component_set = "ARC_EMITTER_2"
+	component_set = "ARC_EMITTER_2_360"
 	projectile_gfx = "focused_arc_emitter"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_artillery artillery }
@@ -246,6 +247,7 @@ weapon_component_template = {
 	total_fire_time = 71
 	range = 150
 	accuracy = 1.00
+	size_damage_factor = 0.50
 }
 
 # ####################
@@ -265,7 +267,7 @@ weapon_component_template = {
 	use_ship_kill_target = no
 
 	prerequisites = { "tech_mass_accelerator_1" }
-	component_set = "MASS_ACCELERATOR_1"
+	component_set = "MASS_ACCELERATOR_1_360"
 	projectile_gfx = "kinetic_artillery"
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_artillery artillery }
@@ -326,7 +328,7 @@ weapon_component_template = {
 	use_ship_kill_target = no
 
 	prerequisites = { "tech_mass_accelerator_2" }
-	component_set = "MASS_ACCELERATOR_2"
+	component_set = "MASS_ACCELERATOR_2_360"
 	projectile_gfx = "adv_kinetic_artillery"
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_artillery artillery }
@@ -392,7 +394,7 @@ weapon_component_template = {
 	tags = { weapon_type_energy }
 
 	prerequisites = { "tech_titans" }
-	component_set = "PERDITION_BEAM"
+	component_set = "PERDITION_BEAM_360"
 	projectile_gfx = "perdition_beam"
 	resources = {
 		category = ship_components

@@ -43,7 +43,7 @@ ship_section_template = {
 	should_draw_components = yes
 	entity = "corvette_S3_entity"
 	icon = "GFX_ship_part_core_mid"
-	prerequisites = { tech_ship_armor_2 }
+	prerequisites = { "tech_corvette_hull_1" "tech_ship_armor_2" }
 
 	medium_utility_slots = 2
 	component_slot = {
@@ -68,8 +68,7 @@ ship_section_template = {
 	should_draw_components = yes
 	entity = "corvette_M1S1_entity"
 	icon = "GFX_ship_part_core_mid"
-
-	prerequisites = { tech_lasers_2 }
+	prerequisites = { "tech_corvette_build_speed" "tech_lasers_2" }
 
     component_slot = {
         name = "MEDIUM_GUN_01"
@@ -100,8 +99,7 @@ ship_section_template = {
 	should_draw_components = yes
 	entity = "corvette_S3_entity"
 	icon = "GFX_ship_part_core_mid"
-
-	prerequisites = { tech_corvette_hull_2 }
+	prerequisites = { "tech_disruptors_1" }
 
     component_slot = {
         name = "MEDIUM_GUN_01"
@@ -137,8 +135,7 @@ ship_section_template = {
 	should_draw_components = yes
 	entity = "corvette_M1S1_entity"
 	icon = "GFX_ship_part_core_mid"
-
-	prerequisites = { tech_corvette_hull_1 }
+	prerequisites = { "tech_plasma_1" }
 
 	component_slot = {
 		name = "LARGE_GUN_01"
@@ -164,8 +161,7 @@ ship_section_template = {
 	should_draw_components = yes
 	entity = "corvette_M1S1_entity"
 	icon = "GFX_ship_part_core_mid"
-
-	prerequisites = { tech_corvette_hull_2 }
+	prerequisites = { "tech_lasers_3" }
 
 	component_slot = {
 		name = "LARGE_GUN_01"
@@ -196,8 +192,7 @@ ship_section_template = {
 	should_draw_components = yes
 	entity = "corvette_M1S1_entity"
 	icon = "GFX_ship_part_core_mid"
-
-	prerequisites = { tech_corvette_hull_2 }
+	prerequisites = { "tech_pd_tracking_2" }
 
 	component_slot = {
 		name = "LARGE_GUN_01"
@@ -233,8 +228,7 @@ ship_section_template = {
 	should_draw_components = yes
 	entity = "corvette_M1S1_entity"
 	icon = "GFX_ship_part_core_mid"
-
-	prerequisites = { tech_corvette_hull_1 }
+	prerequisites = { "tech_corvette_build_speed" "tech_corvette_hull_2" }
 
 	component_slot = {
 		name = "STRIKE_CRAFT_01"
@@ -261,8 +255,7 @@ ship_section_template = {
 	should_draw_components = yes
 	entity = "corvette_M1S1_entity"
 	icon = "GFX_ship_part_core_mid"
-
-	prerequisites = { tech_corvette_hull_2 }
+	prerequisites = { "tech_strike_craft_1" "tech_corvette_hull_2" }
 
 	component_slot = {
 		name = "STRIKE_CRAFT_01"
@@ -299,7 +292,7 @@ ship_section_template = {
 	should_draw_components = yes
 	entity = "corvette_M1S1_entity"
 	icon = "GFX_ship_part_core_mid"
-	prerequisites = { tech_strike_craft_1 }
+	prerequisites = { "tech_strike_craft_1" }
 
 	component_slot = {
 		name = "STRIKE_CRAFT_01"
@@ -327,7 +320,7 @@ ship_section_template = {
 	should_draw_components = yes
 	entity = "corvette_S3_entity"
 	icon = "GFX_ship_part_core_mid"
-	prerequisites = { tech_ship_armor_3 }
+	prerequisites = { "tech_strike_craft_2" }
 
 	component_slot = {
 		name = "STRIKE_CRAFT_01"
@@ -387,8 +380,7 @@ ship_section_template = {
 	should_draw_components = yes
 	entity = "corvette_M1S1_entity"
 	icon = "GFX_ship_part_core_mid"
-
-	prerequisites = { tech_corvette_hull_1 }
+	prerequisites = { "tech_torpedoes_1" }
 
 	component_slot = {
 		name = "TORPEDO_01"
@@ -424,7 +416,6 @@ ship_section_template = {
 	should_draw_components = yes
 	entity = "corvette_S3_entity"
 	icon = "GFX_ship_part_core_mid"
-	prerequisites = { tech_corvette_hull_2 }
 
 	component_slot = {
 		name = "TORPEDO_01"
@@ -459,7 +450,7 @@ ship_section_template = {
 	should_draw_components = yes
 	entity = "corvette_S3_entity"
 	icon = "GFX_ship_part_core_mid"
-	prerequisites = { tech_torpedoes_1 }
+	prerequisites = { "tech_missiles_3" }
 
 	component_slot = {
 		name = "TORPEDO_01"

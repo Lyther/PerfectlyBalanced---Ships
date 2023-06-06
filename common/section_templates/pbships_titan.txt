@@ -41,8 +41,6 @@ ship_section_template = {
 	entity = "titan_bow_entity"
 	icon = "GFX_ship_part_core_bow"
 
-    prerequisites = { tech_titan_hull_1 }
-
 	component_slot = {
 		name = "TITANIC_01"
 		template = "invisible_titanic_fixed"
@@ -77,8 +75,6 @@ ship_section_template = {
 	entity = "titan_bow_entity"
 	icon = "GFX_ship_part_core_bow"
 
-    prerequisites = { tech_titan_hull_1 }
-
 	component_slot = {
 		name = "TITANIC_01"
 		template = "invisible_titanic_fixed"
@@ -107,8 +103,6 @@ ship_section_template = {
 	should_draw_components = yes
 	entity = "titan_bow_entity"
 	icon = "GFX_ship_part_core_bow"
-
-    prerequisites = { tech_titan_hull_1 }
 
 	component_slot = {
 		name = "EXTRA_LARGE_01"
@@ -149,8 +143,6 @@ ship_section_template = {
 	entity = "titan_bow_entity"
 	icon = "GFX_ship_part_core_bow"
 
-    prerequisites = { tech_titan_hull_2 }
-
 	component_slot = {
 		name = "TITANIC_01"
 		template = "invisible_titanic_fixed"
@@ -190,8 +182,6 @@ ship_section_template = {
 	entity = "titan_bow_entity"
 	icon = "GFX_ship_part_core_bow"
 
-    prerequisites = { tech_titan_hull_2 }
-
 	component_slot = {
 		name = "TITANIC_01"
 		template = "invisible_titanic_fixed"
@@ -225,8 +215,6 @@ ship_section_template = {
 	should_draw_components = yes
 	entity = "titan_bow_entity"
 	icon = "GFX_ship_part_core_bow"
-
-    prerequisites = { tech_titan_hull_2 }
 
 	component_slot = {
 		name = "EXTRA_LARGE_01"
@@ -332,8 +320,6 @@ ship_section_template = {
 	entity = "titan_mid_entity"
 	icon = "GFX_ship_part_core_mid"
 
-    prerequisites = { tech_titan_hull_1 }
-
 	component_slot = {
 		name = "TITANIC_01"
 		template = "invisible_titanic_fixed"
@@ -368,8 +354,6 @@ ship_section_template = {
 	entity = "titan_mid_entity"
 	icon = "GFX_ship_part_core_mid"
 
-    prerequisites = { tech_titan_hull_1 }
-
 	component_slot = {
 		name = "TITANIC_01"
 		template = "invisible_titanic_fixed"
@@ -398,8 +382,6 @@ ship_section_template = {
 	should_draw_components = yes
 	entity = "titan_mid_entity"
 	icon = "GFX_ship_part_core_mid"
-
-    prerequisites = { tech_titan_hull_1 }
 
 	component_slot = {
 		name = "EXTRA_LARGE_01"
@@ -439,8 +421,6 @@ ship_section_template = {
 	should_draw_components = yes
 	entity = "titan_mid_entity"
 	icon = "GFX_ship_part_core_mid"
-
-    prerequisites = { tech_titan_hull_2 }
 
 	component_slot = {
 		name = "EXTRA_LARGE_01"
@@ -491,8 +471,6 @@ ship_section_template = {
 	entity = "titan_mid_entity"
 	icon = "GFX_ship_part_core_mid"
 
-    prerequisites = { tech_titan_hull_2 }
-
 	component_slot = {
 		name = "TITANIC_01"
 		template = "invisible_titanic_fixed"
@@ -531,8 +509,6 @@ ship_section_template = {
 	should_draw_components = yes
 	entity = "titan_mid_entity"
 	icon = "GFX_ship_part_core_mid"
-
-    prerequisites = { tech_titan_hull_2 }
 
 	component_slot = {
 		name = "TITANIC_01"
@@ -612,8 +588,6 @@ ship_section_template = {
 	entity = "titan_stern_entity"
 	icon = "GFX_ship_part_core_stern"
 
-    prerequisites = { tech_titan_hull_1 }
-
 	component_slot = {
 		name = "EXTRA_LARGE_01"
 		template = "extra_large_turret"
@@ -643,8 +617,6 @@ ship_section_template = {
 	entity = "titan_stern_entity"
 	icon = "GFX_ship_part_core_stern"
 
-    prerequisites = { tech_titan_hull_1 }
-
 	component_slot = {
 		name = "TITANIC_01"
 		template = "invisible_titanic_fixed"
@@ -668,8 +640,6 @@ ship_section_template = {
 	should_draw_components = yes
 	entity = "titan_stern_entity"
 	icon = "GFX_ship_part_core_stern"
-
-    prerequisites = { tech_titan_hull_2 }
 
 	component_slot = {
 		name = "EXTRA_LARGE_01"
@@ -704,8 +674,6 @@ ship_section_template = {
 	should_draw_components = yes
 	entity = "titan_stern_entity"
 	icon = "GFX_ship_part_core_stern"
-
-    prerequisites = { tech_titan_hull_2 }
 
 	component_slot = {
 		name = "EXTRA_LARGE_01"
@@ -742,8 +710,6 @@ ship_section_template = {
 	entity = "titan_stern_entity"
 	icon = "GFX_ship_part_core_stern"
 
-    prerequisites = { tech_titan_hull_2 }
-
 	component_slot = {
 		name = "TITANIC_01"
 		template = "invisible_titanic_fixed"
@@ -772,8 +738,6 @@ ship_section_template = {
 	should_draw_components = yes
 	entity = "titan_stern_entity"
 	icon = "GFX_ship_part_core_stern"
-
-    prerequisites = { tech_titan_hull_2 }
 
 	component_slot = {
 		name = "TITANIC_01"

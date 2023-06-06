@@ -3,8 +3,12 @@
  SHIP_AURA_SHIELD_EMP:0 "Shield EMP"
  SHIP_AURA_SUBSPACE_SINGULARITY:0 "Subspace Singularity"
  SHIP_AURA_ASSIMILATION_ALGORITHM:0 "Assimilation Algorithm"
+ RE_ENIGMATIC_DISRUPTION_FIELD:0 "Enigmatic Disruption Field"
+ RE_GUARDIAN_DISINTEGRATOR_FIELD_JUGGERNAUT:0 "Juggernaut Hull Defenerator"
 
  aura_repair_bot:0 "$aura_category_defensive$"
  aura_shield_emp:0 "$aura_category_offensive$"
  aura_subspace_singularity:0 "$aura_category_offensive$"
  aura_assimilation_algorithm:0 "$aura_category_defensive$"
+ aura_re_shield_dampener:0 "$aura_category_offensive$"
+ aura_guardian_hull_degenerator_juggernaut:0 "$aura_category_offensive$"

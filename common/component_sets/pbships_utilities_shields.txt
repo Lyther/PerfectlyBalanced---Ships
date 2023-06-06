@@ -1,0 +1,6 @@
+component_set = {
+	key = "ENHANCED_SHIELD_BOOSTER"
+
+	icon = "GFX_ship_part_enhanced_shield_recharger"
+	icon_frame = 1
+}

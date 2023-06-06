@@ -36,6 +36,18 @@ spriteTypes = {
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_large_reactor_booster_3.dds"
 	}
 	spriteType = {
+		name = "GFX_ship_part_enhanced_shield_recharger"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_enhanced_shield_recharger.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_computer_advanced"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_computer_advanced.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_orbital_trash_strike"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_orbital_trash_strike.dds"
+	}
+	spriteType = {
 		name = "GFX_ship_part_computer_snipe_basic"
 		texturefile = "gfx/interface/icons/ship_parts/computers/ship_part_computer_role_snipe_basic.dds"
 	}
@@ -94,6 +106,22 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ship_part_computer_agile_precog"
 		texturefile = "gfx/interface/icons/ship_parts/computers/ship_part_computer_role_agile_precog.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_computer_smash_basic"
+		texturefile = "gfx/interface/icons/ship_parts/computers/ship_part_computer_role_smash_basic.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_computer_smash_advanced"
+		texturefile = "gfx/interface/icons/ship_parts/computers/ship_part_computer_role_smash_advanced.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_computer_smash_sapient"
+		texturefile = "gfx/interface/icons/ship_parts/computers/ship_part_computer_role_smash_sapient.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_computer_smash_precog"
+		texturefile = "gfx/interface/icons/ship_parts/computers/ship_part_computer_role_smash_precog.dds"
 	}
 	spriteType = {
 		name = "GFX_ship_part_aura_matter_decomposer"

@@ -3,8 +3,12 @@
  SHIP_AURA_SHIELD_EMP:0 "护盾电磁脉冲"
  SHIP_AURA_SUBSPACE_SINGULARITY:0 "亚空间奇点"
  SHIP_AURA_ASSIMILATION_ALGORITHM:0 "吸收算法"
+ RE_ENIGMATIC_DISRUPTION_FIELD:0 "神秘力场"
+ RE_GUARDIAN_DISINTEGRATOR_FIELD_JUGGERNAUT:0 "主宰级瓦解力场"
 
  aura_repair_bot:0 "$aura_category_defensive$"
  aura_shield_emp:0 "$aura_category_offensive$"
  aura_subspace_singularity:0 "$aura_category_offensive$"
  aura_assimilation_algorithm:0 "$aura_category_defensive$"
+ aura_re_shield_dampener:0 "$aura_category_offensive$"
+ aura_guardian_hull_degenerator_juggernaut:0 "$aura_category_offensive$"

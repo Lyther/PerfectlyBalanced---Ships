@@ -18,3 +18,17 @@ component_set = {
 	icon = "GFX_ship_part_large_reactor_booster_3"
 	icon_frame = 1
 }
+
+component_set = {
+	key = "FIRE_CONTROL_2"
+
+	icon = "GFX_ship_part_computer_advanced"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "ORBITAL_TRASH_2"
+
+	icon = "GFX_ship_part_orbital_trash_strike"
+	icon_frame = 1
+}

@@ -164,9 +164,9 @@ ship_behavior = {
 
 ship_behavior = {
 	name = "heavy_artillery"
-	preferred_attack_range = 150
-	formation_distance = 150
-	return_to_formation_distance = 160
+	preferred_attack_range = max
+	formation_distance = median
+	return_to_formation_distance = max
 	combat_target_anchor = root
 
 	collision_awareness = 0.5
@@ -186,8 +186,8 @@ ship_behavior = {
 	combat_target_anchor = root
 
 	collision_awareness = 0.5
-	collision_strafe = 2.5
-	collision_radius = 1.0
+	collision_strafe = 1.0
+	collision_radius = 1.5
 	attack_move_pattern = flee
 	passive_move_pattern = charge
 
@@ -202,10 +202,26 @@ ship_behavior = {
 	combat_target_anchor = root
 
 	collision_awareness = 0.5
-	collision_strafe = 2.5
-	collision_radius = 1.0
+	collision_strafe = 0.5
+	collision_radius = 1.5
 	attack_move_pattern = orbit
 	passive_move_pattern = charge
 
 	desc = "FREE_FIRE_BEHAVIOR_DESC"
+}
+
+ship_behavior = {
+	name = "smash"
+	preferred_attack_range = 1
+	formation_distance = 1
+	return_to_formation_distance = min
+	combat_target_anchor = root
+
+	collision_awareness = 0.5
+	collision_strafe = 0.5
+	collision_radius = 1.0
+	attack_move_pattern = charge
+	passive_move_pattern = charge
+
+	desc = "SMASH_BEHAVIOR_DESC"
 }

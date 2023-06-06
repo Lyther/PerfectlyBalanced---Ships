@@ -65,3 +65,79 @@ utility_component_template = {
 		ship_shield_mult = -0.30
 	}
 }
+
+####################
+# Shield Recharger #
+####################
+
+utility_component_template = {
+	key = "ENHANCED_SHIELD_BOOSTER"
+	size = aux
+	icon = "GFX_ship_part_enhanced_shield_recharger"
+	icon_frame = 1
+	power = -50
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 25
+			exotic_gases = 2.5
+		}
+	}
+
+	prerequisites = { "tech_shield_rechargers_1" }
+	component_set = "ENHANCED_SHIELD_BOOSTER"
+
+	modifier = {
+		ship_shield_mult = 0.25
+	}
+}
+
+#############################
+# Auxiliary Fire-control	#
+#############################
+
+utility_component_template = {
+	key = "FIRE_CONTROL_2"
+	size = aux
+	icon = "GFX_ship_part_computer_advanced"
+	icon_frame = 1
+	power = -20
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 20
+		}
+	}
+
+	ship_modifier = {
+		ship_accuracy_add = 10
+		ship_tracking_add = 5
+	}
+
+	prerequisites = { tech_auxiliary_fire_control }
+	component_set = "FIRE_CONTROL_2"
+}
+
+#######################
+# Orbital Bombardment #
+#######################
+utility_component_template = {
+	key = "ORBITAL_TRASH_2"
+	size = aux
+	icon = "GFX_ship_part_orbital_trash_strike"
+	icon_frame = 1
+	power = -20
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 20
+		}
+	}
+
+	ship_modifier = {
+		ship_orbital_bombardment_mult = 0.50
+	}
+	class_restriction = { shipclass_military }
+	prerequisites = { "tech_orbital_trash_dispersal" }
+	component_set = "ORBITAL_TRASH_2"
+}

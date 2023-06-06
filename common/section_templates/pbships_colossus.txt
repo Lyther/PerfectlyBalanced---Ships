@@ -1,13 +1,41 @@
 ship_section_template = {
-	key = "SHIP_COLOSSUS_L2"
+	key = "COLOSSUS_SHIP_L1UL4AUX2W1"
 	ship_size = colossus
-	fits_on_slot = "ship"
+	fits_on_slot = ship
+	should_draw_components = yes
 	entity = "colossus_ship_entity"
-	icon = "GFX_ship_part_core_mid"
+	icon = "GFX_ship_part_core_ship"
 
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "large_turret"
+		locatorname = "planet_killer_gun_01"
+	}
+	large_utility_slots = 4
+	aux_utility_slots = 2
 	component_slot = {
 		name = "PLANET_KILLER_GUN_01"
 		template = "invisible_planet_killer_fixed"
+		locatorname = "planet_killer_gun_01"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "COLOSSUS_SHIP_X1L1UL4AUX2W1"
+	ship_size = colossus
+	fits_on_slot = ship
+	should_draw_components = yes
+	entity = "colossus_ship_entity"
+	icon = "GFX_ship_part_core_ship"
+	prerequisites = { "tech_arc_emitter_2" "tech_energy_lance_2" "tech_mass_accelerator_2" }
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
 		locatorname = "planet_killer_gun_01"
 	}
 	component_slot = {
@@ -15,13 +43,13 @@ ship_section_template = {
 		template = "large_turret"
 		locatorname = "planet_killer_gun_01"
 	}
-	component_slot = {
-		name = "LARGE_GUN_02"
-		template = "large_turret"
-		locatorname = "planet_killer_gun_01"
-	}
-
 	large_utility_slots = 4
+	aux_utility_slots = 2
+	component_slot = {
+		name = "PLANET_KILLER_GUN_01"
+		template = "invisible_planet_killer_fixed"
+		locatorname = "planet_killer_gun_01"
+	}
 
 	resources = {
 		category = ship_sections
@@ -29,159 +57,36 @@ ship_section_template = {
 }
 
 ship_section_template = {
-	key = "SHIP_COLOSSUS_L4"
+	key = "COLOSSUS_SHIP_T1X1L1UL4AUX2W1"
 	ship_size = colossus
-	fits_on_slot = "ship"
+	fits_on_slot = ship
+	should_draw_components = yes
 	entity = "colossus_ship_entity"
-	icon = "GFX_ship_part_core_mid"
+	icon = "GFX_ship_part_core_ship"
+	prerequisites = { "tech_mega_engineering" }
 
-	component_slot = {
-		name = "PLANET_KILLER_GUN_01"
-		template = "invisible_planet_killer_fixed"
-		locatorname = "planet_killer_gun_01"
-	}
-	component_slot = {
-		name = "LARGE_GUN_01"
-		template = "large_turret"
-		locatorname = "planet_killer_gun_01"
-	}
-	component_slot = {
-		name = "LARGE_GUN_02"
-		template = "large_turret"
-		locatorname = "planet_killer_gun_01"
-	}
-	component_slot = {
-		name = "LARGE_GUN_03"
-		template = "large_turret"
-		locatorname = "planet_killer_gun_01"
-	}
-	component_slot = {
-		name = "LARGE_GUN_04"
-		template = "large_turret"
-		locatorname = "planet_killer_gun_01"
-	}
-
-	large_utility_slots = 2
-
-	resources = {
-		category = ship_sections
-	}
-}
-
-ship_section_template = {
-	key = "SHIP_COLOSSUS_X1"
-	ship_size = colossus
-	fits_on_slot = "ship"
-	entity = "colossus_ship_entity"
-	icon = "GFX_ship_part_core_mid"
-
-	component_slot = {
-		name = "PLANET_KILLER_GUN_01"
-		template = "invisible_planet_killer_fixed"
-		locatorname = "planet_killer_gun_01"
-	}
-	component_slot = {
-        name = "EXTRA_LARGE_01"
-        template = "invisible_extra_large_fixed"
-        locatorname = "planet_killer_gun_01"
-    }
-
-	large_utility_slots = 4
-
-	resources = {
-		category = ship_sections
-	}
-}
-
-ship_section_template = {
-	key = "SHIP_COLOSSUS_X2"
-	ship_size = colossus
-	fits_on_slot = "ship"
-	entity = "colossus_ship_entity"
-	icon = "GFX_ship_part_core_mid"
-
-	component_slot = {
-		name = "PLANET_KILLER_GUN_01"
-		template = "invisible_planet_killer_fixed"
-		locatorname = "planet_killer_gun_01"
-	}
-	component_slot = {
-        name = "EXTRA_LARGE_01"
-        template = "invisible_extra_large_fixed"
-        locatorname = "planet_killer_gun_01"
-    }
-	component_slot = {
-        name = "EXTRA_LARGE_02"
-        template = "invisible_extra_large_fixed"
-        locatorname = "planet_killer_gun_01"
-    }
-
-	large_utility_slots = 2
-
-	resources = {
-		category = ship_sections
-	}
-}
-
-ship_section_template = {
-	key = "SHIP_COLOSSUS_X3"
-	ship_size = colossus
-	fits_on_slot = "ship"
-	entity = "colossus_ship_entity"
-	icon = "GFX_ship_part_core_mid"
-
-	component_slot = {
-		name = "PLANET_KILLER_GUN_01"
-		template = "invisible_planet_killer_fixed"
-		locatorname = "planet_killer_gun_01"
-	}
-	component_slot = {
-        name = "EXTRA_LARGE_01"
-        template = "invisible_extra_large_fixed"
-        locatorname = "planet_killer_gun_01"
-    }
-	component_slot = {
-        name = "EXTRA_LARGE_02"
-        template = "invisible_extra_large_fixed"
-        locatorname = "planet_killer_gun_01"
-    }
-	component_slot = {
-        name = "EXTRA_LARGE_03"
-        template = "invisible_extra_large_fixed"
-        locatorname = "planet_killer_gun_01"
-    }
-
-	large_utility_slots = 0
-
-	resources = {
-		category = ship_sections
-	}
-}
-
-ship_section_template = {
-	key = "SHIP_COLOSSUS_T1X1"
-	ship_size = colossus
-	fits_on_slot = "ship"
-	entity = "colossus_ship_entity"
-	icon = "GFX_ship_part_core_mid"
-
-	component_slot = {
-		name = "PLANET_KILLER_GUN_01"
-		template = "invisible_planet_killer_fixed"
-		locatorname = "planet_killer_gun_01"
-	}
 	component_slot = {
 		name = "TITANIC_01"
 		template = "invisible_titanic_fixed"
 		locatorname = "planet_killer_gun_01"
 	}
 	component_slot = {
-        name = "EXTRA_LARGE_01"
-        template = "invisible_extra_large_fixed"
-        locatorname = "planet_killer_gun_01"
-    }
-
-	large_utility_slots = 0
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "planet_killer_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "large_turret"
+		locatorname = "planet_killer_gun_01"
+	}
+	large_utility_slots = 4
+	aux_utility_slots = 2
+	component_slot = {
+		name = "PLANET_KILLER_GUN_01"
+		template = "invisible_planet_killer_fixed"
+		locatorname = "planet_killer_gun_01"
+	}
 
 	resources = {
 		category = ship_sections
@@ -189,30 +94,25 @@ ship_section_template = {
 }
 
 ship_section_template = {
-	key = "SHIP_COLOSSUS_X1HB1"
+	key = "COLOSSUS_SHIP_HB1UL4AUX2W1"
 	ship_size = colossus
-	fits_on_slot = "ship"
+	fits_on_slot = ship
+	should_draw_components = yes
 	entity = "colossus_ship_entity"
-	icon = "GFX_ship_part_core_mid"
+	icon = "GFX_ship_part_core_ship"
 
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		locatorname = "planet_killer_gun_01"
+	}
+	large_utility_slots = 4
+	aux_utility_slots = 2
 	component_slot = {
 		name = "PLANET_KILLER_GUN_01"
 		template = "invisible_planet_killer_fixed"
 		locatorname = "planet_killer_gun_01"
 	}
-	component_slot = {
-        name = "EXTRA_LARGE_01"
-        template = "invisible_extra_large_fixed"
-        locatorname = "planet_killer_gun_01"
-    }
-	component_slot = {
-		name = "STRIKE_CRAFT_01"
-		template = "large_strike_craft"
-		rotation = 90
-		locatorname = "planet_killer_gun_01"
-	}
-
-	large_utility_slots = 3
 
 	resources = {
 		category = ship_sections
@@ -220,55 +120,253 @@ ship_section_template = {
 }
 
 ship_section_template = {
-	key = "SHIP_COLOSSUS_HB6"
+	key = "COLOSSUS_SHIP_HB2UL4AUX2PD2W1"
 	ship_size = colossus
-	fits_on_slot = "ship"
+	fits_on_slot = ship
+	should_draw_components = yes
 	entity = "colossus_ship_entity"
-	icon = "GFX_ship_part_core_mid"
+	icon = "GFX_ship_part_core_ship"
+	prerequisites = { "tech_strike_craft_3" }
 
-	component_slot = {
-		name = "PLANET_KILLER_GUN_01"
-		template = "invisible_planet_killer_fixed"
-		locatorname = "planet_killer_gun_01"
-	}
 	component_slot = {
 		name = "STRIKE_CRAFT_01"
 		template = "large_strike_craft"
-		rotation = 90
 		locatorname = "planet_killer_gun_01"
 	}
 	component_slot = {
 		name = "STRIKE_CRAFT_02"
 		template = "large_strike_craft"
-		rotation = 90
+		locatorname = "planet_killer_gun_01"
+	}
+	large_utility_slots = 4
+	aux_utility_slots = 2
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "point_defence_turret"
 		locatorname = "planet_killer_gun_01"
 	}
 	component_slot = {
-		name = "STRIKE_CRAFT_03"
-		template = "large_strike_craft"
-		rotation = 90
+		name = "SMALL_GUN_02"
+		template = "point_defence_turret"
 		locatorname = "planet_killer_gun_01"
 	}
 	component_slot = {
-		name = "STRIKE_CRAFT_04"
-		template = "large_strike_craft"
-		rotation = 90
-		locatorname = "planet_killer_gun_01"
-	}
-	component_slot = {
-		name = "STRIKE_CRAFT_05"
-		template = "large_strike_craft"
-		rotation = 90
-		locatorname = "planet_killer_gun_01"
-	}
-	component_slot = {
-		name = "STRIKE_CRAFT_06"
-		template = "large_strike_craft"
-		rotation = 90
+		name = "PLANET_KILLER_GUN_01"
+		template = "invisible_planet_killer_fixed"
 		locatorname = "planet_killer_gun_01"
 	}
 
-	large_utility_slots = 6
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "COLOSSUS_SHIP_X1HB2UL4AUX2PD2W1"
+	ship_size = colossus
+	fits_on_slot = ship
+	should_draw_components = yes
+	entity = "colossus_ship_entity"
+	icon = "GFX_ship_part_core_ship"
+	prerequisites = { "tech_arc_emitter_2" "tech_energy_lance_2" "tech_mass_accelerator_2" "tech_strike_craft_3" }
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "planet_killer_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		locatorname = "planet_killer_gun_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = "large_strike_craft"
+		locatorname = "planet_killer_gun_01"
+	}
+	large_utility_slots = 4
+	aux_utility_slots = 2
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "point_defence_turret"
+		locatorname = "planet_killer_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "point_defence_turret"
+		locatorname = "planet_killer_gun_01"
+	}
+	component_slot = {
+		name = "PLANET_KILLER_GUN_01"
+		template = "invisible_planet_killer_fixed"
+		locatorname = "planet_killer_gun_01"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "COLOSSUS_SHIP_UL4G2AUX2W1"
+	ship_size = colossus
+	fits_on_slot = ship
+	should_draw_components = yes
+	entity = "colossus_ship_entity"
+	icon = "GFX_ship_part_core_ship"
+
+	large_utility_slots = 4
+	component_slot = {
+		name = "TORPEDO_01"
+		template = "medium_missile_turret"
+		locatorname = "planet_killer_gun_01"
+	}
+	component_slot = {
+		name = "TORPEDO_02"
+		template = "medium_missile_turret"
+		locatorname = "planet_killer_gun_01"
+	}
+	aux_utility_slots = 2
+	component_slot = {
+		name = "PLANET_KILLER_GUN_01"
+		template = "invisible_planet_killer_fixed"
+		locatorname = "planet_killer_gun_01"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "COLOSSUS_SHIP_UL4G4AUX2S4W1"
+	ship_size = colossus
+	fits_on_slot = ship
+	should_draw_components = yes
+	entity = "colossus_ship_entity"
+	icon = "GFX_ship_part_core_ship"
+	prerequisites = { "tech_missiles_4" "tech_swarmer_missiles_1" "tech_torpedoes_2" }
+
+	large_utility_slots = 4
+	component_slot = {
+		name = "TORPEDO_01"
+		template = "medium_missile_turret"
+		locatorname = "planet_killer_gun_01"
+	}
+	component_slot = {
+		name = "TORPEDO_02"
+		template = "medium_missile_turret"
+		locatorname = "planet_killer_gun_01"
+	}
+	component_slot = {
+		name = "TORPEDO_03"
+		template = "medium_missile_turret"
+		locatorname = "planet_killer_gun_01"
+	}
+	component_slot = {
+		name = "TORPEDO_04"
+		template = "medium_missile_turret"
+		locatorname = "planet_killer_gun_01"
+	}
+	aux_utility_slots = 2
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "planet_killer_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "planet_killer_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "small_turret"
+		locatorname = "planet_killer_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "small_turret"
+		locatorname = "planet_killer_gun_01"
+	}
+	component_slot = {
+		name = "PLANET_KILLER_GUN_01"
+		template = "invisible_planet_killer_fixed"
+		locatorname = "planet_killer_gun_01"
+	}
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "COLOSSUS_SHIP_UL4M2G4AUX2S4W1"
+	ship_size = colossus
+	fits_on_slot = ship
+	should_draw_components = yes
+	entity = "colossus_ship_entity"
+	icon = "GFX_ship_part_core_ship"
+	prerequisites = { "tech_missiles_5" "tech_swarmer_missiles_2" "tech_torpedoes_3" }
+
+	large_utility_slots = 4
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "planet_killer_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "medium_turret"
+		locatorname = "planet_killer_gun_01"
+	}
+	component_slot = {
+		name = "TORPEDO_01"
+		template = "medium_missile_turret"
+		locatorname = "planet_killer_gun_01"
+	}
+	component_slot = {
+		name = "TORPEDO_02"
+		template = "medium_missile_turret"
+		locatorname = "planet_killer_gun_01"
+	}
+	component_slot = {
+		name = "TORPEDO_03"
+		template = "medium_missile_turret"
+		locatorname = "planet_killer_gun_01"
+	}
+	component_slot = {
+		name = "TORPEDO_04"
+		template = "medium_missile_turret"
+		locatorname = "planet_killer_gun_01"
+	}
+	aux_utility_slots = 2
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "planet_killer_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "planet_killer_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "small_turret"
+		locatorname = "planet_killer_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "small_turret"
+		locatorname = "planet_killer_gun_01"
+	}
+	component_slot = {
+		name = "PLANET_KILLER_GUN_01"
+		template = "invisible_planet_killer_fixed"
+		locatorname = "planet_killer_gun_01"
+	}
 
 	resources = {
 		category = ship_sections

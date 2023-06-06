@@ -1,3 +1,16 @@
+# ##################################################
+#
+# Radial Effect / Aura components
+#
+# ##################################################
+
+### Variables
+
+@shipAuraRange = 80
+@stationSmallAuraRange = 70
+@stationMediumAuraRange = 90
+@stationLargeAuraRange = 110
+
 # ###############
 # Titan Auras
 # ###############
@@ -11,32 +24,6 @@ utility_component_template = {
 
 	size_restriction = { titan }
 	component_set = "ship_aura_components"
-
-	friendly_aura = {
-		name = "aura_matter_decomposer"
-		radius = @shipAuraRange
-		apply_on = ships
-
-		stack_info = {
-			id = friendly_matter_decomposer
-			priority = 1
-		}
-
-		modifier = {
-			ship_hull_mult = -0.10
-		}
-
-		graphics = {
-			area_effect = {
-				entity = "circle_area_entity"
-				dynamic_scale = yes
-			}
-			ship_effect = {
-				entity = "ship_aura_negative_entity"
-				dynamic_scale = no
-			}
-		}
-	}
 
 	hostile_aura = {
 		name = "aura_matter_decomposer"
@@ -74,33 +61,6 @@ utility_component_template = {
 
 	size_restriction = { titan }
 	component_set = "ship_aura_components"
-
-	friendly_aura = {
-		name = "aura_no_retreat"
-		radius = @shipAuraRange
-		apply_on = fleets
-
-		stack_info = {
-			id = friendly_no_retreat
-			priority = 1
-		}
-
-		modifier = {
-			ship_emergency_ftl_min_days_mult = 1
-			ship_disengage_chance_mult = -0.2
-		}
-
-		graphics = {
-			area_effect = {
-				entity = "circle_area_entity"
-				dynamic_scale = yes
-			}
-			ship_effect = {
-				entity = "ship_aura_negative_entity"
-				dynamic_scale = no
-			}
-		}
-	}
 
 	hostile_aura = {
 		name = "aura_no_retreat"
@@ -154,34 +114,6 @@ utility_component_template = {
 			ship_hull_regen_add_perc = 0.75
 			ship_armor_regen_add_perc = 2.25
 			ship_shield_regen_add_perc = 2.25
-		}
-
-		graphics = {
-			area_effect = {
-				entity = "circle_area_entity"
-				dynamic_scale = yes
-			}
-			ship_effect = {
-				entity = "ship_aura_positive_entity"
-				dynamic_scale = no
-			}
-		}
-	}
-
-	hostile_aura = {
-		name = "aura_time_reverser"
-		radius = @shipAuraRange
-		apply_on = ships
-
-		stack_info = {
-			id = hostile_time_reverser
-			priority = 1
-		}
-
-		modifier = {
-			ship_hull_regen_add_perc = 0.25
-			ship_armor_regen_add_perc = 0.75
-			ship_shield_regen_add_perc = 0.75
 		}
 
 		graphics = {
@@ -305,6 +237,39 @@ utility_component_template = {
 			}
 			ship_effect = {
 				entity = "ship_aura_positive_entity"
+				dynamic_scale = no
+			}
+		}
+	}
+}
+
+utility_component_template = {
+	key = "RE_GUARDIAN_DISINTEGRATOR_FIELD_TITAN"
+	size = medium
+	icon = "GFX_disintegrator_field"
+	icon_frame = 1
+	power = 0
+
+	size_restriction = { titan }
+	component_set = "ship_aura_components"
+
+	hostile_aura = {
+		name = "aura_guardian_hull_degenerator_titan"
+		radius = @shipAuraRange
+		apply_on = ships
+
+		stack_info = {
+			id = hostile_guardian_hull_degenerator_aura_titan
+			priority = 10
+		}
+
+		modifier = {
+			ship_hull_regen_add_perc = -1.25
+		}
+
+		graphics = {
+			ship_effect = {
+				entity = "ship_aura_negative_entity"
 				dynamic_scale = no
 			}
 		}
@@ -457,6 +422,76 @@ utility_component_template = {
 			}
 			ship_effect = {
 				entity = "ship_aura_positive_entity"
+				dynamic_scale = no
+			}
+		}
+	}
+}
+
+utility_component_template = {
+	key = "RE_ENIGMATIC_DISRUPTION_FIELD"
+	size = medium
+	icon = "GFX_ship_part_enigmatic_disruption_field"
+	icon_frame = 1
+	power = 0
+
+	size_restriction = { juggernaut }
+	prerequisites = { tech_enigmatic_decoder tech_enigmatic_encoder }
+	component_set = "ship_aura_components"
+
+	hostile_aura = {
+		name = "aura_re_shield_dampener"
+		system_wide = yes
+
+		stack_info = {
+			id = hostile_inhibitor_aura
+			priority = 1
+		}
+
+		modifier = {
+			ship_shield_regen_add_perc = -0.10
+			ship_fire_rate_mult = -0.20
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+			ship_effect = {
+				entity = "ship_aura_negative_entity"
+				dynamic_scale = no
+			}
+		}
+	}
+}
+
+utility_component_template = {
+	key = "RE_GUARDIAN_DISINTEGRATOR_FIELD_JUGGERNAUT"
+	size = medium
+	icon = "GFX_disintegrator_field"
+	icon_frame = 1
+	power = 0
+
+	size_restriction = { juggernaut }
+	component_set = "ship_aura_components"
+
+	hostile_aura = {
+		name = "aura_guardian_hull_degenerator_juggernaut"
+		system_wide = yes
+
+		stack_info = {
+			id = hostile_guardian_hull_degenerator_aura_juggernaut
+			priority = 10
+		}
+
+		modifier = {
+			ship_hull_regen_add_perc = -2.50
+		}
+
+		graphics = {
+			ship_effect = {
+				entity = "ship_aura_negative_entity"
 				dynamic_scale = no
 			}
 		}

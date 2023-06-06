@@ -1,0 +1,41 @@
+component_set = {
+	key = "ENERGY_LANCE_1_360"
+	icon = "GFX_ship_part_energy_lance_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "ENERGY_LANCE_2_360"
+	icon = "GFX_ship_part_energy_lance_2"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "ARC_EMITTER_1_360"
+	icon = "GFX_ship_part_arc_emitter_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "ARC_EMITTER_2_360"
+	icon = "GFX_ship_part_arc_emitter_2"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MASS_ACCELERATOR_1_360"
+	icon = "GFX_ship_part_mass_accelerator_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MASS_ACCELERATOR_2_360"
+	icon = "GFX_ship_part_mass_accelerator_2"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "PERDITION_BEAM_360"
+	icon = "GFX_ship_part_perdition_beam"
+	icon_frame = 1
+}

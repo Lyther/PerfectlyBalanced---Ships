@@ -10,8 +10,7 @@ ship_section_template = {
 	key = "M4_MILITARY_STATION_SECTION"
 	ship_size = military_station_small
 	ship_size = military_station_medium
-
-    prerequisites = { tech_defense_platform_hull_1 }
+    prerequisites = { "tech_defense_platform_hull_1" }
 
 	fits_on_slot = "north"
 	fits_on_slot = "west"
@@ -58,8 +57,7 @@ ship_section_template = {
 	key = "X1_MILITARY_STATION_SECTION"
 	ship_size = military_station_small
 	ship_size = military_station_medium
-
-    prerequisites = { tech_defense_platform_hull_1 }
+    prerequisites = { "tech_defense_platform_hull_1" }
 
 	fits_on_slot = "north"
 	fits_on_slot = "west"
@@ -91,8 +89,7 @@ ship_section_template = {
 	key = "HB2_MILITARY_STATION_SECTION"
 	ship_size = military_station_small
 	ship_size = military_station_medium
-
-    prerequisites = { tech_defense_platform_hull_1 }
+    prerequisites = { "tech_defense_platform_hull_1" }
 
 	fits_on_slot = "north"
 	fits_on_slot = "west"
@@ -131,8 +128,7 @@ ship_section_template = {
 	key = "M6_MILITARY_STATION_SECTION"
 	ship_size = military_station_small
 	ship_size = military_station_medium
-
-    prerequisites = { tech_defense_platform_hull_1 }
+    prerequisites = { "tech_defense_platform_hull_1" }
 
 	fits_on_slot = "north"
 	fits_on_slot = "west"
@@ -189,8 +185,7 @@ ship_section_template = {
 	key = "HB3_MILITARY_STATION_SECTION"
 	ship_size = military_station_small
 	ship_size = military_station_medium
-
-    prerequisites = { tech_defense_platform_hull_1 }
+    prerequisites = { "tech_defense_platform_hull_1" }
 
 	fits_on_slot = "north"
 	fits_on_slot = "west"
@@ -235,8 +230,7 @@ ship_section_template = {
 	key = "X1HB1_MILITARY_STATION_SECTION"
 	ship_size = military_station_small
 	ship_size = military_station_medium
-
-    prerequisites = { tech_defense_platform_hull_1 }
+    prerequisites = { "tech_defense_platform_hull_1" }
 
 	fits_on_slot = "north"
 	fits_on_slot = "west"
@@ -274,8 +268,7 @@ ship_section_template = {
 	key = "X1M2_MILITARY_STATION_SECTION"
 	ship_size = military_station_small
 	ship_size = military_station_medium
-
-    prerequisites = { tech_defense_platform_hull_1 }
+    prerequisites = { "tech_defense_platform_hull_1" }
 
 	fits_on_slot = "north"
 	fits_on_slot = "west"
