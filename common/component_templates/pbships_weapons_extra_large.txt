@@ -16,7 +16,7 @@ weapon_component_template = {
 	prerequisites = { "tech_energy_lance_1" }
 	component_set = "ENERGY_LANCE_1_360"
 	projectile_gfx = "particle_lance"
-	tags = { weapon_type_energy }
+	tags = { weapon_type_energy weapon_role_artillery x_slot }
 	ai_tags = { weapon_role_artillery artillery}
 	ai_tag_weight = 0
 	upgrades_to = "ENERGY_LANCE_2"
@@ -39,10 +39,6 @@ weapon_component_template = {
 
 	ai_weight = {
 		weight = 0
-		modifier = {
-			factor = 0.0
-			no_resource_for_component = { RESOURCE = rare_crystals }
-		}
 	}
 
 	power = -200
@@ -76,7 +72,7 @@ weapon_component_template = {
 	prerequisites = { "tech_energy_lance_2" }
 	component_set = "ENERGY_LANCE_2_360"
 	projectile_gfx = "tachyon_lance"
-	tags = { weapon_type_energy }
+	tags = { weapon_type_energy weapon_role_artillery x_slot }
 	ai_tags = { weapon_role_artillery artillery }
 	ai_tag_weight = 0
 	resources = {
@@ -98,10 +94,6 @@ weapon_component_template = {
 
 	ai_weight = {
 		weight = 0
-		modifier = {
-			factor = 0.0
-			no_resource_for_component = { RESOURCE = rare_crystals }
-		}
 	}
 
 	power = -260
@@ -139,7 +131,7 @@ weapon_component_template = {
 	prerequisites = { "tech_arc_emitter_1" }
 	component_set = "ARC_EMITTER_1_360"
 	projectile_gfx = "arc_emitter"
-	tags = { weapon_type_energy }
+	tags = { weapon_type_energy weapon_role_artillery x_slot }
 	ai_tags = { weapon_role_artillery artillery }
 	ai_tag_weight = 0
 	upgrades_to = "ARC_EMITTER_2"
@@ -162,10 +154,6 @@ weapon_component_template = {
 
 	ai_weight = {
 		weight = 0
-		modifier = {
-			factor = 0.0
-			no_resource_for_component = { RESOURCE = rare_crystals }
-		}
 	}
 
 	power = -200
@@ -202,7 +190,7 @@ weapon_component_template = {
 	prerequisites = { "tech_arc_emitter_2" }
 	component_set = "ARC_EMITTER_2_360"
 	projectile_gfx = "focused_arc_emitter"
-	tags = { weapon_type_energy }
+	tags = { weapon_type_energy weapon_role_artillery x_slot }
 	ai_tags = { weapon_role_artillery artillery }
 	ai_tag_weight = 0
 	resources = {
@@ -224,10 +212,6 @@ weapon_component_template = {
 
 	ai_weight = {
 		weight = 0
-		modifier = {
-			factor = 0.0
-			no_resource_for_component = { RESOURCE = rare_crystals }
-		}
 	}
 
 	power = -260
@@ -269,7 +253,7 @@ weapon_component_template = {
 	prerequisites = { "tech_mass_accelerator_1" }
 	component_set = "MASS_ACCELERATOR_1_360"
 	projectile_gfx = "kinetic_artillery"
-	tags = { weapon_type_kinetic }
+	tags = { weapon_type_kinetic weapon_role_artillery x_slot }
 	ai_tags = { weapon_role_artillery artillery }
 	ai_tag_weight = 0
 	upgrades_to = "MASS_ACCELERATOR_2"
@@ -292,10 +276,6 @@ weapon_component_template = {
 
 	ai_weight = {
 		weight = 0
-		modifier = {
-			factor = 0.0
-			no_resource_for_component = { RESOURCE = volatile_motes }
-		}
 	}
 
 	power = -200
@@ -330,7 +310,7 @@ weapon_component_template = {
 	prerequisites = { "tech_mass_accelerator_2" }
 	component_set = "MASS_ACCELERATOR_2_360"
 	projectile_gfx = "adv_kinetic_artillery"
-	tags = { weapon_type_kinetic }
+	tags = { weapon_type_kinetic weapon_role_artillery x_slot }
 	ai_tags = { weapon_role_artillery artillery }
 	ai_tag_weight = 0
 	resources = {
@@ -352,10 +332,6 @@ weapon_component_template = {
 
 	ai_weight = {
 		weight = 0
-		modifier = {
-			factor = 0.0
-			no_resource_for_component = { RESOURCE = volatile_motes }
-		}
 	}
 
 	power = -260
@@ -391,8 +367,7 @@ weapon_component_template = {
 
 	use_ship_kill_target = no
 
-	tags = { weapon_type_energy }
-
+	tags = { weapon_type_energy weapon_role_artillery t_slot }
 	prerequisites = { "tech_titans" }
 	component_set = "PERDITION_BEAM_360"
 	projectile_gfx = "perdition_beam"
@@ -415,10 +390,6 @@ weapon_component_template = {
 
 	ai_weight = {
 		weight = 0
-		modifier = {
-			factor = 0.0
-			no_resource_for_component = { RESOURCE = rare_crystals }
-		}
 	}
 
 	power = -500

@@ -1,0 +1,123 @@
+# Icons set here are the ones show in the actual slot. The reason is so that we can support different icons for different sizes.
+
+#Updated Range on these
+
+# DEFAULT VALUES:
+# is_missile = no
+# is_beam = no
+# is_point_defence = no
+
+# ####################
+# Archaeotechnology Weapons
+# ####################
+# Titan Laser
+
+weapon_component_template = {
+	key = "ARCHAEO_TITAN_OTHER"
+	size = titanic
+	type = instant
+	prio_projectile = yes
+
+	icon = "GFX_ship_part_archaeo_titan_beam"
+	icon_frame = 1
+
+	use_ship_kill_target = no
+
+	tags = { weapon_type_energy weapon_archaeotech weapon_role_artillery t_slot }
+
+	prerequisites = { "tech_archaeo_titan_beam" }
+	component_set = "ARCHAEO_TITAN_360"
+	projectile_gfx = "perdition_beam"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @titanic_t6_cost
+			minor_artifacts = @minor_artifacts_cost_xl
+		}
+		upkeep = {
+			energy = @titanic_t6_upkeep_energy
+			alloys = @titanic_t6_upkeep_alloys
+		}
+	}
+
+	target_weights = {
+		titan = 3
+		battleship = 2
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+
+	power = -500
+	damage = {
+		min = 5000
+		max = 10000
+	}
+	hull_damage = 1.25
+	shield_damage = 0.50
+	armor_damage = 1.75
+	windup = {
+		min = 20
+		max = 90
+	}
+	total_fire_time = 90
+	range = 125
+	accuracy = 0.85
+}
+
+# ## Mass Accelerator
+weapon_component_template = {
+	type = instant
+
+	key = "ARCHAEO_X_OTHER"
+	size = extra_large
+
+	icon = "GFX_ship_part_archaeo_mass_accelerator"
+	icon_frame = 1
+
+	use_ship_kill_target = no
+
+	prerequisites = { "tech_archaeo_mass_accelerator" }
+	component_set = "ARCHAEO_X_360"
+	projectile_gfx = "adv_kinetic_artillery"
+	tags = { weapon_type_kinetic weapon_archaeotech }
+	ai_tags = { weapon_role_artillery artillery }
+	ai_tag_weight = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @xl_t6_cost
+			minor_artifacts = @minor_artifacts_cost_xl
+		}
+		upkeep = {
+			energy = @xl_t6_upkeep_energy
+			alloys = @xl_t6_upkeep_alloys
+		}
+	}
+
+	target_weights = {
+		titan = 3
+		battleship = 2
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+
+	power = -200
+	damage = {
+		min = 920
+		max = 2600
+	}
+	hull_damage = 1.25
+	shield_damage = 2.50
+	armor_damage = 0.25
+	windup = {
+		min = 14
+		max = 54
+	}
+	total_fire_time = 80
+	range = 150
+	accuracy = 0.75
+}

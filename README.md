@@ -31,6 +31,7 @@ If a new version is released/needs to be compatible with an older version, pleas
 Compatible Mods:
 
 * ZoFE: The Zenith of Fallen Empires
+* ACoT: Ancient Cache of Technologies
 
 
 For other mods that are compatible, such as new weapon slot types/ship types, please leave a message through the Creative Workshop and I will also start compatibility updates for the following mods.
@@ -70,6 +71,7 @@ For other mods that are compatible, such as new weapon slot types/ship types, pl
 已经兼容的MOD列表：
 
 * ZoFE: The Zenith of Fallen Empires
+* ACoT: Ancient Cache of Technologies
 
 
 对于其他MOD的内容兼容，例如新的武器槽位种类/舰船种类，同样可以通过创意工坊留言，我也会对以下列表中的MOD开始兼容更新：

@@ -39,3 +39,56 @@ component_set = {
 	icon = "GFX_ship_part_perdition_beam"
 	icon_frame = 1
 }
+
+# Energy Torpedoes
+
+component_set = {
+	key = "ENERGY_TORPEDO_1_360"
+
+	icon = "GFX_ship_part_energy_torpedo_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "ENERGY_TORPEDO_2_360"
+
+	icon = "GFX_ship_part_energy_torpedo_2"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "ARCHAEO_TITAN_360"
+
+	icon = "GFX_ship_part_archaeo_titan_beam"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "ARCHAEO_X_360"
+
+	icon = "GFX_ship_part_archaeo_mass_accelerator"
+	icon_frame = 1
+}
+
+# Torpedoes
+
+component_set = {
+	key = "TORPEDO_1_360"
+
+	icon = "GFX_ship_part_torpedo_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "TORPEDO_2_360"
+
+	icon = "GFX_ship_part_torpedo_2"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "TORPEDO_3_360"
+
+	icon = "GFX_ship_part_torpedo_3"
+	icon_frame = 1
+}
