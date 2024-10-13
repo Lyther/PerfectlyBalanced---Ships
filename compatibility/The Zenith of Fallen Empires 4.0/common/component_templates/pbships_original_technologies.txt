@@ -1,0 +1,370 @@
+##########################
+## Original Empire Weapons
+##########################
+
+# DM Power:
+@zofe_escort_power_11 = 80000
+@zofe_battlecruiser_power_11 = 180000
+@zofe_titan_power_11 = 300000
+
+#Divine Judgement
+weapon_component_template = {
+	key = "DIVINE_JUDGEMENT_OTHER"
+	size = titanic
+	entity = "invisible_turret_entity"
+	type = instant
+	prio_projectile = yes
+
+	icon = "GFX_ship_part_divine_judgement"
+	icon_frame = 1
+
+	use_ship_kill_target = no
+
+	damage = { min = 20000 max = 40000 }
+	windup = { min = 30 max = 45 }
+	total_fire_time = 180
+	range = 300.0
+	accuracy = 1.0
+	hull_damage = 4.0
+	shield_damage = 0.75
+	armor_damage = 4.0
+	tracking = 0
+	power = -2000
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @zofe_titanic_t8_cost
+			rare_crystals = @zofe_titanic_t8_rare
+			sr_dark_matter = @zofe_titanic_t7_rare
+			minor_artifacts = 16
+		}
+		upkeep = {
+			energy = @zofe_titanic_t8_upkeep_energy
+			alloys = @zofe_titanic_t8_upkeep_alloys
+		}
+	}
+
+	target_weights = {
+		fe_goliath = 6
+		fe_titan = 5
+		fe_battlecruiser = 4
+		titan = 3
+		battleship = 2
+		fe_escort = 2
+	}
+
+	component_set = "DIVINE_JUDGEMENT_360"
+	projectile_gfx = "divine_judgement"
+	size_restriction = { fe_titan fe_goliath }
+	prerequisites = { "tech_divine_judgement" }
+	tags = { weapon_type_energy weapon_original_tech }
+	ai_tags = { weapon_role_artillery artillery }
+
+	ai_weight = {
+		weight = 0  #Original Weapons are GOOOOOOD
+	}
+}
+
+#Light of Salvation
+
+weapon_component_template = {
+	key = "LIGHT_OF_SALVATION_OTHER"
+	size = extra_large
+	entity = "invisible_turret_entity"
+	type = instant
+	prio_projectile = yes
+
+	icon = "GFX_ship_part_light_of_salvation"
+	icon_frame = 1
+
+	use_ship_kill_target = no
+
+	damage = { min = 3120 max = 7800 }
+	windup = { min = 5 max = 20 }
+	total_fire_time = 70
+	range = 240.0
+	accuracy = 1.0
+	hull_damage = 2.0
+	shield_damage = 0.75
+	armor_damage = 3.0
+	tracking = 0
+	power = -1040
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @zofe_xl_t8_cost
+			rare_crystals = @zofe_xl_t8_rare
+			sr_dark_matter = @zofe_xl_t7_rare
+			minor_artifacts = 8
+		}
+		upkeep = {
+			energy = @zofe_xl_t8_upkeep_energy
+			alloys = @zofe_xl_t8_upkeep_alloys
+		}
+	}
+
+	prerequisites = { "tech_light_of_salvation" }
+	component_set = "LIGHT_OF_SALVATION_360"
+	projectile_gfx = "light_of_salvation"
+	tags = { weapon_type_energy weapon_original_tech }
+	ai_tags = { weapon_role_artillery artillery }
+
+	ai_weight = {
+		weight = 0  #Original Weapons are GOOOOOOD
+	}
+}
+
+
+# ## Light of Arya
+
+weapon_component_template = {
+	key = "LIGHT_OF_ARYA_OTHER"
+	size = large
+	prio_projectile = yes
+	type = instant
+
+	icon = "GFX_ship_part_light_of_arya"
+	icon_frame = 1
+
+	damage = { min = 1248 max = 3120 }
+	windup = { min = 5 max = 20 }
+	total_fire_time = 60
+	range = 180.0
+	accuracy = 1.0
+	shield_damage = 0.5
+	armor_damage = 3
+	hull_damage = 3
+	tracking = 0.05
+	power = -520
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @zofe_l_t8_cost
+			rare_crystals = @zofe_l_t8_rare
+			sr_dark_matter = @zofe_l_t7_rare
+			minor_artifacts = 4
+		}
+		upkeep = {
+			energy = @zofe_l_t8_upkeep_energy
+			alloys = @zofe_l_t8_upkeep_alloys
+		}
+	}
+
+	prerequisites = { "tech_light_of_arya" }
+	component_set = "LIGHT_OF_ARYA_360"
+	projectile_gfx = "light_of_arya"
+	tags = { weapon_type_energy weapon_original_tech }
+	ai_tags = { weapon_role_artillery artillery }
+
+	ai_weight = {
+		weight = 0  #Original Weapons are GOOOOOOD
+	}
+}
+
+####Reactors
+
+##Utilities
+
+utility_component_template = {
+	key = "FE_ESCORT_ORIGINAL_EMPIRE_REACTOR_ULTRA"
+	size = small
+	icon = "GFX_ship_part_original_empire_power_core"
+	icon_frame = 1
+	power = @zofe_escort_power_11
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @zofe_s_t8_cost
+			sr_dark_matter = @zofe_s_t8_rare
+			minor_artifacts = 1
+		}
+		upkeep = {
+			energy = @zofe_s_t8_upkeep_energy
+			alloys = @zofe_s_t8_upkeep_alloys
+		}
+	}
+
+	prerequisites = { "tech_original_empire_power_core" }
+	component_set = "power_core"
+	size_restriction = { fe_escort }
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+utility_component_template = {
+	key = "FE_BATTLECRUISER_ORIGINAL_EMPIRE_REACTOR_ULTRA"
+	size = small
+	icon = "GFX_ship_part_original_empire_power_core"
+	icon_frame = 1
+	power = @zofe_battlecruiser_power_11
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @zofe_l_t8_cost
+			sr_dark_matter = @zofe_l_t8_rare
+			minor_artifacts = 2
+		}
+		upkeep = {
+			energy = @zofe_l_t8_upkeep_energy
+			alloys = @zofe_l_t8_upkeep_alloys
+		}
+	}
+
+	prerequisites = { "tech_original_empire_power_core" }
+	component_set = "power_core"
+	size_restriction = { fe_battlecruiser }
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+utility_component_template = {
+	key = "FE_TITAN_ORIGINAL_EMPIRE_REACTOR_ULTRA"
+	size = small
+	icon = "GFX_ship_part_original_empire_power_core"
+	icon_frame = 1
+	power = @zofe_titan_power_11
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @zofe_xl_t8_cost
+			sr_dark_matter = @zofe_xl_t8_rare
+			minor_artifacts = 4
+		}
+		upkeep = {
+			energy = @zofe_xl_t8_upkeep_energy
+			alloys = @zofe_xl_t8_upkeep_alloys
+		}
+	}
+
+	prerequisites = { "tech_original_empire_power_core" }
+	component_set = "power_core"
+	size_restriction = { fe_titan }
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+utility_component_template = {
+	key = "FE_GOLIATH_ORIGINAL_EMPIRE_REACTOR_ULTRA"
+	size = small
+	icon = "GFX_ship_part_original_empire_power_core"
+	icon_frame = 1
+	power = 600000
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @zofe_titanic_t8_cost
+			sr_dark_matter = @zofe_titanic_t8_rare
+			minor_artifacts = 8
+		}
+		upkeep = {
+			energy = @zofe_titanic_t8_upkeep_energy
+			alloys = @zofe_titanic_t8_upkeep_alloys
+		}
+	}
+
+	prerequisites = { "tech_original_empire_power_core" }
+	component_set = "power_core"
+	size_restriction = {
+		fe_goliath
+		colossus
+		star_eater
+		juggernaut
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+utility_component_template = {
+	key = "FE_STARBASE_ORIGINAL_EMPIRE_REACTOR_ULTRA"
+	size = large
+	icon = "GFX_ship_part_original_empire_power_core"
+	icon_frame = 1
+	power = 600000
+
+	prerequisites = { "tech_original_empire_power_core" }
+	component_set = "power_core"
+	class_restriction = { shipclass_starbase }
+	size_restriction = {
+		starbase_outpost
+		starbase_starport
+		starbase_starhold
+		starbase_starfortress
+		starbase_citadel
+		orbital_ring_tier_1
+		orbital_ring_tier_2
+		orbital_ring_tier_3
+	}
+	upgrades_to = "FE_STARBASE_ORIGINAL_EMPIRE_REACTOR_ULTRA"
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+utility_component_template = {
+	key = "FE_STATIONS_ORIGINAL_EMPIRE_REACTOR_ULTRA"
+	size = small
+	icon = "GFX_ship_part_original_empire_power_core"
+	icon_frame = 1
+	power = 200000
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @zofe_s_t8_cost
+			sr_dark_matter = @zofe_s_t8_rare
+			minor_artifacts = 2
+		}
+		upkeep = {
+			energy = @zofe_s_t8_upkeep_energy
+			alloys = @zofe_s_t8_upkeep_alloys
+		}
+	}
+
+	prerequisites = { "tech_original_empire_power_core" }
+	component_set = "power_core"
+	size_restriction = { fe_small_station ion_cannon }
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+utility_component_template = {
+	key = "FE_LARGE_STATIONS_ORIGINAL_EMPIRE_REACTOR_ULTRA"
+	size = small
+	icon = "GFX_ship_part_original_empire_power_core"
+	icon_frame = 1
+	power = 400000
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @zofe_l_t8_cost
+			sr_dark_matter = @zofe_l_t8_rare
+			minor_artifacts = 4
+		}
+		upkeep = {
+			energy = @zofe_l_t8_upkeep_energy
+			alloys = @zofe_l_t8_upkeep_alloys
+		}
+	}
+
+	prerequisites = { "tech_original_empire_power_core" }
+	component_set = "power_core"
+	size_restriction = { fe_large_station }
+
+	ai_weight = {
+		weight = 0
+	}
+}

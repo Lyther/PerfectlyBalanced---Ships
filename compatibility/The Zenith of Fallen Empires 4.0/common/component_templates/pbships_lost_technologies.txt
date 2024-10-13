@@ -1,0 +1,1170 @@
+#############################
+###		Lost Technologies
+#############################
+
+# DM Power:
+@zofe_escort_power_10 = 40000
+@zofe_battlecruiser_power_10 = 80000
+@zofe_titan_power_10 = 150000
+
+######################
+## Legendary Weapons
+######################
+
+##Portal Generator
+
+weapon_component_template = {
+	key = "PORTAL_GENERATOR_OTHER"
+	size = titanic
+	entity = "invisible_turret_entity"
+	type = instant
+	prio_projectile = yes
+
+	icon = "GFX_ship_part_portal_generator"
+	icon_frame = 1
+
+	use_ship_kill_target = yes
+
+	damage = { min = 2568 max = 3320 }
+	windup = { min = 5 max = 15 }
+	total_fire_time = 30
+	range = 300.0
+	accuracy = 0.85
+	hull_damage = 1.0
+	shield_damage = 0.5
+	armor_damage = 1.0
+	armor_penetration = 1.0
+	tracking = 0
+	power = -1000
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @titanic_t8_cost
+			rare_crystals = @titanic_t8_rare
+#			minor_artifacts = 16
+		}
+		upkeep = {
+			energy = @titanic_t8_upkeep_energy
+			alloys = @titanic_t8_upkeep_alloys
+		}
+	}
+
+	prerequisites = { "tech_portal_generator" }
+	component_set = "PORTAL_GENERATOR_360"
+	projectile_gfx = "portal_generator"
+	size_restriction = { fe_goliath }
+	tags = { weapon_type_energy weapon_lost_tech }
+	ai_tags = { weapon_role_artillery }
+
+	ai_weight = {
+		weight = 0 #Legendary Weapons are GOOOOOOD
+	}
+}
+
+#Dimensional Weapon
+
+weapon_component_template = {
+	key = "DIMENSIONAL_WEAPON_OTHER"
+	size = titanic
+	entity = "invisible_turret_entity"
+	type = instant
+	prio_projectile = yes
+
+	icon = "GFX_ship_part_dimensional_weapon"
+	icon_frame = 1
+
+	use_ship_kill_target = no
+
+	damage = { min = 2500 max = 25000 }
+	windup = { min = 25 max = 100 }
+	total_fire_time = 150
+	range = 250.0
+	accuracy = 0.85
+	hull_damage = 1.0
+	shield_damage = 0.25
+	armor_penetration = 1.0
+	tracking = 0
+	power = -1000
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @zofe_titanic_t8_cost
+			sr_dark_matter = @titanic_t8_rare
+#			minor_artifacts = 16
+		}
+		upkeep = {
+			energy = @zofe_titanic_t8_upkeep_energy
+			alloys = @zofe_titanic_t8_upkeep_alloys
+		}
+	}
+
+	prerequisites = { "tech_dimensional_weapon" }
+	component_set = "DIMENSIONAL_WEAPON_360"
+	projectile_gfx = "dimensional_weapon"
+	tags = { weapon_type_energy weapon_lost_tech }
+	ai_tags = { weapon_role_artillery artillery }
+
+	ai_tag_weight = 0
+
+	ai_weight = {
+		weight = 0 #Legendary Weapons are GOOOOOOD
+	}
+}
+
+########################
+### Ancient Weaponry
+########################
+
+# Terror Cannon
+weapon_component_template = {
+	type = instant
+	key = "TERROR_CANNON_OTHER"
+	size = large
+
+	icon = "GFX_ship_part_terror_cannon"
+	icon_frame = 1
+
+	damage = { min = 390 max = 1170 }
+	windup = { min = 9 max = 34 }
+	total_fire_time = 45
+	range = 120.0
+	accuracy = 0.80
+	hull_damage = 1
+	shield_damage = 2
+	shield_penetration = 0
+	armor_damage = 0.75
+	armor_penetration = 0
+	tracking = 0.05
+	power = -182
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @zofe_l_t8_cost
+			volatile_motes = @zofe_l_t8_rare
+#			minor_artifacts = 4
+		}
+		upkeep = {
+			energy = @zofe_l_t8_upkeep_energy
+			alloys = @zofe_l_t8_upkeep_alloys
+		}
+	}
+
+	prerequisites = { "tech_terror_cannon" }
+	component_set = "TERROR_CANNON_360"
+	projectile_gfx = "terror_cannon"
+	tags = { weapon_type_kinetic weapon_lost_tech }
+	ai_tags = { weapon_role_anti_shield gunship }
+
+	ai_weight = {
+		weight = 0 #Legendary Weapons are GOOOOOOD
+	}
+}
+
+### Annihilator Torpedoes
+weapon_component_template = {
+	key = "ANNIHILATOR_TORPEDO_OTHER"
+	size = torpedo
+
+	icon = "GFX_ship_part_annihilator_torpedo"
+	icon_frame = 1
+	type = missile
+
+	damage = { min = 388 max = 508 }
+	windup = { min = 5 max = 10}
+	total_fire_time = 150
+	range = 40.0
+	accuracy = 1
+	hull_damage = 1.0
+	shield_damage = 1.0
+	shield_penetration = 1.0
+	armor_damage = 1.5
+	armor_penetration = 0
+	tracking = 0.2
+	size_damage_factor = 1.0
+	power = -68
+
+	prerequisites = { "tech_annihilator_torpedo" }
+	component_set = "ANNIHILATOR_TORPEDO_360"
+	projectile_gfx = "large_torpedo_03"
+	tags = { weapon_type_explosive weapon_lost_tech }
+	ai_tags = { weapon_role_anti_shield explosive }
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @zofe_m_t8_cost
+			volatile_motes = @zofe_m_t8_rare
+#			minor_artifacts = 2
+		}
+		upkeep = {
+			energy = @zofe_m_t8_upkeep_energy
+			alloys = @zofe_m_t8_upkeep_alloys
+		}
+	}
+
+	missile_speed = 12
+	missile_health = 40
+	missile_evasion = 0.4
+	missile_armor = 40
+	missile_shield = 0
+	missile_retarget_range = 100
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+# ## Dark Energy Torpedoes
+weapon_component_template = {
+	key = "DARK_ENERGY_TORPEDO_OTHER"
+	size = torpedo
+	type = instant
+
+	icon = "GFX_ship_part_dark_energy_torpedo"
+	icon_frame = 1
+
+	damage = { min = 122 max = 262 }
+	windup = { min = 25 max = 80}
+	total_fire_time = 100
+	range = 150.0
+	accuracy = 0.8
+	hull_damage = 1.75
+	shield_damage = 0.5
+	shield_penetration = 0
+	armor_damage = 1.5
+	armor_penetration = 0
+	tracking = 0
+	size_damage_factor = 1.0
+	power = -154
+
+	prerequisites = { "tech_dark_energy_torpedo" }
+	component_set = "DARK_ENERGY_TORPEDO_360"
+	projectile_gfx = "neutron_torpedoes"
+	tags = { weapon_type_energy weapon_lost_tech }
+	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
+	ai_tag_weight = 0
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @zofe_l_t8_cost
+			exotic_gases = @zofe_l_t8_rare
+#			minor_artifacts = 4
+		}
+		upkeep = {
+			energy = @zofe_l_t8_upkeep_energy
+			alloys = @zofe_l_t8_upkeep_alloys
+		}
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+######################
+## Omni Weapons
+######################
+
+# ## Omni Lance
+
+weapon_component_template = {
+	key = "OMNI_LANCE_OTHER"
+	size = extra_large
+	type = instant
+	prio_projectile = yes
+
+	icon = "GFX_ship_part_omni_lance"
+	icon_frame = 1
+
+	use_ship_kill_target = no
+
+	damage = { min = 1560 max = 3900 }
+	windup = { min = 6 max = 23 }
+	total_fire_time = 60
+	range = 180.0
+	accuracy = 0.9
+	shield_damage = 0.5
+	armor_damage = 2
+	hull_damage = 1.5
+	tracking = 0
+	power = -520
+
+	prerequisites = { "tech_omni_lance" }
+	component_set = "OMNI_LANCE_360"
+	projectile_gfx = "omni_lance"
+	tags = { weapon_type_energy weapon_lost_tech }
+	ai_tags = { weapon_role_artillery }
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @zofe_xl_t8_cost
+			rare_crystals = @zofe_xl_t8_rare
+			minor_artifacts = 16
+		}
+		upkeep = {
+			energy = @zofe_xl_t8_upkeep_energy
+			alloys = @zofe_xl_t8_upkeep_alloys
+		}
+	}
+
+	ai_weight = {
+		weight = 0  #Omni Weapons are GOOOOOOD
+	}
+}
+
+# ## Compact Omni Lance
+
+weapon_component_template = {
+	key = "COMPACT_OMNI_LANCE_OTHER"
+	size = large
+	prio_projectile = yes
+	type = instant
+
+	icon = "GFX_ship_part_omni_lance"
+	icon_frame = 1
+
+	damage = { min = 624 max = 1560 }
+	windup = { min = 6 max = 23 }
+	total_fire_time = 40
+	range = 120.0
+	accuracy = 0.9
+	shield_damage = 0.5
+	armor_damage = 2
+	hull_damage = 1.5
+	tracking = 0.05
+	power = -260
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @zofe_l_t8_cost
+			rare_crystals = @zofe_l_t8_rare
+			minor_artifacts = 8
+		}
+		upkeep = {
+			energy = @zofe_l_t8_upkeep_energy
+			alloys = @zofe_l_t8_upkeep_alloys
+		}
+	}
+
+	prerequisites = { "tech_compact_omni_lance" }
+	component_set = "COMPACT_OMNI_LANCE_360"
+	projectile_gfx = "compact_omni_lance"
+	tags = { weapon_type_energy weapon_lost_tech }
+	ai_tags = { weapon_role_anti_armor }
+
+	ai_weight = {
+		weight = 0  #Omni Weapons are GOOOOOOD
+	}
+}
+
+# ## Compact Omni Lance Medium
+
+weapon_component_template = {
+	key = "COMPACT_OMNI_LANCE_M_OTHER"
+	size = medium
+	type = instant
+
+	icon = "GFX_ship_part_omni_lance"
+	icon_frame = 1
+
+	damage = { min = 250 max = 624 }
+	windup = { min = 6 max = 23 }
+	total_fire_time = 35
+	range = 90.0
+	accuracy = 0.9
+	shield_damage = 0.5
+	armor_damage = 2
+	hull_damage = 1.5
+	tracking = 0.3
+	power = -130
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @zofe_m_t8_cost
+			rare_crystals = @zofe_m_t8_rare
+			minor_artifacts = 4
+		}
+		upkeep = {
+			energy = @zofe_m_t8_upkeep_energy
+			alloys = @zofe_m_t8_upkeep_alloys
+		}
+	}
+
+	prerequisites = { "tech_compact_omni_lance" }
+	component_set = "COMPACT_OMNI_LANCE_360"
+	projectile_gfx = "compact_omni_lance_s"
+	tags = { weapon_type_energy weapon_lost_tech }
+	ai_tags = { weapon_role_anti_armor }
+
+	ai_weight = {
+		weight = 0  #Omni Weapons are GOOOOOOD
+	}
+}
+
+####################
+# Arc Emitter
+####################
+
+# ## Omni Emitter
+
+weapon_component_template = {
+	key = "OMNI_EMITTER_OTHER"
+	size = extra_large
+	type = instant
+	prio_projectile = yes
+
+	icon = "GFX_ship_part_omni_emitter"
+	icon_frame = 1
+
+	use_ship_kill_target = no
+
+	damage = { min = 1 max = 3350 }
+	windup = { min = 6 max = 24 }
+	total_fire_time = 61
+	range = 180.0
+	accuracy = 1
+	hull_damage = 1
+	shield_damage = 1
+	shield_penetration = 1
+	armor_damage = 1
+	armor_penetration = 1
+	tracking = 0
+	power = -520
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @zofe_xl_t8_cost
+			rare_crystals = @zofe_xl_t8_rare
+			minor_artifacts = 16
+		}
+		upkeep = {
+			energy = @zofe_xl_t8_upkeep_energy
+			alloys = @zofe_xl_t8_upkeep_alloys
+		}
+	}
+
+	prerequisites = { "tech_omni_emitter" }
+	component_set = "OMNI_EMITTER_360"
+	projectile_gfx = "omni_emitter"
+	tags = { weapon_type_energy weapon_lost_tech }
+	ai_tags = { weapon_role_artillery }
+
+	ai_weight = {
+		weight = 0  #Omni Weapons are GOOOOOOD
+	}
+}
+
+# ## Compact Omni Emitter
+
+weapon_component_template = {
+	key = "COMPACT_OMNI_EMITTER_OTHER"
+	size = large
+	type = instant
+	prio_projectile = yes
+
+	icon = "GFX_ship_part_omni_emitter"
+	icon_frame = 1
+
+	damage = { min = 1 max = 1352 }
+	windup = { min = 6 max = 24 }
+	total_fire_time = 45
+	range = 120.0
+	accuracy = 1
+	hull_damage = 1
+	shield_damage = 1
+	shield_penetration = 1
+	armor_damage = 1
+	armor_penetration = 1
+	tracking = 0.5
+	power = -260
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @zofe_l_t8_cost
+			rare_crystals = @zofe_l_t8_rare
+			minor_artifacts = 8
+		}
+		upkeep = {
+			energy = @zofe_l_t8_upkeep_energy
+			alloys = @zofe_l_t8_upkeep_alloys
+		}
+	}
+
+	prerequisites = { "tech_compact_omni_emitter" }
+	component_set = "COMPACT_OMNI_EMITTER_360"
+	projectile_gfx = "compact_omni_emitter"
+	tags = { weapon_type_energy weapon_lost_tech }
+	ai_tags = { weapon_role_anti_hull }
+
+	ai_weight = {
+		weight = 0  #Omni Weapons are GOOOOOOD
+	}
+}
+
+# ## Compact Omni Emitter
+
+weapon_component_template = {
+	key = "COMPACT_OMNI_EMITTER_M_OTHER"
+	size = medium
+	type = instant
+
+	icon = "GFX_ship_part_omni_emitter"
+	icon_frame = 1
+
+	damage = { min = 1 max = 541 }
+	windup = { min = 6 max = 24 }
+	total_fire_time = 40
+	range = 90.0
+	accuracy = 1
+	hull_damage = 1
+	shield_damage = 1
+	shield_penetration = 1
+	armor_damage = 1
+	armor_penetration = 1
+	tracking = 0.3
+	power = -130
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @zofe_m_t8_cost
+			rare_crystals = @zofe_m_t8_rare
+			minor_artifacts = 4
+		}
+		upkeep = {
+			energy = @zofe_m_t8_upkeep_energy
+			alloys = @zofe_m_t8_upkeep_alloys
+		}
+	}
+
+	prerequisites = { "tech_compact_omni_emitter" }
+	component_set = "COMPACT_OMNI_EMITTER_360"
+	projectile_gfx = "compact_omni_emitter_s"
+	tags = { weapon_type_energy weapon_lost_tech }
+	ai_tags = { weapon_role_anti_hull }
+
+	ai_weight = {
+		weight = 0  #Omni Weapons are GOOOOOOD
+	}
+}
+
+####################
+# Autocannon
+####################
+
+# Massive Autocannon
+
+weapon_component_template = {
+	key = "MASSIVE_AUTOCANNONS_OTHER"
+	size = extra_large
+	type = instant
+	prio_projectile = yes
+
+	icon = "GFX_ship_part_massive_autocannon"
+	icon_frame = 1
+
+	use_ship_kill_target = no
+
+	damage = { min = 1218 max = 2531 }
+	windup = { min = 5 max = 10 }
+	total_fire_time = 10
+	range = 90.0
+	accuracy = 0.9
+	hull_damage = 1.25
+	shield_damage = 2.0
+	shield_penetration = 0
+	armor_penetration = 0
+	armor_damage = 0.25
+	tracking = 0
+	power = -520
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @zofe_xl_t8_cost
+			volatile_motes = @zofe_xl_t8_rare
+			minor_artifacts = 16
+		}
+		upkeep = {
+			energy = @zofe_xl_t8_upkeep_energy
+			alloys = @zofe_xl_t8_upkeep_alloys
+		}
+	}
+
+	prerequisites = { "tech_massive_autocannons" }
+	component_set = "MASSIVE_AUTOCANNONS_360"
+	projectile_gfx = "massive_autocannons"
+	tags = { weapon_type_kinetic weapon_lost_tech }
+	ai_tags = { weapon_role_anti_shield }
+
+	ai_weight = {
+		weight = 0  #Omni Weapons are GOOOOOOD
+	}
+}
+
+# Compact Omni Autocannon
+
+weapon_component_template = {
+	key = "MASSIVE_AUTOCANNONS_L_OTHER"
+	size = large
+	type = instant
+	prio_projectile = yes
+
+	icon = "GFX_ship_part_massive_autocannon"
+	icon_frame = 1
+
+	damage = { min = 325 max = 675 }
+	windup = { min = 5 max = 10 }
+	total_fire_time = 10
+	range = 60.0
+	accuracy = 0.9
+	hull_damage = 1.25
+	shield_damage = 2.0
+	shield_penetration = 0
+	armor_penetration = 0
+	armor_damage = 0.25
+	tracking = 0.25
+	power = -260
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @zofe_l_t8_cost
+			volatile_motes = @zofe_l_t8_rare
+			minor_artifacts = 8
+		}
+		upkeep = {
+			energy = @zofe_l_t8_upkeep_energy
+			alloys = @zofe_l_t8_upkeep_alloys
+		}
+	}
+
+	prerequisites = { "tech_compact_massive_autocannons" }
+	component_set = "COMPACT_MASSIVE_AUTOCANNONS_360"
+	projectile_gfx = "massive_autocannons"
+	tags = { weapon_type_kinetic weapon_lost_tech }
+	ai_tags = { weapon_role_anti_shield }
+
+	ai_weight = {
+		weight = 0  #Omni Weapons are GOOOOOOD
+	}
+}
+
+# Compact Omni Autocannon M
+
+weapon_component_template = {
+	key = "MASSIVE_AUTOCANNONS_M_OTHER"
+	size = medium
+	type = instant
+
+	icon = "GFX_ship_part_massive_autocannon"
+	icon_frame = 1
+
+	damage = { min = 130 max = 270 }
+	windup = { min = 5 max = 10 }
+	total_fire_time = 10
+	range = 40.0
+	accuracy = 0.9
+	hull_damage = 1.25
+	shield_damage = 2.0
+	shield_penetration = 0
+	armor_penetration = 0
+	armor_damage = 0.25
+	tracking = 0.5
+	power = -130
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @zofe_m_t8_cost
+			volatile_motes = @zofe_m_t8_rare
+			minor_artifacts = 4
+		}
+		upkeep = {
+			energy = @zofe_m_t8_upkeep_energy
+			alloys = @zofe_m_t8_upkeep_alloys
+		}
+	}
+
+	prerequisites = { "tech_compact_massive_autocannons" }
+	component_set = "COMPACT_MASSIVE_AUTOCANNONS_360"
+	projectile_gfx = "massive_autocannons_s"
+	tags = { weapon_type_kinetic weapon_lost_tech }
+	ai_tags = { weapon_role_anti_shield }
+
+	ai_weight = {
+		weight = 0  #Omni Weapons are GOOOOOOD
+	}
+}
+
+####################
+# Omni Cannon
+####################
+
+# ## Omni Cannon
+weapon_component_template = {
+	key = "OMNI_CANNON_OTHER"
+	size = extra_large
+	type = instant
+	prio_projectile = yes
+
+	icon = "GFX_ship_part_omni_cannon"
+	icon_frame = 1
+
+	use_ship_kill_target = no
+
+	damage = { min = 1820 max = 5200 }
+	windup = { min = 7 max = 27 }
+	total_fire_time = 70
+	range = 180.0
+	accuracy = 0.8
+	hull_damage = 1
+	shield_damage = 1.5
+	shield_penetration = 0
+	armor_damage = 0.75
+	armor_penetration = 0
+	tracking = 0
+	power = -520
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @zofe_xl_t8_cost
+			volatile_motes = @zofe_xl_t8_rare
+			minor_artifacts = 16
+		}
+		upkeep = {
+			energy = @zofe_xl_t8_upkeep_energy
+			alloys = @zofe_xl_t8_upkeep_alloys
+		}
+	}
+
+	prerequisites = { "tech_omni_cannon" }
+	component_set = "OMNI_CANNON_360"
+	projectile_gfx = "omni_cannon"
+	tags = { weapon_type_kinetic weapon_lost_tech }
+	ai_tags = { weapon_role_artillery }
+
+	ai_weight = {
+		weight = 0  #Omni Weapons are GOOOOOOD
+	}
+}
+
+# ## Compact Omni Cannon
+weapon_component_template = {
+	key = "COMPACT_OMNI_CANNON_OTHER"
+	size = large
+	type = instant
+	prio_projectile = yes
+
+	icon = "GFX_ship_part_omni_cannon"
+	icon_frame = 1
+
+	damage = { min = 728 max = 2080 }
+	windup = { min = 7 max = 27 }
+	total_fire_time = 50
+	range = 120.0
+	accuracy = 0.8
+	hull_damage = 1
+	shield_damage = 1.5
+	shield_penetration = 0
+	armor_damage = 0.75
+	armor_penetration = 0
+	tracking = 0.05
+	power = -260
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @zofe_l_t8_cost
+			volatile_motes = @zofe_l_t8_rare
+			minor_artifacts = 8
+		}
+		upkeep = {
+			energy = @zofe_l_t8_upkeep_energy
+			alloys = @zofe_l_t8_upkeep_alloys
+		}
+	}
+
+	prerequisites = { "tech_compact_omni_cannon" }
+	component_set = "COMPACT_OMNI_CANNON_360"
+	projectile_gfx = "compact_omni_cannon"
+	tags = { weapon_type_kinetic weapon_lost_tech }
+	ai_tags = { weapon_role_anti_shield }
+
+	ai_weight = {
+		weight = 0  #Omni Weapons are GOOOOOOD
+	}
+}
+
+# ## Compact Omni Cannon
+weapon_component_template = {
+	key = "COMPACT_OMNI_CANNON_M_OTHER"
+	size = medium
+	type = instant
+
+	icon = "GFX_ship_part_omni_cannon"
+	icon_frame = 1
+
+	damage = { min = 291 max = 832 }
+	windup = { min = 7 max = 27 }
+	total_fire_time = 45
+	range = 80.0
+	accuracy = 0.8
+	hull_damage = 1
+	shield_damage = 1.5
+	shield_penetration = 0
+	armor_damage = 0.75
+	armor_penetration = 0
+	tracking = 0.3
+	power = -130
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @zofe_m_t8_cost
+			volatile_motes = @zofe_m_t8_rare
+			minor_artifacts = 4
+		}
+		upkeep = {
+			energy = @zofe_m_t8_upkeep_energy
+			alloys = @zofe_m_t8_upkeep_alloys
+		}
+	}
+
+	prerequisites = { "tech_compact_omni_cannon" }
+	component_set = "COMPACT_OMNI_CANNON_360"
+	projectile_gfx = "compact_omni_cannon"
+	tags = { weapon_type_kinetic weapon_lost_tech }
+	ai_tags = { weapon_role_anti_shield }
+
+	ai_weight = {
+		weight = 0  #Omni Weapons are GOOOOOOD
+	}
+}
+
+# ## Compact Omni Cannon Small
+weapon_component_template = {
+	key = "COMPACT_OMNI_CANNON_S_OTHER"
+	size = small
+	type = instant
+
+	icon = "GFX_ship_part_omni_cannon"
+	icon_frame = 1
+
+	damage = { min = 116 max = 333 }
+	windup = { min = 7 max = 27 }
+	total_fire_time = 40
+	range = 60.0
+	accuracy = 0.8
+	hull_damage = 1
+	shield_damage = 1.5
+	shield_penetration = 0
+	armor_damage = 0.75
+	armor_penetration = 0
+	tracking = 0.5
+	power = -65
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @zofe_s_t8_cost
+			volatile_motes = @zofe_s_t8_rare
+			minor_artifacts = 2
+		}
+		upkeep = {
+			energy = @zofe_s_t8_upkeep_energy
+			alloys = @zofe_s_t8_upkeep_alloys
+		}
+	}
+
+	prerequisites = { "tech_compact_omni_cannon" }
+	component_set = "COMPACT_OMNI_CANNON_360"
+	projectile_gfx = "compact_omni_cannon"
+	tags = { weapon_type_kinetic weapon_lost_tech }
+	ai_tags = { weapon_role_anti_shield }
+
+	ai_weight = {
+		weight = 0  #Omni Weapons are GOOOOOOD
+	}
+}
+
+weapon_component_template = {
+	key = "OMNI_TITAN_LANCE_OTHER"
+	size = titanic
+	entity = "invisible_turret_entity"
+	type = instant
+	prio_projectile = yes
+
+	icon = "GFX_ship_part_omni_titan_lance"
+	icon_frame = 1
+
+	use_ship_kill_target = no
+
+	damage = { min = 10000 max = 20000 }
+	windup = { min = 30 max = 45 }
+	total_fire_time = 180
+	range = 280.0
+	accuracy = 0.90
+	hull_damage = 1.25
+	shield_damage = 0.75
+	armor_damage = 2.0
+	tracking = 0
+	power = -1000
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @zofe_titanic_t8_cost
+			rare_crystals = @titanic_t8_rare
+			minor_artifacts = 32
+		}
+		upkeep = {
+			energy = @zofe_titanic_t8_upkeep_energy
+			alloys = @zofe_titanic_t8_upkeep_alloys
+		}
+	}
+
+	target_weights = {
+		fe_goliath = 6
+		fe_titan = 5
+		fe_battlecruiser = 4
+		titan = 3
+		battleship = 2
+		fe_escort = 2
+	}
+
+	upgrades_to = "DIVINE_JUDGEMENT_OTHER"
+	component_set = "OMNI_TITAN_LANCE_360"
+	projectile_gfx = "titan_laser"
+	size_restriction = { fe_titan fe_goliath }
+	prerequisites = { "tech_omni_titan_lance" }
+	tags = { weapon_type_energy weapon_lost_tech }
+	ai_tags = { weapon_role_artillery }
+
+	ai_weight = {
+		weight = 0  #Omni Weapons are GOOOOOOD
+	}
+}
+
+##################
+##  Utilities
+##################
+
+#Reactors
+
+utility_component_template = {
+	key = "FE_ESCORT_DARK_ENERGY_REACTOR_ULTRA"
+	size = small
+	icon = "GFX_ship_part_dark_energy_power_core"
+	icon_frame = 1
+	power = @zofe_escort_power_10
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @zofe_s_t8_cost
+			sr_dark_matter = @zofe_s_t8_rare
+#			minor_artifacts = 1
+		}
+		upkeep = {
+			energy = @zofe_s_t8_upkeep_energy
+			alloys = @zofe_s_t8_upkeep_alloys
+		}
+	}
+
+	prerequisites = { "tech_dark_energy_power_core" }
+	component_set = "power_core"
+	size_restriction = { fe_escort }
+	upgrades_to = "FE_ESCORT_ORIGINAL_EMPIRE_REACTOR_ULTRA"
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+utility_component_template = {
+	key = "FE_BATTLECRUISER_DARK_ENERGY_REACTOR_ULTRA"
+	size = small
+	icon = "GFX_ship_part_dark_energy_power_core"
+	icon_frame = 1
+	power = @zofe_battlecruiser_power_10
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @zofe_l_t8_cost
+			sr_dark_matter = @zofe_l_t8_rare
+#			minor_artifacts = 2
+		}
+		upkeep = {
+			energy = @zofe_l_t8_upkeep_energy
+			alloys = @zofe_l_t8_upkeep_alloys
+		}
+	}
+
+	prerequisites = { "tech_dark_energy_power_core" }
+	component_set = "power_core"
+	size_restriction = { fe_battlecruiser }
+	upgrades_to = "FE_BATTLECRUISER_ORIGINAL_EMPIRE_REACTOR_ULTRA"
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+utility_component_template = {
+	key = "FE_TITAN_DARK_ENERGY_REACTOR_ULTRA"
+	size = small
+	icon = "GFX_ship_part_dark_energy_power_core"
+	icon_frame = 1
+	power = @zofe_titan_power_10
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @zofe_xl_t8_cost
+			sr_dark_matter = @zofe_xl_t8_rare
+#			minor_artifacts = 4
+		}
+		upkeep = {
+			energy = @zofe_xl_t8_upkeep_energy
+			alloys = @zofe_xl_t8_upkeep_alloys
+		}
+	}
+
+	prerequisites = { "tech_dark_energy_power_core" }
+	component_set = "power_core"
+	size_restriction = { fe_titan }
+	upgrades_to = "FE_TITAN_ORIGINAL_EMPIRE_REACTOR_ULTRA"
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+utility_component_template = {
+	key = "FE_GOLIATH_DARK_ENERGY_REACTOR_ULTRA"
+	size = small
+	icon = "GFX_ship_part_dark_energy_power_core"
+	icon_frame = 1
+	power = 200000
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @zofe_titanic_t8_cost
+			sr_dark_matter = @titanic_t8_rare
+#			minor_artifacts = 8
+		}
+		upkeep = {
+			energy = @zofe_titanic_t8_upkeep_energy
+			alloys = @zofe_titanic_t8_upkeep_alloys
+		}
+	}
+
+	prerequisites = { "tech_dark_energy_power_core" }
+	component_set = "power_core"
+	size_restriction = {
+		fe_goliath
+		colossus
+		star_eater
+		juggernaut
+	}
+	upgrades_to = "FE_GOLIATH_ORIGINAL_EMPIRE_REACTOR_ULTRA"
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+utility_component_template = {
+	key = "FE_STARBASE_DARK_ENERGY_REACTOR_ULTRA"
+	size = large
+	icon = "GFX_ship_part_dark_energy_power_core"
+	icon_frame = 1
+	power = 200000
+
+	prerequisites = { "tech_dark_energy_power_core" }
+	component_set = "power_core"
+	class_restriction = { shipclass_starbase }
+	size_restriction = {
+		starbase_outpost
+		starbase_starport
+		starbase_starhold
+		starbase_starfortress
+		starbase_citadel
+		orbital_ring_tier_1
+		orbital_ring_tier_2
+		orbital_ring_tier_3
+	}
+	upgrades_to = "FE_STARBASE_ORIGINAL_EMPIRE_REACTOR_ULTRA"
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+utility_component_template = {
+	key = "FE_STATIONS_DARK_ENERGY_REACTOR_ULTRA"
+	size = small
+	icon = "GFX_ship_part_dark_energy_power_core"
+	icon_frame = 1
+	power = 50000
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @zofe_s_t8_cost
+			sr_dark_matter = @zofe_s_t8_rare
+#			minor_artifacts = 2
+		}
+		upkeep = {
+			energy = @zofe_s_t8_upkeep_energy
+			alloys = @zofe_s_t8_upkeep_alloys
+		}
+	}
+
+	prerequisites = { "tech_dark_energy_power_core" }
+	component_set = "power_core"
+	size_restriction = { fe_small_station ion_cannon }
+	upgrades_to = "FE_STATIONS_ORIGINAL_EMPIRE_REACTOR_ULTRA"
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+utility_component_template = {
+	key = "FE_LARGE_STATIONS_DARK_ENERGY_REACTOR_ULTRA"
+	size = small
+	icon = "GFX_ship_part_dark_energy_power_core"
+	icon_frame = 1
+	power = 100000
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @zofe_l_t8_cost
+			sr_dark_matter = @zofe_l_t8_rare
+#			minor_artifacts = 4
+		}
+		upkeep = {
+			energy = @zofe_l_t8_upkeep_energy
+			alloys = @zofe_l_t8_upkeep_alloys
+		}
+	}
+
+	prerequisites = { "tech_dark_energy_power_core" }
+	component_set = "power_core"
+	size_restriction = { fe_large_station }
+	upgrades_to = "FE_LARGE_STATIONS_ORIGINAL_EMPIRE_REACTOR_ULTRA"
+
+	ai_weight = {
+		weight = 0
+	}
+}

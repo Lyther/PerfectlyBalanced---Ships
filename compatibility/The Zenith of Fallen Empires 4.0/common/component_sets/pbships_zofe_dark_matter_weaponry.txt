@@ -1,0 +1,48 @@
+#############################
+###			ZoFE Weapons
+#############################
+
+#Dark Matter Blast
+
+component_set = {
+	key = "DARK_MATTER_BLAST_360"
+
+	icon = "GFX_ship_part_dark_matter_blast"
+	icon_frame = 1
+}
+
+#Dark Matter Lance
+
+component_set = {
+	key = "DARK_MATTER_LANCE_360"
+
+	icon = "GFX_ship_part_dark_matter_lance"
+	icon_frame = 1
+}
+
+# Dark Matter Emitter
+
+component_set = {
+	key = "DARK_MATTER_EMITTER_360"
+
+	icon = "GFX_ship_part_dark_matter_emitter"
+	icon_frame = 1
+}
+
+# Dark Matter Torpedo
+
+component_set = {
+	key = "DARK_MATTER_TORPEDO_360"
+
+	icon = "GFX_ship_part_dark_matter_torpedo"
+	icon_frame = 1
+}
+
+# Tera Cannon
+
+component_set = {
+	key = "TERA_CANNON_360"
+
+	icon = "GFX_ship_part_tera_cannon"
+	icon_frame = 1
+}

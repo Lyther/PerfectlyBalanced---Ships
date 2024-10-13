@@ -1,0 +1,21 @@
+# Extra Large
+
+@xl_t1_cost = 61
+@xl_t2_cost = 80
+@xl_t3_cost = 104
+@xl_t4_cost = 135
+
+@xl_t1_upkeep_energy = 0.61
+@xl_t1_upkeep_alloys = 0.12
+@xl_t2_upkeep_energy = 0.80
+@xl_t2_upkeep_alloys = 0.16
+@xl_t3_upkeep_energy = 1.04
+@xl_t3_upkeep_alloys = 0.21
+@xl_t4_upkeep_energy = 1.35
+@xl_t4_upkeep_alloys = 0.27
+
+#################
+# RARE RESOURCES
+#################
+
+@xl_t4_rare = 2.0

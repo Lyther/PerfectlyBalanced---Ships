@@ -1,0 +1,30 @@
+#############################
+###	Original Empire Weapons
+#############################
+
+# Divine Judgement (T)
+
+component_set = {
+	key = "DIVINE_JUDGEMENT_360"
+
+	icon = "GFX_ship_part_divine_judgement"
+	icon_frame = 1
+}
+
+# Light of Salvation (XL)
+
+component_set = {
+	key = "LIGHT_OF_SALVATION_360"
+
+	icon = "GFX_ship_part_light_of_salvation"
+	icon_frame = 1
+}
+
+# Light of Arya (L)
+
+component_set = {
+	key = "LIGHT_OF_ARYA_360"
+
+	icon = "GFX_ship_part_light_of_arya"
+	icon_frame = 1
+}

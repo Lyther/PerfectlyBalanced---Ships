@@ -1,0 +1,486 @@
+# DM Power:
+@zofe_escort_power_9 = 20000
+@zofe_battlecruiser_power_9 = 40000
+@zofe_titan_power_9 = 75000
+
+@destroyer_cost_9 = 740
+@battleship_cost_9 = 2960
+@titan_cost_9 = 5920
+@platform_cost_9 = 740
+
+#Titan Lance
+
+weapon_component_template = {
+	key = "TITAN_LANCE_01_OTHER"
+	size = titanic
+	entity = "invisible_turret_entity"
+	type = instant
+	prio_projectile = yes
+
+	icon = "GFX_ship_part_titan_lance"
+	icon_frame = 1
+
+	use_ship_kill_target = no
+
+	damage = { min = 5000 max = 10000 }
+	windup = { min = 30 max = 45 }
+	total_fire_time = 180
+	range = 250.0
+	accuracy = 0.85
+	hull_damage = 1.25
+	shield_damage = 0.75
+	armor_damage = 1.5
+	tracking = 0
+	power = -500
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @titanic_t6_cost
+			rare_crystals = @titanic_t6_rare
+		}
+		upkeep = {
+			energy = @titanic_t6_upkeep_energy
+			alloys = @titanic_t6_upkeep_alloys
+		}
+	}
+
+	upgrades_to = "DARK_MATTER_BLAST_OTHER"
+	component_set = "TITAN_LANCE_01_360"
+	projectile_gfx = "titan_laser"
+	size_restriction = { fe_titan fe_goliath }
+	prerequisites = { "tech_fallen_titans" }
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_artillery }
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+
+##########################
+## Dark Matter Weapons
+##########################
+
+
+weapon_component_template = {
+	key = "DARK_MATTER_BLAST_OTHER"
+	size = titanic
+	entity = "invisible_turret_entity"
+	type = instant
+	prio_projectile = yes
+
+	icon = "GFX_ship_part_dark_matter_blast"
+	icon_frame = 1
+
+	use_ship_kill_target = no
+
+	damage = { min = 7500 max = 15000 }
+	windup = { min = 30 max = 45 }
+	total_fire_time = 180
+	range = 250.0
+	accuracy = 0.85
+	hull_damage = 1.25
+	shield_damage = 0.75
+	armor_damage = 1.5
+	tracking = 0
+	power = -750
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @zofe_titanic_t6_cost
+			rare_crystals = @titanic_t6_rare
+		}
+		upkeep = {
+			energy = @zofe_titanic_t6_upkeep_energy
+			alloys = @zofe_titanic_t6_upkeep_alloys
+		}
+	}
+
+	target_weights = {
+		fe_goliath = 6
+		fe_titan = 5
+		fe_battlecruiser = 4
+		titan = 3
+		battleship = 2
+		fe_escort = 2
+	}
+
+	upgrades_to = "OMNI_TITAN_LANCE_OTHER"
+	component_set = "DARK_MATTER_BLAST_360"
+	projectile_gfx = "dark_matter_blast"
+	size_restriction = { fe_titan fe_goliath }
+	prerequisites = { "tech_dark_matter_blast" }
+	tags = { weapon_type_energy weapon_dm_tech }
+	ai_tags = { weapon_role_artillery }
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+#Dark Matter Lance
+weapon_component_template = {
+	key = "DARK_MATTER_LANCE_OTHER"
+	size = extra_large
+	type = instant
+	prio_projectile = yes
+
+	icon = "GFX_ship_part_dark_matter_lance"
+	icon_frame = 1
+
+	use_ship_kill_target = no
+
+	damage = { min = 945 max = 2925 }
+	windup = { min = 12 max = 47 }
+	total_fire_time = 70
+	range = 150.0
+	accuracy = 0.85
+	shield_damage = 0.5
+	armor_damage = 2
+	hull_damage = 1.5
+	tracking = 0
+	power = -390
+
+	upgrades_to = "OMNI_LANCE_OTHER"
+	prerequisites = { "tech_dark_matter_lance" }
+	component_set = "DARK_MATTER_LANCE_360"
+	projectile_gfx = "dark_matter_lance"
+	tags = { weapon_type_energy weapon_dm_tech }
+	ai_tags = { weapon_role_artillery artillery }
+	ai_tag_weight = 0
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @zofe_xl_t6_cost
+			rare_crystals = @zofe_xl_t6_rare
+		}
+		upkeep = {
+			energy = @zofe_xl_t6_upkeep_energy
+			alloys = @zofe_xl_t6_upkeep_alloys
+		}
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+# ## Dark Matter Emitter
+weapon_component_template = {
+	key = "DARK_MATTER_EMITTER_OTHER"
+	size = extra_large
+	type = instant
+
+	icon = "GFX_ship_part_dark_matter_emitter"
+	icon_frame = 1
+
+	use_ship_kill_target = no
+
+	damage = { min = 1 max = 2535 }
+	windup = { min = 12 max = 48 }
+	total_fire_time = 71
+	range = 150.0
+	accuracy = 1.0
+	shield_damage = 1.0
+	shield_penetration = 1.0
+	armor_damage = 1.0
+	armor_penetration = 1.0
+	hull_damage = 1.0
+	tracking = 0
+	power = -390
+
+	upgrades_to = "OMNI_EMITTER_OTHER"
+	prerequisites = { "tech_dark_matter_emitter" }
+	component_set = "DARK_MATTER_EMITTER_360"
+	projectile_gfx = "dark_matter_emitter"
+	tags = { weapon_type_energy weapon_dm_tech }
+	ai_tags = { weapon_role_artillery artillery }
+	ai_tag_weight = 0
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @zofe_xl_t6_cost
+			rare_crystals = @zofe_xl_t6_rare
+		}
+		upkeep = {
+			energy = @zofe_xl_t6_upkeep_energy
+			alloys = @zofe_xl_t6_upkeep_alloys
+		}
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+# ## Tera Cannon
+weapon_component_template = {
+	key = "TERA_CANNON_OTHER"
+	size = extra_large
+	type = instant
+
+	icon = "GFX_ship_part_tera_cannon"
+	icon_frame = 1
+
+	use_ship_kill_target = no
+
+	damage = { min = 1365 max = 3900 }
+	windup = { min = 14 max = 54 }
+	total_fire_time = 80
+	range = 150.0
+	accuracy = 0.75
+	shield_damage = 1.5
+	armor_damage = 0.75
+	hull_damage = 1.25
+	tracking = 0
+	power = -390
+
+	upgrades_to = "OMNI_CANNON_OTHER"
+	prerequisites = { "tech_tera_cannon" }
+	component_set = "TERA_CANNON_360"
+	projectile_gfx = "adv_kinetic_artillery"
+	tags = { weapon_type_kinetic weapon_dm_tech }
+	ai_tags = { weapon_role_artillery artillery }
+	ai_tag_weight = 0
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @zofe_xl_t6_cost
+			volatile_motes = @zofe_xl_t6_rare
+		}
+		upkeep = {
+			energy = @zofe_xl_t6_upkeep_energy
+			alloys = @zofe_xl_t6_upkeep_alloys
+		}
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+# ## Dark Matter Torpedoes
+weapon_component_template = {
+	key = "DARK_MATTER_TORPEDO"
+	size = torpedo
+	type = instant
+
+	icon = "GFX_ship_part_dark_matter_torpedo"
+	icon_frame = 1
+
+	damage = { min = 92 max = 197 }
+	windup = { min = 25 max = 100}
+	total_fire_time = 150
+	range = 120.0
+	accuracy = 0.75
+	hull_damage = 1.75
+	shield_damage = 0.5
+	shield_penetration = 0
+	armor_damage = 1.5
+	armor_penetration = 0
+	tracking = 0
+	size_damage_factor = 1.0
+	power = -115
+
+	upgrades_to = "DARK_ENERGY_TORPEDO_OTHER"
+	prerequisites = { "tech_dark_matter_torpedo" }
+	component_set = "DARK_MATTER_TORPEDO_360"
+	projectile_gfx = "proton_torpedoes"
+	tags = { weapon_type_energy weapon_dm_tech }
+	ai_tags = { weapon_role_artillery artillery energy_torpedoes}
+	ai_tag_weight = 0
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @zofe_l_t6_cost
+			exotic_gases = @zofe_l_t6_rare
+		}
+		upkeep = {
+			energy = @zofe_l_t6_upkeep_energy
+			alloys = @zofe_l_t6_upkeep_alloys
+		}
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			NOT = { is_zofe_country = yes }
+		}
+	}
+}
+
+##################
+##  Utilities
+##################
+
+utility_component_template = {
+	key = "FE_ESCORT_DARK_MATTER_REACTOR_ULTRA"
+	size = small
+	icon = "GFX_ship_part_dark_matter_power_core"
+	icon_frame = 1
+	power = @zofe_escort_power_9
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @destroyer_cost_9
+			sr_dark_matter = 20
+		}
+		upkeep = {
+			energy = 7.4
+			alloys = 0.74
+		}
+	}
+
+	component_set = "power_core"
+	size_restriction = { fe_escort }
+	upgrades_to = "FE_ESCORT_DARK_ENERGY_REACTOR_ULTRA"
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+utility_component_template = {
+	key = "FE_BATTLECRUISER_DARK_MATTER_REACTOR_ULTRA"
+	size = small
+	icon = "GFX_ship_part_dark_matter_power_core"
+	icon_frame = 1
+	power = @zofe_battlecruiser_power_9
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @battleship_cost_9
+			sr_dark_matter = 80
+		}
+		upkeep = {
+			energy = 29.8
+			alloys = 2.98
+		}
+	}
+
+	component_set = "power_core"
+	size_restriction = { fe_battlecruiser }
+	upgrades_to = "FE_BATTLECRUISER_DARK_ENERGY_REACTOR_ULTRA"
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+utility_component_template = {
+	key = "FE_TITAN_DARK_MATTER_REACTOR_ULTRA"
+	size = small
+	icon = "GFX_ship_part_dark_matter_power_core"
+	icon_frame = 1
+	power = @zofe_titan_power_9
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @titan_cost_9
+			sr_dark_matter = 160
+		}
+		upkeep = {
+			energy = 59.3
+			alloys = 5.93
+		}
+	}
+
+	component_set = "power_core"
+	size_restriction = { fe_titan }
+	upgrades_to = "FE_TITAN_DARK_ENERGY_REACTOR_ULTRA"
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+utility_component_template = {
+	key = "FE_GOLIATH_DARK_MATTER_REACTOR_ULTRA"
+	size = small
+	icon = "GFX_ship_part_dark_matter_power_core"
+	icon_frame = 1
+	power = 100000
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @titan_cost_9
+			sr_dark_matter = 320
+		}
+		upkeep = {
+			energy = 118.6
+			alloys = 11.8
+		}
+	}
+
+	component_set = "power_core"
+	size_restriction = { fe_goliath }
+
+	upgrades_to = "FE_GOLIATH_DARK_ENERGY_REACTOR_ULTRA"
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+utility_component_template = {
+	key = "FE_STATIONS_DARK_MATTER_REACTOR_ULTRA"
+	size = small
+	icon = "GFX_ship_part_dark_matter_power_core"
+	icon_frame = 1
+	power = 25000
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @platform_cost_9
+			sr_dark_matter = 40
+		}
+		upkeep = {
+			energy = 7.4
+			alloys = 0.74
+		}
+	}
+
+	component_set = "power_core"
+	size_restriction = { fe_small_station }
+	upgrades_to = "FE_STATIONS_DARK_ENERGY_REACTOR_ULTRA"
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+utility_component_template = {
+	key = "FE_LARGE_STATIONS_DARK_MATTER_REACTOR_ULTRA"
+	size = small
+	icon = "GFX_ship_part_dark_matter_power_core"
+	icon_frame = 1
+	power = 50000
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @battleship_cost_9
+			sr_dark_matter = 80
+		}
+		upkeep = {
+			energy = 29.8
+			alloys = 2.98
+		}
+	}
+
+	component_set = "power_core"
+	size_restriction = { fe_large_station }
+	upgrades_to = "FE_LARGE_STATIONS_DARK_ENERGY_REACTOR_ULTRA"
+
+	ai_weight = {
+		weight = 0
+	}
+}

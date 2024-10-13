@@ -1,0 +1,129 @@
+#############################
+###		 Lost Weapons
+#############################
+
+# Terror Cannon
+
+component_set = {
+	key = "TERROR_CANNON_360"
+
+	icon = "GFX_ship_part_terror_cannon"
+	icon_frame = 1
+}
+
+# Annihilator Torpedo
+
+component_set = {
+	key = "ANNIHILATOR_TORPEDO_360"
+
+	icon = "GFX_ship_part_annihilator_torpedo"
+	icon_frame = 1
+}
+
+# Dark Energy Torpedo
+
+component_set = {
+	key = "DARK_ENERGY_TORPEDO_360"
+
+	icon = "GFX_ship_part_dark_energy_torpedo"
+	icon_frame = 1
+}
+
+# Omni Lance
+
+component_set = {
+	key = "OMNI_TITAN_LANCE_360"
+
+	icon = "GFX_ship_part_omni_titan_lance"
+	icon_frame = 1
+}
+
+# Compact Omni Lance
+
+component_set = {
+	key = "COMPACT_OMNI_LANCE_360"
+
+	icon = "GFX_ship_part_omni_lance"
+	icon_frame = 1
+}
+
+# Omni Lance
+
+component_set = {
+	key = "OMNI_LANCE_360"
+
+	icon = "GFX_ship_part_omni_lance"
+	icon_frame = 1
+}
+
+# Compact Omni Arc Emitter
+
+component_set = {
+	key = "COMPACT_OMNI_EMITTER_360"
+
+	icon = "GFX_ship_part_omni_emitter"
+	icon_frame = 1
+}
+
+# Omni Arc Emitter
+
+component_set = {
+	key = "OMNI_EMITTER_360"
+
+	icon = "GFX_ship_part_omni_emitter"
+	icon_frame = 1
+}
+
+#Compact Massive Autocannons
+
+component_set = {
+	key = "COMPACT_MASSIVE_AUTOCANNONS_360"
+
+	icon = "GFX_ship_part_massive_autocannon"
+	icon_frame = 1
+}
+
+#Massive Autocannons
+
+component_set = {
+	key = "MASSIVE_AUTOCANNONS_360"
+
+	icon = "GFX_ship_part_massive_autocannon"
+	icon_frame = 1
+}
+
+#Compact Omni Cannon
+
+component_set = {
+	key = "COMPACT_OMNI_CANNON_360"
+
+	icon = "GFX_ship_part_omni_cannon"
+	icon_frame = 1
+}
+
+#Omni Cannon
+
+component_set = {
+	key = "OMNI_CANNON_360"
+
+	icon = "GFX_ship_part_omni_cannon"
+	icon_frame = 1
+}
+
+#Portal Generator
+
+component_set = {
+	key = "PORTAL_GENERATOR_360"
+
+	icon = "GFX_ship_part_portal_generator"
+	icon_frame = 1
+}
+
+#Dimensional Weapon
+
+component_set = {
+	key = "DIMENSIONAL_WEAPON_360"
+
+	icon = "GFX_ship_part_dimensional_weapon"
+	icon_frame = 1
+}

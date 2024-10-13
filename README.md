@@ -4,39 +4,34 @@ The development version of this mod would post on [GitHub](https://github.com/Ly
 
 (Not balanced at all!)
 
-Adds new ship sectors, ship accessories, and more ship combat tactics to the game.
+This mod adds brand-new ship sections, components, and additional ship combat tactics to the game.
 
-Dozens of (totally not) balanced ship sectors, H-slot corvettes, X-slot destroyers, T-slot battleships, etc., provide more firepower at the cost of armor and auxiliary components. Ships with new sectors include:
+Dozens of (stream of consciousness) balanced ship sections, such as H-slot Corvettes, X-slot Destroyers, T-slot Battleships, and more, offer more powerful firepower at the cost of armor and auxiliary components. The ships with new sections include:
 
-* Corvettes, Destroyers, Cruisers, Battleships, Titans, Juggernauts, and Colossus.
-* Crisis corvettes, Crisis destroyers, Crisis cruisers, Star-eater.
-* Defense platform, ion cannon turrets.
+* Corvettes, Destroyers, Cruisers, Battleships, Titans, Juggernauts, Colossi;
+* Deterrence-class Corvettes, Destroyers, Cruisers, and the Wrath of Heaven;
+* Defense Platforms, Ion Cannon Emplacements;
+* New ships for the Extragalactic Invaders.
 
-To balance out the lack of energy in the new slots, each reactor has a larger version that consumes more resources and produces more energy!
+To balance the energy shortfalls caused by the new slots, every type of reactor now has a larger version that consumes more resources but also generates more energy!
 
-In addition, with five new combat computers and four combat tactics, from now on arc fleet roaming (strategic flee) and combat through range advantage becomes possible.
+Additionally, five new combat computers and four combat modes are introduced, making strategic maneuvering (tactical retreat) and combat based on range advantage possible for arc fleets.
 
-## How to unlock new content
+## How to Unlock the New Content
 
-You need to unlock it through scientific research. Standard ship templates (Standard Corvette Template, Standard Destroyer Template ......) provide basic new sectors, Hull Tech I provides better sectors, and Hull Tech II provides sectors dedicated to the real crisis of the galaxy!
+You need to unlock them through research. Standard ship templates (Standard Corvette Template, Standard Destroyer Template, etc.) provide basic new sections, while Hull Technology Tier 1 unlocks better sections, and Hull Technology Tier 2 unlocks sections exclusive to the Extragalactic Invaders!
 
-Large reactors will be unlocked via the same tech as normal reactors, and combat computers will likewise be unlocked along with the original combat computers.
+Large reactors will be unlocked alongside regular reactors through the same technology, and the new combat computers will be unlocked alongside the vanilla ones.
 
-## Needs to be updated/needs to be compatible
+## Updates and Compatibility
 
-Compatible with almost all mods by default, except some localized language content files, without overwriting any original content (stream of consciousness balance is so stream of consciousness).
+I’ve tried to avoid overriding any vanilla game files as much as possible, but it was unavoidable to modify the ship behavior logic files (affecting vanilla ship formations, bombardment tactics, and fighter logic). Mods that also modify these files may conflict with this mod’s ship behavior features.
 
-If a new version is released/needs to be compatible with an older version, please let us know via message or private message from Creative Workshop.
+> For example, modifications that make all ship behavior modes manually controllable during combat.
 
-Compatible Mods:
+If a new version is released or compatibility with older versions is needed, please leave a comment or send a private message via the Steam Workshop.
 
-* ZoFE: The Zenith of Fallen Empires
-* ACoT: Ancient Cache of Technologies
-
-
-For other mods that are compatible, such as new weapon slot types/ship types, please leave a message through the Creative Workshop and I will also start compatibility updates for the following mods.
-
-* NSC: New Ship Classes
+Compatibility patches will be released as sub-mods, as I have temporarily removed compatibility from the main mod.
 
 # 意识流平衡：舰船
 
@@ -50,7 +45,8 @@ For other mods that are compatible, such as new weapon slot types/ship types, pl
 
 * 护卫舰、驱逐舰、巡洋舰、战列舰、泰坦、主宰、巨像；
 * 威慑级护卫舰、威慑级驱逐舰、威慑级巡洋舰、焚天神兵；
-* 防御平台、离子加农炮台。
+* 防御平台、离子加农炮台；
+* 科技灾飞的新舰船。
 
 为了平衡新槽位的能源不足问题，每一种反应堆都拥有消耗资源更多、产出能源更多的大型版本！
 
@@ -64,16 +60,10 @@ For other mods that are compatible, such as new weapon slot types/ship types, pl
 
 ## 需要更新/需要兼容
 
-默认兼容几乎所有MOD，除去部分本地化语言内容文件外，没有覆盖任何原版内容（意识流平衡就是这么意识流）。
+我尽可能不对原版游戏的文件进行任何覆盖，但仍然不可避免地修改了舰船行为逻辑文件（涉及原版的舰船线列、炮击等战术及舰载机的行为逻辑），如果有其它修改了同样文件的MOD，可能会导致舰船行为部分被覆盖。
+
+> 例如，将所有舰船行为模式修改为战斗中可操纵；
 
 如果有新版本发布/需要兼容旧版本，请通过创意工坊留言或是私信告知。
 
-已经兼容的MOD列表：
-
-* ZoFE: The Zenith of Fallen Empires
-* ACoT: Ancient Cache of Technologies
-
-
-对于其他MOD的内容兼容，例如新的武器槽位种类/舰船种类，同样可以通过创意工坊留言，我也会对以下列表中的MOD开始兼容更新：
-
-* NSC: New Ship Classes
+兼容版本将会通过子MOD进行发布，暂时移除了MOD本体中对于其他MOD的兼容性。
